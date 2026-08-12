@@ -2,5 +2,33 @@
   "uncategorized": [
     "master_rules",
     "master_rules"
+  ],
+  "mcp": [
+    "mcp_creators",
+    "mcp_creators"
+  ],
+  "tools": [
+    "mcp_creators",
+    "mcp_creators"
+  ],
+  "creators": [
+    "mcp_creators",
+    "mcp_creators"
+  ],
+  "generator": [
+    "mcp_creators",
+    "mcp_creators"
+  ],
+  "optimization": [
+    "mcp_creators",
+    "mcp_creators"
+  ],
+  "context": [
+    "mcp_creators",
+    "mcp_creators"
+  ],
+  "mcp-tools": [
+    "mcp_creators",
+    "mcp_creators"
   ]
 }
