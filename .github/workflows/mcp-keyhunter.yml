@@ -61,7 +61,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TAG="keyhunter-$(git log --oneline -1 --pretty=format:'%Y%m%d%H%M')"
+          TAG="keyhunter-$(git log --oneline -1 --pretty=format:'%Y%m%d%H%M%S')"
           echo "=== Creating release $TAG ==="
           git tag "$TAG" || true
           git push origin "$TAG" || true
