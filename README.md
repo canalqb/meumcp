@@ -123,6 +123,19 @@ mcpqb/
 
 ---
 
+## 👨‍💻 Sobre
+
+**meumcp** é desenvolvido por **Rodrigo "Moraes"** (@canalqb) — criador do canal @CanalQb (tecnologia, automação, cripto, scripts), com mais de 250.000 inscritos no YouTube e conteúdo no blog [canalqb.com.br](https://canalqb.com.br).
+
+- **Canal YouTube:** [@canalqb](https://www.youtube.com/@canalqb)
+- **Blog:** [canalqb.com.br](https://canalqb.com.br)
+- **GitHub:** [@canalqb](https://github.com/canalqb)
+- **Contato dev:** `qrodrigob@gmail.com`
+
+> ✅ **meumcp é 100% open-source (MIT)** — parte da infraestrutura AI do CanalQb.
+
+---
+
 ## 🧪 Desenvolvimento
 
 ```bash
