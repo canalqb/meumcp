@@ -518,7 +518,7 @@ async function main() {
     const { startHTTPServer } = await import('./http-handler');
     const port = config.server.port;
     const host = config.server.host;
-    await startHTTPServer(port, host);
+    await startHTTPServer(port, host, server);
   } else {
     // stdio transport
     const transport = new StdioServerTransport();

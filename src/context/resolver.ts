@@ -46,15 +46,18 @@ export class ContextResolver {
       knowledgeEntries = all.slice(0, 50);
     }
 
-    // Apply agent knowledge constraints
-    if (agent.knowledge.required.length > 0) {
-      knowledgeEntries = knowledgeEntries.filter(
-        (k) =>
-          agent.knowledge.required.includes(k.id) ||
-          agent.knowledge.required.includes(k.category),
-      );
-    }
-    if (agent.knowledge.forbidden.length > 0) {
+    // Apply agent knowledge constraints — required acts as "include at least these",
+    // not "exclude everything else". When a query search is performed, don't filter
+    // by required list since the search already found relevant content.
+    if (opts?.query) {
+      // When searching, only apply forbidden constraints, not required
+      if (agent.knowledge.forbidden.length > 0) {
+        const forbidden = new Set(agent.knowledge.forbidden);
+        knowledgeEntries = knowledgeEntries.filter(
+          (k) => !forbidden.has(k.id) && !forbidden.has(k.category),
+        );
+      }
+    } else if (agent.knowledge.required.length > 0) {
       const forbidden = new Set(agent.knowledge.forbidden);
       knowledgeEntries = knowledgeEntries.filter((k) => !forbidden.has(k.id));
     }

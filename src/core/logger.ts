@@ -2,7 +2,6 @@
  * Logger centralizado usando pino.
  * @module logger
  */
-/* eslint-disable @typescript-eslint/no-var-requires */
 const pino = require('pino');
 
 // Read env vars at module load time

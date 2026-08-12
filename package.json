@@ -22,7 +22,7 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "chokidar": "^4.0.0",
     "commander": "^15.0.0",
     "dotenv": "^16.4.5",
@@ -47,6 +47,7 @@
     "supertest": "^7.0.0",
     "ts-jest": "^29.2.5",
     "tsx": "^4.19.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "typescript-eslint": "8.67.0"
   }
 }
