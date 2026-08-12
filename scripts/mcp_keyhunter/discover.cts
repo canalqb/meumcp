@@ -43,8 +43,7 @@ const PAID_LICENSES = new Set([
 ]);
 
 function ghRequest(url) {
-  /** @type {any} */
-  const headers = { Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+  const headers: any = { Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
   if (GH_TOKEN) headers.Authorization = `Bearer ${GH_TOKEN}`;
   return fetch(url, { headers }).then(async (res) => {
     const remaining = res.headers.get('x-ratelimit-remaining');
@@ -192,9 +191,9 @@ async function main() {
   const knownIds = new Set(registry.map((r) => r.id));
   console.log(`[keyhunter] Registry carregado: ${registry.length} MCPs previamente validados.`);
 
-  const ids = Array.from(knownIds);
-  const maxId = ids.length > 0 ? Math.max(.../** @type {number[]} */ (ids)) : 0;
-  const repos = /** @type {Array<any>} */ await fetchNewRepos(maxId);
+  const ids: any[] = Array.from(knownIds);
+  const maxId = ids.length > 0 ? Math.max(...ids) : 0;
+  const repos: any[] = await fetchNewRepos(maxId);
   const newRepos = repos.filter((r) => !knownIds.has(r.id));
   console.log(`[keyhunter] ${newRepos.length} novos repositórios encontrados (de ${repos.length} fetched).`);
 
