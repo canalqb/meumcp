@@ -14,7 +14,7 @@ updatedAt: 2026-08-12
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-12T11:36:21.238Z
+> Última execução: 2026-08-12T12:47:58.611Z
 > Total descoberto: 30 | Validados (HTTP 200 + free): 9 | Pulados (licença paga/enterprise): 21
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
