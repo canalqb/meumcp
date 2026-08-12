@@ -1,6 +1,24 @@
 # meumcp
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-12T11:32:48.151Z | Fredrick-Maina/PYTHON | 1 | Apache-2.0 | 200 |
+
+| 2026-08-12T11:32:50.930Z | Kalwmw/Zip-Password-Recovery | 4 | MIT | 200 |
+
+| 2026-08-12T11:33:00.425Z | Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange | 0 | MIT | 200 |
+
+| 2026-08-12T11:33:03.051Z | ariel-lee-1023/persona-distiller | 2 | MIT | 200 |
+
+| 2026-08-12T11:33:04.264Z | TuiTuiKoan/Tokyo_Taiwan_Radar | 3 | MIT | 200 |
+
+| 2026-08-12T11:33:08.960Z | KurimuzonAkuma/kurigram | 794 | LGPL-3.0 | 200 |
+
+| 2026-08-12T11:33:14.505Z | s091648/scrape-and-analyze | 1 | MIT | 200 |
+
+| 2026-08-12T11:33:16.909Z | RychiiiD/clipit-skill | 2 | MIT | 200 |
+
+| 2026-08-12T11:33:18.080Z | liyedanpdx/reddit-ai-trends | 860 | MIT | 200 |
+
 | 2026-08-12T11:02:31.205Z | wmo-im/wis2-topic-hierarchy | 5 | Apache-2.0 | 200 |
 
 | 2026-08-12T11:02:34.330Z | Bardiyashavandi/x-hype-finder | 0 | MIT | 200 |
