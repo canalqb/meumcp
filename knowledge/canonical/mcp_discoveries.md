@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (30 total, 10 validados free, 20 pulados/pago)
+description: MCPs descobertos pelo keyhunter (33 total, 11 validados free, 22 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 30
+version: 33
 createdAt: 2026-08-12
 updatedAt: 2026-08-12
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-12T20:51:54.910Z
-> Total descoberto: 30 | Validados (HTTP 200 + free): 10 | Pulados (licença paga/enterprise): 20
+> Última execução: 2026-08-12T21:48:18.524Z
+> Total descoberto: 33 | Validados (HTTP 200 + free): 11 | Pulados (licença paga/enterprise): 22
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -31,6 +31,7 @@ updatedAt: 2026-08-12
 | hyeonseo2/finfluencer-dashboard | Python | 2 | MIT | content-aggregation, finance, finance-dashboard | [repo](https://github.com/hyeonseo2/finfluencer-dashboard) |
 | jcmaker/just-study | TypeScript | 1 | MIT | ai-agent, codex, learning | [repo](https://github.com/jcmaker/just-study) |
 | Xiezhou0828/topicpilot-platform | Python | 0 | MIT |  | [repo](https://github.com/Xiezhou0828/topicpilot-platform) |
+| Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline | Python | 0 | MIT | automation, cli, data-engineering | [repo](https://github.com/Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -54,6 +55,8 @@ updatedAt: 2026-08-12
 - coolgeekme/hermes-topic-dashboard — licença: unknown
 - jinzc/news-hot-topics — licença: unknown
 - mizerolucky/StudyScope — licença: unknown
+- ShivangChaurasia/Meeting-Notes---Transcription-Platform — licença: unknown
+- nouka18/App-Topics — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

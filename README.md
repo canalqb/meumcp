@@ -243,6 +243,8 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-12T21:48:17.525Z | Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline | 0 | MIT | 200 |
+
 | 2026-08-12T20:50:23.886Z | laurasolares811-creator/Horizon | 0 | MIT | 200 |
 
 | 2026-08-12T20:50:27.421Z | rjriajul/wzgram | 28 | LGPL-3.0 | 200 |
