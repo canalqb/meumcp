@@ -317,7 +317,11 @@ export class MCPDiscovery {
         }
       }
     } catch {
-      // Registry not yet generated — roda keyhunter primeiro
+      // Registry not yet generated — run keyhunter first: `npx meumcp keyhunter`
+      logger.warn(`Keyhunter registry not found at ${this.keyhunterRegistryFile}. Run 'npx meumcp keyhunter' first.`);
+    }
+    if (records.length === 0) {
+      logger.warn('scanKeyhunterRegistry returned 0 records. Ensure keyhunter ran or registry is populated.');
     }
     return records;
   }
