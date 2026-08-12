@@ -456,5 +456,31 @@
     "validated_at": "2026-08-12T11:02:55.379Z",
     "topics": [],
     "readme_absorbed": "babjul314/issueglobe.com"
+  },
+  {
+    "id": 1331952053,
+    "full_name": "Daniel-Steinberger/meetup-event-cli",
+    "url": "https://github.com/Daniel-Steinberger/meetup-event-cli",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-12T11:37:17.030Z",
+    "topics": [],
+    "readme_absorbed": "Daniel-Steinberger/meetup-event-cli"
+  },
+  {
+    "id": 1331940252,
+    "full_name": "BFC-ChrisGreen/Topic1-Launch-Night",
+    "url": "https://github.com/BFC-ChrisGreen/Topic1-Launch-Night",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-12T11:37:18.037Z",
+    "topics": [],
+    "readme_absorbed": "BFC-ChrisGreen/Topic1-Launch-Night"
   }
 ]
