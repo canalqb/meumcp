@@ -1,34 +1,43 @@
 {
   "uncategorized": [
-    "master_rules",
     "master_rules"
   ],
   "mcp": [
     "mcp_creators",
-    "mcp_creators"
+    "mcp_discoveries"
   ],
   "tools": [
-    "mcp_creators",
     "mcp_creators"
   ],
   "creators": [
-    "mcp_creators",
     "mcp_creators"
   ],
   "generator": [
-    "mcp_creators",
     "mcp_creators"
   ],
   "optimization": [
-    "mcp_creators",
     "mcp_creators"
   ],
   "context": [
-    "mcp_creators",
     "mcp_creators"
   ],
   "mcp-tools": [
     "mcp_creators",
-    "mcp_creators"
+    "mcp_discoveries"
+  ],
+  "discovery": [
+    "mcp_discoveries"
+  ],
+  "github": [
+    "mcp_discoveries"
+  ],
+  "automated": [
+    "mcp_discoveries"
+  ],
+  "free": [
+    "mcp_discoveries"
+  ],
+  "open-source": [
+    "mcp_discoveries"
   ]
 }

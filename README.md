@@ -240,3 +240,26 @@ npm test         # 10 tests
 ## 🪪 Licença
 
 MIT — parte da infraestrutura AI do @CanalQb.
+
+## MCPs Descoveltos pelo Keyhunter
+
+| 2026-08-12T20:31:16.430Z | CaryNC-IP/carync-ip.github.io | 0 | MIT | 200 |
+
+| 2026-08-12T20:31:17.668Z | KurimuzonAkuma/kurigram | 794 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:31:20.405Z | Kalwmw/Zip-Password-Recovery | 4 | MIT | 200 |
+
+| 2026-08-12T20:31:24.019Z | alxxtexxr/arxiv_agent | 0 | MIT | 200 |
+
+| 2026-08-12T20:31:30.264Z | Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange | 0 | MIT | 200 |
+
+| 2026-08-12T20:31:35.494Z | hyeonseo2/finfluencer-dashboard | 2 | MIT | 200 |
+
+| 2026-08-12T20:31:38.323Z | jcmaker/just-study | 1 | MIT | 200 |
+
+| 2026-08-12T20:31:42.153Z | Xiezhou0828/topicpilot-platform | 0 | MIT | 200 |
+
+| 2026-08-12T20:31:45.759Z | AvaProtocol/protocols | 0 | MIT | 200 |
+
+| Data | Repositório | Stars | License | HTTP |
+|---|---|---|---|---|
