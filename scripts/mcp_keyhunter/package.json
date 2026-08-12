@@ -1,13 +1,17 @@
 {
   "name": "mcp-keyhunter",
-  "description": "GitHub MCP discovery + knowledge auto-update for meumcp — deduplicates, validates HTTP, writes canonical knowledge. Runs via cron 2x/day.",
+  "description": "GitHub MCP discovery + knowledge auto-update for meumcp — deduplicates, validates HTTP, writes canonical knowledge, 12h cycle.",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
+  "main": "dist/discover.cjs",
   "scripts": {
-    "build": "tsc",
-    "dev": "node dist/discover.cjs",
+    "build": "tsc -p tsconfig.json",
+    "dev": "npm run build && node dist/discover.cjs",
     "start": "node dist/discover.cjs",
     "cron": "node dist/discover.cjs >> logs/keyhunter.log 2>&1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
 }
