@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2026-02-28 20:41:05",
+    "nome_arquivo": "regra_php_ui_checklist_acessibilidade.md",
+    "tipo_arquivo": "template|regras",
+    "descricao_tarefa": "Revisão do master_rules.md e outros manuais, adicionando regulamento restrito do index.php e padronização UI WCAG 2.2/Bootstrap.",
+    "codigo_gerado": "## 🏗️ 0. REGRA ESTRUTURAL DO SISTEMA (PHP) O ÚNICO arquivo do sistema que pode conter as tags <html>, <head> e <body> é o index.php...",
+    "dependencias": [
+      "regras/master_rules.md"
+    ]
+  },
+  {
+    "timestamp": "2026-03-02 10:20:00",
+    "nome_arquivo": "pages/perfil.php",
+    "tipo_arquivo": "pagina|script|banco",
+    "descricao_tarefa": "Refatoração de Perfil, Gamificação (Níveis) e Modificação Global de Prefixos de Tabelas no Banco e Código.",
+    "codigo_gerado": "RENAME TABLE usuarios TO usuarios_main; ... RENAME TABLE airdrop_cadastrados TO airdrop_main; ... preg_replace massivo em arquivos PHP.",
+    "dependencias": [
+      "config.php"
+    ]
+  },
+  {
+    "timestamp": "2026-03-02 11:45:00",
+    "nome_arquivo": "regras/master_rules.md",
+    "tipo_arquivo": "atuação|organização|regra",
+    "descricao_tarefa": "Limpeza final de pastas residuais e consolidação da estrutura lógica em /regras/.",
+    "codigo_gerado": "Consolidação recursiva final das subpastas prompts_php, templates_php e prompt_de_llms.",
+    "dependencias": [
+      "regras/*"
+    ]
+  },
+  {
+    "timestamp": "2026-03-02 12:00:00",
+    "nome_arquivo": "regras/master_rules.md",
+    "tipo_arquivo": "padronização|regra",
+    "descricao_tarefa": "Padronização global de nomenclatura de arquivos (.md) e pastas de regras. Implementação da regra de log de falhas de terminal.",
+    "codigo_gerado": "Renomeação massiva para regra_llms_*, regra_php_*, estrutura_php_*. Criação de regra_llms_comandos_proibidos.md.",
+    "dependencias": [
+      "regras/*"
+    ]
+  },
+  {
+    "timestamp": "2026-03-06 14:50:00",
+    "nome_arquivo": "js/eggs-hunter.js",
+    "tipo_arquivo": "script|feature",
+    "descricao_tarefa": "Implementação do Eggs Hunter V2 com IndexedDB para verificação de saldo em lote (1000 WIFs).",
+    "codigo_gerado": "Sistema de fila pendingWifs e processamento em lotes de 20 endereços via blockchain.info.",
+    "dependencias": [
+      "docs/EGGS_HUNTER.md"
+    ]
+  },
+  {
+    "timestamp": "2026-03-06 22:52:00",
+    "nome_arquivo": "js/theme-manager.js",
+    "tipo_arquivo": "script|regra",
+    "descricao_tarefa": "Implementação de temas universais (claro/escuro) com persistência e detecção de sistema.",
+    "codigo_gerado": "Classe ThemeManager com [data-theme] no <html> e variáveis CSS no styles.css.",
+    "dependencias": [
+      "regras/master_rules.md"
+    ]
+  }
+]

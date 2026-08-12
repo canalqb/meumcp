@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-electron/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+.Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+.hermes-tmp/
+
+# APKs
+*.apk

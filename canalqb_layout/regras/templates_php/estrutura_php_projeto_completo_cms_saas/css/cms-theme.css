@@ -1,0 +1,594 @@
+/**
+ * CMS SaaS Admin Panel - Theme Customization
+ * Prefixo: cms-*
+ * Descrição: Estilos de tema customizável para o painel administrativo
+ * Variáveis de tema podem ser sobrescritas aqui
+ * Autor: CMS Generator
+ * Data: 2026-02-22
+ */
+
+/* ============================================
+   TEMA CLARO (PADRÃO)
+   ============================================ */
+
+:root {
+  /* Variáveis de Tema - CUSTOMIZÁVEIS */
+  --cms-theme-primary: #0d6efd;
+  --cms-theme-secondary: #6c757d;
+  --cms-theme-accent: #0dcaf0;
+  --cms-theme-bg-light: #ffffff;
+  --cms-theme-bg-dark: #f8f9fa;
+  --cms-theme-text-light: #ffffff;
+  --cms-theme-text-dark: #212529;
+}
+
+/* ============================================
+   TEMA ESCURO
+   ============================================ */
+
+body.cms-dark-mode {
+  --cms-primary-color: #0dcaf0;
+  --cms-primary-dark: #0ba5d8;
+  --cms-primary-light: #31d5ff;
+  --cms-secondary-color: #adb5bd;
+  --cms-secondary-dark: #c3cad5;
+  --cms-secondary-light: #6c757d;
+  --cms-bg-primary: #1a1a1a;
+  --cms-bg-secondary: #2d2d2d;
+  --cms-bg-tertiary: #3d3d3d;
+  --cms-text-primary: #f0f0f0;
+  --cms-text-secondary: #b0b0b0;
+  --cms-border-color: #404040;
+}
+
+/* ============================================
+   ESTILOS ESPECÍFICOS DO TEMA ESCURO
+   ============================================ */
+
+body.cms-dark-mode .cms_card {
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+body.cms-dark-mode .cms_form-control {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  color: #f0f0f0;
+}
+
+body.cms-dark-mode .cms_sidebar {
+  background-color: #2d2d2d;
+  border-right-color: #404040;
+}
+
+body.cms-dark-mode .cms_header {
+  background-color: #2d2d2d;
+  border-bottom-color: #404040;
+}
+
+body.cms-dark-mode .cms_modal-content {
+  background-color: #2d2d2d;
+}
+
+body.cms-dark-mode .cms_modal-header {
+  border-bottom-color: #404040;
+}
+
+body.cms-dark-mode .cms_modal-footer {
+  border-top-color: #404040;
+}
+
+body.cms-dark-mode .cms_table {
+  background-color: #2d2d2d;
+}
+
+body.cms-dark-mode .cms_table thead {
+  background-color: #3d3d3d;
+  border-bottom-color: #404040;
+}
+
+body.cms-dark-mode .cms_table td {
+  border-bottom-color: #404040;
+}
+
+body.cms-dark-mode .cms_table tbody tr:hover {
+  background-color: #3d3d3d;
+}
+
+body.cms-dark-mode .cms_table-striped tbody tr:nth-child(odd) {
+  background-color: #3d3d3d;
+}
+
+body.cms-dark-mode .cms_tabs {
+  border-bottom-color: #404040;
+}
+
+body.cms-dark-mode .cms_card-header {
+  border-bottom-color: #404040;
+}
+
+body.cms-dark-mode .cms_card-footer {
+  border-top-color: #404040;
+}
+
+/* ============================================
+   VARIAÇÕES DE COR CUSTOMIZÁVEIS
+   ============================================ */
+
+/* Cor Primária Customizável */
+.cms-color-primary-blue {
+  --cms-primary-color: #0d6efd;
+  --cms-primary-dark: #0b5ed7;
+}
+
+.cms-color-primary-green {
+  --cms-primary-color: #198754;
+  --cms-primary-dark: #157347;
+}
+
+.cms-color-primary-purple {
+  --cms-primary-color: #6f42c1;
+  --cms-primary-dark: #5a32a3;
+}
+
+.cms-color-primary-red {
+  --cms-primary-color: #dc3545;
+  --cms-primary-dark: #bb2d3b;
+}
+
+.cms-color-primary-orange {
+  --cms-primary-color: #fd7e14;
+  --cms-primary-dark: #e56a00;
+}
+
+/* ============================================
+   ESTILOS DE GRADIENTE
+   ============================================ */
+
+.cms_gradient-primary {
+  background: linear-gradient(135deg, var(--cms-primary-color), var(--cms-primary-dark));
+  color: var(--cms-text-light);
+}
+
+.cms_gradient-secondary {
+  background: linear-gradient(135deg, var(--cms-secondary-color), var(--cms-secondary-dark));
+  color: var(--cms-text-light);
+}
+
+.cms_gradient-success {
+  background: linear-gradient(135deg, var(--cms-success-color), #157347);
+  color: var(--cms-text-light);
+}
+
+.cms_gradient-danger {
+  background: linear-gradient(135deg, var(--cms-danger-color), #bb2d3b);
+  color: var(--cms-text-light);
+}
+
+.cms_gradient-warning {
+  background: linear-gradient(135deg, var(--cms-warning-color), #ffbb33);
+  color: var(--cms-text-primary);
+}
+
+/* ============================================
+   ESTILOS DE SOMBRA CUSTOMIZÁVEIS
+   ============================================ */
+
+.cms_shadow-none {
+  box-shadow: none;
+}
+
+.cms_shadow-sm {
+  box-shadow: var(--cms-shadow-sm);
+}
+
+.cms_shadow-md {
+  box-shadow: var(--cms-shadow-md);
+}
+
+.cms_shadow-lg {
+  box-shadow: var(--cms-shadow-lg);
+}
+
+.cms_shadow-xl {
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.cms_shadow-inset {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+/* ============================================
+   ESTILOS DE BORDA CUSTOMIZÁVEIS
+   ============================================ */
+
+.cms_border-none {
+  border: none;
+}
+
+.cms_border-top {
+  border-top: var(--cms-border-width) solid var(--cms-border-color);
+}
+
+.cms_border-bottom {
+  border-bottom: var(--cms-border-width) solid var(--cms-border-color);
+}
+
+.cms_border-left {
+  border-left: var(--cms-border-width) solid var(--cms-border-color);
+}
+
+.cms_border-right {
+  border-right: var(--cms-border-width) solid var(--cms-border-color);
+}
+
+.cms_border-primary {
+  border-color: var(--cms-primary-color);
+}
+
+.cms_border-danger {
+  border-color: var(--cms-danger-color);
+}
+
+.cms_border-success {
+  border-color: var(--cms-success-color);
+}
+
+.cms_border-warning {
+  border-color: var(--cms-warning-color);
+}
+
+.cms_border-rounded {
+  border-radius: var(--cms-border-radius);
+}
+
+.cms_border-rounded-lg {
+  border-radius: calc(var(--cms-border-radius) * 2);
+}
+
+.cms_border-rounded-full {
+  border-radius: 9999px;
+}
+
+/* ============================================
+   ESTILOS DE TRANSIÇÃO CUSTOMIZÁVEIS
+   ============================================ */
+
+.cms_transition-fast {
+  transition: all 0.15s ease-in-out;
+}
+
+.cms_transition-normal {
+  transition: all 0.3s ease-in-out;
+}
+
+.cms_transition-slow {
+  transition: all 0.5s ease-in-out;
+}
+
+.cms_transition-none {
+  transition: none;
+}
+
+/* ============================================
+   ESTILOS DE TIPOGRAFIA CUSTOMIZÁVEIS
+   ============================================ */
+
+.cms_font-weight-light {
+  font-weight: 300;
+}
+
+.cms_font-weight-normal {
+  font-weight: 400;
+}
+
+.cms_font-weight-medium {
+  font-weight: 500;
+}
+
+.cms_font-weight-semibold {
+  font-weight: 600;
+}
+
+.cms_font-weight-bold {
+  font-weight: 700;
+}
+
+.cms_font-size-xs {
+  font-size: 0.75rem;
+}
+
+.cms_font-size-sm {
+  font-size: var(--cms-font-size-sm);
+}
+
+.cms_font-size-base {
+  font-size: var(--cms-font-size-base);
+}
+
+.cms_font-size-lg {
+  font-size: var(--cms-font-size-lg);
+}
+
+.cms_font-size-xl {
+  font-size: var(--cms-font-size-xl);
+}
+
+.cms_font-size-xxl {
+  font-size: var(--cms-font-size-xxl);
+}
+
+.cms_font-size-3xl {
+  font-size: 1.875rem;
+}
+
+.cms_font-mono {
+  font-family: var(--cms-font-family-mono);
+}
+
+.cms_text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cms_text-lowercase {
+  text-transform: lowercase;
+}
+
+.cms_text-capitalize {
+  text-transform: capitalize;
+}
+
+.cms_text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cms_text-break {
+  word-break: break-word;
+}
+
+/* ============================================
+   ESTILOS DE LAYOUT CUSTOMIZÁVEIS
+   ============================================ */
+
+.cms_container-sm {
+  max-width: 640px;
+}
+
+.cms_container-md {
+  max-width: 768px;
+}
+
+.cms_container-lg {
+  max-width: 1024px;
+}
+
+.cms_container-xl {
+  max-width: 1280px;
+}
+
+.cms_container-2xl {
+  max-width: 1400px;
+}
+
+.cms_grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--cms-spacing-lg);
+}
+
+.cms_grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--cms-spacing-lg);
+}
+
+.cms_grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--cms-spacing-lg);
+}
+
+.cms_flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cms_flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cms_flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cms_flex-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+/* ============================================
+   ESTILOS DE HOVER E ESTADO
+   ============================================ */
+
+.cms_hover-shadow {
+  transition: var(--cms-transition-base);
+}
+
+.cms_hover-shadow:hover {
+  box-shadow: var(--cms-shadow-lg);
+}
+
+.cms_hover-lift {
+  transition: var(--cms-transition-base);
+}
+
+.cms_hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--cms-shadow-lg);
+}
+
+.cms_hover-scale {
+  transition: var(--cms-transition-base);
+}
+
+.cms_hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.cms_hover-color-primary:hover {
+  color: var(--cms-primary-color);
+}
+
+.cms_hover-bg-primary:hover {
+  background-color: var(--cms-bg-secondary);
+}
+
+/* ============================================
+   ESTILOS DE ESTADO DESABILITADO
+   ============================================ */
+
+.cms_disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.cms_readonly {
+  background-color: var(--cms-bg-secondary);
+  cursor: default;
+}
+
+/* ============================================
+   ESTILOS DE VISIBILIDADE
+   ============================================ */
+
+.cms_visible {
+  visibility: visible;
+}
+
+.cms_hidden {
+  visibility: hidden;
+}
+
+.cms_invisible {
+  display: none !important;
+}
+
+.cms_sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ============================================
+   ESTILOS DE POSICIONAMENTO
+   ============================================ */
+
+.cms_relative {
+  position: relative;
+}
+
+.cms_absolute {
+  position: absolute;
+}
+
+.cms_fixed {
+  position: fixed;
+}
+
+.cms_sticky {
+  position: sticky;
+}
+
+.cms_top-0 {
+  top: 0;
+}
+
+.cms_right-0 {
+  right: 0;
+}
+
+.cms_bottom-0 {
+  bottom: 0;
+}
+
+.cms_left-0 {
+  left: 0;
+}
+
+.cms_z-10 {
+  z-index: 10;
+}
+
+.cms_z-50 {
+  z-index: 50;
+}
+
+.cms_z-100 {
+  z-index: 100;
+}
+
+/* ============================================
+   ESTILOS DE OVERFLOW
+   ============================================ */
+
+.cms_overflow-auto {
+  overflow: auto;
+}
+
+.cms_overflow-hidden {
+  overflow: hidden;
+}
+
+.cms_overflow-x-auto {
+  overflow-x: auto;
+}
+
+.cms_overflow-y-auto {
+  overflow-y: auto;
+}
+
+.cms_overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.cms_overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+/* ============================================
+   ESTILOS DE SCROLLBAR CUSTOMIZÁVEL
+   ============================================ */
+
+.cms_scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.cms_scrollbar-thin::-webkit-scrollbar-track {
+  background: var(--cms-bg-secondary);
+}
+
+.cms_scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--cms-secondary-color);
+  border-radius: 4px;
+}
+
+.cms_scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--cms-secondary-dark);
+}

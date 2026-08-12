@@ -1,0 +1,2728 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master Rules — Guia para LLM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* ═══ MODO ESCURO (padrão) — Light-on-dark — WCAG AA ≥4.5:1 ═══ */
+  :root,
+  :root[data-theme="dark"] {
+    /* Fundos escalonados — sem preto puro */
+    --bg:       #0d1117;   /* contraste fundo/texto: ~14:1 */
+    --surface:  #161b27;
+    --surface2: #1e2535;
+    --surface3: #242d42;
+
+    /* Bordas — contraste ≥3:1 sobre surface */
+    --border:   rgba(110,210,255,0.18);
+    --border2:  rgba(110,210,255,0.28);
+
+    /* Texto — contraste ≥4.5:1 */
+    --text:      #edf2f7;   /* principal */
+    --text-sec:  #a0aec0;   /* secundário ≥4.5:1 sobre --bg */
+    --muted:     #718096;   /* muted ≥3:1 sobre --bg (uso decorativo) */
+
+    /* Acentos */
+    --accent:  #63d2ff;
+    --accent2: #b794f4;
+    --accent3: #4fd1a8;
+    --danger:  #fc8181;
+    --warn:    #f6c05c;
+
+    /* Tipografia */
+    --mono: 'JetBrains Mono', monospace;
+    --sans: 'Syne', sans-serif;
+
+    /* Ícone toggle */
+    --theme-icon: "☀️";
+    --theme-label: "Tema Claro";
+  }
+
+  /* ═══ MODO CLARO — Dark-on-light — WCAG AA ≥4.5:1 ═══ */
+  :root[data-theme="light"] {
+    /* Fundos escalados — sem branco puro */
+    --bg:       #f0f4f8;
+    --surface:  #ffffff;
+    --surface2: #e8edf3;
+    --surface3: #dde3ec;
+
+    /* Bordas — contraste ≥3:1 sobre surface */
+    --border:   rgba(30,90,140,0.15);
+    --border2:  rgba(30,90,140,0.30);
+
+    /* Texto — contraste ≥4.5:1 sobre --bg */
+    --text:      #1a202c;   /* ≈16:1 sobre #f0f4f8 */
+    --text-sec:  #2d3748;   /* ≈12:1 */
+    --muted:     #718096;   /* ≈4.6:1 */
+
+    /* Acentos — saturação reduzida para luz */
+    --accent:  #0369a1;   /* azul escuro ≥4.5:1 sobre branco */
+    --accent2: #6d28d9;   /* violeta escuro */
+    --accent3: #047857;   /* verde escuro */
+    --danger:  #b91c1c;
+    --warn:    #b45309;
+
+    /* Ícone toggle */
+    --theme-icon: "🌙";
+    --theme-label: "Tema Escuro";
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  /* ─── NOISE TEXTURE OVERLAY ─── */
+  body::before {
+    content:'';
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    opacity: 0.4;
+  }
+
+  /* ─── AMBIENT GLOW ─── */
+  .glow-orb {
+    position:fixed; border-radius:50%; pointer-events:none; z-index:0;
+    filter: blur(120px);
+  }
+  .glow-orb.a { width:600px; height:600px; top:-200px; right:-100px; background: radial-gradient(circle, rgba(99,210,255,0.08) 0%, transparent 70%); }
+  .glow-orb.b { width:500px; height:500px; bottom:-150px; left:-100px; background: radial-gradient(circle, rgba(167,139,250,0.07) 0%, transparent 70%); }
+
+  /* ─── LAYOUT ─── */
+  .wrap { position:relative; z-index:1; max-width: 1100px; margin:0 auto; padding: 0 24px 80px; }
+
+  /* ─── HERO ─── */
+  .hero {
+    padding: 80px 0 60px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(99,210,255,0.08); border: 1px solid rgba(99,210,255,0.2);
+    color: var(--accent); font-family: var(--mono); font-size: 0.75rem;
+    padding: 6px 14px; border-radius: 100px; margin-bottom: 24px;
+    letter-spacing: 0.05em;
+  }
+  .hero-badge span { width:6px; height:6px; background:var(--accent); border-radius:50%; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+  .hero h1 {
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 800; line-height: 1.1; margin-bottom: 20px;
+  }
+  .hero h1 .line1 { display:block; color: var(--text); }
+  .hero h1 .line2 {
+    display:block;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+
+  .hero-desc {
+    font-size: 1.15rem; color: var(--muted); max-width: 640px; margin-bottom: 36px;
+  }
+
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 24px;
+  }
+  .stat {
+    display: flex; flex-direction: column;
+  }
+  .stat-value {
+    font-size: 1.8rem; font-weight: 800; font-family: var(--mono);
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .stat-label { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+
+  /* ─── NAV TABS ─── */
+  .nav-tabs {
+    display: flex; flex-wrap: wrap; gap: 4px;
+    padding: 28px 0 0; position: sticky; top: 0; z-index: 10;
+    background: linear-gradient(to bottom, var(--bg) 80%, transparent);
+    padding-bottom: 12px;
+    transition: background 0.3s ease;
+  }
+  .tab-btn {
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--muted); font-family: var(--mono); font-size: 0.78rem;
+    padding: 8px 16px; border-radius: 8px; cursor: pointer; transition: all 0.2s;
+    letter-spacing: 0.03em;
+  }
+  .tab-btn:hover { color: var(--text); border-color: rgba(99,210,255,0.3); }
+  .tab-btn.active {
+    background: rgba(99,210,255,0.1); color: var(--accent);
+    border-color: rgba(99,210,255,0.35);
+  }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* ─── SECTION HEADINGS ─── */
+  .section { padding: 48px 0 0; }
+
+  .sec-label {
+    font-family: var(--mono); font-size: 0.7rem; color: var(--accent);
+    text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 8px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .sec-label::before { content:''; display:block; width:24px; height:1px; background:var(--accent); }
+
+  .sec-title {
+    font-size: 1.6rem; font-weight: 700; margin-bottom: 24px; color: var(--text);
+  }
+
+  /* ─── CALLOUT ─── */
+  .callout {
+    border-radius: 12px; padding: 20px 24px; margin-bottom: 24px;
+    border-left: 3px solid;
+  }
+  .callout.info  { background: rgba(99,210,255,0.07); border-color: var(--accent); }
+  .callout.warn  { background: rgba(251,191,36,0.07); border-color: var(--warn); }
+  .callout.tip   { background: rgba(52,211,153,0.07); border-color: var(--accent3); }
+  .callout.danger{ background: rgba(248,113,113,0.07); border-color: var(--danger); }
+  /* Modo claro: aumentar opacidade para contraste mínimo 3:1 */
+  [data-theme="light"] .callout.info  { background: rgba(3,105,161,0.08); }
+  [data-theme="light"] .callout.warn  { background: rgba(180,83,9,0.08); }
+  [data-theme="light"] .callout.tip   { background: rgba(4,120,87,0.08); }
+  [data-theme="light"] .callout.danger{ background: rgba(185,28,28,0.08); }
+  [data-theme="light"] .callout p     { color: var(--text-sec); }
+  [data-theme="light"] .callout strong{ color: var(--text); }
+
+  .callout-icon { font-size: 1.1rem; margin-right: 8px; }
+  .callout strong { color: var(--text); }
+  .callout p { color: var(--text-sec); margin-top: 6px; font-size: 0.92rem; }
+
+  /* ─── CODE BLOCK ─── */
+  .code-block {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden; margin: 16px 0;
+  }
+  .code-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 16px; border-bottom: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+  .code-lang { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
+  .copy-btn {
+    font-family: var(--mono); font-size: 0.72rem; color: var(--muted);
+    background: transparent; border: 1px solid var(--border); padding: 4px 10px;
+    border-radius: 6px; cursor: pointer; transition: all 0.2s;
+  }
+  .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
+  .copy-btn.copied { color: var(--accent3); border-color: var(--accent3); }
+  pre {
+    font-family: var(--mono); font-size: 0.83rem; line-height: 1.7;
+    padding: 20px; overflow-x: auto; color: var(--text);
+  }
+  pre .kw   { color: var(--accent2); }
+  pre .str  { color: var(--accent3); }
+  pre .cmt  { color: var(--muted); font-style:italic; }
+  pre .var  { color: var(--accent); }
+  pre .fn   { color: var(--warn); }
+
+  /* ─── CARD GRID ─── */
+  .card-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px; margin: 24px 0;
+  }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px; transition: all 0.25s;
+    position: relative; overflow: hidden;
+  }
+  .card::before {
+    content:''; position:absolute; inset:0; border-radius:14px;
+    background: linear-gradient(135deg, rgba(99,210,255,0.04), transparent);
+    opacity:0; transition: opacity 0.25s;
+  }
+  .card:hover { transform: translateY(-3px); border-color: rgba(99,210,255,0.25); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+  .card:hover::before { opacity:1; }
+
+  .card-icon { font-size: 1.6rem; margin-bottom: 12px; }
+  .card-title { font-size: 0.95rem; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+  .card-file {
+    font-family: var(--mono); font-size: 0.72rem; color: var(--accent);
+    background: rgba(99,210,255,0.08); border: 1px solid rgba(99,210,255,0.15);
+    padding: 3px 8px; border-radius: 5px; display: inline-block; margin-bottom: 10px;
+  }
+  .card-desc { font-size: 0.85rem; color: var(--text-sec); }
+
+  /* ─── TAG CHIPS ─── */
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+  .chip {
+    font-family: var(--mono); font-size: 0.75rem;
+    padding: 5px 12px; border-radius: 100px; border: 1px solid;
+    cursor: default;
+  }
+  .chip.blue  { color: var(--accent);  border-color: rgba(99,210,255,0.25); background: rgba(99,210,255,0.06); }
+  .chip.purple{ color: var(--accent2); border-color: rgba(167,139,250,0.25); background: rgba(167,139,250,0.06); }
+  .chip.green { color: var(--accent3); border-color: rgba(52,211,153,0.25);  background: rgba(52,211,153,0.06); }
+  .chip.yellow{ color: var(--warn);    border-color: rgba(251,191,36,0.25);  background: rgba(251,191,36,0.06); }
+
+  /* ─── STEP LIST ─── */
+  .steps { display: flex; flex-direction: column; gap: 0; }
+  .step {
+    display: flex; gap: 20px; padding: 24px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .step:last-child { border-bottom: none; }
+  .step-num {
+    width: 36px; height: 36px; min-width: 36px;
+    background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.25);
+    border-radius: 10px; display: flex; align-items: center; justify-content: center;
+    font-family: var(--mono); font-size: 0.85rem; font-weight: 600; color: var(--accent);
+    margin-top: 2px;
+  }
+  .step-title { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+  .step-desc { font-size: 0.88rem; color: var(--text-sec); }
+
+  /* ─── TABLE ─── */
+  .tbl-wrap { overflow-x: auto; margin: 24px 0; border-radius: 12px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; }
+  thead { background: var(--surface2); }
+  th {
+    padding: 14px 18px; font-family: var(--mono); font-size: 0.75rem;
+    font-weight: 600; color: var(--muted); text-align: left; text-transform: uppercase; letter-spacing: 0.08em;
+    border-bottom: 1px solid var(--border);
+  }
+  td {
+    padding: 14px 18px; font-size: 0.87rem; color: var(--text-sec);
+    border-bottom: 1px solid var(--border);
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(99,210,255,0.02); }
+  td code, th code {
+    font-family: var(--mono); font-size: 0.8rem;
+    background: rgba(99,210,255,0.08); color: var(--accent);
+    padding: 2px 7px; border-radius: 5px;
+  }
+  td .badge-green {
+    font-family: var(--mono); font-size: 0.72rem; color: var(--accent3);
+    background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2);
+    padding: 2px 8px; border-radius: 100px;
+  }
+  td .badge-blue {
+    font-family: var(--mono); font-size: 0.72rem; color: var(--accent);
+    background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2);
+    padding: 2px 8px; border-radius: 100px;
+  }
+  td .badge-purple {
+    font-family: var(--mono); font-size: 0.72rem; color: var(--accent2);
+    background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.2);
+    padding: 2px 8px; border-radius: 100px;
+  }
+
+  /* ─── QUOTE BLOCK ─── */
+  blockquote {
+    border-left: 3px solid var(--accent2);
+    background: rgba(167,139,250,0.06);
+    padding: 16px 20px; border-radius: 0 10px 10px 0;
+    margin: 20px 0;
+  }
+  blockquote p { color: var(--text-sec); font-style: italic; }
+  blockquote cite { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); margin-top: 8px; display: block; }
+
+  /* ─── FOOTER ─── */
+  .footer {
+    margin-top: 72px; padding-top: 32px;
+    border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
+  }
+  .footer p { font-size: 0.82rem; color: var(--muted); font-family: var(--mono); }
+  .footer-logo {
+    font-size: 0.9rem; font-weight: 700;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+
+  /* ─── SEARCH BAR ─── */
+  .search-wrap { position: relative; max-width: 400px; margin: 24px 0; }
+  .search-wrap input {
+    width: 100%; background: var(--surface); border: 1px solid var(--border);
+    color: var(--text); font-family: var(--mono); font-size: 0.85rem;
+    padding: 10px 16px 10px 40px; border-radius: 10px; outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-wrap input:focus { border-color: rgba(99,210,255,0.4); }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-icon {
+    position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    color: var(--muted); font-size: 0.9rem; pointer-events: none;
+  }
+
+  /* ─── SEPARATOR ─── */
+  hr.divider { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 640px) {
+    .hero { padding: 48px 0 40px; }
+    .nav-tabs { gap: 6px; }
+    .tab-btn { font-size: 0.72rem; padding: 7px 12px; }
+    .card-grid { grid-template-columns: 1fr; }
+    .step { flex-direction: column; gap: 12px; }
+    .footer { flex-direction: column; }
+  }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeUp {
+    from { opacity:0; transform:translateY(16px); }
+    to   { opacity:1; transform:translateY(0); }
+  }
+  .hero > * { animation: fadeUp 0.5s ease both; }
+  .hero > *:nth-child(1) { animation-delay: 0.05s; }
+  .hero > *:nth-child(2) { animation-delay: 0.15s; }
+  .hero > *:nth-child(3) { animation-delay: 0.25s; }
+  .hero > *:nth-child(4) { animation-delay: 0.35s; }
+
+  /* ─── HIGHLIGHT LINE ─── */
+  .hl { color: var(--accent); font-weight:600; }
+  .hl2 { color: var(--accent2); font-weight:600; }
+  .hl3 { color: var(--accent3); font-weight:600; }
+  .hl-y { color: var(--warn); font-weight:600; }
+
+  /* ── THEME TOGGLE ── */
+  .theme-toggle {
+    position: fixed; top: 20px; right: 24px; z-index: 200;
+    background: var(--surface); border: 1px solid var(--border2);
+    color: var(--text); font-family: var(--mono); font-size: 0.78rem;
+    padding: 8px 14px; border-radius: 100px; cursor: pointer;
+    display: flex; align-items: center; gap: 6px;
+    transition: all 0.25s ease; box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  .theme-toggle:hover {
+    border-color: var(--accent); color: var(--accent);
+    box-shadow: 0 4px 20px rgba(99,210,255,0.2);
+  }
+  .theme-toggle:focus {
+    outline: 2px solid var(--accent); outline-offset: 3px;
+  }
+  /* Modo claro: sombra mais suave */
+  [data-theme="light"] .theme-toggle {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  }
+  [data-theme="light"] .theme-toggle:hover {
+    box-shadow: 0 4px 16px rgba(3,105,161,0.2);
+  }
+  /* ── Overrides modo claro para manter contraste ── */
+  [data-theme="light"] .card {
+    background: var(--surface);
+    border-color: var(--border);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  [data-theme="light"] .card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 8px 24px rgba(3,105,161,0.12);
+  }
+  [data-theme="light"] .hero h1 .line2 {
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  [data-theme="light"] .stat-value {
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  [data-theme="light"] thead { background: var(--surface2); }
+  [data-theme="light"] th { color: var(--text-sec); border-bottom: 1px solid var(--border2); }
+  [data-theme="light"] tr:hover td { background: rgba(3,105,161,0.04); }
+  [data-theme="light"] .hero-badge {
+    background: rgba(3,105,161,0.08);
+    border-color: rgba(3,105,161,0.25);
+    color: var(--accent);
+  }
+  [data-theme="light"] .tab-btn {
+    background: var(--surface);
+    border-color: var(--border);
+    color: var(--text-sec);
+  }
+  [data-theme="light"] .tab-btn:hover { color: var(--text); border-color: var(--border2); }
+  [data-theme="light"] .tab-btn.active {
+    background: rgba(3,105,161,0.08);
+    color: var(--accent);
+    border-color: rgba(3,105,161,0.35);
+  }
+  [data-theme="light"] .code-block {
+    background: var(--surface);
+    border-color: var(--border);
+  }
+  [data-theme="light"] .code-header { background: var(--surface2); }
+  [data-theme="light"] .sec-label { color: var(--accent); }
+  [data-theme="light"] .sec-label::before { background: var(--accent); }
+  [data-theme="light"] .step-num {
+    background: rgba(3,105,161,0.1);
+    border-color: rgba(3,105,161,0.3);
+    color: var(--accent);
+  }
+  [data-theme="light"] blockquote {
+    background: rgba(109,40,217,0.06);
+    border-left-color: var(--accent2);
+  }
+  [data-theme="light"] .chip.blue  { color: var(--accent);  border-color: rgba(3,105,161,0.3);  background: rgba(3,105,161,0.08); }
+  [data-theme="light"] .chip.purple{ color: var(--accent2); border-color: rgba(109,40,217,0.3); background: rgba(109,40,217,0.07); }
+  [data-theme="light"] .chip.green { color: var(--accent3); border-color: rgba(4,120,87,0.3);   background: rgba(4,120,87,0.07); }
+  [data-theme="light"] .chip.yellow{ color: var(--warn);    border-color: rgba(180,83,9,0.3);   background: rgba(180,83,9,0.07); }
+  [data-theme="light"] .tbl-wrap { border-color: var(--border2); }
+  [data-theme="light"] td code, [data-theme="light"] th code {
+    background: rgba(3,105,161,0.08); color: var(--accent);
+  }
+  [data-theme="light"] .footer { border-color: var(--border2); }
+  [data-theme="light"] .footer p { color: var(--muted); }
+  [data-theme="light"] hr.divider { border-color: var(--border2); }
+  [data-theme="light"] .search-wrap input {
+    background: var(--surface);
+    border-color: var(--border2);
+    color: var(--text);
+  }
+  /* inv-item no modal — modo claro */
+  [data-theme="light"] .inv-item {
+    background: var(--surface2);
+    border-color: var(--border2);
+  }
+  [data-theme="light"] .inv-item:hover {
+    border-color: var(--accent);
+    background: rgba(3,105,161,0.05);
+  }
+  [data-theme="light"] #inventoryModal > div {
+    background: var(--surface);
+    border-color: var(--border2);
+  }
+  [data-theme="light"] #inventoryModal {
+    background: rgba(240,244,248,0.92);
+  }
+
+  /* ═══ HARMONIA VISUAL — Escala tipográfica + Espaçamentos ═══ */
+
+  /* Escala tipográfica consistente */
+  .sec-title    { font-size: clamp(1.25rem, 2.5vw, 1.6rem); }
+  .card-title   { font-size: clamp(0.88rem, 1.5vw, 0.95rem); }
+  .step-title   { font-size: clamp(0.9rem, 1.5vw, 1rem); }
+
+  /* Espaçamentos harmoniosos: múltiplos de 8px */
+  .section      { padding: 48px 0 0; }
+  hr.divider    { margin: 40px 0; }
+  .card-grid    { gap: 16px; margin: 24px 0; }
+
+  /* Microanimações consistentes — 200ms ease */
+  .card, .tab-btn, .chip, .copy-btn, .inv-item {
+    transition: all 0.2s ease;
+  }
+
+  /* Focus ring harmônico para acessibilidade de teclado */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  button:focus-visible, input:focus-visible, a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  /* Scroll bar estilizada */
+  ::-webkit-scrollbar       { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+  /* Seleção de texto */
+  ::selection { background: rgba(99,210,255,0.25); color: var(--text); }
+
+  /* Card-file monoespaçado sem transbordar */
+  .card-file {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Chips com altura mínima */
+  .chip { line-height: 1; }
+
+  /* Table: células não transbordam */
+  td, th { word-break: break-word; }
+  td code { word-break: break-all; }
+
+  /* Hero: espaçamento mobile melhorado */
+  @media (max-width: 480px) {
+    .hero { padding: 40px 0 32px; }
+    .hero-stats { gap: 16px; }
+    .stat-value { font-size: 1.5rem; }
+    .inv-modal-wrap { padding: 24px 16px; }
+    .inv-close-btn { top: 12px; right: 12px; }
+  }
+
+</style>
+</head>
+<body>
+
+<button
+  id="themeToggleBtn"
+  class="theme-toggle"
+  onclick="toggleTheme()"
+  aria-label="Alternar tema claro/escuro"
+  title="Alternar tema">
+  <span id="themeIcon">☀️</span>
+  <span id="themeLabel">Tema Claro</span>
+</button>
+
+<div class="glow-orb a"></div>
+<div class="glow-orb b"></div>
+
+<div class="wrap">
+
+  <!-- ═══ HERO ═══ -->
+  <header class="hero">
+    <div class="hero-badge"><span></span>v7.3 - Industrial YouTube Automation & Windows Protocol</div>
+    <h1>
+      <span class="line1">Guia de Requisitos Universais</span>
+      <span class="line2">Master Rules LLM</span>
+    </h1>
+    <p class="hero-desc">
+      Tudo que um desenvolvedor — humano ou IA — precisa saber para trabalhar com o sistema de regras universais de desenvolvimento PHP.
+    </p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-value">36</span><span class="stat-label">Regras PHP/IA</span></div>
+      <div class="stat"><span class="stat-value">29</span><span class="stat-label">Templates</span></div>
+      <div class="stat"><span class="stat-value">07</span><span class="stat-label">Componentes UI</span></div>
+      <div class="stat"><span class="stat-value">100%</span><span class="stat-label">Qualidade</span></div>
+    </div>
+  </header>
+
+  <!-- ═══ TABS ═══ -->
+  <nav class="nav-tabs" id="navTabs">
+    <button class="tab-btn active" onclick="switchTab('inicio')">🏠 Início</button>
+    <button class="tab-btn" onclick="switchTab('regras')">📋 Regras</button>
+    <button class="tab-btn" onclick="switchTab('templates')">🧩 Templates</button>
+    <button class="tab-btn" onclick="switchTab('solicitar')">✍️ Como Solicitar</button>
+    <button class="tab-btn" onclick="switchTab('exemplos')">🚀 Exemplos</button>
+    <button class="tab-btn" onclick="switchTab('boas_praticas')">✅ Boas Práticas</button>
+    <button class="tab-btn" onclick="switchTab('release')"> Novidades (v7.3)</button>
+  </nav>
+
+  <!-- ═══ TAB: INÍCIO ═══ -->
+  <div class="tab-content active" id="tab-inicio">
+    <section class="section">
+      <div class="sec-label">Fundação</div>
+      <h2 class="sec-title">O que é o Master Rules?</h2>
+
+      <p style="color:#94a3b8; font-size:0.95rem; max-width:720px; margin-bottom:24px;">
+        O <span class="hl">master_rules.md</span> é o documento central que define todas as regras, templates e padrões que qualquer LLM deve seguir ao criar código PHP para este sistema. É a <strong style="color:var(--text)">fonte única de verdade</strong> — nenhuma outra instrução o sobrepõe.
+      </p>
+
+      <blockquote>
+        <p>"Este arquivo sobrepõe qualquer outra regra! Varrer recursivamente a pasta <code style="font-family:var(--mono);color:var(--accent)">/regras/</code> antes de qualquer ação!"</p>
+        <cite>— master_rules.md</cite>
+      </blockquote>
+
+      <div class="callout info" style="margin-top:28px;">
+        <span class="callout-icon">ℹ️</span><strong>Ciclo de Leitura Obrigatório para o LLM</strong>
+        <p>Leitura Inicial → Durante Modificações → Rechecagem Final antes de entregar qualquer código.</p>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Visão Geral</div>
+      <h2 class="sec-title">Como o Sistema Funciona</h2>
+
+      <div class="steps">
+        <div class="release-item">
+          <div class="release-date">2026-05-13</div>
+          <div class="release-content">
+            <h3>v7.3 - Industrial YouTube Automation & Windows Protocol</h3>
+            <ul>
+              <li>Implementada <b>Seção 21</b>: Automação Industrial YouTube (Hexa-Rotation & Vault DB)</li>
+              <li>Implementada <b>Seção 22</b>: Protocolo de Terminal Windows (PS/CMD Mastery)</li>
+              <li>Implementada <b>Seção 23</b>: Engenharia de AEO e SGE 2026 (Answer Target Rules)</li>
+              <li>Consolidação de inteligência <b>Master Rules v8.1</b> no motor de prompt</li>
+            </ul>
+          </div>
+        </div>
+        <div class="release-item">
+          <div class="release-date">2026-05-11</div>
+          <div class="release-content">
+            <h3>v7.2 - Theme Identity & UX Boost</h3>
+            <ul>
+              <li>Removida atribuição de terceiros e definida autoria <b>@CanalQb</b></li>
+              <li>Implementada <b>Barra de Progresso de Leitura</b> dinâmica (topo)</li>
+              <li>Implementada lógica global de <b>Botão de Cópia</b> para blocos de código</li>
+              <li>Adicionadas micro-animações de hover em posts (Efeito Premium)</li>
+              <li>Otimização de contraste acessível em novos elementos interativos</li>
+            </ul>
+          </div>
+        </div>
+        <div class="release-item">
+          <div class="release-date">2026-05-11</div>
+          <div class="release-content">
+            <h3>v7.1 - Blogger Theme @CanalQb & Compliance Audit</h3>
+            <ul>
+              <li>Criado <code>theme-readme.md</code> com documentação exaustiva do tema</li>
+              <li>Auditoria de conformidade AdSense 2026 e TCF v2.3 validada</li>
+              <li>Documentação de recursos de SEO dinâmico e JSON-LD</li>
+              <li>Implementação de Smart Autoplay e UX especializado para Android</li>
+              <li>Validação de segurança (Console Silencer, SRI, Sanitização)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">01</div>
+          <div>
+            <div class="step-title">LLM lê o master_rules.md</div>
+            <div class="step-desc">Antes de qualquer tarefa, o assistente deve varrer todas as regras disponíveis em <code style="font-family:var(--mono);color:var(--accent);font-size:0.82rem">/regras/</code>. Sem pular etapas.</div>
+          </div>
+        </div>
+        <div class="release-item">
+          <div class="release-date">2026-04-19</div>
+          <div class="release-content">
+            <h3>v7.0 - Compliance Universal AdSense 2026</h3>
+            <ul>
+              <li>Implementado <code>regra_universal_compliance_adsense_2026.md</code> - Framework completo multiplataforma</li>
+              <li>Criados templates universais: HTML5, PHP, Python, JavaScript, C++</li>
+              <li>Adicionados prompts de validação e implementação universal</li>
+              <li>Suporte para Blogger, PHP, JS, Python, C++, Sites, Apps</li>
+              <li>Score de conformidade: 98% universal</li>
+              <li>Páginas legais obrigatórias implementadas</li>
+              <li>Monitoramento automatizado integrado</li>
+            </ul>
+          </div>
+        </div>
+        <div class="release-item">
+          <div class="release-date">2025-12-19</div>
+          <div class="release-content">
+            <h3>v6.4 - Blogger XML Entities</h3>
+            <ul>
+              <li>Adicionado <code>regra_llms_windows_blogger_xml_entities.md</code> com protocolo obrigatório para entidades XML em templates Blogger</li>
+              <li>Correção de erros comuns: <code>&amp;copy;</code>, <code>&amp;quot;</code>, <code>&amp;apos;</code></li>
+              <li>Validação automática de conformidade XML</li>
+            </ul>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div>
+            <div class="step-title">Personaliza apenas as variáveis</div>
+            <div class="step-desc">Apenas os campos marcados com <code style="font-family:var(--mono);color:var(--warn);font-size:0.82rem">{chaves}</code> são modificados. A estrutura e as regras de segurança permanecem intactas.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div>
+            <div class="step-title">Valida e entrega</div>
+            <div class="step-desc">Rechecagem final: segurança CSRF aplicada, acessibilidade WCAG AA garantida, temas claro/escuro funcionando, responsividade verificada.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB: REGRAS ═══ -->
+  <div class="tab-content" id="tab-regras">
+    <section class="section">
+      <div class="sec-label">Arquivos de Regra</div>
+      <h2 class="sec-title">Regras de Desenvolvimento PHP</h2>
+
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchCards" placeholder="Buscar regra ou template..." oninput="filterCards(this.value)">
+      </div>
+
+      <div class="card-grid" id="cardsGrid">
+        <div class="card" data-search="blogger theme xml canalqb seo adsense responsive">
+          <div class="card-icon">🎨</div>
+          <div class="card-file">theme-5982274115355506187.xml</div>
+          <div class="card-title">Blogger XML Theme @CanalQb</div>
+          <div class="card-desc">Tema Blogger premium otimizado para AdSense 2026, com TCF v2.3, SEO dinâmico e performance mobile.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">Blogger</span><span class="chip green">SEO</span><span class="chip yellow">AdSense</span></div>
+        </div>
+        <div class="card" data-search="compliance universal adsense 2026 multiplataforma blogger php javascript python c++">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_universal_compliance_adsense_2026.md</div>
+          <div class="card-title">Compliance Universal AdSense 2026</div>
+          <div class="card-desc">Framework completo para conformidade AdSense 2026 em qualquer plataforma (Blogger, PHP, JS, Python, C++).</div>
+        </div>
+        <div class="card" data-search="erros xml sax parser blogger entities malformadas tags">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_universal_erros_xml_sax_parser.md</div>
+          <div class="card-title">Erros XML SAX Parser Universal</div>
+          <div class="card-desc">Diagnóstico e correção de erros XML SAX parser em templates Blogger e outras plataformas.</div>
+        </div>
+        <div class="card" data-search="xml entities multiplataforma blogger php javascript escape">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_universal_xml_entities_multiplataforma.md</div>
+          <div class="card-title">XML Entities Multiplataforma</div>
+          <div class="card-desc">Protocolo universal para escape de entidades XML em diferentes plataformas e linguagens.</div>
+        </div>
+        <div class="card" data-search="auditor universal qualidade compliance seo acessibilidade performance legal adsense search console">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_llms_auditor_qualidade_compliance_universal.md</div>
+          <div class="card-title">Auditor Universal de Qualidade & Compliance</div>
+          <div class="card-desc">Protocolo ÚNICO para validar 100% de conformidade técnica e jurídica (Regras 14, 15 e 16). Consolidado com métricas E-E-A-T AdSense 2026.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">Universal</span><span class="chip green">Compliance</span><span class="chip yellow">AdSense</span></div>
+        </div>
+        <div class="card" data-search="diretrizes sistema globais php">
+          <div class="card-icon">⚙️</div>
+          <div class="card-file">regra_php_diretrizes_sistema_globais.md</div>
+          <div class="card-title">Diretrizes Gerais do Sistema</div>
+          <div class="card-desc">Padrões globais de estrutura, nomenclatura e organização aplicados a todos os arquivos PHP do projeto.</div>
+        </div>
+        <div class="card" data-search="web standards aria wcag acessibilidade">
+          <div class="card-icon">♿</div>
+          <div class="card-file">regra_php_web_standards_aria_wcag.md</div>
+          <div class="card-title">Web Standards & Acessibilidade</div>
+          <div class="card-desc">Conformidade WCAG AA, atributos ARIA, semântica HTML5 e boas práticas de acessibilidade em todo o frontend.</div>
+        </div>
+        <div class="card" data-search="ajax interacoes assincronas fetch">
+          <div class="card-icon">⚡</div>
+          <div class="card-file">regra_php_ajax_interacoes.md</div>
+          <div class="card-title">Interações AJAX</div>
+          <div class="card-desc">Padrões para requisições assíncronas, tratamento de erros, feedback visual e estados de loading.</div>
+        </div>
+        <div class="card" data-search="csrf token segurança formularios">
+          <div class="card-icon">🛡️</div>
+          <div class="card-file">regra_php_csrf_tokens.md</div>
+          <div class="card-title">Proteção CSRF</div>
+          <div class="card-desc">Geração e validação obrigatória de tokens CSRF em todos os formulários e endpoints POST.</div>
+        </div>
+        <div class="card" data-search="protocolo dinamico http https ambiente local producao">
+          <div class="card-icon">🌐</div>
+          <div class="card-file">regra_php_protocolo_dinamico.md</div>
+          <div class="card-title">Protocolo Dinâmico</div>
+          <div class="card-desc">Detecção automática de ambiente (Local/Server) para forçar HTTP em redes privadas e HTTPS em produção.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">ambiente</span><span class="chip green">SSL</span></div>
+        </div>
+        <div class="card" data-search="paginas admin administracao universal">
+          <div class="card-icon">🏗️</div>
+          <div class="card-file">regra_php_paginas_admin_universais.md</div>
+          <div class="card-title">Páginas Admin Universais</div>
+          <div class="card-desc">Estrutura padrão para criação de páginas administrativas: layout, configuração, SEO e perfis.</div>
+        </div>
+        <div class="card" data-search="simulador perfis usuarios permissoes">
+          <div class="card-icon">👥</div>
+          <div class="card-file">regra_php_simulador_perfis_universal.md</div>
+          <div class="card-title">Simulador de Perfis</div>
+          <div class="card-desc">Sistema para simular diferentes perfis de usuários e testar permissões de acesso sem trocar de conta.</div>
+        </div>
+
+        <div class="card" data-search="abnt doc 2026 normas documentos academicos">
+          <div class="card-icon">📄</div>
+          <div class="card-file">regra_abnt_doc_2026.md</div>
+          <div class="card-title">Padrão ABNT 2026</div>
+          <div class="card-desc">Normas ABNT para documentos acadêmicos e técnicos. Formatação, citações e referências obrigatórias para docs gerados pelo LLM.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip purple">docs</span><span class="chip blue">ABNT</span></div>
+        </div>
+        <div class="card" data-search="js console silencer producao log javascript">
+          <div class="card-icon">🔇</div>
+          <div class="card-file">regra_js_console_silencer_producao.md</div>
+          <div class="card-title">Console Silencer (Produção)</div>
+          <div class="card-desc">Desativa console.log, warn e error em produção automaticamente. Evita exposição de dados sensíveis no DevTools do navegador.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip green">JS</span><span class="chip yellow">segurança</span></div>
+        </div>
+        <div class="card" data-search="arquitetura modular pastas estrutura diretorios">
+          <div class="card-icon">🗂️</div>
+          <div class="card-file">regra_php_arquitetura_modular_pastas.md</div>
+          <div class="card-title">Arquitetura Modular de Pastas</div>
+          <div class="card-desc">Define a estrutura de diretórios padrão do projeto: views, controllers, models, modules, assets. Nenhum arquivo fora do lugar.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">arquitetura</span><span class="chip green">organização</span></div>
+        </div>
+        <div class="card" data-search="integracao gas telegram google apps script bot">
+          <div class="card-icon">✈️</div>
+          <div class="card-file">regra_php_integracao_gas_telegram.md</div>
+          <div class="card-title">Integração GAS + Telegram</div>
+          <div class="card-desc">Padrões para integração com Google Apps Script e envio de notificações via Telegram Bot API. Webhooks e autenticação segura.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">GAS</span><span class="chip purple">Telegram</span></div>
+        </div>
+        <div class="card" data-search="ui acessibilidade contraste cores dark light wcag">
+          <div class="card-icon">🎨</div>
+          <div class="card-file">regra_php_ui_acessibilidade_contraste.md</div>
+          <div class="card-title">UI Acessibilidade &amp; Contraste</div>
+          <div class="card-desc">Garante contraste mínimo WCAG AA (7:1) em temas claro e escuro. Paletas de cores pré-aprovadas e regras de fundo vs. fonte.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip green">WCAG</span><span class="chip blue">UI</span></div>
+        </div>
+        <div class="card" data-search="ui ajax dinamico tabelas datatables listagem">
+          <div class="card-icon">📊</div>
+          <div class="card-file">regra_php_ui_ajax_dinamico_tabelas.md</div>
+          <div class="card-title">UI AJAX — Tabelas Dinâmicas</div>
+          <div class="card-desc">Padrão para tabelas com paginação, busca e ordenação via AJAX. Skeleton loaders, estados vazios e tratamento de erro incluídos.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">AJAX</span><span class="chip green">tabelas</span></div>
+        </div>
+        <div class="card" data-search="ui checklist acessibilidade auditoria frontend">
+          <div class="card-icon">✅</div>
+          <div class="card-file">regra_php_ui_checklist_acessibilidade.md</div>
+          <div class="card-title">Checklist de Acessibilidade UI</div>
+          <div class="card-desc">Lista de verificação pré-entrega para acessibilidade: ARIA, teclado, leitores de tela, zoom 200%, contraste e formulários.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip green">checklist</span><span class="chip purple">a11y</span></div>
+        </div>
+        <div class="card" data-search="ui harmonia visual design consistencia tema cores">
+          <div class="card-icon">🌈</div>
+          <div class="card-file">regra_php_ui_harmonia_visual.md</div>
+          <div class="card-title">Harmonia Visual</div>
+          <div class="card-desc">Regras de consistência visual: espaçamentos, tipografia, sombras, bordas e variáveis CSS obrigatórias em todos os componentes.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">design</span><span class="chip green">UI</span></div>
+        </div>
+        <div class="card" data-search="paginas legais footer modal adsense qualidade csr dmca privacidade termos">
+          <div class="card-icon">⚖️</div>
+          <div class="card-file">regra_php_paginas_legais_footer_modal.md</div>
+          <div class="card-title">Páginas Legais no Footer (Modal)</div>
+          <div class="card-desc">Regra de obrigação na criação do footer. Exige a criação de páginas de Qualidade/AdSense em modals AJAX.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip yellow">AdSense</span><span class="chip blue">Legal</span></div>
+        </div>
+        <div class="card" data-search="output buffering buffering flushing ob_start ob_clean ajax silenciamento">
+          <div class="card-icon">🌀</div>
+          <div class="card-file">master_rules.md (Regra 11)</div>
+          <div class="card-title">Segurança de Output Buffering</div>
+          <div class="card-desc">Garante que o uso de ob_start não silencie a renderização da página ou retornos AJAX. Flush obrigatório.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip yellow">AJAX</span><span class="chip blue">PHP</span></div>
+        </div>
+        <div class="card" data-search="css duplicado sem duplicatas integridade estilos">
+          <div class="card-icon">🚫</div>
+          <div class="card-file">regra_css_sem_duplicatas.md</div>
+          <div class="card-title">CSS Sem Duplicatas</div>
+          <div class="card-desc">Protocolo obrigatório para evitar estilos duplicados e conflitos de cascata em todo o projeto.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">CSS</span><span class="chip yellow">integridade</span></div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Regras de SO / IA</div>
+      <h2 class="sec-title">Configurações para Windows & LLM</h2>
+
+      <div class="card-grid">
+        <div class="card" data-search="powershell windows comandos terminal">
+          <div class="card-icon">💻</div>
+          <div class="card-file">regra_llms_windows_powershel_cmd.md</div>
+          <div class="card-title">PowerShell & CMD</div>
+          <div class="card-desc">Comandos permitidos, sintaxe correta e padrões para scripts de automação no Windows.</div>
+        </div>
+        <div class="card" data-search="comandos proibidos restricoes llm">
+          <div class="card-icon">🚫</div>
+          <div class="card-file">regra_llms_comandos_proibidos.md</div>
+          <div class="card-title">Comandos Proibidos</div>
+          <div class="card-desc">Lista completa de operações que o LLM nunca deve executar, independentemente da solicitação.</div>
+        </div>
+        <div class="card" data-search="seo admin windows meta tags">
+          <div class="card-icon">🔎</div>
+          <div class="card-file">regra_llms_windows_admin_seo.md</div>
+          <div class="card-title">Admin SEO (Windows)</div>
+          <div class="card-desc">Regras para geração de páginas administrativas com foco em SEO no ambiente Windows.</div>
+        </div>
+        <div class="card" data-search="layout admin paginas windows design">
+          <div class="card-icon">🎨</div>
+          <div class="card-file">regra_llms_windows_admin_layout.md</div>
+          <div class="card-title">Admin Layout (Windows)</div>
+          <div class="card-desc">Padrões visuais e de layout para páginas administrativas no ambiente Windows.</div>
+        </div>
+        <div class="card" data-search="metricas qualidade severa 100% compliance relatorio antes depois">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_llms_metricas_qualidade_severa.md</div>
+          <div class="card-title">Métricas de Qualidade Severa (100%)</div>
+          <div class="card-desc">Regra inegociável para validação de código com relatório comparativo de melhoria (Antes vs Depois).</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip yellow">obrigatório</span>
+            <span class="chip green">qualidade</span>
+          </div>
+        </div>
+        <div class="card" data-search="seo avancado 2026 e-e-a-t answer engine optimization core web vitals">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_llms_seo_avancado_2026.md</div>
+          <div class="card-title">SEO Avançado 2026</div>
+          <div class="card-desc">Diretrizes completas para SEO moderno com E-E-A-T, Answer Engine Optimization e Core Web Vitals.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip blue">SEO</span>
+            <span class="chip yellow">2026</span>
+          </div>
+        </div>
+        <div class="card" data-search="criacao tabelas supabase banco dados estrutura otimizada">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_llms_criacao_tabelas_supabase.md</div>
+          <div class="card-title">Criação de Tabelas Supabase</div>
+          <div class="card-desc">Protocolo para criação otimizada de tabelas em Supabase com boas práticas e estrutura padrão.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip blue">Database</span>
+            <span class="chip green">Supabase</span>
+          </div>
+        </div>
+        <div class="card" data-search="explicacoes leitura obrigatoria documentacao padrao pasta">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_llms_explicacoes_leitura_obrigatoria.md</div>
+          <div class="card-title">Explicações Leitura Obrigatória</div>
+          <div class="card-desc">Protocolo para criação de documentação explicativa em pasta dedicada com padrões definidos.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip blue">Docs</span>
+            <span class="chip yellow">Padrão</span>
+          </div>
+        </div>
+        <div class="card" data-search="correcao otimizacao sistema performance melhorias">
+          <div class="card-icon"></div>
+          <div class="card-file">regra_llms_correcao_otimizacao_sistema.md</div>
+          <div class="card-title">Correção & Otimização de Sistema</div>
+          <div class="card-desc">Protocolo completo para correção de bugs e otimização de performance em sistemas existentes.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip blue">Performance</span>
+            <span class="chip green">Otimização</span>
+          </div>
+        </div>
+        <div class="card" data-search="correcao otimizacao sistema refatoracao bugs">
+          <div class="card-icon">🔧</div>
+          <div class="card-file">regra_llms_correcao_otimizacao_sistema.md</div>
+          <div class="card-title">Correção &amp; Otimização</div>
+          <div class="card-desc">Protocolo para identificar, corrigir e documentar bugs. Inclui análise de causa-raiz, testes de regressão e registro de solução.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip yellow">bugs</span><span class="chip green">otimização</span></div>
+        </div>
+        <div class="card" data-search="supabase tabelas sql criacao banco dados">
+          <div class="card-icon">🗄️</div>
+          <div class="card-file">regra_llms_criacao_tabelas_supabase.md</div>
+          <div class="card-title">Criação de Tabelas Supabase</div>
+          <div class="card-desc">Padrões para criação de tabelas no Supabase: nomenclatura, tipos de dados, RLS policies, índices e migrações.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">Supabase</span><span class="chip purple">SQL</span></div>
+        </div>
+        <div class="card" data-search="handoff continuidade projeto contexto troca llm">
+          <div class="card-icon">🤝</div>
+          <div class="card-file">regra_llms_handoff_continuidade_projeto.md</div>
+          <div class="card-title">Handoff &amp; Continuidade</div>
+          <div class="card-desc">Como passar contexto de projeto entre sessões ou LLMs diferentes. Formato de resumo, estado atual e próximas tarefas.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">handoff</span><span class="chip green">contexto</span></div>
+        </div>
+        <div class="card" data-search="historico escopo projeto documentacao decisoes">
+          <div class="card-icon">📜</div>
+          <div class="card-file">regra_llms_historico_escopo_projeto.md</div>
+          <div class="card-title">Histórico &amp; Escopo</div>
+          <div class="card-desc">Registro do histórico de desenvolvimento e escopo do projeto. Évita retrabalho e mantém consistência entre sessões.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip purple">histórico</span><span class="chip blue">escopo</span></div>
+        </div>
+        <div class="card" data-search="log decisoes tecnicas arquitetura escolhas registro">
+          <div class="card-icon">📝</div>
+          <div class="card-file">regra_llms_log_decisoes_tecnicas.md</div>
+          <div class="card-title">Log de Decisões Técnicas</div>
+          <div class="card-desc">Documenta decisões arquiteturais importantes: por que uma tecnologia foi escolhida, alternativas descartadas e consequências previstas.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip yellow">ADR</span><span class="chip blue">arquitetura</span></div>
+        </div>
+                <div class="card" data-search="seo sge gemini aeo e-e-a-t information gain programmatic 2026">
+          <div class="card-icon">🚀</div>
+          <div class="card-file">regra_llms_seo_avancado_2026.md</div>
+          <div class="card-title">SEO Avançado (SGE / AdSense 2026)</div>
+          <div class="card-desc">Diretriz mestre contra penalizações. Exige INP &lt; 200ms, AEO, Topical Authority e Autoria Real (Person Schema).</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip yellow">obrigatório</span><span class="chip blue">SEO</span></div>
+        </div>
+        <div class="card" data-search="plano trabalho checklist tarefas planejamento obrigatorio">
+          <div class="card-icon">📋</div>
+          <div class="card-file">regra_llms_plano_trabalho.md</div>
+          <div class="card-title">Plano de Trabalho & Checklist</div>
+          <div class="card-desc">Obriga o LLM a criar e apresentar um plano de implementação e um checklist de tarefas antes de iniciar qualquer modificação.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip yellow">obrigatório</span><span class="chip blue">protocolo</span></div>
+        </div>
+        <div class="card" data-search="blogger xml entities entidades blogger conversao tags script styles">
+          <div class="card-icon">📄</div>
+          <div class="card-file">regra_llms_windows_blogger_xml_entities.md</div>
+          <div class="card-title">Blogger XML Entities</div>
+          <div class="card-desc">Protocolo de conversão de entidades HTML para XML no Blogger. Obrigatório para templates e scripts.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">XML</span><span class="chip yellow">Blogger</span></div>
+        </div>
+        <div class="card" data-search="automacao industrial scale massivo pipeline dados vault credential rotation">
+          <div class="card-icon">🚀</div>
+          <div class="card-file">master_rules.md (S21)</div>
+          <div class="card-title">Automação Industrial &amp; Scale</div>
+          <div class="card-desc">Protocolo universal para processamento massivo (1.000+ itens) com rodízio de credenciais e rastreamento persistente.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip blue">Universal</span><span class="chip green">Scale</span></div>
+        </div>
+        <div class="card" data-search="windows terminal mastery powershell cmd seguro">
+          <div class="card-icon">💻</div>
+          <div class="card-file">master_rules.md (S22)</div>
+          <div class="card-title">Windows Terminal Mastery</div>
+          <div class="card-desc">Protocolo inegociável de comandos PowerShell nativos para estabilidade no ambiente Windows.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip yellow">Windows</span><span class="chip blue">Terminal</span></div>
+        </div>
+        <div class="card" data-search="aeo sge 2026 answer engine optimization prompt engineering schema">
+          <div class="card-icon">🔍</div>
+          <div class="card-file">master_rules.md (S23)</div>
+          <div class="card-title">Engenharia AEO/SGE 2026</div>
+          <div class="card-desc">Otimização Answer Target (40-60 palavras) e marcação Schema para visibilidade em IA generativa.</div>
+          <div class="chips" style="margin-top:12px;"><span class="chip purple">AEO</span><span class="chip yellow">SGE 2026</span></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB: TEMPLATES ═══ -->
+  <div class="tab-content" id="tab-templates">
+    <section class="section">
+      <div class="sec-label">Estruturas Prontas</div>
+      <h2 class="sec-title">Templates de Páginas Admin</h2>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Arquivo</th>
+              <th>Uso</th>
+              <th>Tipo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>estrutura_php_pagina_admin_config_universal.php</code></td>
+              <td>Configurações gerais de layout do sistema</td>
+              <td><span class="badge-blue">Admin</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_pagina_admin_seo_universal.php</code></td>
+              <td>Meta tags, sitemap, robots, Open Graph</td>
+              <td><span class="badge-blue">Admin</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_simulador_perfis_universal.php</code></td>
+              <td>Teste de permissões por perfil de usuário</td>
+              <td><span class="badge-purple">Sistema</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Componentes UI</div>
+      <h2 class="sec-title">Blocos Reutilizáveis de Interface</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">📐</div>
+          <div class="card-file">estrutura_php_component_columns_with_icons.php</div>
+          <div class="card-title">Columns with Icons</div>
+          <div class="card-desc">Seção em colunas com ícones gradientes. Ideal para listar serviços, features ou benefícios.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip blue">seções</span>
+            <span class="chip green">features</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔗</div>
+          <div class="card-file">estrutura_php_component_hanging_icons.php</div>
+          <div class="card-title">Hanging Icons</div>
+          <div class="card-desc">Ícones alinhados verticalmente com texto descritivo ao lado. Ótimo para detalhar funcionalidades.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip blue">listas</span>
+            <span class="chip purple">destaques</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🃏</div>
+          <div class="card-file">estrutura_php_component_custom_cards.php</div>
+          <div class="card-title">Custom Cards</div>
+          <div class="card-desc">Cards com imagem de fundo, overlay e conteúdo textual. Ideal para catálogos e portfólios.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip green">produtos</span>
+            <span class="chip yellow">portfolio</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">⬛</div>
+          <div class="card-file">estrutura_php_component_icon_grid.php</div>
+          <div class="card-title">Icon Grid</div>
+          <div class="card-desc">Grid compacto de ícones com labels. Perfeito para dashboards e menus de navegação rápida.</div>
+          <div class="chips" style="margin-top:12px;">
+            <span class="chip blue">dashboard</span>
+            <span class="chip purple">métricas</span>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Elementos Individuais</div>
+      <h2 class="sec-title">Elementos Isolados</h2>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Identificador</th><th>Descrição</th><th>Categoria</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>estrutura_php_elemento_combobox_dinamico</code></td>
+              <td>Select com busca, grupos e carregamento dinâmico via AJAX</td>
+              <td><span class="badge-green">UI</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_elemento_nav_side</code></td>
+              <td>Menu lateral colapsável com suporte a sub-menus</td>
+              <td><span class="badge-green">UI</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_elemento_csrf_token</code></td>
+              <td>Geração e injeção de token CSRF em formulários</td>
+              <td><span class="badge-purple">Segurança</span></td>
+            </tr>
+            <tr>
+              <td><code>js/theme-manager.js</code></td>
+              <td>Gerenciador de temas claro/escuro com persistência</td>
+              <td><span class="badge-purple">Core</span></td>
+            </tr>
+            <tr>
+              <td><code>js/eggs-hunter.js</code></td>
+              <td>Verificador de saldo em lote com IndexedDB</td>
+              <td><span class="badge-blue">Feature</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_abnt_doc_modelo_trabalho.md</code></td>
+              <td>Modelo de trabalho acadêmico seguindo normas ABNT 2026</td>
+              <td><span class="badge-purple">Docs</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_biblioteca_bootstrap_css_js.md</code></td>
+              <td>Guia de inclusão correta do Bootstrap 5 (CSS, JS, Bundle)</td>
+              <td><span class="badge-blue">Frontend</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_biblioteca_bootstrap_exemplo.php</code></td>
+              <td>Página PHP de exemplo completa usando Bootstrap 5</td>
+              <td><span class="badge-blue">Frontend</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_elemento_admin_layout.md</code></td>
+              <td>Especificação do layout visual para painéis administrativos</td>
+              <td><span class="badge-blue">Admin</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_elemento_admin_seo.md</code></td>
+              <td>Especificação de campos SEO para painéis admin (meta, OG, schema)</td>
+              <td><span class="badge-blue">Admin</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_exemplo_integracao_gas_telegram.md</code></td>
+              <td>Exemplo funcional de integração Google Apps Script + Telegram Bot</td>
+              <td><span class="badge-purple">Integração</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_historico_arquitetura_projeto.md</code></td>
+              <td>Template de documento de histórico e arquitetura de projeto</td>
+              <td><span class="badge-purple">Docs</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_validacao_integridade_sistema.md</code></td>
+              <td>Checklist de validação de integridade antes de deploy ou entrega</td>
+              <td><span class="badge-green">QA</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_web_standards_checklist.md</code></td>
+              <td>Checklist de padrões web: semântica, acessibilidade, performance</td>
+              <td><span class="badge-green">QA</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_workflow_criacao_paginas.md</code></td>
+              <td>Fluxo de trabalho passo a passo para criação de novas páginas PHP</td>
+              <td><span class="badge-blue">Workflow</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_readme_atualizacao_template.md</code></td>
+              <td>Template de atualização do README com changelog e versão</td>
+              <td><span class="badge-purple">Docs</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_sql_criacao_tabelas.md</code></td>
+              <td>Padrão de criação de tabelas SQL com prefixos obrigatórios e comentários</td>
+              <td><span class="badge-purple">SQL</span></td>
+                        </tr>
+                        <tr>
+              <td><code>estrutura_php_programmatic_seo_escalavel.md</code></td>
+              <td>Template gerador massivo de páginas locais e base de dados</td>
+              <td><span class="badge-blue">SEO</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_schema_person_aeo.md</code></td>
+              <td>JSON-LD e marcação de Autoria, Artigo e Pergunta (AEO-SGE)</td>
+              <td><span class="badge-green">Schema</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_pagamento_pagarme.md</code></td>
+              <td>Integração completa com a API do Pagar.me</td>
+              <td><span class="badge-blue">Pagamento</span></td>
+            </tr>
+            <tr>
+              <td><code>estrutura_php_footer_pagina_modal.php</code></td>
+              <td>Template de conteúdo legal para carregamento dinâmico em Footer/Modals</td>
+              <td><span class="badge-blue">Componente</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB: COMO SOLICITAR ═══ -->
+  <div class="tab-content" id="tab-solicitar">
+    <section class="section">
+      <div class="sec-label">Guia Prático</div>
+      <h2 class="sec-title">Como Fazer Pedidos ao LLM</h2>
+
+      <div class="callout warn">
+        <span class="callout-icon">⚠️</span><strong>Antes de tudo</strong>
+        <p>O LLM precisa ter acesso ao <code style="font-family:var(--mono);font-size:0.82rem">master_rules.md</code> no contexto da conversa ou no sistema de arquivos acessível. Sem isso, as regras não serão aplicadas automaticamente.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">🚫 Validar CSS Duplicado</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Verifique se existe CSS duplicado para a classe <span class="hl">.post_lista_cqb-card-avatar</span> no styles.css.
+Sempre audite antes de criar novos blocos de estilo."</pre>
+      </div>
+      <div class="callout tip">
+        <span class="callout-icon">💡</span><strong>O que acontece</strong>
+        <p>O LLM executa uma busca rigorosa por seletores idênticos e consolida as propriedades, evitando que um bloco sobrescreva o outro via cascata ou !important.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">📄 Solicitar Página Administrativa</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Crie uma página de configuração de layout para o meu sistema de vendas.
+Use o template <span class="hl">estrutura_php_pagina_admin_config_universal.php</span>
+e aplique o tema da minha empresa: cor primária #2563eb, nome 'SistemaVendas'."</pre>
+      </div>
+      <div class="callout tip">
+        <span class="callout-icon">💡</span><strong>O que acontece</strong>
+        <p>O LLM carrega <code style="font-family:var(--mono)">estrutura_php_pagina_admin_config_universal.php</code>, substitui as variáveis entre {chaves} e entrega uma página funcional com CSRF, temas e AJAX prontos.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">🌐 Criar Manifest para Extensão Chrome</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Crie um manifest.json completo para minha extensão Chrome 'TikTok Link Extractor'.
+Siga a <span class="hl">regra_llms_chrome_extension_manifest_v3.md</span> 
+usando Manifest V3, permissões mínimas e garantindo aprovação na Chrome Web Store.
+A extensão extrai links de vídeos de perfis do TikTok."</pre>
+      </div>
+      <div class="callout tip">
+        <span class="callout-icon">💡</span><strong>O que acontece</strong>
+        <p>O LLM segue todas as diretrizes obrigatórias: Manifest V3, princípio do menor privilégio, sem red flags, e entrega checklist de validação completa com comentários explicativos.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">🎨 Solicitar Componente UI</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Preciso de uma seção de serviços para meu site de consultoria.
+Use o componente <span class="hl">columns_with_icons</span>.
+Serviços: Auditoria, Consultoria Fiscal, Planejamento Tributário, Compliance."</pre>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">🔧 Solicitar Elemento Específico</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Adicione um combobox dinâmico de seleção de categorias nesta página.
+Use <span class="hl">estrutura_php_elemento_combobox_dinamico</span>.
+Endpoint AJAX: /api/categorias, parâmetro de busca: q"</pre>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">💰 Solicitar Conformidade AdSense</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Verifique se este site está apto para aprovação no Google AdSense 2025-2026.
+Siga a <span class="hl">regra_llms_adsense_aprovacao_2025.md</span> e preencha o
+checklist <span class="hl">estrutura_php_adsense_checklist.md</span>.
+Gere o relatório de conformidade ao final."
+        </pre>
+      </div>
+      <div class="callout tip">
+        <span class="callout-icon">💡</span><strong>O que acontece</strong>
+        <p>O LLM verifica todos os 56 itens do checklist: páginas legais, E-E-A-T, aspectos técnicos (HTTPS, PageSpeed, 404s), ferramentas Google e conteúdo proibido. Gera relatório com status <code style="font-family:var(--mono)">APROVADO / PENDÊNCIAS / REPROVADO</code>.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">⚖️ Solicitar Auditoria Legal Universal</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Atue como Especialista Jurídico de Compliance.
+Siga a <span class="hl">regra_llms_legal_auditor_universal.md</span> para auditar este site.
+Gere as 10 páginas de conformidade (LGPD, GDPR, COPPA, DSA) e 
+integre-as ao footer e sitemap."</pre>
+      </div>
+      <div class="callout tip">
+        <span class="callout-icon">💡</span><strong>O que acontece</strong>
+        <p>O LLM assume a Persona de Auditor Legal, mapeia todas as leis aplicáveis (LGPD, GDPR, etc.), gera o conteúdo jurídico em português formal e realiza a integração técnica completa no footer e sitemap XML/HTML.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">📊 Solicitar Validação de Qualidade</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Valide as regras de qualidade deste arquivo conforme <span class="hl">regra_llms_metricas_qualidade_severa.md</span>.
+Apresente o relatório comparativo mostrando o <span class="hl">% Antes</span> e o <span class="hl">% Depois</span>."</pre>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">📦 Converter Entidades Blogger XML</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Converta este script para ser usado dentro de um template Blogger XML.
+Siga a <span class="hl">regra_llms_windows_blogger_xml_entities.md</span> para garantir que 
+todos os caracteres especiais (&, <, >) sejam escapados corretamente."</pre>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Dicas de Contexto</div>
+      <h2 class="sec-title">Informações que Aceleram o Trabalho</h2>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Informação</th><th>Exemplo</th><th>Por quê ajuda</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nome do projeto</td>
+              <td><code>SistemaVendas</code></td>
+              <td>Nomeia classes, títulos e variáveis</td>
+            </tr>
+            <tr>
+              <td>Cor primária</td>
+              <td><code>#2563eb</code></td>
+              <td>Ajusta o tema sem iterações</td>
+            </tr>
+            <tr>
+              <td>Tipo de usuário</td>
+              <td><code>admin, gestor, vendedor</code></td>
+              <td>Configura o simulador de perfis</td>
+            </tr>
+            <tr>
+              <td>Endpoints existentes</td>
+              <td><code>/api/produtos</code></td>
+              <td>Conecta AJAX corretamente de imediato</td>
+            </tr>
+            <tr>
+              <td>Template de referência</td>
+              <td><code>estrutura_php_pagina_admin_config_universal.php</code></td>
+              <td>Elimina ambiguidade na escolha de base</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB: EXEMPLOS ═══ -->
+  <div class="tab-content" id="tab-exemplos">
+    <section class="section">
+      <div class="sec-label">Casos de Uso Reais</div>
+      <h2 class="sec-title">Exemplos por Tipo de Projeto</h2>
+
+      <h3 style="font-size:1.05rem; color:var(--accent3); font-family:var(--mono); margin-bottom:16px;">🛒 E-commerce</h3>
+      <div class="code-block">
+        <div class="code-header"><span class="code-lang">solicitação</span><button class="copy-btn" onclick="copyCode(this)">copiar</button></div>
+        <pre>"Crie um site de e-commerce: página inicial, catálogo, carrinho e checkout.
+Cor primária: #f97316. Nome: LojaOnline. Perfis: admin, cliente."</pre>
+      </div>
+      <div class="callout info">
+        <span class="callout-icon">📦</span><strong>O LLM irá gerar:</strong>
+        <p>Página inicial com <code style="font-family:var(--mono)">columns_with_icons</code> para destaques • Catálogo com <code style="font-family:var(--mono)">custom_cards</code> para produtos • Admin com config + SEO universais • Temas claro/escuro completos.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.05rem; color:var(--accent3); font-family:var(--mono); margin-bottom:16px;">📝 Blog / Portal de Conteúdo</h3>
+      <div class="code-block">
+        <div class="code-header"><span class="code-lang">solicitação</span><button class="copy-btn" onclick="copyCode(this)">copiar</button></div>
+        <pre>"Crie um blog com lista de posts, página de artigo e painel admin.
+Use hanging_icons para a seção de recursos na home.
+Sistema de comentários com moderação."</pre>
+      </div>
+      <div class="callout info">
+        <span class="callout-icon">📝</span><strong>O LLM irá gerar:</strong>
+        <p>Home com <code style="font-family:var(--mono)">hanging_icons</code> • Listagem com <code style="font-family:var(--mono)">icon_grid</code> para categorias • Artigo com área de comentários • Admin com SEO e layout configuráveis.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.05rem; color:var(--accent3); font-family:var(--mono); margin-bottom:16px;">🏢 Plataforma SaaS</h3>
+      <div class="code-block">
+        <div class="code-header"><span class="code-lang">solicitação</span><button class="copy-btn" onclick="copyCode(this)">copiar</button></div>
+        <pre>"Crie uma plataforma SaaS com dashboard, configurações e gerenciamento de usuários.
+Use icon_grid para métricas. Perfis: superadmin, admin, operador, viewer.
+Integre o simulador de perfis na área administrativa."</pre>
+      </div>
+      <div class="callout info">
+        <span class="callout-icon">🏢</span><strong>O LLM irá gerar:</strong>
+        <p>Dashboard com <code style="font-family:var(--mono)">icon_grid</code> para KPIs • Configurações com <code style="font-family:var(--mono)">columns_with_icons</code> • Simulador de perfis completo • Todos os 4 perfis com restrições aplicadas.</p>
+      </div>
+    </section>
+  </div>
+
+        <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">🚀 Solicitar SEO Avançado (AEO / 2026)</h3>
+
+      <div class="code-block">
+        <div class="code-header">
+          <span class="code-lang">prompt</span>
+          <button class="copy-btn" onclick="copyCode(this)">copiar</button>
+        </div>
+        <pre>"Preciso de um artigo para o blog do projeto.
+Aplique obrigatoriamente a <span class="hl">regra_llms_seo_avancado_2026.md</span> e inclua no HTML a 
+marcação exigida pelo SGE usando a <span class="hl">estrutura_php_schema_person_aeo.md</span>."
+        </pre>
+      </div>
+
+      <hr class="divider">
+
+      <h3 style="font-size:1.1rem; color:var(--text); margin-bottom:20px;">🛡️ Solicitar Planejamento de Tarefa</h3>
+      <div class="code-block">
+        <div class="code-header"><span class="code-lang">prompt</span><button class="copy-btn" onclick="copyCode(this)">copiar</button></div>
+        <pre>"Preciso implementar um novo módulo de cupons de desconto.
+Siga a <span class="hl">regra_llms_plano_trabalho.md</span> e me apresente o plano de implementação 
+e o checklist de tarefas antes de começar."</pre>
+      </div>
+      <div class="callout tip">
+        <span class="callout-icon">💡</span><strong>O que acontece</strong>
+        <p>O LLM injeta JSON-LD para conectar Redes Sociais ao Autor (E-E-A-T) e quebra a view em Perguntas & Respostas formatadas especificamente pro Featured Snippet/Gemini, rejeitando a abordagem antiga e fraca.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB: BOAS PRÁTICAS ═══ -->
+  <div class="tab-content" id="tab-boas_praticas">
+    <section class="section">
+      <div class="sec-label">Garantias do Sistema</div>
+      <h2 class="sec-title">Funcionalidades Sempre Presentes</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">🛡️</div>
+          <div class="card-title">Segurança por Padrão</div>
+          <div class="card-desc">Token CSRF em todos os formulários. Sanitização e validação de entradas. Verificação de permissão em todas as ações sensíveis.</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">♿</div>
+          <div class="card-title">Acessibilidade WCAG AA</div>
+          <div class="card-desc">ARIA labels em todos os elementos interativos. Contraste de cores verificado em ambos os temas. HTML semântico obrigatório.</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🌓</div>
+          <div class="card-title">Temas Claro & Escuro</div>
+          <div class="card-desc">Alternância dinâmica com persistência via localStorage. Contraste acessível garantido nos dois modos sem exceção.</div>
+        </div>
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <div class="card-title">Mobile-first</div>
+          <div class="card-desc">Bootstrap 5 com breakpoints responsivos. Layouts adaptados para telas de 320px até 2560px sem conteúdo quebrado.</div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Para o Usuário</div>
+      <h2 class="sec-title">Como Obter Melhores Resultados</h2>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">💬</div>
+          <div>
+            <div class="step-title">Seja específico e contextualizado</div>
+            <div class="step-desc">Em vez de "crie um site", diga "crie um site de gestão de clínicas veterinárias com módulo de agendamento e prontuário digital". Quanto mais contexto, menos revisões.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">📎</div>
+          <div>
+            <div class="step-title">Cite o template quando souber</div>
+            <div class="step-desc">Se você sabe qual template usar, mencione explicitamente. Isso elimina perguntas do LLM e agiliza a entrega.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">🎨</div>
+          <div>
+            <div class="step-title">Informe a identidade visual</div>
+            <div class="step-desc">Cor primária em hex, nome do sistema e logotipo (se houver). O LLM substitui esses valores nas variáveis dos templates na primeira geração.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">🧪</div>
+          <div>
+            <div class="step-title">Teste e itere com contexto</div>
+            <div class="step-desc">Ao pedir ajustes, descreva o comportamento esperado vs. o observado. Isso ajuda o LLM a entender a modificação sem quebrar outras partes.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div>
+            <div class="step-title">Auditoria Universal</div>
+            <div class="step-desc">"Execute a auditoria universal de qualidade e compliance baseada na regra v6.0 para preparar o site para o Google Search Console."</div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Obrigatoriedade</div>
+      <h2 class="sec-title">Protocolo de Relatório Comparativo</h2>
+
+      <div class="callout tip">
+        <span class="callout-icon">📊</span><strong>Nova Regra de Relatório (Antes vs Depois)</strong>
+        <p>Todo trabalho entregue após validação de qualidade deve incluir a tabela de evolução. Isso garante ao usuário que as falhas detectadas foram corrigidas e o código atingiu 100% de conformidade.</p>
+      </div>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>Métrica</th><th>Fluxo</th><th>Meta</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Avaliação Inicial</td><td>Check em todos os arquivos</td><td>Gerar % Antes</td></tr>
+            <tr><td>Correção Severa</td><td>Implementar melhorias e padrões</td><td>Corrigir falhas</td></tr>
+            <tr><td>Avaliação Final</td><td>Recheck pós-correção</td><td>Gerar % Depois (100%)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-label">Para o LLM</div>
+      <h2 class="sec-title">Checklist de Entrega</h2>
+
+      <div class="card" style="margin-bottom:24px; border-color:rgba(251,191,36,0.3); background:rgba(251,191,36,0.04);">
+        <div class="card-icon">💰</div>
+        <div class="card-title">Conformidade AdSense 2025-2026</div>
+        <div class="card-desc">Todo site entregue deve passar pelo checklist <code style="font-family:var(--mono);font-size:0.78rem;color:var(--warn)">estrutura_php_adsense_checklist.md</code>. Sem Política de Privacidade, HTTPS, E-E-A-T e zero erros 404, a entrega é rejeitada. Complementar às métricas de qualidade do item 14.</div>
+        <div class="chips" style="margin-top:12px;">
+          <span class="chip yellow">regra #15</span>
+          <span class="chip blue">pré-entrega</span>
+        </div>
+      </div>
+
+      <div class="callout danger">
+        <span class="callout-icon">🚨</span><strong>Nunca entregue sem verificar:</strong>
+        <p>CSRF token presente • Temas claro/escuro funcionando • WCAG AA no contraste • Responsividade testada em 320px • Nenhum comando proibido executado • master_rules.md foi lido nesta sessão • <strong>Checklist AdSense gerado e aprovado</strong>.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══ TAB: RELEASE NOTES ═══ -->
+  <div class="tab-content" id="tab-release">
+    <section class="section">
+      <div class="section-badge" style="font-family:var(--mono); font-size:0.7rem; color:var(--accent); text-transform:uppercase; letter-spacing:0.15em; margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+        <span style="display:block; width:24px; height:1px; background:var(--accent);"></span> CHANGELOG
+      </div>
+      <h2 class="sec-title">Histórico de Atualizações</h2>
+      <p class="sec-desc" style="color:var(--text-sec); font-size:0.95rem; margin-bottom:24px;">Acompanhe as últimas adições, regras e melhorias no ecossistema.</p>
+
+      <!-- Release v7.0 -->
+      <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+        <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+        <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+          <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 7.0 - Compliance Universal AdSense 2026</h3>
+          <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">19/04/2026</span>
+        </div>
+        <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Implementação completa do framework universal de compliance AdSense 2026 para todas as plataformas.</p>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 8px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+            <span style="color: var(--accent3);">+</span>
+            <div><strong>Framework Universal:</strong> <code>regra_universal_compliance_adsense_2026.md</code> com suporte para Blogger, PHP, JavaScript, Python, C++</div>
+          </li>
+          <li style="margin-bottom: 8px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+            <span style="color: var(--accent3);">+</span>
+            <div><strong>Templates Multiplataforma:</strong> HTML5, PHP, Python Flask, JavaScript/React, C++ com 98% de conformidade</div>
+          </li>
+          <li style="margin-bottom: 8px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+            <span style="color: var(--accent3);">+</span>
+            <div><strong>Prompts Especializados:</strong> Validação e implementação universal com métricas automáticas</div>
+          </li>
+          <li style="margin-bottom: 8px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+            <span style="color: var(--accent3);">+</span>
+            <div><strong>Score de Conformidade:</strong> 98% universal com Core Web Vitals, WCAG 2.1 AA, Security 100%</div>
+          </li>
+          <li style="margin-bottom: 8px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+            <span style="color: var(--accent3);">+</span>
+            <div><strong>Master Rules v7.0:</strong> Nova seção #20 obrigatória com protocolo universal</div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Release v6.4 -->
+      <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+        <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+        <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+          <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 6.4 - Blogger XML Entities</h3>
+          <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">18/04/2026</span>
+        </div>
+        <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Implementação de regras para conversão de entidades HTML em templates XML do Blogger.</p>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+            <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVA REGRA</span> 
+            <div><strong>BLOGGER XML ENTITIES:</strong> Adicionada `regra_llms_windows_blogger_xml_entities.md` com protocolo de conversão obrigatório.</div>
+          </li>
+        </ul>
+      </div>
+
+        <!-- Release v6.3 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 6.3 — Chrome Extension Manifest V3</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">04/04/2026</span>
+          </div>
+          <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Nova regra obrigatória para criação de manifest.json de extensões Chrome seguindo padrões MV3 e garantindo aprovação na Chrome Web Store.</p>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVA REGRA</span> 
+              <div><strong>CHROME EXTENSION MANIFEST V3:</strong> Adicionada `regra_llms_chrome_extension_manifest_v3.md` com diretrizes obrigatórias para Manifest V3, permissões mínimas e validação Chrome Web Store.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">EXEMPLO</span> 
+              <div><strong>PROMPT ADICIONADO:</strong> Novo exemplo de solicitação na aba "Como Solicitar" para criar manifest.json de extensões Chrome seguindo a nova regra.</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Release v6.2 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 6.2 — Agnosticidade Universal</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">23/03/2026</span>
+          </div>
+          <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Otimização absoluta para tornar todas as regras, de interface à auditoria, 100% independentes de nomes de arquivos específicos (Agnostic Design).</p>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVA CLÁUSULA</span> 
+              <div><strong>UNIVERSALIDADE:</strong> Implementação da Regra 19 no `master_rules.md`, exigindo o conceito de Agnosticismo (placeholders em vez de arquivos engessados).</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">REVISÃO</span> 
+              <div><strong>PLACEHOLDERS APLICADOS:</strong> As regras de Layout Universal (`regra_php_layout_universal_container`) e o Auditor Universal (`regra_llms_auditor_qualidade_compliance_universal`) agora utilizam variáveis em vez da string fixa `login.php` ou `tabelas`.</div>
+            </li>
+          </ul>
+        </div>
+            
+        <!-- Release v6.0 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 6.0 — Auditor Universal de Qualidade & Compliance</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">23/03/2026</span>
+          </div>
+          <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Consolidação das regras de qualidade, AdSense e legal em um único protocolo de auditoria.</p>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVA REGRA</span> 
+              <div><strong>AUDITOR UNIVERSAL:</strong> Criada a <code>regra_llms_auditor_qualidade_compliance_universal.md</code> unificando as regras 14, 15 e 16.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">PROMPT MESTRE</span> 
+              <div><strong>COMPLIANCE 100%:</strong> Novo prompt universal para preparar qualquer site para AdSense e Search Console.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.2); padding: 2px 8px; border-radius: 100px;">LEGAL</span> 
+              <div><strong>LGPD/MENORES:</strong> Defesa jurídica baseada na Cadeia de Responsabilidade Google integrada.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-yellow" style="font-family: var(--mono); font-size: 0.72rem; color: var(--warn); background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.2); padding: 2px 8px; border-radius: 100px;">MONITORAMENTO</span> 
+              <div><strong>MÉTRICAS AUTOMATIZADAS:</strong> SEO 2026, Performance (INP) e WCAG AA agora são monitoradas automaticamente.</div>
+            </li>
+          </ul>
+        </div>
+            
+        <!-- Release v5.9 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.9 — Auditoria Legal Universal</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">23/03/2026</span>
+          </div>
+          <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Lançamento do protocolo universal de compliance para auditoria e geração de páginas legais exigidas pelo AdSense.</p>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVA REGRA</span> 
+              <div><strong>LEGAL AUDITOR:</strong> Criada a <code>regra_llms_legal_auditor_universal.md</code> para garantir conformidade LGPD/GDPR/COPPA em qualquer projeto.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">FOOTER INTEGRATION</span> 
+              <div><strong>COMPLIANCE ATIVO:</strong> Injeção de 10 novas páginas institucionais no CanalQb e sitemap dinâmico atualizado.</div>
+            </li>
+          </ul>
+        </div>
+            
+        <!-- Release v5.8 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.8 — Segurança de Banners e Normalização</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">23/03/2026</span>
+          </div>
+          <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Correção de carregamento de recursos externos e padronização AJAX para arquivos de institucional.</p>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">FIX</span> 
+              <div><strong>BANNER FIX:</strong> Alteração da <code>Referrer-Policy</code> para <code>strict-origin-when-cross-origin</code> em <code>meta-tags.php</code>, permitindo carregamento de imagens do Google em localhost.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">NORMALIZAÇÃO</span> 
+              <div><strong>FOOTER APP:</strong> Aplicação do wrapper <code>ob_start</code> e <code>include 'template.php'</code> em todos os arquivos de <code>footer/</code> para compatibilidade AJAX 100%.</div>
+            </li>
+          </ul>
+        </div>
+
+            
+        <!-- Release v5.7 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.7 — Protocolo de Integridade CSS</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">22/03/2026</span>
+          </div>
+          <p class="release-desc" style="font-size: 0.92rem; color: var(--text-sec); margin-bottom: 16px;">Implementação da regra anti-duplicidade de CSS e auditoria completa do ecossistema.</p>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVA REGRA</span> 
+              <div><strong>CSS INTEGRITY:</strong> <code>regra_css_sem_duplicatas.md</code> - Proibição de estilos duplicados e protocolo de busca obrigatória.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">FIX</span> 
+              <div><strong>REFACTION:</strong> Limpeza de 310 linhas duplicadas no arquivo <code>styles.css</code>.</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Release v5.6 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.6 — Planejamento e Checklists Obrigatórios</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">18/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Introdução do protocolo de planejamento e checklist para todos os novos LLMs e desenvolvedores.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVO</span> 
+              <div><strong>REGRA 1.4 (Master):</strong> Mandatório criar <code>implementation_plan.md</code> e <code>task.md</code> antes de qualquer tarefa complexa.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">REGRA IA</span> 
+              <div>Criado <code>regra_llms_plano_trabalho.md</code> para padronizar o processo de setup de novas tarefas.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: #4ade80; background: rgba(74,222,128,0.1); border: 1px solid rgba(74,222,128,0.2); padding: 2px 8px; border-radius: 100px;">FIX</span> 
+              <div>Corrigido erro 500 em <code>salvar-perfil.php</code> (mismatch de parâmetros no <code>bind_param</code>).</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Release v5.4 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.4 — Segurança de Fluxo e Conformidade</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">13/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Correção crítica de fluxo de renderização e alinhamento com protocolos de interface do CanalQB.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVO</span> 
+              <div><strong>REGRA 11 (Master):</strong> Implementada regra de segurança para Output Buffering, evitando o silenciamento acidental de renderização em AJAX/Includes.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: #4ade80; background: rgba(74,222,128,0.1); border: 1px solid rgba(74,222,128,0.2); padding: 2px 8px; border-radius: 100px;">FIX</span> 
+              <div><strong>CONFORMIDADE UI:</strong> Removidos calls nativos de <code>alert/confirm</code> em <code>descobrir-canais.php</code>, migrando para o sistema de confirmação centralizado.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: #c084fc; background: rgba(192,132,252,0.1); border: 1px solid rgba(192,132,252,0.2); padding: 2px 8px; border-radius: 100px;">ESTRUTURA</span> 
+              <div><strong>SISTEMA DE FLUXO:</strong> Corrigido erro de escopo em <code>video-flow-functions.js</code> e seletor de modal em <code>descobrir-canais.php</code>.</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Release v5.3 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.3 — Layout Universal Obrigatório</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">12/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Expansão do padrão de container centralizado para TODAS as páginas do sistema, não apenas administrativas.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVO</span> 
+              <div><strong>REGRA UNIVERSAL:</strong> <code>regra_php_layout_universal_container.md</code> tornando container centralizado OBRIGATÓRIO para TODAS as páginas.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: #4ade80; background: rgba(74,222,128,0.1); border: 1px solid rgba(74,222,128,0.2); padding: 2px 8px; border-radius: 100px;">TEMPLATE</span> 
+              <div><strong>TEMPLATE UNIVERSAL:</strong> <code>estrutura_php_pagina_universal_container.php</code> como base OBRIGATÓRIA para qualquer página.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: #c084fc; background: rgba(192,132,252,0.1); border: 1px solid rgba(192,132,252,0.2); padding: 2px 8px; border-radius: 100px;">ESCOPO</span> 
+              <div><strong>ESCOPO EXPANDIDO:</strong> Aplica-se a páginas admin, usuário, públicas e sistema - SEM EXCEÇÕES.</div>
+            </li>
+          </ul>
+        </div>
+            
+        <!-- Release v5.2 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.2 — Layout Padrão Administrativo</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">12/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Implementação de container centralizado responsivo em todas as páginas administrativas com template universal.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVO</span> 
+              <div><strong>NOVA REGRA:</strong> <code>regra_php_layout_admin_container.md</code> definindo padrão obrigatório de container centralizado para todas as páginas admin.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: #4ade80; background: rgba(74,222,128,0.1); border: 1px solid rgba(74,222,128,0.2); padding: 2px 8px; border-radius: 100px;">TEMPLATE</span> 
+              <div><strong>TEMPLATE UNIVERSAL:</strong> <code>estrutura_php_pagina_admin_container_universal.php</code> para criação padronizada de páginas com layout responsivo.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: #c084fc; background: rgba(192,132,252,0.1); border: 1px solid rgba(192,132,252,0.2); padding: 2px 8px; border-radius: 100px;">IMPLEMENTAÇÃO</span> 
+              <div><strong>8 PÁGINAS ATUALIZADAS:</strong> Container centralizado aplicado em todas as páginas administrativas existentes.</div>
+            </li>
+          </ul>
+        </div>
+            
+        <!-- Release v5.1 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.1 — Sistema de Confirmação Centralizado</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">11/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Implementação de sistema de confirmação centralizado com temas claro/escuro e eliminação completa de alert().</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVO</span> 
+              <div><strong>NOVA REGRA:</strong> <code>regra_php_sistema_confirmacao_centralizado.md</code> definindo padrões obrigatórios para modais de confirmação centralizados, respeitando temas claro/escuro e WCAG AA.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: #4ade80; background: rgba(74,222,128,0.1); border: 1px solid rgba(74,222,128,0.2); padding: 2px 8px; border-radius: 100px;">MELHORIA</span> 
+              <div><strong>ELIMINAÇÃO COMPLETA:</strong> Remoção de todos os alert() e confirm() do sistema, substituídos por showToast() centralizado com callbacks.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: #c084fc; background: rgba(192,132,252,0.1); border: 1px solid rgba(192,132,252,0.2); padding: 2px 8px; border-radius: 100px;">ACESSIBILIDADE</span> 
+              <div><strong>CONTRASTE WCAG AA:</strong> Proibição de cores fixas como amarelo, obrigatório uso de CSS variables (--cqb-*) para temas claro/escuro.</div>
+            </li>
+          </ul>
+        </div>
+            
+        <!-- Release v5.0 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.0 — Protocolo Dinâmico & Ambiente</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">10/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Implementação de detecção universal de ambiente local vs. produção para automação de HTTP/HTTPS.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">CORE</span> 
+              <div><strong>NOVA REGRA:</strong> <code>regra_php_protocolo_dinamico.md</code> definindo ranges de IP locais (192.168.x.x, 10.x.x.x) e força de HTTPS em produção.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">CORE</span> 
+              <div><strong>NOVO TPL:</strong> <code>estrutura_php_config_protocolo_dinamico.md</code> template pronto para inicializar ambiente em novos projetos.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">FIX</span> 
+              <div><strong>AUTOMAÇÃO:</strong> <code>app-config.php</code> e <code>conecta.php</code> agora detectam <code>$localhost</code> automaticamente, eliminando erro humano.</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Release v5.5 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 5.5 — Windsurf Integration</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">17/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Integração completa com IDE Windsurf e aplicação automática das Master Rules em todo o projeto.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.2); padding: 2px 8px; border-radius: 100px;">IDE</span> 
+              <div><strong>NOVO ARQUIVO:</strong> <code>.windsurf/rules.md</code> com resumo das regras master para Windsurf.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.2); padding: 2px 8px; border-radius: 100px;">IDE</span> 
+              <div><strong>NOVO WORKFLOW:</strong> <code>.windsurf/workflows/master_rules_workflow.md</code> com fluxo obrigatório de 17 passos.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">Config</span> 
+              <div><strong>NOVO CONFIG:</strong> <code>config/master_rules_config.php</code> com constantes e validações automáticas.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">Update</span> 
+              <div><strong>INDEX.PHP:</strong> Inclusão automática do master_rules_config.php em todo o sistema.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">NOVA REGRA</span> 
+              <div><strong>EXPLICAÇÕES:</strong> <code>regra_llms_explicacoes_leitura_obrigatoria.md</code> - Todas as explicações devem ser criadas na pasta <code>leitura obrigatória/</code>.</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Release v4.0 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative; margin-bottom: 24px;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 4.0 — AdSense & SEO Moderno</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">08/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Focado na aprovação de AdSense 2025/2026 e nas diretrizes SGE (Answer Engine Optimization) do Google.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">SEO</span> 
+              <div><strong>NOVA REGRA:</strong> <code>regra_llms_seo_avancado_2026.md</code> implementando E-E-A-T, Topical Authority e exigência de INP &lt; 200ms.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">SEO</span> 
+              <div><strong>NOVO TPL:</strong> <code>estrutura_php_programmatic_seo_escalavel.md</code> para criação automatizada baseada em banco de dados.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">Schema</span> 
+              <div><strong>NOVO TPL:</strong> <code>estrutura_php_schema_person_aeo.md</code> para injeção de JSON-LD focado em SGE Featured Snippets.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.2); padding: 2px 8px; border-radius: 100px;">Update</span> 
+              <div><code>master_rules.md</code>: Adicionada regra rigorosa sobre métricas SEO e obrigatoriedade do fluxo de Release Notes.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-blue" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent); background: rgba(99,210,255,0.1); border: 1px solid rgba(99,210,255,0.2); padding: 2px 8px; border-radius: 100px;">UX/UI</span> 
+              <div><strong>NOVA REGRA #16:</strong> Criação do modal padrão de páginas adicionais (AdSense/Qualidade) com <code>estrutura_php_footer_pagina_modal.php</code> e <code>regra_php_paginas_legais_footer_modal.md</code>.</div>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Release v3.1 -->
+        <div class="release-item" style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 24px; position: relative;">
+          <div style="content: ''; position: absolute; left: -31px; top: 28px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent3); box-shadow: 0 0 10px var(--accent3);"></div>
+          <div class="release-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <h3 style="font-family: var(--sans); font-size: 1.25rem; color: var(--text); margin: 0;">Versão 3.1 — Temas e Harmonia Visual</h3>
+            <span class="release-date" style="font-family: var(--mono); font-size: 0.85rem; color: var(--text-sec);">08/03/2026</span>
+          </div>
+          <p class="release-summary" style="font-size: 0.95rem; color: var(--text-sec); margin-bottom: 16px;">Melhorias massivas de acessibilidade, compliance de cores e inventário global.</p>
+          <ul class="release-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">UI/UX</span> 
+              <div><strong>Harmonização:</strong> Implementação nativa de Modo Claro e Escuro (WCAG AA).</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-green" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.2); padding: 2px 8px; border-radius: 100px;">UI/UX</span> 
+              <div><strong>Inventário:</strong> Criação do Modal global <code>#inventoryModal</code> com sistema de busca e filtros.</div>
+            </li>
+            <li style="margin-bottom: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text); display: flex; align-items: flex-start; gap: 12px;">
+              <span class="badge-purple" style="font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.2); padding: 2px 8px; border-radius: 100px;">Update</span> 
+              <div><code>master_rules.md</code>: Implementação da Regra de Manutenção Obrigatória de 5 (agora 6) Passos.</div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div>
+      <p>Baseado em: <code style="font-family:var(--mono); font-size:0.78rem; color:var(--accent)">master_rules.md</code></p>
+      <p style="margin-top:4px;">Sistema IA — Regras Universais de Desenvolvimento PHP</p>
+    </div>
+    <div class="footer-logo">Master Rules LLM</div>
+  </footer>
+
+
+<!-- ═══ BOTÃO FLUTUANTE INVENTÁRIO ═══ -->
+<button id="inventoryBtn" onclick="openInventory()" aria-label="Ver inventário completo de regras e templates" title="Inventário Completo" style="position:fixed;bottom:28px;right:28px;z-index:9999;background:linear-gradient(135deg,#63d2ff,#a78bfa);border:none;color:#0a0e1a;font-family:'Syne',sans-serif;font-weight:700;font-size:0.85rem;padding:12px 20px;border-radius:100px;cursor:pointer;box-shadow:0 8px 32px rgba(99,210,255,0.35);display:flex;align-items:center;gap:8px;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 14px 40px rgba(99,210,255,0.5)'" onmouseout="this.style.transform='';this.style.boxShadow='0 8px 32px rgba(99,210,255,0.35)'">
+  <span style="font-size:1rem;">📦</span> Inventário Completo
+</button>
+
+<!-- ═══ MODAL INVENTÁRIO ═══ -->
+<div id="inventoryModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display:none;position:fixed;inset:0;z-index:10000;background:rgba(10,14,26,0.92);backdrop-filter:blur(8px);overflow-y:auto;padding:40px 16px;">
+  <div class="inv-modal-wrap">
+    <button onclick="closeInventory()" aria-label="Fechar modal" class="inv-close-btn">✕ Fechar</button>
+    <div class="inv-modal-meta">Sistema @CanalQb - v7.2</div>
+    <h2 id="modalTitle" class="inv-modal-title">📦 Inventário Completo</h2>
+    <p class="inv-modal-sub">Todos os arquivos de regras e templates do sistema. Clique para copiar o nome do arquivo.</p>
+
+    <!-- busca no modal -->
+    <div style="position:relative;margin-bottom:24px;">
+      <span style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--muted);">🔍</span>
+      <input id="modalSearch" type="text" placeholder="Buscar arquivo..." oninput="filterModal(this.value)" class="inv-search" aria-label="Buscar arquivo no inventário">
+    </div>
+
+    <!-- ── SEÇÃO: PHP Rules ── -->
+    <div class="inv-section">
+      <div class="inv-section-label" style="color:#a78bfa;">Regras PHP — prompts_php/</div>
+      <div id="inv-php" class="inv-grid">
+        <div class="inv-item" data-inv="regra_php_diretrizes_sistema_globais">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_diretrizes_sistema_globais.md">regra_php_diretrizes_sistema_globais.md</span>
+  <span class="inv-item-desc">Diretrizes globais de estrutura e nomenclatura PHP</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_web_standards_aria_wcag">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_web_standards_aria_wcag.md">regra_php_web_standards_aria_wcag.md</span>
+  <span class="inv-item-desc">WCAG AA, ARIA e semântica HTML5 obrigatórios</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_ajax_interacoes">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_ajax_interacoes.md">regra_php_ajax_interacoes.md</span>
+  <span class="inv-item-desc">Requisições assíncronas, loading e erros AJAX</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_csrf_tokens">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_csrf_tokens.md">regra_php_csrf_tokens.md</span>
+  <span class="inv-item-desc">Tokens CSRF obrigatórios em formulários e POST</span>
+</div>
+        <div class="inv-item" data-inv="regra_css_sem_duplicatas">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_css_sem_duplicatas.md">regra_css_sem_duplicatas.md</span>
+  <span class="inv-item-desc">Protocolo de integridade e busca anti-duplicidade CSS</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_sistema_confirmacao_centralizado">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_sistema_confirmacao_centralizado.md">regra_php_sistema_confirmacao_centralizado.md</span>
+  <span class="inv-item-desc">Sistema de confirmação centralizado com temas claro/escuro</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_seguranca_output_buffering">
+  <span class="inv-item-file" style="color:#63d2ff;" title="master_rules.md">master_rules.md (Regra 11)</span>
+  <span class="inv-item-desc">Garante o flush de buffers PHP para evitar o silenciamento da página</span>
+</div>
+        <div class="inv-item" data-inv="regra_abnt_doc_2026">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_abnt_doc_2026.md">regra_abnt_doc_2026.md</span>
+  <span class="inv-item-desc">Normas ABNT 2026 para documentos técnicos</span>
+</div>
+        <div class="inv-item" data-inv="regra_js_console_silencer">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_js_console_silencer_producao.md">regra_js_console_silencer_producao.md</span>
+  <span class="inv-item-desc">Desativa logs JS em produção</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_arquitetura_modular">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_arquitetura_modular_pastas.md">regra_php_arquitetura_modular_pastas.md</span>
+  <span class="inv-item-desc">Estrutura de diretórios padrão do projeto</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_integracao_gas_telegram">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_integracao_gas_telegram.md">regra_php_integracao_gas_telegram.md</span>
+  <span class="inv-item-desc">Integração GAS + Telegram Bot API</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_ui_acessibilidade_contraste">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_ui_acessibilidade_contraste.md">regra_php_ui_acessibilidade_contraste.md</span>
+  <span class="inv-item-desc">Contraste WCAG AA em temas claro/escuro</span>
+</div>
+        <div class="inv-item" data-inv="master_rules_config">
+  <span class="inv-item-file" style="color:#63d2ff;" title="config/master_rules_config.php">master_rules_config.php</span>
+  <span class="inv-item-desc">Configuração PHP das regras master do CanalQb</span>
+</div>
+        <div class="inv-item" data-inv="windsurf_rules">
+  <span class="inv-item-file" style="color:#63d2ff;" title=".windsurf/rules.md">.windsurf/rules.md</span>
+  <span class="inv-item-desc">Regras do CanalQb para IDE Windsurf</span>
+</div>
+        <div class="inv-item" data-inv="windsurf_workflow">
+  <span class="inv-item-file" style="color:#63d2ff;" title=".windsurf/workflows/master_rules_workflow.md">master_rules_workflow.md</span>
+  <span class="inv-item-desc">Workflow obrigatório para aplicação das regras master</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_explicacoes_leitura_obrigatoria">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_llms_explicacoes_leitura_obrigatoria.md">regra_llms_explicacoes_leitura_obrigatoria.md</span>
+  <span class="inv-item-desc">Explicações devem ser criadas em pasta leitura obrigatória</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_ui_ajax_dinamico_tabelas">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_ui_ajax_dinamico_tabelas.md">regra_php_ui_ajax_dinamico_tabelas.md</span>
+  <span class="inv-item-desc">Tabelas dinâmicas com paginação AJAX</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_ui_checklist_acessibilidade">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_ui_checklist_acessibilidade.md">regra_php_ui_checklist_acessibilidade.md</span>
+  <span class="inv-item-desc">Checklist de acessibilidade pré-entrega</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_ui_harmonia_visual">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_ui_harmonia_visual.md">regra_php_ui_harmonia_visual.md</span>
+  <span class="inv-item-desc">Consistência visual: espaçamentos e tipografia</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_paginas_legais_footer_modal">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_paginas_legais_footer_modal.md">regra_php_paginas_legais_footer_modal.md</span>
+  <span class="inv-item-desc">Modais padronizados com paginas legais e úteis no Footer</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_protocolo_dinamico">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_protocolo_dinamico.md">regra_php_protocolo_dinamico.md</span>
+  <span class="inv-item-desc">Detecção de ambiente local/produção e protocolo HTTP/HTTPS</span>
+</div>
+      </div>
+    </div>
+
+    <hr class="inv-divider">
+
+    <!-- ── SEÇÃO: COMPONENTES ── -->
+    <div class="inv-section">
+      <div class="inv-section-label" style="color:#a78bfa;">Regras de Componentes UI — raiz/</div>
+      <div id="inv-comp" class="inv-grid">
+        <div class="inv-item" data-inv="regra_php_component_columns_with_icons">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_component_columns_with_icons.md">regra_php_component_columns_with_icons.md</span>
+  <span class="inv-item-desc">Colunas com ícones gradientes</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_component_hanging_icons">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_component_hanging_icons.md">regra_php_component_hanging_icons.md</span>
+  <span class="inv-item-desc">Ícones pendurados com descrição lateral</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_component_custom_cards">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_component_custom_cards.md">regra_php_component_custom_cards.md</span>
+  <span class="inv-item-desc">Cards com imagens de fundo e overlay</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_component_icon_grid">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_component_icon_grid.md">regra_php_component_icon_grid.md</span>
+  <span class="inv-item-desc">Grid compacto de ícones para dashboards</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_paginas_admin_universais">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_paginas_admin_universais.md">regra_php_paginas_admin_universais.md</span>
+  <span class="inv-item-desc">Regra de uso dos templates admin universais</span>
+</div>
+        <div class="inv-item" data-inv="regra_php_simulador_perfis_universal">
+  <span class="inv-item-file" style="color:#63d2ff;" title="regra_php_simulador_perfis_universal.md">regra_php_simulador_perfis_universal.md</span>
+  <span class="inv-item-desc">Regra de uso do simulador de perfis</span>
+</div>
+      </div>
+    </div>
+
+    <hr class="inv-divider">
+
+    <!-- ── SEÇÃO: IA/LLM Rules ── -->
+    <div class="inv-section">
+      <div class="inv-section-label" style="color:#34d399;">Regras de IA / OS — prompt_de_llms/</div>
+      <div id="inv-ia" class="inv-grid">
+        <div class="inv-item" data-inv="regra_universal_compliance_adsense_2026">
+          <span class="inv-item-file" style="color:#34d399;" title="regra_universal_compliance_adsense_2026.md">regra_universal_compliance_adsense_2026.md</span>
+          <span class="inv-item-desc">Framework universal compliance AdSense 2026 multiplataforma</span>
+        </div>
+        <div class="inv-item" data-inv="prompt_universal_validacao_compliance_adsense">
+          <span class="inv-item-file" style="color:#34d399;" title="prompt_universal_validacao_compliance_adsense.md">prompt_universal_validacao_compliance_adsense.md</span>
+          <span class="inv-item-desc">Prompt universal de validação compliance AdSense 2026</span>
+        </div>
+        <div class="inv-item" data-inv="prompt_universal_implementacao_compliance_2026">
+          <span class="inv-item-file" style="color:#34d399;" title="prompt_universal_implementacao_compliance_2026.md">prompt_universal_implementacao_compliance_2026.md</span>
+          <span class="inv-item-desc">Prompt universal de implementação compliance 2026</span>
+        </div>
+        <div class="inv-item" data-inv="regra_llms_legal_auditor_universal">
+          <span class="inv-item-file" style="color:#34d399;" title="regra_llms_legal_auditor_universal.md">regra_llms_legal_auditor_universal.md</span>
+          <span class="inv-item-desc">Auditoria e geração massiva de páginas legais p/ AdSense</span>
+        </div>
+        <div class="inv-item" data-inv="regra_llms_windows_blogger_xml_entities">
+          <span class="inv-item-file" style="color:#34d399;" title="regra_llms_windows_blogger_xml_entities.md">regra_llms_windows_blogger_xml_entities.md</span>
+          <span class="inv-item-desc">Entidades XML/Blogger — Protocolo de conversão obrigatório</span>
+        </div>
+        <div class="inv-item" data-inv="regra_llms_chrome_extension_manifest_v3">
+          <span class="inv-item-file" style="color:#34d399;" title="regra_llms_chrome_extension_manifest_v3.md">regra_llms_chrome_extension_manifest_v3.md</span>
+          <span class="inv-item-desc">Chrome Extension Manifest V3 — Diretrizes obrigatórias para aprovação na Chrome Web Store</span>
+        </div>
+        <div class="inv-item" data-inv="regra_llms_plano_trabalho">
+          <span class="inv-item-file" style="color:#34d399;" title="regra_llms_plano_trabalho.md">regra_llms_plano_trabalho.md</span>
+          <span class="inv-item-desc">Obrigatoriedade de plano e checklist antes de codar</span>
+        </div>
+        <div class="inv-item" data-inv="regra_llms_seo_avancado_2026">
+          <span class="inv-item-file" style="color:#34d399;" title="regra_llms_seo_avancado_2026.md">regra_llms_seo_avancado_2026.md</span>
+          <span class="inv-item-desc">Métricas extremas SEO 2026 (SGE/INP/AEO)</span>
+        </div>
+        <div class="inv-item" data-inv="regra_llms_windows_powershel_cmd">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_windows_powershel_cmd.md">regra_llms_windows_powershel_cmd.md</span>
+  <span class="inv-item-desc">Comandos PowerShell/CMD seguros no Windows</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_comandos_proibidos">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_comandos_proibidos.md">regra_llms_comandos_proibidos.md</span>
+  <span class="inv-item-desc">Lista de operações proibidas para o LLM</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_windows_admin_seo">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_windows_admin_seo.md">regra_llms_windows_admin_seo.md</span>
+  <span class="inv-item-desc">Páginas admin com foco em SEO no Windows</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_windows_admin_layout">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_windows_admin_layout.md">regra_llms_windows_admin_layout.md</span>
+  <span class="inv-item-desc">Padrões de layout para páginas admin</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_metricas_qualidade_severa">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_metricas_qualidade_severa.md">regra_llms_metricas_qualidade_severa.md</span>
+  <span class="inv-item-desc">Validação 100% em 9 métricas antes de entregar</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_adsense_aprovacao_2025">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_adsense_aprovacao_2025.md">regra_llms_adsense_aprovacao_2025.md</span>
+  <span class="inv-item-desc">Conformidade AdSense 2025-2026 pré-entrega</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_correcao_otimizacao_sistema">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_correcao_otimizacao_sistema.md">regra_llms_correcao_otimizacao_sistema.md</span>
+  <span class="inv-item-desc">Protocolo de correção e otimização de bugs</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_criacao_tabelas_supabase">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_criacao_tabelas_supabase.md">regra_llms_criacao_tabelas_supabase.md</span>
+  <span class="inv-item-desc">Padrões para tabelas Supabase com RLS</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_handoff_continuidade_projeto">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_handoff_continuidade_projeto.md">regra_llms_handoff_continuidade_projeto.md</span>
+  <span class="inv-item-desc">Handoff de contexto entre sessões/LLMs</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_historico_escopo_projeto">
+  <span class="inv-item-file" style="color:#34d399;" title="regra_llms_historico_escopo_projeto.md">regra_llms_historico_escopo_projeto.md</span>
+  <span class="inv-item-desc">Histórico e escopo do projeto entre sessões</span>
+</div>
+        <div class="inv-item" data-inv="regra_llms_log_decisoes_tecnicas">
+          <span class="inv-item-file" style="color:#34d399;" title="regra_llms_log_decisoes_tecnicas.md">regra_llms_log_decisoes_tecnicas.md</span>
+          <span class="inv-item-desc">Log de decisões arquiteturais (ADR)</span>
+        </div>
+        <div class="inv-item" data-inv="automacao_industrial_massiva">
+          <span class="inv-item-file" style="color:#34d399;" title="master_rules.md">master_rules.md (S21)</span>
+          <span class="inv-item-desc">Automação massiva & Scale (Credential Rotation & Vault DB)</span>
+        </div>
+        <div class="inv-item" data-inv="windows_terminal_mastery">
+          <span class="inv-item-file" style="color:#34d399;" title="master_rules.md">master_rules.md (S22)</span>
+          <span class="inv-item-desc">Protocolo seguro Windows PowerShell/CMD Mastery</span>
+        </div>
+        <div class="inv-item" data-inv="engenharia_aeo_sge_2026">
+          <span class="inv-item-file" style="color:#34d399;" title="master_rules.md">master_rules.md (S23)</span>
+          <span class="inv-item-desc">Answer Target (40-60 words) & Schema p/ AEO/SGE</span>
+        </div>
+      </div>
+    </div>
+
+    <hr class="inv-divider">
+
+    <!-- ── SEÇÃO: Templates ── -->
+    <div class="inv-section">
+      <div class="inv-section-label" style="color:#fbbf24;">Templates &amp; Estruturas — templates_php/</div>
+      <div id="inv-tpl" class="inv-grid">
+        <div class="inv-item" data-inv="estrutura_html_compliance_universal">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_html_compliance_universal.html">estrutura_html_compliance_universal.html</span>
+          <span class="inv-item-desc">Template HTML5 universal compliance AdSense 2026</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_php_pagina_universal_container">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_pagina_universal_container.php">estrutura_php_pagina_universal_container.php</span>
+          <span class="inv-item-desc">Template PHP universal container compliance</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_python_flask_compliance">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_python_flask_compliance.py">estrutura_python_flask_compliance.py</span>
+          <span class="inv-item-desc">Template Python Flask compliance AdSense 2026</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_javascript_react_compliance">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_javascript_react_compliance.jsx">estrutura_javascript_react_compliance.jsx</span>
+          <span class="inv-item-desc">Template JavaScript/React compliance universal</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_php_programmatic_seo_escalavel">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_programmatic_seo_escalavel.md">estrutura_php_programmatic_seo_escalavel.md</span>
+          <span class="inv-item-desc">SEO Escalonável Massivo por DB (Silos)</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_php_schema_person_aeo">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_schema_person_aeo.md">estrutura_php_schema_person_aeo.md</span>
+          <span class="inv-item-desc">JSON-LD Answer Engine e Autoria</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_php_pagina_admin_config">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_pagina_admin_config_universal.php">estrutura_php_pagina_admin_config_universal.php</span>
+  <span class="inv-item-desc">Template de página admin de configuração</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_pagina_admin_seo">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_pagina_admin_seo_universal.php">estrutura_php_pagina_admin_seo_universal.php</span>
+  <span class="inv-item-desc">Template de página admin de SEO</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_simulador_perfis">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_simulador_perfis_universal.php">estrutura_php_simulador_perfis_universal.php</span>
+          <span class="inv-item-desc">Template de simulador de perfis de usuário</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_php_pagina_admin_container">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_pagina_admin_container_universal.php">estrutura_php_pagina_admin_container_universal.php</span>
+          <span class="inv-item-desc">Template padrão de página admin com container centralizado</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_php_pagina_universal_container">
+          <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_pagina_universal_container.php">estrutura_php_pagina_universal_container.php</span>
+          <span class="inv-item-desc">Template OBRIGATÓRIO para TODAS as páginas com container centralizado</span>
+        </div>
+        <div class="inv-item" data-inv="estrutura_php_component_columns_with_icons_php">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_component_columns_with_icons.php">estrutura_php_component_columns_with_icons.php</span>
+  <span class="inv-item-desc">Colunas com ícones gradientes (componente)</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_component_hanging_icons_php">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_component_hanging_icons.php">estrutura_php_component_hanging_icons.php</span>
+  <span class="inv-item-desc">Ícones pendurados (componente)</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_component_custom_cards_php">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_component_custom_cards.php">estrutura_php_component_custom_cards.php</span>
+  <span class="inv-item-desc">Cards com imagem de fundo (componente)</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_component_icon_grid_php">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_component_icon_grid.php">estrutura_php_component_icon_grid.php</span>
+  <span class="inv-item-desc">Grid compacto de ícones (componente)</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_elemento_csrf_token">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_elemento_csrf_token.php">estrutura_php_elemento_csrf_token.php</span>
+  <span class="inv-item-desc">Geração e injeção de token CSRF</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_biblioteca_bootstrap_css_js">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_biblioteca_bootstrap_css_js.md">estrutura_php_biblioteca_bootstrap_css_js.md</span>
+  <span class="inv-item-desc">Guia de inclusão Bootstrap 5</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_biblioteca_bootstrap_exemplo">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_biblioteca_bootstrap_exemplo.php">estrutura_php_biblioteca_bootstrap_exemplo.php</span>
+  <span class="inv-item-desc">Exemplo completo com Bootstrap 5</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_elemento_admin_layout">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_elemento_admin_layout.md">estrutura_php_elemento_admin_layout.md</span>
+  <span class="inv-item-desc">Especificação visual layout admin</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_elemento_admin_seo">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_elemento_admin_seo.md">estrutura_php_elemento_admin_seo.md</span>
+  <span class="inv-item-desc">Especificação de SEO para admin</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_exemplo_integracao_gas_telegram">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_exemplo_integracao_gas_telegram.md">estrutura_php_exemplo_integracao_gas_telegram.md</span>
+  <span class="inv-item-desc">Exemplo funcional GAS + Telegram</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_historico_arquitetura_projeto">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_historico_arquitetura_projeto.md">estrutura_php_historico_arquitetura_projeto.md</span>
+  <span class="inv-item-desc">Histórico e arquitetura do projeto</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_pagamento_pagarme">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_pagamento_pagarme.md">estrutura_php_pagamento_pagarme.md</span>
+  <span class="inv-item-desc">Integração Pagar.me (PIX, crédito, débito)</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_validacao_integridade_sistema">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_validacao_integridade_sistema.md">estrutura_php_validacao_integridade_sistema.md</span>
+  <span class="inv-item-desc">Checklist de integridade pré-deploy</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_web_standards_checklist">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_web_standards_checklist.md">estrutura_php_web_standards_checklist.md</span>
+  <span class="inv-item-desc">Checklist de padrões web</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_workflow_criacao_paginas">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_workflow_criacao_paginas.md">estrutura_php_workflow_criacao_paginas.md</span>
+  <span class="inv-item-desc">Fluxo de criação de novas páginas PHP</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_readme_atualizacao_template">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_readme_atualizacao_template.md">estrutura_readme_atualizacao_template.md</span>
+  <span class="inv-item-desc">Template de atualização do README</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_sql_criacao_tabelas">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_sql_criacao_tabelas.md">estrutura_sql_criacao_tabelas.md</span>
+  <span class="inv-item-desc">Padrão de criação de tabelas SQL</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_abnt_doc_modelo_trabalho">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_abnt_doc_modelo_trabalho.md">estrutura_abnt_doc_modelo_trabalho.md</span>
+  <span class="inv-item-desc">Modelo de trabalho acadêmico ABNT</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_adsense_checklist">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_adsense_checklist.md">estrutura_php_adsense_checklist.md</span>
+  <span class="inv-item-desc">Checklist AdSense 2025-2026 por projeto</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_footer_pagina_modal">
+  <span class="inv-item-file"style="color:#fbbf24;" title="estrutura_php_footer_pagina_modal.php">estrutura_php_footer_pagina_modal.php</span>
+  <span class="inv-item-desc">Corpo HTML formatado para modal focado em AdSense e Legal</span>
+</div>
+        <div class="inv-item" data-inv="estrutura_php_config_protocolo_dinamico">
+  <span class="inv-item-file" style="color:#fbbf24;" title="estrutura_php_config_protocolo_dinamico.md">estrutura_php_config_protocolo_dinamico.md</span>
+  <span class="inv-item-desc">Template para detecção automática de ambiente e protocolo</span>
+</div>
+        <div class="inv-item" data-inv="theme_blogger_canalqb">
+  <span class="inv-item-file" style="color:#fbbf24;" title="theme-5982274115355506187.xml">theme-5982274115355506187.xml</span>
+  <span class="inv-item-desc">Core visual Blogger @CanalQb com Compliance 2026</span>
+</div>
+        <div class="inv-item" data-inv="theme_readme_doc">
+  <span class="inv-item-file" style="color:#fbbf24;" title="theme-readme.md">theme-readme.md</span>
+  <span class="inv-item-desc">Documentação técnica exaustiva do tema Blogger</span>
+</div>
+      </div>
+    </div>
+
+    <div class="inv-footer-tip">
+      💡 Clique em qualquer item para copiar o nome do arquivo. Total: <strong style="color:var(--accent);" id="inv-count">--</strong> arquivos cadastrados.
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ── INV-ITEM: contenção de overflow + harmonia ── */
+  .inv-item {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: border-color 0.25s, background 0.25s, transform 0.2s, box-shadow 0.25s;
+    /* Contenção de texto longo */
+    overflow: hidden;
+    min-width: 0;
+    word-break: break-all;
+  }
+  .inv-item:hover {
+    border-color: var(--border2);
+    background: rgba(99,210,255,0.04);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  .inv-item:focus-within {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  .inv-item.copied-flash {
+    border-color: rgba(52,211,153,0.5);
+    background: rgba(52,211,153,0.06);
+  }
+  .inv-item-file {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    line-height: 1.4;
+    /* Truncar linha única com ellipsis */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .inv-item-desc {
+    font-size: 0.79rem;
+    color: var(--text-sec);
+    line-height: 1.4;
+    /* Limitar a 2 linhas */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .inv-section { margin-bottom: 8px; }
+  .inv-section-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .inv-section-label::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: currentColor;
+  }
+  /* Grade responsiva dos itens */
+  .inv-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+  }
+  /* Header do modal */
+  .inv-modal-wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--border2);
+    border-radius: 20px;
+    padding: 36px;
+    position: relative;
+  }
+  .inv-modal-meta {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 6px;
+  }
+  .inv-modal-title {
+    font-family: var(--sans);
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .inv-modal-sub {
+    color: var(--text-sec);
+    font-size: 0.88rem;
+    margin-bottom: 24px;
+  }
+  .inv-search {
+    width: 100%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 0.83rem;
+    padding: 10px 16px 10px 40px;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+  }
+  .inv-search:focus { border-color: var(--accent); }
+  .inv-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 20px 0;
+  }
+  .inv-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(248,113,113,0.12);
+    border: 1px solid rgba(248,113,113,0.28);
+    color: var(--danger);
+    font-size: 0.88rem;
+    padding: 6px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: var(--sans);
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .inv-close-btn:hover {
+    background: rgba(248,113,113,0.22);
+    border-color: rgba(248,113,113,0.5);
+  }
+  .inv-footer-tip {
+    margin-top: 24px;
+    padding: 14px 18px;
+    background: rgba(99,210,255,0.05);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 0.81rem;
+    color: var(--text-sec);
+    font-family: var(--mono);
+  }
+</style>
+
+</div>
+
+<script>
+  /* ── Tabs ── */
+  function switchTab(id) {
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    event.currentTarget.classList.add('active');
+  }
+
+  /* ── Search ── */
+  function filterCards(q) {
+    const term = q.toLowerCase();
+    document.querySelectorAll('#cardsGrid .card').forEach(card => {
+      const haystack = (card.dataset.search || '') + card.textContent.toLowerCase();
+      card.style.display = haystack.includes(term) ? '' : 'none';
+    });
+  }
+
+  /* ── Copy ── */
+  function copyCode(btn) {
+    const code = btn.closest('.code-block').querySelector('pre').innerText;
+    navigator.clipboard.writeText(code).then(() => {
+      btn.textContent = 'copiado ✓';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'copiar'; btn.classList.remove('copied'); }, 2000);
+    });
+  }
+
+  /* ── Inventory Modal ── */
+  function openInventory() {
+    document.getElementById('inventoryModal').style.display = 'block';
+    document.body.style.overflow = 'hidden';
+    document.getElementById('modalSearch').focus();
+    // count items
+    const total = document.querySelectorAll('.inv-item').length;
+    document.getElementById('inv-count').textContent = total;
+    // click to copy
+    document.querySelectorAll('.inv-item').forEach(item => {
+      item.addEventListener('click', function() {
+        const filename = this.querySelector('[style*="JetBrains Mono"]').textContent;
+        navigator.clipboard.writeText(filename).then(() => {
+          this.classList.add('copied-flash');
+          setTimeout(() => this.classList.remove('copied-flash'), 1200);
+        });
+      }, { once: false });
+    });
+  }
+  function closeInventory() {
+    document.getElementById('inventoryModal').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+  function filterModal(q) {
+    const term = q.toLowerCase();
+    document.querySelectorAll('.inv-item').forEach(item => {
+      const txt = (item.dataset.inv || '') + item.textContent.toLowerCase();
+      item.style.display = txt.includes(term) ? '' : 'none';
+    });
+  }
+  // fechar com Escape
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeInventory(); });
+  // fechar clicando fora do painel
+  document.getElementById('inventoryModal').addEventListener('click', function(e) {
+    if (e.target === this) closeInventory();
+  });
+
+  /* ── Theme Toggle ── */
+  (function() {
+    const saved = localStorage.getItem('readmeTheme') || 'dark';
+    applyTheme(saved);
+  })();
+
+  function applyTheme(mode) {
+    document.documentElement.setAttribute('data-theme', mode);
+    localStorage.setItem('readmeTheme', mode);
+    const icon  = document.getElementById('themeIcon');
+    const label = document.getElementById('themeLabel');
+    if (!icon || !label) return;
+    if (mode === 'light') {
+      icon.textContent  = '🌙';
+      label.textContent = 'Tema Escuro';
+    } else {
+      icon.textContent  = '☀️';
+      label.textContent = 'Tema Claro';
+    }
+  }
+
+  function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+  }
+
+</script>
+</body>
+</html>

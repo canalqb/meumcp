@@ -1,0 +1,479 @@
+/**
+ * Menu Styles - menu-styles.css
+ * Estilos para o componente de menu responsivo
+ * Todos os seletores utilizam prefixo menu-* ou menu_*
+ */
+
+:root {
+  --menu-primary-color: #0d6efd;
+  --menu-primary-hover: #0b5ed7;
+  --menu-bg-color: #f8f9fa;
+  --menu-text-color: #212529;
+  --menu-border-color: #dee2e6;
+  --menu-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --menu-transition: 0.3s ease-in-out;
+  --menu-sidebar-width: 280px;
+}
+
+/* ============================================
+   RESET E BASE
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--menu-text-color);
+  background-color: #fff;
+}
+
+/* ============================================
+   CONTAINER FLEX PRINCIPAL
+   ============================================ */
+
+.d-flex {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ============================================
+   NAVBAR MOBILE
+   ============================================ */
+
+.navbar {
+  box-shadow: var(--menu-shadow);
+  z-index: 1000;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: 2px solid var(--menu-primary-color);
+}
+
+/* ============================================
+   MENU CONTAINER (SIDEBAR)
+   ============================================ */
+
+.menu_container {
+  width: var(--menu-sidebar-width);
+  background-color: var(--menu-bg-color);
+  border-right: 1px solid var(--menu-border-color);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem 0;
+  position: relative;
+  z-index: 1001;
+  box-shadow: var(--menu-shadow);
+  transition: transform var(--menu-transition), opacity var(--menu-transition);
+}
+
+.menu_container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.menu_container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.menu_container::-webkit-scrollbar-thumb {
+  background: var(--menu-border-color);
+  border-radius: 3px;
+}
+
+.menu_container::-webkit-scrollbar-thumb:hover {
+  background: var(--menu-primary-color);
+}
+
+/* ============================================
+   MENU HEADER (MOBILE CLOSE BUTTON)
+   ============================================ */
+
+.menu_header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--menu-border-color);
+}
+
+.menu_close_btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--menu-text-color);
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color var(--menu-transition);
+}
+
+.menu_close_btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* ============================================
+   MENU ITEMS WRAPPER
+   ============================================ */
+
+.menu_items_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ============================================
+   MENU ITEM (LINK)
+   ============================================ */
+
+.menu_item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.menu_item_link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  color: var(--menu-text-color);
+  text-decoration: none;
+  transition: background-color var(--menu-transition), color var(--menu-transition), padding-left var(--menu-transition);
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  user-select: none;
+}
+
+.menu_item_link:hover {
+  background-color: rgba(13, 110, 253, 0.1);
+  border-left-color: var(--menu-primary-color);
+  padding-left: 1.25rem;
+}
+
+.menu_item_link:active,
+.menu_item_link.menu_item_active {
+  background-color: var(--menu-primary-color);
+  color: #fff;
+  border-left-color: var(--menu-primary-color);
+}
+
+.menu_item_link i:first-child {
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.menu_item_link span {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ============================================
+   MENU ITEM COM SUBITENS
+   ============================================ */
+
+.menu_item_parent {
+  position: relative;
+}
+
+.menu_item_parent .menu_item_link {
+  justify-content: space-between;
+}
+
+.menu_item_chevron {
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+  transition: transform var(--menu-transition);
+  font-size: 0.875rem;
+}
+
+.menu_item_parent.menu_item_open .menu_item_chevron {
+  transform: rotate(180deg);
+}
+
+/* ============================================
+   SUBMENU
+   ============================================ */
+
+.menu_submenu {
+  display: none;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-left: 2px solid var(--menu-primary-color);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--menu-transition), opacity var(--menu-transition);
+  opacity: 0;
+}
+
+.menu_item_parent.menu_item_open .menu_submenu {
+  display: flex;
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.menu_submenu_item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 1rem 0.625rem 2rem;
+  color: var(--menu-text-color);
+  text-decoration: none;
+  transition: background-color var(--menu-transition), color var(--menu-transition), padding-left var(--menu-transition);
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  user-select: none;
+  font-size: 0.9375rem;
+}
+
+.menu_submenu_item:hover {
+  background-color: rgba(13, 110, 253, 0.1);
+  border-left-color: var(--menu-primary-color);
+  padding-left: 2.25rem;
+}
+
+.menu_submenu_item:active,
+.menu_submenu_item.menu_item_active {
+  background-color: var(--menu-primary-color);
+  color: #fff;
+  border-left-color: var(--menu-primary-color);
+}
+
+.menu_submenu_item i {
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: 0.8125rem;
+}
+
+/* ============================================
+   MENU SECTION HEADING
+   ============================================ */
+
+.menu_section_heading {
+  padding: 1rem 1rem 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+}
+
+.menu_section_heading:first-child {
+  margin-top: 0;
+}
+
+/* ============================================
+   MENU DIVIDER
+   ============================================ */
+
+.menu_divider {
+  height: 1px;
+  background-color: var(--menu-border-color);
+  margin: 0.5rem 0;
+}
+
+/* ============================================
+   OVERLAY (MOBILE)
+   ============================================ */
+
+.menu_overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity var(--menu-transition);
+}
+
+.menu_overlay.menu_overlay_active {
+  display: block;
+  opacity: 1;
+}
+
+/* ============================================
+   MAIN CONTENT AREA
+   ============================================ */
+
+.menu_main_content {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #fff;
+  transition: margin-left var(--menu-transition);
+}
+
+#menu_content_loader {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ============================================
+   RESPONSIVIDADE - MOBILE
+   ============================================ */
+
+@media (max-width: 991.98px) {
+  .menu_container {
+    position: fixed;
+    left: 0;
+    top: 56px; /* Altura da navbar mobile */
+    height: calc(100vh - 56px);
+    width: var(--menu-sidebar-width);
+    transform: translateX(-100%);
+    z-index: 1001;
+    border-right: none;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .menu_container.menu_mobile_open {
+    transform: translateX(0);
+  }
+
+  .menu_main_content {
+    width: 100%;
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --menu-sidebar-width: 240px;
+  }
+
+  .menu_item_link,
+  .menu_submenu_item {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    gap: 0.5rem;
+  }
+
+  .menu_item_link:hover {
+    padding-left: 1rem;
+  }
+
+  .menu_submenu_item {
+    padding-left: 1.75rem;
+  }
+
+  .menu_submenu_item:hover {
+    padding-left: 2rem;
+  }
+
+  .menu_item_link span,
+  .menu_submenu_item span {
+    font-size: 0.9375rem;
+  }
+
+  .menu_section_heading {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* ============================================
+   RESPONSIVIDADE - DESKTOP
+   ============================================ */
+
+@media (min-width: 992px) {
+  .navbar {
+    display: none;
+  }
+
+  .menu_overlay {
+    display: none !important;
+  }
+
+  .menu_container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    transform: none !important;
+  }
+
+  .menu_header {
+    display: none;
+  }
+
+  .menu_mobile_toggle {
+    display: none;
+  }
+}
+
+/* ============================================
+   ANIMAÇÕES
+   ============================================ */
+
+@keyframes menu_slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.menu_container.menu_mobile_open {
+  animation: menu_slideIn var(--menu-transition);
+}
+
+/* ============================================
+   ACESSIBILIDADE
+   ============================================ */
+
+.menu_item_link:focus,
+.menu_submenu_item:focus {
+  outline: 2px solid var(--menu-primary-color);
+  outline-offset: -2px;
+}
+
+button:focus {
+  outline: 2px solid var(--menu-primary-color);
+  outline-offset: 2px;
+}
+
+/* ============================================
+   PRINT
+   ============================================ */
+
+@media print {
+  .menu_container,
+  .navbar,
+  .menu_overlay {
+    display: none;
+  }
+
+  .menu_main_content {
+    width: 100%;
+  }
+}

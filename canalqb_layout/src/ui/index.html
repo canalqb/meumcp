@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boris — Assistente de IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="logo-icon">🐾</span>
+        <div>
+          <h1>Boris</h1>
+          <p class="subtitle">Assistente de IA local</p>
+        </div>
+      </div>
+      <div class="system-status">
+        <span class="status-dot online" id="status-dot"></span>
+        <span class="status-text" id="status-text">Conectado</span>
+      </div>
+    </header>
+
+    <!-- Main Chat Area -->
+    <main class="chat-main">
+      <!-- Chat History -->
+      <div class="chat-log" id="chat-log">
+        <div class="chat-message boris-msg">
+          <div class="msg-avatar">🐶</div>
+          <div class="msg-content">
+            <div class="msg-sender">Boris</div>
+            <div class="msg-text">Olá! Como posso ajudar você hoje? 🐾</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Area -->
+      <form class="chat-input-area" id="command-form">
+        <input
+          type="text"
+          id="command-input"
+          placeholder="Digite sua mensagem..."
+          autocomplete="off"
+        />
+        <button type="submit" class="btn-send" id="send-btn">
+          ➤
+        </button>
+      </form>
+
+      <!-- Footer AdMob -->
+      <div class="admob-footer" id="admob-footer">
+        <!-- AdMob banner will be injected by native layer -->
+        <div class="admob-placeholder">
+          <span class="admob-text">Patrocinado</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Hamburger Menu Drawer -->
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <nav class="hamburger-menu" id="hamburger-menu">
+    <div class="drawer-header">
+      <span class="drawer-title">Boris</span>
+      <button class="drawer-close" id="drawer-close">✕</button>
+    </div>
+    <ul class="drawer-list">
+      <li class="drawer-item" data-action="boris">
+        <span class="drawer-icon">🐶</span>
+        <span>Boris</span>
+      </li>
+      <li class="drawer-item" data-action="conversas">
+        <span class="drawer-icon">💬</span>
+        <span>Conversas</span>
+      </li>
+      <li class="drawer-item" data-action="novo-chat">
+        <span class="drawer-icon">➕</span>
+        <span>Novo Chat</span>
+      </li>
+      <li class="drawer-item" data-action="diagnostico">
+        <span class="drawer-icon">🔧</span>
+        <span>Diagnóstico</span>
+      </li>
+      <li class="drawer-item" data-action="configuracoes">
+        <span class="drawer-icon">⚙️</span>
+        <span>Configurações</span>
+      </li>
+      <li class="drawer-divider"></li>
+      <li class="drawer-item" data-action="sobre">
+        <span class="drawer-icon">ℹ️</span>
+        <span>Sobre</span>
+      </li>
+    </ul>
+  </nav>
+
+  <script type="module" src="./js/main.ts"></script>
+</body>
+</html>

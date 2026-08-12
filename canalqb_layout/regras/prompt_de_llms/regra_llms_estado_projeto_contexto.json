@@ -1,0 +1,21 @@
+{
+  "project_status": "in_progress",
+  "frontend_stack": ["HTML", "CSS", "JS", "jQuery"],
+  "architecture": "partial SPA with AJAX load",
+  "mobile_strategy": "sidebar toggle class active",
+  "completed_features": [
+    "scroll_to_top",
+    "mobile_sidebar",
+    "ajax_navigation"
+  ],
+  "pending_features": [
+    "seo",
+    "auth_system",
+    "performance_optimization"
+  ],
+  "rules": [
+    "do_not_break_existing_functions",
+    "mobile_first",
+    "avoid_console_logs_in_production"
+  ]
+}
