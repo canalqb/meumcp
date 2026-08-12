@@ -1,0 +1,58 @@
+[
+  {
+    "id": "default",
+    "name": "Default Agent",
+    "version": "1.0.0",
+    "capabilities": [
+      "knowledge",
+      "rules"
+    ],
+    "knowledge": {
+      "required": [],
+      "forbidden": []
+    },
+    "rules": {
+      "required": [],
+      "forbidden": []
+    },
+    "tools": {
+      "allow": [],
+      "deny": []
+    }
+  },
+  {
+    "id": "content-creator",
+    "name": "Content Creator",
+    "version": "1.0.0",
+    "capabilities": [
+      "knowledge",
+      "rules",
+      "web",
+      "image"
+    ],
+    "knowledge": {
+      "required": [
+        "seo",
+        "blogging",
+        "youtube"
+      ],
+      "forbidden": [
+        "internal-tools"
+      ]
+    },
+    "rules": {
+      "required": [
+        "master_rules"
+      ],
+      "forbidden": []
+    },
+    "tools": {
+      "allow": [
+        "search"
+      ],
+      "deny": [
+        "destructive"
+      ]
+    }
+  }
+]
