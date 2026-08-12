@@ -44,6 +44,7 @@ describe('MCPDiscovery', () => {
 
     const discovery = new MCPDiscovery({
       registryFile: path.join(tmpDir, 'registry.json'),
+      keyhunterRegistryFile: path.join(tmpDir, 'keyhunter.json'),
       enabledFile: path.join(tmpDir, 'enabled.json'),
     });
     await discovery.discover();
@@ -65,6 +66,7 @@ describe('MCPDiscovery', () => {
 
     const discovery = new MCPDiscovery({
       registryFile: path.join(tmpDir, 'registry.json'),
+      keyhunterRegistryFile: path.join(tmpDir, 'keyhunter.json'),
       enabledFile: path.join(tmpDir, 'enabled.json'),
     });
     await discovery.discover();
@@ -89,6 +91,7 @@ describe('MCPDiscovery', () => {
 
     const discovery = new MCPDiscovery({
       registryFile: path.join(tmpDir, 'registry.json'),
+      keyhunterRegistryFile: path.join(tmpDir, 'keyhunter.json'),
       enabledFile,
     });
     await discovery.discover();
