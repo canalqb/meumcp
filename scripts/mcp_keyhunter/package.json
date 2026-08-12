@@ -10,8 +10,8 @@
     "start": "node dist/discover.cjs",
     "cron": "node dist/discover.cjs >> logs/keyhunter.log 2>&1"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^22.20.1",
     "typescript": "^5.7.0"
   }
 }
