@@ -21,15 +21,22 @@ interface MCPDiscoveryResult {
 
 export class MCPDiscovery {
   private registryFile: string;
+  private keyhunterRegistryFile: string;
   private enabledFile: string;
   private records: Map<string, MCPRecord> = new Map();
 
-  constructor(dirs: { registryFile: string; enabledFile: string }) {
+  constructor(dirs: { registryFile: string; keyhunterRegistryFile: string; enabledFile: string }) {
     this.registryFile = dirs.registryFile;
+    this.keyhunterRegistryFile = dirs.keyhunterRegistryFile;
     this.enabledFile = dirs.enabledFile;
   }
 
   async discover(): Promise<MCPDiscoveryResult> {
+    // KEYHUNTER FIRST: carrega registry do keyhunter antes de qualquer save
+    // (evita MCPDiscovery.saveRegistry() sobrescrever o mcp_registry.json do keyhunter.)
+    const keyhunter = await this.scanKeyhunterRegistry();
+    for (const k of keyhunter) this.records.set(k.id, k);
+
     const sources: MCPRecord[][] = [
       await this.scanClaudeDesktop(),
       await this.scanCursor(),
@@ -38,7 +45,6 @@ export class MCPDiscovery {
       await this.scanHermesConfig(),
       await this.scanLocalConfig(),
     ];
-
     for (const source of sources) {
       for (const mcp of source) {
         const existing = this.records.get(mcp.id);
@@ -279,6 +285,39 @@ export class MCPDiscovery {
       }
     } catch {
       // Not found
+    }
+    return records;
+  }
+
+  /**
+   * Carrega MCPs validados pelo keyhunter (mcp_registry.json).
+   * Conecta a descoberta manual (scanners) com a descoberta automatizada.
+   */
+  private async scanKeyhunterRegistry(): Promise<MCPRecord[]> {
+    const records: MCPRecord[] = [];
+    try {
+      const content = await fs.readFile(this.keyhunterRegistryFile, 'utf-8');
+      const registry = JSON.parse(content) as Array<Record<string, unknown>>;
+      for (const r of registry) {
+        const id = `keyhunter:${r.full_name}`;
+        const existing = this.records.get(id);
+        if (!existing) {
+          records.push({
+            id,
+            name: r.full_name as string,
+            source: { type: 'local', url: r.url as string, path: this.registryFile, command: 'npx' },
+            status: (r.license_free && r.http_status === 200) ? 'approved' : 'broken',
+            enabled: false,
+            trust: 'low',
+            capabilities: { tools: [], resources: [], prompts: [] },
+            metadata: { language: r.language, stars: r.stars, license: r.license, http_status: r.http_status },
+            discoveredAt: new Date(r.validated_at as string || new Date().toISOString()),
+            updatedAt: new Date(),
+          });
+        }
+      }
+    } catch {
+      // Registry not yet generated — roda keyhunter primeiro
     }
     return records;
   }

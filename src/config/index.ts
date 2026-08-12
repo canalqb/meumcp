@@ -45,6 +45,7 @@ export const ConfigSchema = z.object({
       discoveredDir: z.string().default('./mcps/discovered'),
       enabledFile: z.string().default('./mcps/enabled.json'),
       registryFile: z.string().default('./mcps/registry.json'),
+      keyhunterRegistryFile: z.string().default('./knowledge/generated/mcp_registry.json'),
     })
     .default({}),
   external: z

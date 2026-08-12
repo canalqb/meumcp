@@ -108,6 +108,7 @@ async function ingestSource(source: string | undefined, outputDir?: string): Pro
 async function discoverMCPs(): Promise<void> {
   const discovery = new MCPDiscovery({
     registryFile: path.resolve(config.mcps.registryFile),
+    keyhunterRegistryFile: path.resolve(config.mcps.keyhunterRegistryFile),
     enabledFile: path.resolve(config.mcps.enabledFile),
   });
   const result = await discovery.discover();
@@ -145,6 +146,7 @@ async function resolveContext(opts: { agent: string; project?: string; task?: st
   });
   const mcps = new MCPDiscovery({
     registryFile: path.resolve(config.mcps.registryFile),
+    keyhunterRegistryFile: path.resolve(config.mcps.keyhunterRegistryFile),
     enabledFile: path.resolve(config.mcps.enabledFile),
   });
 
@@ -207,6 +209,7 @@ async function searchKnowledge(opts: { query: string; category?: string; limit: 
 async function listMCPs(opts: { enabled?: boolean }): Promise<void> {
   const discovery = new MCPDiscovery({
     registryFile: path.resolve(config.mcps.registryFile),
+    keyhunterRegistryFile: path.resolve(config.mcps.keyhunterRegistryFile),
     enabledFile: path.resolve(config.mcps.enabledFile),
   });
   await discovery.discover();
@@ -288,6 +291,7 @@ async function runDoctor(): Promise<void> {
 
   const discovery = new MCPDiscovery({
     registryFile: path.resolve(config.mcps.registryFile),
+    keyhunterRegistryFile: path.resolve(config.mcps.keyhunterRegistryFile),
     enabledFile: path.resolve(config.mcps.enabledFile),
   });
   await discovery.discover();

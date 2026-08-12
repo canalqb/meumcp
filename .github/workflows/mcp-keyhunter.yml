@@ -11,7 +11,6 @@ on:
         description: "Override GitHub search query"
         required: false
         default: ""
-  workflow_call:
 
 permissions:
   contents: write
@@ -22,10 +21,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Use Node.js
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Build keyhunter
@@ -54,5 +53,13 @@ jobs:
             - Knowledge canonical + README.md auto-updated"
             git push
           else
-            echo "Nenhuma mudança detectada."
+            echo "Nenhuma mudanca detectada."
           fi
+
+      - name: Cleanup CI artifacts + logs
+        if: always()
+        run: |
+          rm -rf node_modules scripts/mcp_keyhunter/node_modules
+          rm -rf scripts/mcp_keyhunter/dist
+          rm -f scripts/mcp_keyhunter/*.log logs/*.log
+          echo "=== Cleanup complete: node_modules + dist + logs removidos ==="

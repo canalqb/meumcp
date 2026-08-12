@@ -50,6 +50,7 @@ const agents = new AgentRegistry({
 
 const discovery = new MCPDiscovery({
   registryFile: config.mcps.registryFile,
+  keyhunterRegistryFile: config.mcps.keyhunterRegistryFile,
   enabledFile: config.mcps.enabledFile,
 });
 

@@ -243,6 +243,84 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-12T20:50:23.886Z | laurasolares811-creator/Horizon | 0 | MIT | 200 |
+
+| 2026-08-12T20:50:27.421Z | rjriajul/wzgram | 28 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:50:28.677Z | alxxtexxr/arxiv_agent | 0 | MIT | 200 |
+
+| 2026-08-12T20:50:36.795Z | CaryNC-IP/carync-ip.github.io | 0 | MIT | 200 |
+
+| 2026-08-12T20:50:37.888Z | KurimuzonAkuma/kurigram | 794 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:50:40.370Z | Kalwmw/Zip-Password-Recovery | 4 | MIT | 200 |
+
+| 2026-08-12T20:50:46.139Z | Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange | 0 | MIT | 200 |
+
+| 2026-08-12T20:50:50.743Z | hyeonseo2/finfluencer-dashboard | 2 | MIT | 200 |
+
+| 2026-08-12T20:50:53.134Z | jcmaker/just-study | 1 | MIT | 200 |
+
+| 2026-08-12T20:50:55.830Z | Xiezhou0828/topicpilot-platform | 0 | MIT | 200 |
+
+| 2026-08-12T20:42:10.998Z | rjriajul/wzgram | 28 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:42:12.049Z | alxxtexxr/arxiv_agent | 0 | MIT | 200 |
+
+| 2026-08-12T20:42:20.294Z | CaryNC-IP/carync-ip.github.io | 0 | MIT | 200 |
+
+| 2026-08-12T20:42:21.336Z | KurimuzonAkuma/kurigram | 794 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:42:23.646Z | Kalwmw/Zip-Password-Recovery | 4 | MIT | 200 |
+
+| 2026-08-12T20:42:30.790Z | Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange | 0 | MIT | 200 |
+
+| 2026-08-12T20:42:36.485Z | hyeonseo2/finfluencer-dashboard | 2 | MIT | 200 |
+
+| 2026-08-12T20:42:38.908Z | jcmaker/just-study | 1 | MIT | 200 |
+
+| 2026-08-12T20:42:41.108Z | Xiezhou0828/topicpilot-platform | 0 | MIT | 200 |
+
+| 2026-08-12T20:42:44.458Z | AvaProtocol/protocols | 0 | MIT | 200 |
+
+| 2026-08-12T20:40:32.134Z | rjriajul/wzgram | 28 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:40:33.410Z | alxxtexxr/arxiv_agent | 0 | MIT | 200 |
+
+| 2026-08-12T20:40:42.136Z | CaryNC-IP/carync-ip.github.io | 0 | MIT | 200 |
+
+| 2026-08-12T20:40:43.310Z | KurimuzonAkuma/kurigram | 794 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:40:46.007Z | Kalwmw/Zip-Password-Recovery | 4 | MIT | 200 |
+
+| 2026-08-12T20:40:54.152Z | Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange | 0 | MIT | 200 |
+
+| 2026-08-12T20:40:58.884Z | hyeonseo2/finfluencer-dashboard | 2 | MIT | 200 |
+
+| 2026-08-12T20:41:01.104Z | jcmaker/just-study | 1 | MIT | 200 |
+
+| 2026-08-12T20:41:03.461Z | Xiezhou0828/topicpilot-platform | 0 | MIT | 200 |
+
+| 2026-08-12T20:41:07.210Z | AvaProtocol/protocols | 0 | MIT | 200 |
+
+| 2026-08-12T20:34:15.075Z | alxxtexxr/arxiv_agent | 0 | MIT | 200 |
+
+| 2026-08-12T20:34:23.127Z | CaryNC-IP/carync-ip.github.io | 0 | MIT | 200 |
+
+| 2026-08-12T20:34:24.315Z | KurimuzonAkuma/kurigram | 794 | LGPL-3.0 | 200 |
+
+| 2026-08-12T20:34:26.945Z | Kalwmw/Zip-Password-Recovery | 4 | MIT | 200 |
+
+| 2026-08-12T20:34:36.011Z | Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange | 0 | MIT | 200 |
+
+| 2026-08-12T20:34:42.019Z | hyeonseo2/finfluencer-dashboard | 2 | MIT | 200 |
+
+| 2026-08-12T20:34:44.378Z | jcmaker/just-study | 1 | MIT | 200 |
+
+| 2026-08-12T20:34:47.377Z | Xiezhou0828/topicpilot-platform | 0 | MIT | 200 |
+
+| 2026-08-12T20:34:50.910Z | AvaProtocol/protocols | 0 | MIT | 200 |
+
 | 2026-08-12T20:31:16.430Z | CaryNC-IP/carync-ip.github.io | 0 | MIT | 200 |
 
 | 2026-08-12T20:31:17.668Z | KurimuzonAkuma/kurigram | 794 | LGPL-3.0 | 200 |
