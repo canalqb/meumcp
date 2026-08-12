@@ -136,6 +136,12 @@ const GetSystemSchema = z.object({
   includeStats: z.boolean().default(true).optional(),
 });
 
+const GetLLMRulesSchema = z.object({
+  ruleId: z.string().optional(),
+  tags: z.array(z.string()).optional(),
+  includeContent: z.boolean().default(true).optional(),
+});
+
 // ─── Tool handlers ──────────────────────────────────────────────────────────
 
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
@@ -174,6 +180,11 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
       name: 'get_system',
       description: 'Get system information, configuration, and statistics.',
       inputSchema: GetSystemSchema,
+    },
+    {
+      name: 'get_llm_rules',
+      description: 'Get LLM rules from the Canonical rules (master_rules + regra_llms_*). Pass ruleId for a specific rule, or tags to filter.',
+      inputSchema: GetLLMRulesSchema,
     },
   ],
 }));
@@ -378,6 +389,69 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
                     agents: config.agents,
                     mcps: config.mcps,
                   },
+                },
+                null,
+                2,
+              ),
+            },
+          ],
+        };
+      }
+
+      case 'get_llm_rules': {
+        const parsed = GetLLMRulesSchema.parse(args);
+        const allRules = rules.getAll();
+
+        // Filter rules from canonical LLM category
+        let filtered = allRules.filter(
+          (r) => r.provenance.authority === 'canonical' && (r.category === 'llm-governance' || r.category === 'llm-rule'),
+        );
+
+        // Filter by ruleId if provided
+        if (parsed.ruleId) {
+          const ruleId = parsed.ruleId as string;
+          const byId = filtered.filter((r) => r.id === ruleId || r.id.includes(ruleId));
+          if (byId.length > 0) filtered = byId;
+        }
+
+        // Filter by tags if provided
+        if (parsed.tags && parsed.tags.length > 0) {
+          const tagSet = new Set(parsed.tags);
+          filtered = filtered.filter((r) => r.tags.some((t) => tagSet.has(t)));
+        }
+
+        // Strip content if not requested
+        let output: unknown[];
+        if (!parsed.includeContent) {
+          output = filtered.map((r) => ({
+            id: r.id,
+            category: r.category,
+            title: r.title,
+            priority: r.priority,
+            enforced: r.enforced,
+            allowOverride: r.allowOverride,
+            tags: r.tags,
+            provenance: {
+              source: r.provenance.source,
+              version: r.provenance.version,
+              authority: r.provenance.authority,
+            },
+          }));
+        } else {
+          output = filtered;
+        }
+
+        return {
+          content: [
+            {
+              type: 'text',
+              text: JSON.stringify(
+                {
+                  count: filtered.length,
+                  requestedId: parsed.ruleId,
+                  requestedTags: parsed.tags,
+                  includeContent: parsed.includeContent,
+                  rules: output,
                 },
                 null,
                 2,
