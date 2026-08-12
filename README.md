@@ -341,3 +341,15 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 | Data | Repositório | Stars | License | HTTP |
 |---|---|---|---|---|
+
+
+## 🔄 Release Notes (auto)
+
+<!-- release-notes-start -->
+# Release Notes — test-tag-1786571246
+
+Changelog automático (gerado pelo Copilot Actions):
+
+- (nenhuma mudança detectada via git log)
+
+<!-- release-notes-end -->

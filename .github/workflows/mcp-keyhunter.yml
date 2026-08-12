@@ -56,6 +56,22 @@ jobs:
             echo "Nenhuma mudanca detectada."
           fi
 
+      - name: Create Release + update README (Copilot)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="keyhunter-$(git log --oneline -1 --pretty=format:'%Y%m%d%H%M')"
+          echo "=== Creating release $TAG ==="
+          git tag "$TAG" || true
+          git push origin "$TAG" || true
+          # Generate release notes + update README.md
+          node scripts/release-notes.cjs "$TAG" HEAD~1
+          git add README.md
+          git commit -m "docs: release notes $TAG (auto)" || true
+          git push
+          gh release create "$TAG" --generate-notes --title "Keyhunter Run — $TAG" || true
+
       - name: Cleanup CI artifacts + logs
         if: always()
         run: |
