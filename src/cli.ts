@@ -17,6 +17,7 @@ const { Command } = require('commander');
 const { promises: fs } = require('fs');
 const path = require('path');
 const picocolors = require('picocolors');
+const prompts = require('prompts');
 const { KnowledgeManager } = require('./knowledge/knowledge-manager');
 const { RulesEngine } = require('./rules/rules-engine');
 const { AgentRegistry } = require('./agents/agent-registry');
@@ -368,5 +369,55 @@ program
   .command('doctor')
   .description('Validate installation and configuration')
   .action(runDoctor);
+
+// ─── Install wizard (interactive MCP selection) ──────────────────────────────
+
+async function installMCPs(): Promise<void> {
+  const discovery = new MCPDiscovery({
+    registryFile: path.resolve(config.mcps.registryFile),
+    keyhunterRegistryFile: path.resolve(config.mcps.keyhunterRegistryFile),
+    enabledFile: path.resolve(config.mcps.enabledFile),
+  });
+  await discovery.discover();
+  const all = discovery.getAll();
+
+  if (all.length === 0) {
+    console.log(picocolors.yellow('  No MCPs discovered. Run `meumcp discover` + `npm run keyhunter` first.'));
+    return;
+  }
+
+  const existing = new Set<string>();
+  try {
+    const content = await fs.readFile(path.resolve(config.mcps.enabledFile), 'utf-8');
+    for (const id of JSON.parse(content) as string[]) existing.add(id);
+  } catch {
+    // no enabled list yet
+  }
+
+  const choices = all.map((mcp: any) => ({
+    title: mcp.id,
+    description: mcp.description || '',
+    value: mcp.id,
+    selected: existing.has(mcp.id),
+  }));
+
+  const resp = await prompts({
+    type: 'multiselect',
+    name: 'ids',
+    message: 'Select MCPs to enable (space = toggle, enter = confirm):',
+    instructions: '↑/↓ toggle, Space to mark, Enter to confirm',
+    choices,
+  });
+
+  const toEnable = resp.ids || [];
+  await fs.mkdir(path.dirname(path.resolve(config.mcps.enabledFile)), { recursive: true });
+  await fs.writeFile(path.resolve(config.mcps.enabledFile), JSON.stringify(toEnable, null, 2), 'utf-8');
+  console.log(picocolors.green(`  ${toEnable.length} MCPs enabled. Written to ${config.mcps.enabledFile}`));
+}
+
+program
+  .command('install')
+  .description('Install / activate MCPs via interactive selection (wizard)')
+  .action(installMCPs);
 
 program.parseAsync(process.argv);

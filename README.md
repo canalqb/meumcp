@@ -1,12 +1,14 @@
-# meumcp
+# Qb Nexus
 
-> **MCP central para o ecossistema @CanalQb** — fonte única de verdade para conhecimento, regras, agentes e MCPs descobertos.
+> **Qb Nexus — Ponto de conexão entre agentes, conhecimento e MCPs**
 
-**meumcp** é um servidor [Model Context Protocol (MCP)](https://modelcontextprotocol.io) que unifica:
+> Qb Nexus é a camada central de inteligência para o CanalQb — um *nexus* entre agentes, conhecimento, regras, agentes e MCPs descobertos.
+
+**Qb Nexus** é um servidor [Model Context Protocol (MCP)](https://modelcontextprotocol.io) que unifica:
 
 1. **Knowledge canonical** — regras, prompts e inventário de MCPs descobertos
 2. **Rules engine** — diretrizes LLM governamentais
-3. **MCP Keyhunter** — agente de busca autônoma que descobre novos MCPs free/open-source no GitHub a cada 12h
+3. **MCP Keyhunter** — agente de busca autônoma que descobre novos MCPs free/open-source no GitHub a cada **1h**
 
 ---
 

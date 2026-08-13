@@ -5,7 +5,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/BryanSapo/info-pulse",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -23,7 +23,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:21.334Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:alabubu/mirequ-pipeline",
@@ -31,7 +31,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/alabubu/mirequ-pipeline",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -49,7 +49,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:22.592Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:laurasolares811-creator/Horizon",
@@ -57,7 +57,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/laurasolares811-creator/Horizon",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -75,7 +75,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:23.886Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:KWMIOK/gal-zu",
@@ -83,7 +83,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/KWMIOK/gal-zu",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -101,7 +101,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:25.166Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:vlad-pisotskyi/learning-forge",
@@ -109,7 +109,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/vlad-pisotskyi/learning-forge",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -127,7 +127,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:26.239Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:rjriajul/wzgram",
@@ -135,7 +135,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/rjriajul/wzgram",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -153,7 +153,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:27.421Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:alxxtexxr/arxiv_agent",
@@ -161,7 +161,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/alxxtexxr/arxiv_agent",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -179,7 +179,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:28.677Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:Cfeesto/pdfbot",
@@ -187,7 +187,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/Cfeesto/pdfbot",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -205,7 +205,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:29.798Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:dkreinov/skill_deck_video",
@@ -213,7 +213,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/dkreinov/skill_deck_video",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -231,7 +231,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:30.981Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:mctishke/de7-topics",
@@ -239,7 +239,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/mctishke/de7-topics",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -257,7 +257,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:32.100Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:Yonge6/xiazi-global-hot-topics",
@@ -265,7 +265,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/Yonge6/xiazi-global-hot-topics",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -283,7 +283,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:33.200Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:cboudreau-eip/medicarefaq-next",
@@ -291,7 +291,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/cboudreau-eip/medicarefaq-next",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -309,7 +309,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:34.298Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:moha-osama/Quiz-app",
@@ -317,7 +317,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/moha-osama/Quiz-app",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -335,7 +335,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:35.672Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:CaryNC-IP/carync-ip.github.io",
@@ -343,7 +343,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/CaryNC-IP/carync-ip.github.io",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -361,7 +361,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:36.795Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:KurimuzonAkuma/kurigram",
@@ -369,7 +369,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/KurimuzonAkuma/kurigram",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -387,7 +387,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:37.888Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:VCU-community/vcu-ai-rss",
@@ -395,7 +395,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/VCU-community/vcu-ai-rss",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -413,7 +413,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:39.066Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:Kalwmw/Zip-Password-Recovery",
@@ -421,7 +421,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/Kalwmw/Zip-Password-Recovery",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -439,7 +439,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:40.370Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.503Z"
   },
   {
     "id": "keyhunter:MahadBasit/ml-topics",
@@ -447,7 +447,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/MahadBasit/ml-topics",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -465,7 +465,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:41.442Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:rubyrayjuntos/AIML-Engineer-Academy",
@@ -473,7 +473,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/rubyrayjuntos/AIML-Engineer-Academy",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -491,7 +491,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:42.686Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:drwiiche/google-trend-morocco",
@@ -499,7 +499,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/drwiiche/google-trend-morocco",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -517,7 +517,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:43.828Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:graehl/agents",
@@ -525,7 +525,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/graehl/agents",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -543,7 +543,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:44.894Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange",
@@ -551,7 +551,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/Glyxehon/Blum-Crypto-Trading-P2P-Chain-Exchange",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -569,7 +569,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:46.139Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:maltchev/rfd-ntfy",
@@ -577,7 +577,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/maltchev/rfd-ntfy",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -595,7 +595,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:47.260Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:Praveenrathi-05/backend-learning-portfolio",
@@ -603,7 +603,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/Praveenrathi-05/backend-learning-portfolio",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -621,7 +621,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:48.284Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:coolgeekme/hermes-topic-dashboard",
@@ -629,7 +629,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/coolgeekme/hermes-topic-dashboard",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -647,7 +647,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:49.400Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:hyeonseo2/finfluencer-dashboard",
@@ -655,7 +655,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/hyeonseo2/finfluencer-dashboard",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -673,7 +673,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:50.743Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:jinzc/news-hot-topics",
@@ -681,7 +681,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/jinzc/news-hot-topics",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -699,7 +699,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:51.996Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:jcmaker/just-study",
@@ -707,7 +707,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/jcmaker/just-study",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -725,7 +725,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:53.134Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:mizerolucky/StudyScope",
@@ -733,7 +733,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/mizerolucky/StudyScope",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "broken",
@@ -751,7 +751,7 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:54.491Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   },
   {
     "id": "keyhunter:Xiezhou0828/topicpilot-platform",
@@ -759,7 +759,7 @@
     "source": {
       "type": "local",
       "url": "https://github.com/Xiezhou0828/topicpilot-platform",
-      "path": "./mcps/registry.json",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
       "command": "npx"
     },
     "status": "approved",
@@ -777,6 +777,110 @@
       "http_status": 200
     },
     "discoveredAt": "2026-08-12T20:50:55.830Z",
-    "updatedAt": "2026-08-12T21:16:08.110Z"
+    "updatedAt": "2026-08-13T02:56:51.504Z"
+  },
+  {
+    "id": "keyhunter:ShivangChaurasia/Meeting-Notes---Transcription-Platform",
+    "name": "ShivangChaurasia/Meeting-Notes---Transcription-Platform",
+    "source": {
+      "type": "local",
+      "url": "https://github.com/ShivangChaurasia/Meeting-Notes---Transcription-Platform",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
+      "command": "npx"
+    },
+    "status": "broken",
+    "enabled": false,
+    "trust": "low",
+    "capabilities": {
+      "tools": [],
+      "resources": [],
+      "prompts": []
+    },
+    "metadata": {
+      "language": "TypeScript",
+      "stars": 0,
+      "license": "unknown",
+      "http_status": 200
+    },
+    "discoveredAt": "2026-08-12T21:48:16.238Z",
+    "updatedAt": "2026-08-13T02:56:51.504Z"
+  },
+  {
+    "id": "keyhunter:Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline",
+    "name": "Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline",
+    "source": {
+      "type": "local",
+      "url": "https://github.com/Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
+      "command": "npx"
+    },
+    "status": "approved",
+    "enabled": false,
+    "trust": "low",
+    "capabilities": {
+      "tools": [],
+      "resources": [],
+      "prompts": []
+    },
+    "metadata": {
+      "language": "Python",
+      "stars": 0,
+      "license": "MIT",
+      "http_status": 200
+    },
+    "discoveredAt": "2026-08-12T21:48:17.525Z",
+    "updatedAt": "2026-08-13T02:56:51.504Z"
+  },
+  {
+    "id": "keyhunter:nouka18/App-Topics",
+    "name": "nouka18/App-Topics",
+    "source": {
+      "type": "local",
+      "url": "https://github.com/nouka18/App-Topics",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
+      "command": "npx"
+    },
+    "status": "broken",
+    "enabled": false,
+    "trust": "low",
+    "capabilities": {
+      "tools": [],
+      "resources": [],
+      "prompts": []
+    },
+    "metadata": {
+      "language": "Python",
+      "stars": 0,
+      "license": "unknown",
+      "http_status": 200
+    },
+    "discoveredAt": "2026-08-12T21:48:18.524Z",
+    "updatedAt": "2026-08-13T02:56:51.504Z"
+  },
+  {
+    "id": "keyhunter:data-scrape/google-trends-scraper",
+    "name": "data-scrape/google-trends-scraper",
+    "source": {
+      "type": "local",
+      "url": "https://github.com/data-scrape/google-trends-scraper",
+      "path": "C:\\Users\\Qb\\Desktop\\mcpqb\\mcps\\registry.json",
+      "command": "npx"
+    },
+    "status": "approved",
+    "enabled": false,
+    "trust": "low",
+    "capabilities": {
+      "tools": [],
+      "resources": [],
+      "prompts": []
+    },
+    "metadata": {
+      "language": "Python",
+      "stars": 0,
+      "license": "MIT",
+      "http_status": 200
+    },
+    "discoveredAt": "2026-08-13T01:53:47.832Z",
+    "updatedAt": "2026-08-13T02:56:51.504Z"
   }
 ]
