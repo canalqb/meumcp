@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (33 total, 11 validados free, 22 pulados/pago)
+description: MCPs descobertos pelo keyhunter (34 total, 12 validados free, 22 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 33
-createdAt: 2026-08-12
-updatedAt: 2026-08-12
+version: 34
+createdAt: 2026-08-13
+updatedAt: 2026-08-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-12T21:48:18.524Z
-> Total descoberto: 33 | Validados (HTTP 200 + free): 11 | Pulados (licença paga/enterprise): 22
+> Última execução: 2026-08-13T01:53:47.833Z
+> Total descoberto: 34 | Validados (HTTP 200 + free): 12 | Pulados (licença paga/enterprise): 22
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -32,6 +32,7 @@ updatedAt: 2026-08-12
 | jcmaker/just-study | TypeScript | 1 | MIT | ai-agent, codex, learning | [repo](https://github.com/jcmaker/just-study) |
 | Xiezhou0828/topicpilot-platform | Python | 0 | MIT |  | [repo](https://github.com/Xiezhou0828/topicpilot-platform) |
 | Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline | Python | 0 | MIT | automation, cli, data-engineering | [repo](https://github.com/Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline) |
+| data-scrape/google-trends-scraper | Python | 0 | MIT | data-extraction, google-scraper, google-trends-scraper | [repo](https://github.com/data-scrape/google-trends-scraper) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 

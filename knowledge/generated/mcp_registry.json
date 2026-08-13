@@ -504,5 +504,25 @@
     "validated_at": "2026-08-12T21:48:18.524Z",
     "topics": [],
     "readme_absorbed": "nouka18/App-Topics"
+  },
+  {
+    "id": 1332598256,
+    "full_name": "data-scrape/google-trends-scraper",
+    "url": "https://github.com/data-scrape/google-trends-scraper",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-13T01:53:47.832Z",
+    "topics": [
+      "data-extraction",
+      "google-scraper",
+      "google-trends-scraper",
+      "python",
+      "trends-scraper",
+      "web-scraping"
+    ],
+    "readme_absorbed": "data-scrape/google-trends-scraper"
   }
 ]
