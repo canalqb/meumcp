@@ -2,8 +2,8 @@ name: MCP Keyhunter
 
 on:
   schedule:
-    # 1h cycle
-    - cron: "0 * * * *"
+    # 2h cycle
+    - cron: "0 */2 * * *"
   workflow_dispatch:
     inputs:
       query:

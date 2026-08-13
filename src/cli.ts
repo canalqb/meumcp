@@ -394,12 +394,19 @@ async function installMCPs(): Promise<void> {
     // no enabled list yet
   }
 
-  const choices = all.map((mcp: any) => ({
-    title: mcp.id,
-    description: mcp.description || '',
-    value: mcp.id,
-    selected: existing.has(mcp.id),
-  }));
+  const choices = all.map((mcp: any) => {
+    const parts = mcp.id.split(':');
+    const repo = parts[parts.length - 1] || mcp.id;
+    const lic = mcp.license || 'unknown';
+    const stars = typeof mcp.stars === 'number' ? mcp.stars : 0;
+    const desc = mcp.description || mcp.metadata?.summary || '';
+    return {
+      title: `${repo} ${desc ? `— ${desc.slice(0, 60)}` : ''}`.trim(),
+      description: `ID: ${mcp.id} | License: ${lic} | Stars: ${stars} | Status: ${mcp.status || 'n/a'}`,
+      value: mcp.id,
+      selected: existing.has(mcp.id),
+    };
+  });
 
   const resp = await prompts({
     type: 'multiselect',

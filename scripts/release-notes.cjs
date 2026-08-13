@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Release Notes Generator + README Updater
+ * Gerador de Notas da Versão + Atualizador README
  * Usage: node scripts/release-notes.cjs "<tag>" "<prev_tag>"
  */
 const fs = require('fs');
@@ -19,7 +19,7 @@ try {
   changelog = '- (nenhuma mudança detectada via git log)';
 }
 
-const notes = `# Release Notes — ${tag}\n\nChangelog automático (gerado pelo Copilot Actions):\n\n${changelog.trim()}\n`;
+const notes = `# Notas da Versão — ${tag}\n\nChangelog automático (gerado pelas ações do GitHub):\n\n${changelog.trim()}\n`;
 console.log(`=== Release notes for ${tag} ===`);
 console.log(notes.trim());
 
