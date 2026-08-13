@@ -524,5 +524,94 @@
       "web-scraping"
     ],
     "readme_absorbed": "data-scrape/google-trends-scraper"
+  },
+  {
+    "id": 1332981077,
+    "full_name": "veritus-git/CuriosityEngine",
+    "url": "https://github.com/veritus-git/CuriosityEngine",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T12:55:39.799Z",
+    "topics": [],
+    "readme_absorbed": "veritus-git/CuriosityEngine"
+  },
+  {
+    "id": 1332940195,
+    "full_name": "RobK807/personal_wellness",
+    "url": "https://github.com/RobK807/personal_wellness",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T12:55:40.833Z",
+    "topics": [],
+    "readme_absorbed": "RobK807/personal_wellness"
+  },
+  {
+    "id": 1332772603,
+    "full_name": "namanchoudhary7/study-progress-tracker",
+    "url": "https://github.com/namanchoudhary7/study-progress-tracker",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T12:55:41.719Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1333044686,
+    "full_name": "theinsidecoder/technical-research-agent",
+    "url": "https://github.com/theinsidecoder/technical-research-agent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T12:55:42.605Z",
+    "topics": [],
+    "readme_absorbed": "theinsidecoder/technical-research-agent"
+  },
+  {
+    "id": 1333007389,
+    "full_name": "alyekseyenko/roadmap-to-Staff-Principal-in-AI",
+    "url": "https://github.com/alyekseyenko/roadmap-to-Staff-Principal-in-AI",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T12:55:43.658Z",
+    "topics": [],
+    "readme_absorbed": "alyekseyenko/roadmap-to-Staff-Principal-in-AI"
+  },
+  {
+    "id": 1333024877,
+    "full_name": "mansha5/app-review-analyst",
+    "url": "https://github.com/mansha5/app-review-analyst",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-13T12:55:44.438Z",
+    "topics": [
+      "bertopic",
+      "faiss",
+      "groq",
+      "langchain",
+      "nlp",
+      "product-analytics",
+      "python",
+      "rag",
+      "sentiment-analysis",
+      "streamlit"
+    ],
+    "readme_absorbed": "mansha5/app-review-analyst"
   }
 ]

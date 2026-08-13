@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (34 total, 12 validados free, 22 pulados/pago)
+description: MCPs descobertos pelo keyhunter (40 total, 13 validados free, 27 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 34
+version: 40
 createdAt: 2026-08-13
 updatedAt: 2026-08-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-13T01:53:47.833Z
-> Total descoberto: 34 | Validados (HTTP 200 + free): 12 | Pulados (licença paga/enterprise): 22
+> Última execução: 2026-08-13T12:55:44.439Z
+> Total descoberto: 40 | Validados (HTTP 200 + free): 13 | Pulados (licença paga/enterprise): 27
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -33,6 +33,7 @@ updatedAt: 2026-08-13
 | Xiezhou0828/topicpilot-platform | Python | 0 | MIT |  | [repo](https://github.com/Xiezhou0828/topicpilot-platform) |
 | Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline | Python | 0 | MIT | automation, cli, data-engineering | [repo](https://github.com/Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline) |
 | data-scrape/google-trends-scraper | Python | 0 | MIT | data-extraction, google-scraper, google-trends-scraper | [repo](https://github.com/data-scrape/google-trends-scraper) |
+| mansha5/app-review-analyst | Python | 0 | MIT | bertopic, faiss, groq | [repo](https://github.com/mansha5/app-review-analyst) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -58,6 +59,11 @@ updatedAt: 2026-08-13
 - mizerolucky/StudyScope — licença: unknown
 - ShivangChaurasia/Meeting-Notes---Transcription-Platform — licença: unknown
 - nouka18/App-Topics — licença: unknown
+- veritus-git/CuriosityEngine — licença: unknown
+- RobK807/personal_wellness — licença: unknown
+- namanchoudhary7/study-progress-tracker — licença: unknown
+- theinsidecoder/technical-research-agent — licença: unknown
+- alyekseyenko/roadmap-to-Staff-Principal-in-AI — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
