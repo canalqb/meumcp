@@ -870,5 +870,70 @@
     "validated_at": "2026-08-13T18:54:33.352Z",
     "topics": [],
     "readme_absorbed": "fatihsoysalcom/simple-command-line-note-manager"
+  },
+  {
+    "id": 1333497791,
+    "full_name": "GustavoPereiraCassiano/Projeto-Topicos",
+    "url": "https://github.com/GustavoPereiraCassiano/Projeto-Topicos",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T20:35:31.861Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1333509253,
+    "full_name": "phoebefoy17/topicwatch",
+    "url": "https://github.com/phoebefoy17/topicwatch",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T20:35:32.753Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1333503290,
+    "full_name": "OfentseBaloyi/LEARNFORGE",
+    "url": "https://github.com/OfentseBaloyi/LEARNFORGE",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T20:35:33.616Z",
+    "topics": [],
+    "readme_absorbed": "OfentseBaloyi/LEARNFORGE"
+  },
+  {
+    "id": 1333460606,
+    "full_name": "sarathkumar2907/My-Learnings",
+    "url": "https://github.com/sarathkumar2907/My-Learnings",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T20:35:34.378Z",
+    "topics": [],
+    "readme_absorbed": "sarathkumar2907/My-Learnings"
+  },
+  {
+    "id": 1333455131,
+    "full_name": "gilhorne/blockchain_engineer",
+    "url": "https://github.com/gilhorne/blockchain_engineer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T20:35:35.139Z",
+    "topics": [],
+    "readme_absorbed": "gilhorne/blockchain_engineer"
   }
 ]
