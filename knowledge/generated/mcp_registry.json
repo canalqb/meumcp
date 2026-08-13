@@ -726,5 +726,77 @@
     "validated_at": "2026-08-13T14:52:04.426Z",
     "topics": [],
     "readme_absorbed": "Subrata-CS/open"
+  },
+  {
+    "id": 1333329420,
+    "full_name": "bunnybanshee/examgen",
+    "url": "https://github.com/bunnybanshee/examgen",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T16:50:24.360Z",
+    "topics": [],
+    "readme_absorbed": "bunnybanshee/examgen"
+  },
+  {
+    "id": 1333286935,
+    "full_name": "tutapro/zalo-tg",
+    "url": "https://github.com/tutapro/zalo-tg",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T16:50:25.615Z",
+    "topics": [],
+    "readme_absorbed": "tutapro/zalo-tg"
+  },
+  {
+    "id": 1333242825,
+    "full_name": "bobleer/deepseek-harness-plugin-mcp",
+    "url": "https://github.com/bobleer/deepseek-harness-plugin-mcp",
+    "language": "TypeScript",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-13T16:50:26.506Z",
+    "topics": [
+      "bitfun",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "readme_absorbed": "bobleer/deepseek-harness-plugin-mcp"
+  },
+  {
+    "id": 1333298905,
+    "full_name": "voronindenis5/screenshot-organizer",
+    "url": "https://github.com/voronindenis5/screenshot-organizer",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-13T16:50:27.454Z",
+    "topics": [],
+    "readme_absorbed": "voronindenis5/screenshot-organizer"
+  },
+  {
+    "id": 1333268401,
+    "full_name": "gopalkrishnamohapatro-commits/project-topic-recommender",
+    "url": "https://github.com/gopalkrishnamohapatro-commits/project-topic-recommender",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T16:50:28.364Z",
+    "topics": [],
+    "readme_absorbed": "gopalkrishnamohapatro-commits/project-topic-recommender"
   }
 ]
