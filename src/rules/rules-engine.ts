@@ -140,9 +140,17 @@ export class RulesEngine {
 
   private detectConflicts(): void {
     const rules = Array.from(this.rules.values());
+    const GENERIC = new Set(['llm', 'rule', 'compliance', 'governance', 'quality']);
     for (const rule of rules) {
       const conflicts = rules
-        .filter((r) => r.id !== rule.id && r.tags.some((t) => rule.tags.includes(t)))
+        .filter((r) => r.id !== rule.id)
+        .filter((r) => {
+          // ignora tags genéricas de classificaçao
+          const shared = r.tags.filter((t) => rule.tags.includes(t) && !GENERIC.has(t));
+          if (shared.length > 0) return true;
+          // conflito real: mesmo conteudo (hash igual) com ids diferentes
+          return r.provenance.hash === rule.provenance.hash && r.id !== rule.id;
+        })
         .map((r) => r.id);
       if (conflicts.length > 0) {
         this.conflictLog.push({ ruleId: rule.id, conflicts });
