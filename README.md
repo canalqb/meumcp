@@ -245,6 +245,12 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-13T14:52:02.004Z | rook-builds/arxivsnap | 0 | MIT | 200 |
+
+| 2026-08-13T14:52:03.130Z | MatheusOliveiraSilva/topic-spin | 0 | MIT | 200 |
+
+| 2026-08-13T14:52:04.426Z | Subrata-CS/open | 0 | MIT | 200 |
+
 | 2026-08-13T12:55:44.438Z | mansha5/app-review-analyst | 0 | MIT | 200 |
 
 | 2026-08-13T01:53:47.832Z | data-scrape/google-trends-scraper | 0 | MIT | 200 |

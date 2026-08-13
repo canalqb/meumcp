@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (40 total, 13 validados free, 27 pulados/pago)
+description: MCPs descobertos pelo keyhunter (48 total, 16 validados free, 32 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 40
+version: 48
 createdAt: 2026-08-13
 updatedAt: 2026-08-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-13T12:55:44.439Z
-> Total descoberto: 40 | Validados (HTTP 200 + free): 13 | Pulados (licença paga/enterprise): 27
+> Última execução: 2026-08-13T14:52:04.426Z
+> Total descoberto: 48 | Validados (HTTP 200 + free): 16 | Pulados (licença paga/enterprise): 32
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -34,6 +34,9 @@ updatedAt: 2026-08-13
 | Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline | Python | 0 | MIT | automation, cli, data-engineering | [repo](https://github.com/Sohila-Khaled-Abbas/ride-sharing-kafka-pipeline) |
 | data-scrape/google-trends-scraper | Python | 0 | MIT | data-extraction, google-scraper, google-trends-scraper | [repo](https://github.com/data-scrape/google-trends-scraper) |
 | mansha5/app-review-analyst | Python | 0 | MIT | bertopic, faiss, groq | [repo](https://github.com/mansha5/app-review-analyst) |
+| rook-builds/arxivsnap | Python | 0 | MIT |  | [repo](https://github.com/rook-builds/arxivsnap) |
+| MatheusOliveiraSilva/topic-spin | TypeScript | 0 | MIT |  | [repo](https://github.com/MatheusOliveiraSilva/topic-spin) |
+| Subrata-CS/open | TypeScript | 0 | MIT |  | [repo](https://github.com/Subrata-CS/open) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -64,6 +67,11 @@ updatedAt: 2026-08-13
 - namanchoudhary7/study-progress-tracker — licença: unknown
 - theinsidecoder/technical-research-agent — licença: unknown
 - alyekseyenko/roadmap-to-Staff-Principal-in-AI — licença: unknown
+- SuhaAltowirish/ros-pubsub-custom-message — licença: unknown
+- Zuzuna54/Topic-Modelling — licença: unknown
+- GOS81/hw1_golubchyk_react_agent — licença: unknown
+- Yashvi2912/hn-data-pipeline-nlp — licença: unknown
+- thinali-walpola/workflow-challenge — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
