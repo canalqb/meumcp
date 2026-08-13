@@ -27,6 +27,10 @@ import { GoogleDocsIngest } from './ingestion/google-docs.js';
 import { logger } from './core/logger.js';
 import { config } from './config/index.js';
 import { z } from 'zod';
+import { zodToJsonSchema } from 'zod-to-json-schema';
+
+const toSchema = (s: any) =>
+  zodToJsonSchema(s, { $refStrategy: 'none' });
 
 // Initialize managers
 const knowledge = new KnowledgeManager({
@@ -150,42 +154,42 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
     {
       name: 'get_context',
       description: 'Resolve context for an agent/task, unifying knowledge, rules, and MCPs into a single context package.',
-      inputSchema: GetContextSchema,
+      inputSchema: toSchema(GetContextSchema),
     },
     {
       name: 'search_knowledge',
       description: 'Search the central knowledge base for descriptive facts by query, category, or tags.',
-      inputSchema: SearchKnowledgeSchema,
+      inputSchema: toSchema(SearchKnowledgeSchema),
     },
     {
       name: 'get_rules',
       description: 'Get resolved rules for a specific agent, respecting precedence hierarchy (global > org > project > agent).',
-      inputSchema: GetRulesSchema,
+      inputSchema: toSchema(GetRulesSchema),
     },
     {
       name: 'check_rule',
       description: 'Check whether a specific action is allowed under a specific rule.',
-      inputSchema: CheckRuleSchema,
+      inputSchema: toSchema(CheckRuleSchema),
     },
     {
       name: 'get_agent',
       description: 'Get agent profile and identify appropriate agent from request context.',
-      inputSchema: GetAgentSchema,
+      inputSchema: toSchema(GetAgentSchema),
     },
     {
       name: 'list_mcps',
       description: 'List discovered MCPs from all configured clients (Claude, Cursor, LM Studio, Hermes, npm).',
-      inputSchema: ListMCPsSchema,
+      inputSchema: toSchema(ListMCPsSchema),
     },
     {
       name: 'get_system',
       description: 'Get system information, configuration, and statistics.',
-      inputSchema: GetSystemSchema,
+      inputSchema: toSchema(GetSystemSchema),
     },
     {
       name: 'get_llm_rules',
       description: 'Get LLM rules from the Canonical rules (master_rules + regra_llms_*). Pass ruleId for a specific rule, or tags to filter.',
-      inputSchema: GetLLMRulesSchema,
+      inputSchema: toSchema(GetLLMRulesSchema),
     },
   ],
 }));

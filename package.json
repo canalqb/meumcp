@@ -32,7 +32,8 @@
     "marked": "^13.0.0",
     "picocolors": "^1.1.1",
     "pino": "^9.2.0",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.25.2"
   },
   "devDependencies": {
     "@types/jest": "^29.5.13",
