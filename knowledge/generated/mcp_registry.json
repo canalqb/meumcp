@@ -798,5 +798,77 @@
     "validated_at": "2026-08-13T16:50:28.364Z",
     "topics": [],
     "readme_absorbed": "gopalkrishnamohapatro-commits/project-topic-recommender"
+  },
+  {
+    "id": 1333426301,
+    "full_name": "ashijobs2025-prog/Topic_to_Web",
+    "url": "https://github.com/ashijobs2025-prog/Topic_to_Web",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T18:54:29.725Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1333435502,
+    "full_name": "kunalsonkar485-png/SmartStudyAI",
+    "url": "https://github.com/kunalsonkar485-png/SmartStudyAI",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T18:54:30.627Z",
+    "topics": [],
+    "readme_absorbed": "kunalsonkar485-png/SmartStudyAI"
+  },
+  {
+    "id": 1333412213,
+    "full_name": "Jesse-njx/dsh-plugin-manager-registry",
+    "url": "https://github.com/Jesse-njx/dsh-plugin-manager-registry",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-13T18:54:31.520Z",
+    "topics": [
+      "deepseek-harness",
+      "discovery",
+      "dsh",
+      "dsh-plugin",
+      "plugin-manager",
+      "registry"
+    ],
+    "readme_absorbed": "Jesse-njx/dsh-plugin-manager-registry"
+  },
+  {
+    "id": 1333377709,
+    "full_name": "aammuhammad18-cmyk/majeda",
+    "url": "https://github.com/aammuhammad18-cmyk/majeda",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T18:54:32.494Z",
+    "topics": [],
+    "readme_absorbed": "aammuhammad18-cmyk/majeda"
+  },
+  {
+    "id": 1333403619,
+    "full_name": "fatihsoysalcom/simple-command-line-note-manager",
+    "url": "https://github.com/fatihsoysalcom/simple-command-line-note-manager",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-13T18:54:33.352Z",
+    "topics": [],
+    "readme_absorbed": "fatihsoysalcom/simple-command-line-note-manager"
   }
 ]

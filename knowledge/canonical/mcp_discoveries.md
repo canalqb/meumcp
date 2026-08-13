@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (53 total, 18 validados free, 35 pulados/pago)
+description: MCPs descobertos pelo keyhunter (58 total, 20 validados free, 38 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 53
+version: 58
 createdAt: 2026-08-13
 updatedAt: 2026-08-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-13T16:50:28.364Z
-> Total descoberto: 53 | Validados (HTTP 200 + free): 18 | Pulados (licença paga/enterprise): 35
+> Última execução: 2026-08-13T18:54:33.352Z
+> Total descoberto: 58 | Validados (HTTP 200 + free): 20 | Pulados (licença paga/enterprise): 38
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -39,6 +39,8 @@ updatedAt: 2026-08-13
 | Subrata-CS/open | TypeScript | 0 | MIT |  | [repo](https://github.com/Subrata-CS/open) |
 | bobleer/deepseek-harness-plugin-mcp | TypeScript | 1 | MIT | bitfun, deepseek-harness, dsh | [repo](https://github.com/bobleer/deepseek-harness-plugin-mcp) |
 | voronindenis5/screenshot-organizer | Python | 0 | MIT |  | [repo](https://github.com/voronindenis5/screenshot-organizer) |
+| Jesse-njx/dsh-plugin-manager-registry | TypeScript | 0 | MIT | deepseek-harness, discovery, dsh | [repo](https://github.com/Jesse-njx/dsh-plugin-manager-registry) |
+| fatihsoysalcom/simple-command-line-note-manager | Python | 0 | MIT |  | [repo](https://github.com/fatihsoysalcom/simple-command-line-note-manager) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -77,6 +79,9 @@ updatedAt: 2026-08-13
 - bunnybanshee/examgen — licença: unknown
 - tutapro/zalo-tg — licença: unknown
 - gopalkrishnamohapatro-commits/project-topic-recommender — licença: unknown
+- ashijobs2025-prog/Topic_to_Web — licença: unknown
+- kunalsonkar485-png/SmartStudyAI — licença: unknown
+- aammuhammad18-cmyk/majeda — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
