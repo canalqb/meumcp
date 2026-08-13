@@ -935,5 +935,80 @@
     "validated_at": "2026-08-13T20:35:35.139Z",
     "topics": [],
     "readme_absorbed": "gilhorne/blockchain_engineer"
+  },
+  {
+    "id": 1333554178,
+    "full_name": "amarcu/ai-paper-digest",
+    "url": "https://github.com/amarcu/ai-paper-digest",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T22:34:56.427Z",
+    "topics": [],
+    "readme_absorbed": "amarcu/ai-paper-digest"
+  },
+  {
+    "id": 1333578490,
+    "full_name": "mostypc123/sloppity-slop",
+    "url": "https://github.com/mostypc123/sloppity-slop",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T22:34:57.514Z",
+    "topics": [],
+    "readme_absorbed": "mostypc123/sloppity-slop"
+  },
+  {
+    "id": 1333545438,
+    "full_name": "zeroziba9-hash/ai-qcell-physical-ai",
+    "url": "https://github.com/zeroziba9-hash/ai-qcell-physical-ai",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T22:34:58.740Z",
+    "topics": [],
+    "readme_absorbed": "zeroziba9-hash/ai-qcell-physical-ai"
+  },
+  {
+    "id": 1333545552,
+    "full_name": "kanishkk-gupta/ResearchMind-Multi-Agent-Pipeline",
+    "url": "https://github.com/kanishkk-gupta/ResearchMind-Multi-Agent-Pipeline",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T22:34:59.748Z",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "beautifulsoup4",
+      "fastapi",
+      "langchain",
+      "mistral-ai",
+      "research-agent",
+      "tavily",
+      "webscraping"
+    ],
+    "readme_absorbed": "kanishkk-gupta/ResearchMind-Multi-Agent-Pipeline"
+  },
+  {
+    "id": 1333535360,
+    "full_name": "SSSDD122222/tg-topic-bridge",
+    "url": "https://github.com/SSSDD122222/tg-topic-bridge",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-13T22:35:00.929Z",
+    "topics": [],
+    "readme_absorbed": "SSSDD122222/tg-topic-bridge"
   }
 ]
