@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (71 total, 23 validados free, 48 pulados/pago)
+description: MCPs descobertos pelo keyhunter (75 total, 25 validados free, 50 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 71
+version: 75
 createdAt: 2026-08-14
 updatedAt: 2026-08-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-14T01:21:44.731Z
-> Total descoberto: 71 | Validados (HTTP 200 + free): 23 | Pulados (licença paga/enterprise): 48
+> Última execução: 2026-08-14T04:01:07.966Z
+> Total descoberto: 75 | Validados (HTTP 200 + free): 25 | Pulados (licença paga/enterprise): 50
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -44,6 +44,8 @@ updatedAt: 2026-08-14
 | SeanHollen/wcfed | Python | 0 | MIT |  | [repo](https://github.com/SeanHollen/wcfed) |
 | j86schroeder/tree-pad-2.0 | TypeScript | 1 | MIT | fluent-ui, knowledge-management, local-first | [repo](https://github.com/j86schroeder/tree-pad-2.0) |
 | EricUfomadu/fashion-reliability | Python | 0 | MIT |  | [repo](https://github.com/EricUfomadu/fashion-reliability) |
+| TheYoungChen/dsh-plugin-market | TypeScript | 1 | MIT | deepseek-harness, deepseek-harness-plugin, dsh | [repo](https://github.com/TheYoungChen/dsh-plugin-market) |
+| awesome-dsh-plugin/dsh-find-plugin | TypeScript | 3 | MIT | deepseek-harness, dsh, dsh-plugin | [repo](https://github.com/awesome-dsh-plugin/dsh-find-plugin) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -95,6 +97,8 @@ updatedAt: 2026-08-14
 - zeroziba9-hash/ai-qcell-physical-ai — licença: unknown
 - kanishkk-gupta/ResearchMind-Multi-Agent-Pipeline — licença: unknown
 - SSSDD122222/tg-topic-bridge — licença: unknown
+- mulyadi/real_time_stream — licença: unknown
+- yuchuan-autonomy/astra_rgb_camera — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

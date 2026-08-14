@@ -1059,5 +1059,67 @@
     "validated_at": "2026-08-14T01:21:44.730Z",
     "topics": [],
     "readme_absorbed": "EricUfomadu/fashion-reliability"
+  },
+  {
+    "id": 1333764501,
+    "full_name": "mulyadi/real_time_stream",
+    "url": "https://github.com/mulyadi/real_time_stream",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T04:01:05.208Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1333748599,
+    "full_name": "TheYoungChen/dsh-plugin-market",
+    "url": "https://github.com/TheYoungChen/dsh-plugin-market",
+    "language": "TypeScript",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-14T04:01:06.017Z",
+    "topics": [
+      "deepseek-harness",
+      "deepseek-harness-plugin",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugins"
+    ],
+    "readme_absorbed": "TheYoungChen/dsh-plugin-market"
+  },
+  {
+    "id": 1333741401,
+    "full_name": "yuchuan-autonomy/astra_rgb_camera",
+    "url": "https://github.com/yuchuan-autonomy/astra_rgb_camera",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T04:01:07.173Z",
+    "topics": [],
+    "readme_absorbed": "yuchuan-autonomy/astra_rgb_camera"
+  },
+  {
+    "id": 1333689922,
+    "full_name": "awesome-dsh-plugin/dsh-find-plugin",
+    "url": "https://github.com/awesome-dsh-plugin/dsh-find-plugin",
+    "language": "TypeScript",
+    "stars": 3,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-14T04:01:07.965Z",
+    "topics": [
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin"
+    ],
+    "readme_absorbed": "awesome-dsh-plugin/dsh-find-plugin"
   }
 ]
