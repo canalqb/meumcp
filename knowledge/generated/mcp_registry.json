@@ -1121,5 +1121,102 @@
       "dsh-plugin"
     ],
     "readme_absorbed": "awesome-dsh-plugin/dsh-find-plugin"
+  },
+  {
+    "id": 1333850356,
+    "full_name": "HdxL0V3/repo-tag-topic-tool",
+    "url": "https://github.com/HdxL0V3/repo-tag-topic-tool",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T07:15:35.870Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1333858836,
+    "full_name": "JayaPramodh/cs50ai",
+    "url": "https://github.com/JayaPramodh/cs50ai",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T07:15:36.750Z",
+    "topics": [],
+    "readme_absorbed": "JayaPramodh/cs50ai"
+  },
+  {
+    "id": 1333819626,
+    "full_name": "dhritibangera-cmd/Leetcode---Dhriti-",
+    "url": "https://github.com/dhritibangera-cmd/Leetcode---Dhriti-",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T07:15:37.720Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1333868281,
+    "full_name": "huangzhimin4read/CodexFeishu",
+    "url": "https://github.com/huangzhimin4read/CodexFeishu",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-14T07:15:38.543Z",
+    "topics": [
+      "codex",
+      "feishu",
+      "lark",
+      "python",
+      "windows"
+    ],
+    "readme_absorbed": "huangzhimin4read/CodexFeishu"
+  },
+  {
+    "id": 1333859804,
+    "full_name": "BETTlM/HybridLDA",
+    "url": "https://github.com/BETTlM/HybridLDA",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T07:15:39.357Z",
+    "topics": [],
+    "readme_absorbed": "BETTlM/HybridLDA"
+  },
+  {
+    "id": 1333859404,
+    "full_name": "chaoyibot/ai-poster-generator",
+    "url": "https://github.com/chaoyibot/ai-poster-generator",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-14T07:15:40.331Z",
+    "topics": [],
+    "readme_absorbed": "chaoyibot/ai-poster-generator"
+  },
+  {
+    "id": 1333857350,
+    "full_name": "sanjeev-kumar-singh-dev/ai-interview-prep-bot",
+    "url": "https://github.com/sanjeev-kumar-singh-dev/ai-interview-prep-bot",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T07:15:41.173Z",
+    "topics": [],
+    "readme_absorbed": "sanjeev-kumar-singh-dev/ai-interview-prep-bot"
   }
 ]
