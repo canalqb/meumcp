@@ -10,7 +10,7 @@
  * 6. Cria GitHub release via gh CLI
  * 7. Deduplica via knowledge/generated/mcp_registry.json
  *
- * Ciclo: 2h (via GitHub Actions cron 0 */2 * * *).
+ * Ciclo: 12h (via GitHub Actions cron 00:00 UTC + 12:00 UTC).
  * Foco: apenas MCPs GRATUITOS/open-source.
  */
 const fs = require('fs');
@@ -183,7 +183,7 @@ Gerado automaticamente via GitHub Actions (12h cycle).
 }
 
 async function main() {
-  console.log('[keyhunter] === INICIANDO RUN (2h cycle) ===');
+  console.log('[keyhunter] === INICIANDO RUN (12h cycle) ===');
   fs.mkdirSync(GENERATED_DIR, { recursive: true });
   fs.mkdirSync(CANONICAL_DIR, { recursive: true });
 

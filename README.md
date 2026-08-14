@@ -8,7 +8,7 @@
 
 1. **Knowledge canonical** — regras, prompts e inventário de MCPs descobertos
 2. **Rules engine** — diretrizes LLM governamentais
-3. **MCP Keyhunter** — agente de busca autônoma que descobre novos MCPs free/open-source no GitHub a cada **1h**
+3. **MCP Keyhunter** — agente de busca autônoma que descobre novos MCPs free/open-source no GitHub a cada **12h**
 
 ---
 
@@ -134,9 +134,9 @@ npm run cli      # inicia CLI interativa
 
 ---
 
-## 🔍 MCP Keyhunter (2h cycle)
+## 🔍 MCP Keyhunter (12h cycle)
 
-O **keyhunter** (`scripts/mcp_keyhunter/`) busca novos MCPs gratuitos no GitHub a cada 2h:
+O **keyhunter** (`scripts/mcp_keyhunter/`) busca novos MCPs gratuitos no GitHub a cada 12h:
 
 1. Busca via GitHub Search API
 2. **Filtra apenas licenças free/open-source**: MIT, Apache-2.0, BSD, GPL, ISC, Unlicense
@@ -148,13 +148,13 @@ O **keyhunter** (`scripts/mcp_keyhunter/`) busca novos MCPs gratuitos no GitHub 
 > ✅ Apenas tecnologias com licença free/open-source são absorvidas.
 > ❌ Repos com licença enterprise, commercial ou proprietary são **ignorados**.
 
-### Cron (2h cycle)
+### Cron (12h cycle)
 
 | Trigger | Frequência |
 |---|---|
-| GitHub Actions (cron UTC) | `0 * * * *` |
+| GitHub Actions (cron UTC) | `0 0,12 * * *` |
 | GitHub Actions (manual) | `gh workflow run mcp-keyhunter.yml` |
-| Local cron (fallback) | `0 */2 * * *` |
+| Local cron (fallback) | `0 0,12 * * *` |
 
 Workflow: `.github/workflows/mcp-keyhunter.yml`
 
@@ -201,7 +201,7 @@ A command `meumcp install` apresenta uma **caixa de seleção interativa** para 
 
 Cada run do keyhunter com novos MCPs gera:
 
-- **Commit automático** `auto: update MCP discoveries [2h cycle]`
+- **Commit automático** `auto: update MCP discoveries [12h cycle]`
 - **Release** `keyhunter-YYYY-MM-DD` via `gh release create`
 
 > 📋 **Log de releases:** [releases do meumcp](https://github.com/canalqb/meumcp/releases)
@@ -211,7 +211,7 @@ Cada run do keyhunter com novos MCPs gera:
 ## 📁 Estrutura
 
 ```
-mcpqb/
+meumcp/
 ├── src/
 │   ├── server.ts         # MCP principal (8 tools + install + update-check)
 │   └── cli.ts            # CLI interativa: doctor, discover, install
@@ -220,9 +220,9 @@ mcpqb/
 │   ├── canonical/        # master_rules, mcp_creators, mcp_discoveries
 │   └── generated/
 │       └── mcp_registry.json   # MCPs validados (deduplicado)
-├── scripts/mcp_keyhunter/      # Sub-agente de descoberta (2h cycle)
+├── scripts/mcp_keyhunter/      # Sub-agente de descoberta (12h cycle)
 ├── .github/workflows/
-│   └── mcp-keyhunter.yml       # Cron 2h + workflow_dispatch
+│   └── mcp-keyhunter.yml       # Cron 12h + workflow_dispatch
 └── tests/                      # 10 jest tests
 ```
 

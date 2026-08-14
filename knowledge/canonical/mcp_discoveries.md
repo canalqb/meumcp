@@ -12,7 +12,7 @@ createdAt: 2026-08-14
 updatedAt: 2026-08-14
 ---
 
-# Descobertas MCP — Keyhunter GitHub (2h cycle)
+# Descobertas MCP — Keyhunter GitHub (12h cycle)
 
 > Última execução: 2026-08-14T07:15:41.173Z
 > Total descoberto: 82 | Validados (HTTP 200 + free): 27 | Pulados (licença paga/enterprise): 55
