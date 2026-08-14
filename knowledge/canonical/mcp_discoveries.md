@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (68 total, 20 validados free, 48 pulados/pago)
+description: MCPs descobertos pelo keyhunter (71 total, 23 validados free, 48 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 68
-createdAt: 2026-08-13
-updatedAt: 2026-08-13
+version: 71
+createdAt: 2026-08-14
+updatedAt: 2026-08-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-13T22:35:00.929Z
-> Total descoberto: 68 | Validados (HTTP 200 + free): 20 | Pulados (licença paga/enterprise): 48
+> Última execução: 2026-08-14T01:21:44.731Z
+> Total descoberto: 71 | Validados (HTTP 200 + free): 23 | Pulados (licença paga/enterprise): 48
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -41,6 +41,9 @@ updatedAt: 2026-08-13
 | voronindenis5/screenshot-organizer | Python | 0 | MIT |  | [repo](https://github.com/voronindenis5/screenshot-organizer) |
 | Jesse-njx/dsh-plugin-manager-registry | TypeScript | 0 | MIT | deepseek-harness, discovery, dsh | [repo](https://github.com/Jesse-njx/dsh-plugin-manager-registry) |
 | fatihsoysalcom/simple-command-line-note-manager | Python | 0 | MIT |  | [repo](https://github.com/fatihsoysalcom/simple-command-line-note-manager) |
+| SeanHollen/wcfed | Python | 0 | MIT |  | [repo](https://github.com/SeanHollen/wcfed) |
+| j86schroeder/tree-pad-2.0 | TypeScript | 1 | MIT | fluent-ui, knowledge-management, local-first | [repo](https://github.com/j86schroeder/tree-pad-2.0) |
+| EricUfomadu/fashion-reliability | Python | 0 | MIT |  | [repo](https://github.com/EricUfomadu/fashion-reliability) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 

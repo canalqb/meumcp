@@ -245,6 +245,12 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-14T01:21:43.024Z | SeanHollen/wcfed | 0 | MIT | 200 |
+
+| 2026-08-14T01:21:43.781Z | j86schroeder/tree-pad-2.0 | 1 | MIT | 200 |
+
+| 2026-08-14T01:21:44.730Z | EricUfomadu/fashion-reliability | 0 | MIT | 200 |
+
 | 2026-08-13T18:54:31.520Z | Jesse-njx/dsh-plugin-manager-registry | 0 | MIT | 200 |
 
 | 2026-08-13T18:54:33.352Z | fatihsoysalcom/simple-command-line-note-manager | 0 | MIT | 200 |
