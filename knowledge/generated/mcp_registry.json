@@ -1218,5 +1218,77 @@
     "validated_at": "2026-08-14T07:15:41.173Z",
     "topics": [],
     "readme_absorbed": "sanjeev-kumar-singh-dev/ai-interview-prep-bot"
+  },
+  {
+    "id": 1334171214,
+    "full_name": "rahulthegr8/Askly-AI-fast-AI-powered-answers-Website",
+    "url": "https://github.com/rahulthegr8/Askly-AI-fast-AI-powered-answers-Website",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T12:54:09.592Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1334171104,
+    "full_name": "smrutimehta21-eng/Current-Affairs-world",
+    "url": "https://github.com/smrutimehta21-eng/Current-Affairs-world",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T12:54:10.982Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1334029131,
+    "full_name": "6kongbai/dsh-plugin-market",
+    "url": "https://github.com/6kongbai/dsh-plugin-market",
+    "language": "TypeScript",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-14T12:54:12.201Z",
+    "topics": [
+      "cli",
+      "deepseek-harness",
+      "dsh",
+      "dsh-bundle",
+      "dsh-plugin",
+      "plugin-marketplace"
+    ],
+    "readme_absorbed": "6kongbai/dsh-plugin-market"
+  },
+  {
+    "id": 1334131239,
+    "full_name": "amitdeo28/InsightAI-Multi-Agent-System",
+    "url": "https://github.com/amitdeo28/InsightAI-Multi-Agent-System",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T12:54:13.309Z",
+    "topics": [],
+    "readme_absorbed": "amitdeo28/InsightAI-Multi-Agent-System"
+  },
+  {
+    "id": 1334015433,
+    "full_name": "lokesh-node/multi_step_content_pipeline",
+    "url": "https://github.com/lokesh-node/multi_step_content_pipeline",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-14T12:54:14.599Z",
+    "topics": [],
+    "readme_absorbed": "lokesh-node/multi_step_content_pipeline"
   }
 ]

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (82 total, 27 validados free, 55 pulados/pago)
+description: MCPs descobertos pelo keyhunter (87 total, 28 validados free, 59 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 82
+version: 87
 createdAt: 2026-08-14
 updatedAt: 2026-08-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-14T07:15:41.173Z
-> Total descoberto: 82 | Validados (HTTP 200 + free): 27 | Pulados (licença paga/enterprise): 55
+> Última execução: 2026-08-14T12:54:14.600Z
+> Total descoberto: 87 | Validados (HTTP 200 + free): 28 | Pulados (licença paga/enterprise): 59
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -48,6 +48,7 @@ updatedAt: 2026-08-14
 | awesome-dsh-plugin/dsh-find-plugin | TypeScript | 3 | MIT | deepseek-harness, dsh, dsh-plugin | [repo](https://github.com/awesome-dsh-plugin/dsh-find-plugin) |
 | huangzhimin4read/CodexFeishu | Python | 0 | MIT | codex, feishu, lark | [repo](https://github.com/huangzhimin4read/CodexFeishu) |
 | chaoyibot/ai-poster-generator | Python | 0 | MIT |  | [repo](https://github.com/chaoyibot/ai-poster-generator) |
+| 6kongbai/dsh-plugin-market | TypeScript | 1 | MIT | cli, deepseek-harness, dsh | [repo](https://github.com/6kongbai/dsh-plugin-market) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -106,6 +107,10 @@ updatedAt: 2026-08-14
 - dhritibangera-cmd/Leetcode---Dhriti- — licença: unknown
 - BETTlM/HybridLDA — licença: unknown
 - sanjeev-kumar-singh-dev/ai-interview-prep-bot — licença: unknown
+- rahulthegr8/Askly-AI-fast-AI-powered-answers-Website — licença: unknown
+- smrutimehta21-eng/Current-Affairs-world — licença: unknown
+- amitdeo28/InsightAI-Multi-Agent-System — licença: unknown
+- lokesh-node/multi_step_content_pipeline — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -245,6 +245,8 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-14T12:54:12.201Z | 6kongbai/dsh-plugin-market | 1 | MIT | 200 |
+
 | 2026-08-14T07:15:38.543Z | huangzhimin4read/CodexFeishu | 0 | MIT | 200 |
 
 | 2026-08-14T07:15:40.331Z | chaoyibot/ai-poster-generator | 0 | MIT | 200 |
