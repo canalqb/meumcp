@@ -12,6 +12,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
+    "serve": "node dist/server.js",
+    "serve:http": "node dist/server.js",
     "dev": "tsx watch src/server.ts",
     "cli": "tsx src/cli.ts",
     "test": "jest",

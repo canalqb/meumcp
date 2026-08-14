@@ -10,7 +10,7 @@
  * 6. Cria GitHub release via gh CLI
  * 7. Deduplica via knowledge/generated/mcp_registry.json
  *
- * Ciclo: 12h (via GitHub Actions cron 00:00 UTC + 12:00 UTC).
+ * Ciclo: 2h (via GitHub Actions cron 0 */2 * * *).
  * Foco: apenas MCPs GRATUITOS/open-source.
  */
 const fs = require('fs');
@@ -28,7 +28,7 @@ const PROJECT_README = path.join(ROOT, 'README.md');
 const GH_TOKEN = process.env.GITHUB_TOKEN || '';
 const GH_API = 'https://api.github.com';
 // Topics relacionados a MCP no GitHub
-const SEARCH_QUERY = 'mcp-server OR "model-context-protocol" OR "mcp-server" topic in:name,description language:typescript,python';
+const SEARCH_QUERY = process.env.GH_SEARCH_QUERY || 'mcp-server OR "model-context-protocol" OR "mcp-server" topic in:name,description language:typescript,python';
 const SEARCH_URL = `${GH_API}/search/repositories?q=${encodeURIComponent(SEARCH_QUERY)}&sort=updated&order=desc&per_page=50`;
 
 // Licenças consideradas GRATUITAS / open-source
@@ -183,7 +183,7 @@ Gerado automaticamente via GitHub Actions (12h cycle).
 }
 
 async function main() {
-  console.log('[keyhunter] === INICIANDO RUN (12h cycle) ===');
+  console.log('[keyhunter] === INICIANDO RUN (2h cycle) ===');
   fs.mkdirSync(GENERATED_DIR, { recursive: true });
   fs.mkdirSync(CANONICAL_DIR, { recursive: true });
 

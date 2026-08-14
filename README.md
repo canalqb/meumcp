@@ -28,7 +28,7 @@ gh auth login
 
 ```bash
 git clone https://github.com/canalqb/meumcp.git
-cd mcpqb
+cd meumcp
 npm install
 npm run build
 ```
@@ -59,7 +59,7 @@ Adicione ao `claude_desktop_config.json`:
   "mcpServers": {
     "meumcp": {
       "command": "node",
-      "args": ["<caminho>/mcpqb/dist/server.js"],
+      "args": ["<caminho>/meumcp/dist/server.js"],
       "env": {
         "MEUMCP_CLI": "true",
         "GITHUB_TOKEN": "<seu-token-aqui>"
@@ -77,7 +77,7 @@ Adicione ao `claude_desktop_config.json`:
     "meumcp": {
       "type": "stdio",
       "command": "node",
-      "args": ["<caminho>/mcpqb/dist/server.js"]
+      "args": ["<caminho>/meumcp/dist/server.js"]
     }
   }
 }

@@ -17,7 +17,7 @@ export const ConfigSchema = z.object({
   knowledge: z
     .object({
       googleDocsSourceUrl: z.string().url().optional(),
-      localRulesDir: z.string().default('./regras'),
+      localRulesDir: z.string().default('./rules'),
       canonicalDir: z.string().default('./knowledge/canonical'),
       importedDir: z.string().default('./knowledge/imported'),
       generatedDir: z.string().default('./knowledge/generated'),
@@ -77,7 +77,7 @@ export const config: Config = ConfigSchema.parse({
   },
   knowledge: {
     googleDocsSourceUrl: process.env.GOOGLE_DOCS_SOURCE_URL,
-    localRulesDir: process.env.LOCAL_RULES_DIR || './regras',
+    localRulesDir: process.env.LOCAL_RULES_DIR || './rules',
   },
   external: {
     githubToken: process.env.GITHUB_TOKEN,
