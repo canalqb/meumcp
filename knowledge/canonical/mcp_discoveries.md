@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (91 total, 28 validados free, 63 pulados/pago)
+description: MCPs descobertos pelo keyhunter (99 total, 30 validados free, 69 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 91
+version: 99
 createdAt: 2026-08-15
 updatedAt: 2026-08-15
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-15T00:56:39.247Z
-> Total descoberto: 91 | Validados (HTTP 200 + free): 28 | Pulados (licença paga/enterprise): 63
+> Última execução: 2026-08-15T12:27:21.208Z
+> Total descoberto: 99 | Validados (HTTP 200 + free): 30 | Pulados (licença paga/enterprise): 69
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -49,6 +49,8 @@ updatedAt: 2026-08-15
 | huangzhimin4read/CodexFeishu | Python | 0 | MIT | codex, feishu, lark | [repo](https://github.com/huangzhimin4read/CodexFeishu) |
 | chaoyibot/ai-poster-generator | Python | 0 | MIT |  | [repo](https://github.com/chaoyibot/ai-poster-generator) |
 | 6kongbai/dsh-plugin-market | TypeScript | 1 | MIT | cli, deepseek-harness, dsh | [repo](https://github.com/6kongbai/dsh-plugin-market) |
+| fatima-890/AI-Keyword-Research-Tool | Python | 0 | MIT |  | [repo](https://github.com/fatima-890/AI-Keyword-Research-Tool) |
+| cyberscaleio/topical-authority-checker | Python | 0 | MIT |  | [repo](https://github.com/cyberscaleio/topical-authority-checker) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -115,6 +117,12 @@ updatedAt: 2026-08-15
 - kanhaiyaray/typescript-from-scratch — licença: unknown
 - laoluafolami/folio — licença: unknown
 - quratulaaiinn/End-to-end-AI-content-production-system — licença: unknown
+- prarthitadasgupta/chapters — licença: unknown
+- loker66fan/dsh-market-github — licença: NOASSERTION
+- 1mad-elmakaoui/hcp-social-signals-2025 — licença: unknown
+- 3953526825-droid/astrbot_topic_guard — licença: unknown
+- jayasri676/PE_Assignment3_Jayasri — licença: unknown
+- anushkakhatri-coding-queen/AI-Project-Topic-Recommender — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
