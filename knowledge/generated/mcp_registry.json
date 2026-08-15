@@ -1290,5 +1290,57 @@
     "validated_at": "2026-08-14T12:54:14.599Z",
     "topics": [],
     "readme_absorbed": "lokesh-node/multi_step_content_pipeline"
+  },
+  {
+    "id": 1334628368,
+    "full_name": "itsdaddio/ai-prompt-generator",
+    "url": "https://github.com/itsdaddio/ai-prompt-generator",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-15T00:56:35.898Z",
+    "topics": [],
+    "readme_absorbed": "itsdaddio/ai-prompt-generator"
+  },
+  {
+    "id": 1334679421,
+    "full_name": "kanhaiyaray/typescript-from-scratch",
+    "url": "https://github.com/kanhaiyaray/typescript-from-scratch",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-15T00:56:36.998Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1334588835,
+    "full_name": "laoluafolami/folio",
+    "url": "https://github.com/laoluafolami/folio",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-15T00:56:38.148Z",
+    "topics": [],
+    "readme_absorbed": "laoluafolami/folio"
+  },
+  {
+    "id": 1334615384,
+    "full_name": "quratulaaiinn/End-to-end-AI-content-production-system",
+    "url": "https://github.com/quratulaaiinn/End-to-end-AI-content-production-system",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-15T00:56:39.246Z",
+    "topics": [],
+    "readme_absorbed": "quratulaaiinn/End-to-end-AI-content-production-system"
   }
 ]
