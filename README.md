@@ -245,6 +245,8 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-16T12:28:27.723Z | MefeGuven/Interactive-Hodgkin-Huxley-Simulator | 0 | MIT | 200 |
+
 | 2026-08-15T12:27:16.130Z | fatima-890/AI-Keyword-Research-Tool | 0 | MIT | 200 |
 
 | 2026-08-15T12:27:19.153Z | cyberscaleio/topical-authority-checker | 0 | MIT | 200 |

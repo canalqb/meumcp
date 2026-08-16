@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (102 total, 30 validados free, 72 pulados/pago)
+description: MCPs descobertos pelo keyhunter (108 total, 31 validados free, 77 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 102
+version: 108
 createdAt: 2026-08-16
 updatedAt: 2026-08-16
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-16T00:59:26.952Z
-> Total descoberto: 102 | Validados (HTTP 200 + free): 30 | Pulados (licença paga/enterprise): 72
+> Última execução: 2026-08-16T12:28:33.074Z
+> Total descoberto: 108 | Validados (HTTP 200 + free): 31 | Pulados (licença paga/enterprise): 77
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -51,6 +51,7 @@ updatedAt: 2026-08-16
 | 6kongbai/dsh-plugin-market | TypeScript | 1 | MIT | cli, deepseek-harness, dsh | [repo](https://github.com/6kongbai/dsh-plugin-market) |
 | fatima-890/AI-Keyword-Research-Tool | Python | 0 | MIT |  | [repo](https://github.com/fatima-890/AI-Keyword-Research-Tool) |
 | cyberscaleio/topical-authority-checker | Python | 0 | MIT |  | [repo](https://github.com/cyberscaleio/topical-authority-checker) |
+| MefeGuven/Interactive-Hodgkin-Huxley-Simulator | Python | 0 | MIT |  | [repo](https://github.com/MefeGuven/Interactive-Hodgkin-Huxley-Simulator) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -126,6 +127,11 @@ updatedAt: 2026-08-16
 - VK-VfX/CLI-Script — licença: unknown
 - surseanl/TopicWalk — licença: unknown
 - Vedika1304-05/Blog_writing_agent — licença: unknown
+- yashkirtisingh1789/Multi-Agent-Debate-System — licença: unknown
+- Restry/hermes-topic-memory — licença: unknown
+- farhaaannnazizkhan/Test-Series-Generator — licença: unknown
+- sneha44536/political-news-intelligence — licença: unknown
+- Ananya-0711/NoteForge — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
