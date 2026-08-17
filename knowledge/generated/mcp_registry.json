@@ -1569,5 +1569,77 @@
     "validated_at": "2026-08-16T12:28:33.073Z",
     "topics": [],
     "readme_absorbed": "Ananya-0711/NoteForge"
+  },
+  {
+    "id": 1336382251,
+    "full_name": "sergiolmendonca/topicos-app-2026-2",
+    "url": "https://github.com/sergiolmendonca/topicos-app-2026-2",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-17T00:57:27.598Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1336466208,
+    "full_name": "Rao--/fight-club",
+    "url": "https://github.com/Rao--/fight-club",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-17T00:57:28.717Z",
+    "topics": [],
+    "readme_absorbed": "Rao--/fight-club"
+  },
+  {
+    "id": 1336152714,
+    "full_name": "willianpripp/repo-hygiene",
+    "url": "https://github.com/willianpripp/repo-hygiene",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-17T00:57:29.823Z",
+    "topics": [
+      "ci",
+      "code-quality",
+      "devtools",
+      "github",
+      "python",
+      "repository-management"
+    ],
+    "readme_absorbed": "willianpripp/repo-hygiene"
+  },
+  {
+    "id": 1336417871,
+    "full_name": "sandole/system-design-prep",
+    "url": "https://github.com/sandole/system-design-prep",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-17T00:57:30.712Z",
+    "topics": [],
+    "readme_absorbed": "sandole/system-design-prep"
+  },
+  {
+    "id": 1335994594,
+    "full_name": "Abbagigo13/skillcraft-ai",
+    "url": "https://github.com/Abbagigo13/skillcraft-ai",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-17T00:57:32.187Z",
+    "topics": [],
+    "readme_absorbed": "Abbagigo13/skillcraft-ai"
   }
 ]

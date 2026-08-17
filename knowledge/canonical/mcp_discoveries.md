@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (108 total, 31 validados free, 77 pulados/pago)
+description: MCPs descobertos pelo keyhunter (113 total, 33 validados free, 80 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 108
-createdAt: 2026-08-16
-updatedAt: 2026-08-16
+version: 113
+createdAt: 2026-08-17
+updatedAt: 2026-08-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-16T12:28:33.074Z
-> Total descoberto: 108 | Validados (HTTP 200 + free): 31 | Pulados (licença paga/enterprise): 77
+> Última execução: 2026-08-17T00:57:32.188Z
+> Total descoberto: 113 | Validados (HTTP 200 + free): 33 | Pulados (licença paga/enterprise): 80
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -52,6 +52,8 @@ updatedAt: 2026-08-16
 | fatima-890/AI-Keyword-Research-Tool | Python | 0 | MIT |  | [repo](https://github.com/fatima-890/AI-Keyword-Research-Tool) |
 | cyberscaleio/topical-authority-checker | Python | 0 | MIT |  | [repo](https://github.com/cyberscaleio/topical-authority-checker) |
 | MefeGuven/Interactive-Hodgkin-Huxley-Simulator | Python | 0 | MIT |  | [repo](https://github.com/MefeGuven/Interactive-Hodgkin-Huxley-Simulator) |
+| sergiolmendonca/topicos-app-2026-2 | TypeScript | 0 | MIT |  | [repo](https://github.com/sergiolmendonca/topicos-app-2026-2) |
+| willianpripp/repo-hygiene | Python | 0 | MIT | ci, code-quality, devtools | [repo](https://github.com/willianpripp/repo-hygiene) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -132,6 +134,9 @@ updatedAt: 2026-08-16
 - farhaaannnazizkhan/Test-Series-Generator — licença: unknown
 - sneha44536/political-news-intelligence — licença: unknown
 - Ananya-0711/NoteForge — licença: unknown
+- Rao--/fight-club — licença: unknown
+- sandole/system-design-prep — licença: unknown
+- Abbagigo13/skillcraft-ai — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
