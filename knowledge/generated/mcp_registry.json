@@ -1641,5 +1641,44 @@
     "validated_at": "2026-08-17T00:57:32.187Z",
     "topics": [],
     "readme_absorbed": "Abbagigo13/skillcraft-ai"
+  },
+  {
+    "id": 1337055637,
+    "full_name": "MJAuvo/MOOC_Cyber_Security_Base_IV_Advanced_Topics",
+    "url": "https://github.com/MJAuvo/MOOC_Cyber_Security_Base_IV_Advanced_Topics",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-17T12:33:14.101Z",
+    "topics": [],
+    "readme_absorbed": "MJAuvo/MOOC_Cyber_Security_Base_IV_Advanced_Topics"
+  },
+  {
+    "id": 1337039872,
+    "full_name": "summykumari567/ai-topic-detector",
+    "url": "https://github.com/summykumari567/ai-topic-detector",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-17T12:33:14.951Z",
+    "topics": [],
+    "readme_absorbed": "summykumari567/ai-topic-detector"
+  },
+  {
+    "id": 1337002671,
+    "full_name": "kam1kk/maf-event-bot",
+    "url": "https://github.com/kam1kk/maf-event-bot",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-17T12:33:16.259Z",
+    "topics": [],
+    "readme_absorbed": "kam1kk/maf-event-bot"
   }
 ]

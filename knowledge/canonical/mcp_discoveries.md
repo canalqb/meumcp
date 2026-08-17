@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (113 total, 33 validados free, 80 pulados/pago)
+description: MCPs descobertos pelo keyhunter (116 total, 34 validados free, 82 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 113
+version: 116
 createdAt: 2026-08-17
 updatedAt: 2026-08-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-17T00:57:32.188Z
-> Total descoberto: 113 | Validados (HTTP 200 + free): 33 | Pulados (licença paga/enterprise): 80
+> Última execução: 2026-08-17T12:33:16.260Z
+> Total descoberto: 116 | Validados (HTTP 200 + free): 34 | Pulados (licença paga/enterprise): 82
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -54,6 +54,7 @@ updatedAt: 2026-08-17
 | MefeGuven/Interactive-Hodgkin-Huxley-Simulator | Python | 0 | MIT |  | [repo](https://github.com/MefeGuven/Interactive-Hodgkin-Huxley-Simulator) |
 | sergiolmendonca/topicos-app-2026-2 | TypeScript | 0 | MIT |  | [repo](https://github.com/sergiolmendonca/topicos-app-2026-2) |
 | willianpripp/repo-hygiene | Python | 0 | MIT | ci, code-quality, devtools | [repo](https://github.com/willianpripp/repo-hygiene) |
+| summykumari567/ai-topic-detector | Python | 0 | MIT |  | [repo](https://github.com/summykumari567/ai-topic-detector) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -137,6 +138,8 @@ updatedAt: 2026-08-17
 - Rao--/fight-club — licença: unknown
 - sandole/system-design-prep — licença: unknown
 - Abbagigo13/skillcraft-ai — licença: unknown
+- MJAuvo/MOOC_Cyber_Security_Base_IV_Advanced_Topics — licença: unknown
+- kam1kk/maf-event-bot — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
