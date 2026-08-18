@@ -245,6 +245,10 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-18T00:55:35.143Z | David-Tolorunju/Customers_Feedback_Topic_Modelling_Intelligence_App | 0 | MIT | 200 |
+
+| 2026-08-18T00:55:36.740Z | WilberforceWilberforce/enlight-study-recommender | 0 | MIT | 200 |
+
 | 2026-08-17T12:33:14.951Z | summykumari567/ai-topic-detector | 0 | MIT | 200 |
 
 | 2026-08-17T00:57:27.598Z | sergiolmendonca/topicos-app-2026-2 | 0 | MIT | 200 |

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (116 total, 34 validados free, 82 pulados/pago)
+description: MCPs descobertos pelo keyhunter (125 total, 36 validados free, 89 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 116
-createdAt: 2026-08-17
-updatedAt: 2026-08-17
+version: 125
+createdAt: 2026-08-18
+updatedAt: 2026-08-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-17T12:33:16.260Z
-> Total descoberto: 116 | Validados (HTTP 200 + free): 34 | Pulados (licença paga/enterprise): 82
+> Última execução: 2026-08-18T00:55:40.116Z
+> Total descoberto: 125 | Validados (HTTP 200 + free): 36 | Pulados (licença paga/enterprise): 89
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -55,6 +55,8 @@ updatedAt: 2026-08-17
 | sergiolmendonca/topicos-app-2026-2 | TypeScript | 0 | MIT |  | [repo](https://github.com/sergiolmendonca/topicos-app-2026-2) |
 | willianpripp/repo-hygiene | Python | 0 | MIT | ci, code-quality, devtools | [repo](https://github.com/willianpripp/repo-hygiene) |
 | summykumari567/ai-topic-detector | Python | 0 | MIT |  | [repo](https://github.com/summykumari567/ai-topic-detector) |
+| David-Tolorunju/Customers_Feedback_Topic_Modelling_Intelligence_App | Python | 0 | MIT |  | [repo](https://github.com/David-Tolorunju/Customers_Feedback_Topic_Modelling_Intelligence_App) |
+| WilberforceWilberforce/enlight-study-recommender | Python | 0 | MIT |  | [repo](https://github.com/WilberforceWilberforce/enlight-study-recommender) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -140,6 +142,13 @@ updatedAt: 2026-08-17
 - Abbagigo13/skillcraft-ai — licença: unknown
 - MJAuvo/MOOC_Cyber_Security_Base_IV_Advanced_Topics — licença: unknown
 - kam1kk/maf-event-bot — licença: unknown
+- JoaoPauloClass/topicos-especiais-trabalho-pygame — licença: unknown
+- claudiosousareal/topicos-avancados-api — licença: unknown
+- l0n3lyme/topicos-api — licença: unknown
+- QaziDanish/content-os — licença: unknown
+- keathmilligan/dossier — licença: unknown
+- lotpotcomedy189-jpg/Topic-try-fix — licença: unknown
+- olumobigjoe/Electronics-for-Beginners-Undergraduates- — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
