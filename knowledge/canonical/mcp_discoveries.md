@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (125 total, 36 validados free, 89 pulados/pago)
+description: MCPs descobertos pelo keyhunter (133 total, 37 validados free, 96 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 125
+version: 133
 createdAt: 2026-08-18
 updatedAt: 2026-08-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-18T00:55:40.116Z
-> Total descoberto: 125 | Validados (HTTP 200 + free): 36 | Pulados (licença paga/enterprise): 89
+> Última execução: 2026-08-18T12:35:11.402Z
+> Total descoberto: 133 | Validados (HTTP 200 + free): 37 | Pulados (licença paga/enterprise): 96
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -57,6 +57,7 @@ updatedAt: 2026-08-18
 | summykumari567/ai-topic-detector | Python | 0 | MIT |  | [repo](https://github.com/summykumari567/ai-topic-detector) |
 | David-Tolorunju/Customers_Feedback_Topic_Modelling_Intelligence_App | Python | 0 | MIT |  | [repo](https://github.com/David-Tolorunju/Customers_Feedback_Topic_Modelling_Intelligence_App) |
 | WilberforceWilberforce/enlight-study-recommender | Python | 0 | MIT |  | [repo](https://github.com/WilberforceWilberforce/enlight-study-recommender) |
+| Maouloud3-0/France-Elections-Media-Dynamics | Python | 0 | MIT | data-analysis, elections, france | [repo](https://github.com/Maouloud3-0/France-Elections-Media-Dynamics) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -149,6 +150,13 @@ updatedAt: 2026-08-18
 - keathmilligan/dossier — licença: unknown
 - lotpotcomedy189-jpg/Topic-try-fix — licença: unknown
 - olumobigjoe/Electronics-for-Beginners-Undergraduates- — licença: unknown
+- AyushGupta235/sandbook — licença: unknown
+- Amisha702/Full-Stack-Web-Application-Development — licença: unknown
+- allanlf163/feishu-topic-mini — licença: unknown
+- Saqiibkhan/ai-researcher-crew — licença: unknown
+- badalm06/quadmind — licença: unknown
+- liuqynew2023/save-conversation-skill — licença: unknown
+- ravi-119/Python--Advanced-Topics — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

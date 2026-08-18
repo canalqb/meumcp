@@ -245,6 +245,8 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-18T12:35:06.421Z | Maouloud3-0/France-Elections-Media-Dynamics | 0 | MIT | 200 |
+
 | 2026-08-18T00:55:35.143Z | David-Tolorunju/Customers_Feedback_Topic_Modelling_Intelligence_App | 0 | MIT | 200 |
 
 | 2026-08-18T00:55:36.740Z | WilberforceWilberforce/enlight-study-recommender | 0 | MIT | 200 |
