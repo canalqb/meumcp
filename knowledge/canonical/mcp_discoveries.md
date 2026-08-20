@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (138 total, 38 validados free, 100 pulados/pago)
+description: MCPs descobertos pelo keyhunter (155 total, 40 validados free, 115 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 138
-createdAt: 2026-08-19
-updatedAt: 2026-08-19
+version: 155
+createdAt: 2026-08-20
+updatedAt: 2026-08-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-19T12:35:40.990Z
-> Total descoberto: 138 | Validados (HTTP 200 + free): 38 | Pulados (licença paga/enterprise): 100
+> Última execução: 2026-08-20T00:55:49.445Z
+> Total descoberto: 155 | Validados (HTTP 200 + free): 40 | Pulados (licença paga/enterprise): 115
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -59,6 +59,8 @@ updatedAt: 2026-08-19
 | WilberforceWilberforce/enlight-study-recommender | Python | 0 | MIT |  | [repo](https://github.com/WilberforceWilberforce/enlight-study-recommender) |
 | Maouloud3-0/France-Elections-Media-Dynamics | Python | 0 | MIT | data-analysis, elections, france | [repo](https://github.com/Maouloud3-0/France-Elections-Media-Dynamics) |
 | kody-w/rapp-education-shorts | Python | 0 | MIT |  | [repo](https://github.com/kody-w/rapp-education-shorts) |
+| davidhluther/topic-screen | Python | 0 | MIT |  | [repo](https://github.com/davidhluther/topic-screen) |
+| rey1hlp/EscanerVideos | Python | 0 | MIT |  | [repo](https://github.com/rey1hlp/EscanerVideos) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -162,6 +164,21 @@ updatedAt: 2026-08-19
 - qianandgrace/vehicle_security_assistant — licença: unknown
 - Anamijames/Blog_writing_using_CrewAI — licença: unknown
 - rahemeen426/News-Classification-Topic-Modeling-on-AG-News — licença: unknown
+- Nightmeros/topicos-avancados2-sm — licença: unknown
+- HeitorRich/topicos-avancados2-sm — licença: unknown
+- LuisiinBR/topicos-avancados-19 — licença: unknown
+- erisvaldopedro1975-del/topicosavan-ados2 — licença: unknown
+- Luisgustavo245/topicos_avancados2-sm — licença: unknown
+- matheuslaurindo11/topicos-avan-ados-2- — licença: unknown
+- diogohg2006/topicosavan-ados2 — licença: unknown
+- Vittinrlk/topicosavancados22 — licença: unknown
+- SirGolen/topicos_avancados2_sm — licença: unknown
+- felipemiguel-cloud/topicos-aven-asdos-2 — licença: unknown
+- Kimytezzz/topicos-avancados2-sm — licença: unknown
+- claudiosousareal/topicos-avancados2-sm — licença: unknown
+- Eduardo7070/topicos-avancados2-sm — licença: unknown
+- Wlc-unique/topicos-avan-ados2 — licença: unknown
+- matheus3009/Exercicio-topicosII — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
