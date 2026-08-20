@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (155 total, 40 validados free, 115 pulados/pago)
+description: MCPs descobertos pelo keyhunter (157 total, 41 validados free, 116 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 155
+version: 157
 createdAt: 2026-08-20
 updatedAt: 2026-08-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-20T00:55:49.445Z
-> Total descoberto: 155 | Validados (HTTP 200 + free): 40 | Pulados (licença paga/enterprise): 115
+> Última execução: 2026-08-20T12:36:38.969Z
+> Total descoberto: 157 | Validados (HTTP 200 + free): 41 | Pulados (licença paga/enterprise): 116
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -61,6 +61,7 @@ updatedAt: 2026-08-20
 | kody-w/rapp-education-shorts | Python | 0 | MIT |  | [repo](https://github.com/kody-w/rapp-education-shorts) |
 | davidhluther/topic-screen | Python | 0 | MIT |  | [repo](https://github.com/davidhluther/topic-screen) |
 | rey1hlp/EscanerVideos | Python | 0 | MIT |  | [repo](https://github.com/rey1hlp/EscanerVideos) |
+| krnlfx/contractinspect | Python | 0 | MIT |  | [repo](https://github.com/krnlfx/contractinspect) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -179,6 +180,7 @@ updatedAt: 2026-08-20
 - Eduardo7070/topicos-avancados2-sm — licença: unknown
 - Wlc-unique/topicos-avan-ados2 — licença: unknown
 - matheus3009/Exercicio-topicosII — licença: unknown
+- Nhckdvrl/candidate_topics — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
