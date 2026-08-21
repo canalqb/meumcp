@@ -245,6 +245,12 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-21T12:36:12.851Z | dev-the-dev-while-deving/rolldeep-lab | 0 | MIT | 200 |
+
+| 2026-08-21T12:36:13.987Z | temidayoxyz/surfercut | 0 | MIT | 200 |
+
+| 2026-08-21T12:36:15.342Z | Vamanakhil/kinetiq | 0 | MIT | 200 |
+
 | 2026-08-21T00:59:11.864Z | Pandu1908/vlsi-learning-hub | 0 | MIT | 200 |
 
 | 2026-08-21T00:59:12.623Z | onyourmark/chat-threads | 0 | MIT | 200 |

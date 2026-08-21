@@ -2324,5 +2324,92 @@
     "validated_at": "2026-08-21T00:59:16.501Z",
     "topics": [],
     "readme_absorbed": "MarcoAntonio16AS/Topicos-Avancados---SM"
+  },
+  {
+    "id": 1341645148,
+    "full_name": "geeekbar-web/topic-picker",
+    "url": "https://github.com/geeekbar-web/topic-picker",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-21T12:36:11.211Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1341755860,
+    "full_name": "OnurUCA/Identifying-and-Analysing-Predominant-Discussion-Topics-in-Russian-Speaking-Telegram-Communities",
+    "url": "https://github.com/OnurUCA/Identifying-and-Analysing-Predominant-Discussion-Topics-in-Russian-Speaking-Telegram-Communities",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-21T12:36:12.080Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1341737304,
+    "full_name": "dev-the-dev-while-deving/rolldeep-lab",
+    "url": "https://github.com/dev-the-dev-while-deving/rolldeep-lab",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-21T12:36:12.851Z",
+    "topics": [
+      "education",
+      "jupyter",
+      "learning",
+      "local-first",
+      "mcp",
+      "productivity",
+      "students",
+      "study"
+    ],
+    "readme_absorbed": "dev-the-dev-while-deving/rolldeep-lab"
+  },
+  {
+    "id": 1341684900,
+    "full_name": "temidayoxyz/surfercut",
+    "url": "https://github.com/temidayoxyz/surfercut",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-21T12:36:13.987Z",
+    "topics": [],
+    "readme_absorbed": "temidayoxyz/surfercut"
+  },
+  {
+    "id": 1341576507,
+    "full_name": "Vamanakhil/kinetiq",
+    "url": "https://github.com/Vamanakhil/kinetiq",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-21T12:36:15.342Z",
+    "topics": [],
+    "readme_absorbed": "Vamanakhil/kinetiq"
+  },
+  {
+    "id": 1341738541,
+    "full_name": "ritikmishra004/Blog_writing_agent",
+    "url": "https://github.com/ritikmishra004/Blog_writing_agent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-21T12:36:16.417Z",
+    "topics": [],
+    "readme_absorbed": "ritikmishra004/Blog_writing_agent"
   }
 ]

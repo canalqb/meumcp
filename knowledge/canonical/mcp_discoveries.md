@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (164 total, 45 validados free, 119 pulados/pago)
+description: MCPs descobertos pelo keyhunter (170 total, 48 validados free, 122 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 164
+version: 170
 createdAt: 2026-08-21
 updatedAt: 2026-08-21
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-21T00:59:16.502Z
-> Total descoberto: 164 | Validados (HTTP 200 + free): 45 | Pulados (licença paga/enterprise): 119
+> Última execução: 2026-08-21T12:36:16.417Z
+> Total descoberto: 170 | Validados (HTTP 200 + free): 48 | Pulados (licença paga/enterprise): 122
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -66,6 +66,9 @@ updatedAt: 2026-08-21
 | onyourmark/chat-threads | TypeScript | 0 | MIT | ai-tools, browser-extension, chatgpt | [repo](https://github.com/onyourmark/chat-threads) |
 | Offset-Explorer-Oxide/offset-explorer-oxide | TypeScript | 0 | Apache-2.0 |  | [repo](https://github.com/Offset-Explorer-Oxide/offset-explorer-oxide) |
 | Synectic-Research/research-scan | Python | 0 | Apache-2.0 |  | [repo](https://github.com/Synectic-Research/research-scan) |
+| dev-the-dev-while-deving/rolldeep-lab | TypeScript | 0 | MIT | education, jupyter, learning | [repo](https://github.com/dev-the-dev-while-deving/rolldeep-lab) |
+| temidayoxyz/surfercut | Python | 0 | MIT |  | [repo](https://github.com/temidayoxyz/surfercut) |
+| Vamanakhil/kinetiq | Python | 0 | MIT |  | [repo](https://github.com/Vamanakhil/kinetiq) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -188,6 +191,9 @@ updatedAt: 2026-08-21
 - andyc725/sub_infinity — licença: unknown
 - GusmanGC/atividade-topicos-Avancados-sistemas-informa-o — licença: unknown
 - MarcoAntonio16AS/Topicos-Avancados---SM — licença: unknown
+- geeekbar-web/topic-picker — licença: unknown
+- OnurUCA/Identifying-and-Analysing-Predominant-Discussion-Topics-in-Russian-Speaking-Telegram-Communities — licença: unknown
+- ritikmishra004/Blog_writing_agent — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
