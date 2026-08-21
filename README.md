@@ -245,6 +245,14 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-21T00:59:11.864Z | Pandu1908/vlsi-learning-hub | 0 | MIT | 200 |
+
+| 2026-08-21T00:59:12.623Z | onyourmark/chat-threads | 0 | MIT | 200 |
+
+| 2026-08-21T00:59:13.364Z | Offset-Explorer-Oxide/offset-explorer-oxide | 0 | Apache-2.0 | 200 |
+
+| 2026-08-21T00:59:14.989Z | Synectic-Research/research-scan | 0 | Apache-2.0 | 200 |
+
 | 2026-08-20T12:36:37.653Z | krnlfx/contractinspect | 0 | MIT | 200 |
 
 | 2026-08-20T00:55:31.308Z | davidhluther/topic-screen | 0 | MIT | 200 |

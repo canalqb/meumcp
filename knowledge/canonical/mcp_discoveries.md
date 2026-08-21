@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (157 total, 41 validados free, 116 pulados/pago)
+description: MCPs descobertos pelo keyhunter (164 total, 45 validados free, 119 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 157
-createdAt: 2026-08-20
-updatedAt: 2026-08-20
+version: 164
+createdAt: 2026-08-21
+updatedAt: 2026-08-21
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-20T12:36:38.969Z
-> Total descoberto: 157 | Validados (HTTP 200 + free): 41 | Pulados (licença paga/enterprise): 116
+> Última execução: 2026-08-21T00:59:16.502Z
+> Total descoberto: 164 | Validados (HTTP 200 + free): 45 | Pulados (licença paga/enterprise): 119
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -62,6 +62,10 @@ updatedAt: 2026-08-20
 | davidhluther/topic-screen | Python | 0 | MIT |  | [repo](https://github.com/davidhluther/topic-screen) |
 | rey1hlp/EscanerVideos | Python | 0 | MIT |  | [repo](https://github.com/rey1hlp/EscanerVideos) |
 | krnlfx/contractinspect | Python | 0 | MIT |  | [repo](https://github.com/krnlfx/contractinspect) |
+| Pandu1908/vlsi-learning-hub | Python | 0 | MIT |  | [repo](https://github.com/Pandu1908/vlsi-learning-hub) |
+| onyourmark/chat-threads | TypeScript | 0 | MIT | ai-tools, browser-extension, chatgpt | [repo](https://github.com/onyourmark/chat-threads) |
+| Offset-Explorer-Oxide/offset-explorer-oxide | TypeScript | 0 | Apache-2.0 |  | [repo](https://github.com/Offset-Explorer-Oxide/offset-explorer-oxide) |
+| Synectic-Research/research-scan | Python | 0 | Apache-2.0 |  | [repo](https://github.com/Synectic-Research/research-scan) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -181,6 +185,9 @@ updatedAt: 2026-08-20
 - Wlc-unique/topicos-avan-ados2 — licença: unknown
 - matheus3009/Exercicio-topicosII — licença: unknown
 - Nhckdvrl/candidate_topics — licença: unknown
+- andyc725/sub_infinity — licença: unknown
+- GusmanGC/atividade-topicos-Avancados-sistemas-informa-o — licença: unknown
+- MarcoAntonio16AS/Topicos-Avancados---SM — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
