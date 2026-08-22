@@ -1,0 +1,29 @@
+{
+  "pdf-mcp-jztan": {
+    "command": "npx @jztan/pdf-mcp",
+    "transport": "stdio",
+    "description": "Busca sem\u00e2ntica e an\u00e1lise de PDFs"
+  },
+  "markitdown": {
+    "command": "npx @microsoft/markitdown-mcp",
+    "transport": "stdio",
+    "description": "Converte PDF/DOCX para Markdown"
+  },
+  "playwright": {
+    "command": "npx @playwright/mcp",
+    "transport": "stdio",
+    "description": "Navega\u00e7\u00e3o e valida\u00e7\u00e3o web"
+  },
+  "filesystem": {
+    "command": "npx @modelcontextprotocol/server-filesystem",
+    "transport": "stdio",
+    "description": "Manipula\u00e7\u00e3o de arquivos",
+    "args": [
+      "C:/Users/Qb/Desktop/editrpdf"
+    ]
+  },
+  "memory": {
+    "command": "npx @modelcontextprotocol/server-memory",
+    "transport": "stdio"
+  }
+}

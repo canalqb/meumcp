@@ -1,102 +1,174 @@
-# 🔄 PLANO DE IMPLEMENTAÇÃO ATUALIZADO
+# 📋 PLANO DE IMPLEMENTAÇÃO — Agente PDF Autônomo
 
 **Data**: 22/08/2026  
 **Status**: 🚀 Em execução  
-**PDF Encontrado**: Sereia Yasmine.pdf (7 páginas)
 
 ---
 
-## ✅ FAÇA 1: PREPARAÇÃO CONCLUÍDA
+## 🎯 RESUMO DO PROJETO
 
-| Tarefa | Status |
-|--------|--------|
-| Criar diretório base | ✅ |
-| Instalar PyMuPDF | ✅ |
-| Instalar pypdf | ✅ |
-| Verificar Node.js | ✅ |
-| Criar estrutura de pastas | ✅ |
-| Criar skill pdf-agent | ✅ |
-| Criar tools/pdf_tool.py | ✅ |
-| Criar template HTML | ✅ |
-| Inicializar repositório Git | ✅ |
+### Objetivo
+Agente autônomo para **leitura, análise e criação de PDFs** com foco em:
+- **Normas ABNT** para ebooks de costuras
+- **Nome**: Rodrigo Carlos Moraes em todas as páginas
+- **Workflow completo**: PDF → Análise → HTML → PDF final
 
 ---
 
-## ✅ FAÇA 2: ENCONTRADO PDF PARA PROCESSAR
+## 📁 ESTRUTURA DE PASTAS (CRIAR SE NÃO EXISTIREM)
 
-**Arquivo**: `Editar/Sereia Yasmine.pdf`  
-**Título**: BONECA SEREIA JASMINE  
-**Autor**: JOSE AUGUSTO  
-**Páginas**: 7  
-**Tipo**: Livro de costuras (abreviações técnicas)
-
----
-
-## 🔄 FAÇA 3: PROCESSAMENTO DO PDF
-
-### Etapa 1: Leitura completa ✅
 ```
-read_pdf(path="./Editar/Sereia Yasmine.pdf", page_range="all")
-```
-- [x] Texto extráído (3613 caracteres)
-- [x] Metadados coletados
-- [x] Páginas identificadas (7)
-
-### Etapa 2: Extração de imagens ✅
-```
-pdf_extract_images(path="./Editar/Sereia Yasmine.pdf", output_dir="./references/")
-```
-- [x] Imagens extraídas preservando posições
-- [ ] Verificar conteúdo visual
-
-### Etapa 3: Análise estrutural ✅
-Identificado conteúdo:
-- Abreviações técnicas de costura (Pb, pts, Mpa, etc.)
-- Lista de materiais
-- Instruções de confecção
-
-### Etapa 4: Criação HTML ABNT
-```
-abnt_template(title="Boneca Sereia Jasmine", subtitle="Manual de Costura", author="Rodrigo Carlos Moraes")
-```
-
-### Etapa 5: Geração PDF final
-```
-html_to_pdf_abnt(html=html_content, output="./output/ebook_costura.pdf")
+C:/Users/Qb/Desktop/editrpdf/
+├── input/              # PDFs fonte (processamento)
+├── Editar/              # PDFs para revisão/usuario (ARQUIVO PRINCIPAL)
+├── Editado/            # PDFs revisados/concluídos
+├── output/              # PDFs gerados automaticamente
+├── temp/                # Arquivos intermediários HTML
+├── references/           # Imagens extraídas
+├── checks/               # Arquivos CSV de controle
+├── skills/
+│   ├── pdf-orchestrator/
+│   └── pdf-agent/
+├── tools/
+│   └── pdf_tool.py
+├── mcp_config.json       # Configuração MCPs
+├── AGENTS.md             # Regras do agente
+├── README.md             # Documentação
+├── plano.md              # Este plano
+└── REGRAS_EDITACAO.md    # Regras de edição (ARQUIVO LIDIDO PARA COMPREENSÃO)
 ```
 
 ---
 
-## 📋 RESUMO DOS DADOS EXTRAÍDOS
+## 🔧 MCPs INSTALADOS ✅
 
-### Abreviações encontradas:
-- Pb: ponto baixo
-- pts: ponto(s)
-- Mpa: meio ponto alto
-- Flo: apenas nos laços frontais
-- Pa: ponto alto
-- Blo: apenas nos laços traseiros
-
-### Material:
-- Fios: Linha (cor de pele, azul esverdeado, preto, amarelo) / Fios metalizados azul royal e ouro
-- Algodão cheio, faixa em forma, 6mm e 8mm imitação de pérolas brancas
+| MCP | Instalação | Status |
+|-----|------------|--------|
+| @jztan/pdf-mcp | `npm install -g` | ✅ Instalado |
+| @microsoft/markitdown-mcp | `npm install -g` | ✅ Instalado |
+| @modelcontextprotocol/server-filesystem | `npm install -g` | ✅ Instalado |
+| @modelcontextprotocol/server-memory | `npm install -g` | ✅ Instalado |
 
 ---
 
-## 🚀 PRÓXIMOS PASSOS
+## 🛠️ FERRRAMENTAS LOKAIS DISPONÍVEIS
 
-1. **Usuário confirma**: Devo prosseguir com o processamento completo?
-2. **Processamento**: Gerar HTML com normas ABNT
-3. **Output**: PDF final em `output/`
+| Ferramenta | Status | Uso |
+|------------|--------|-----|
+| PyMuPDF | ✅ | Leitura, extração texto |
+| pypdf | ✅ | Merge, split, manipulação |
+| pdf2image | ✅ | Conversão páginas→imagem |
+| pillow | ✅ | Processamento imagens |
+| playwright/chromium | ✅ | HTML→PDF, screenshots |
+| poppler | ⚠️ | Tools auxiliares |
+| tesseract | ⚠️ | OCR (instalar) |
+| pandoc | ⚠️ | Conversão documentos |
 
 ---
 
-## 🔧 COMANDO PARA PROCESSAR
+## 📚 SKILLS CRIADAS ✅
 
+| Skill | Função | Status |
+|-------|--------|--------|
+| pdf-orchestrator | Coordena fluxo de processamento | ✅ Criada |
+| document-architect | Planeja estrutura documental | ✅ Criada |
+| pdf-agent | Regras ABNT + Master Rules | ✅ Criada |
+
+---
+
+## 🔄 FLUXO DE TRABALHO (NOVO)
+
+### 1. Usuário coloca PDF em `Editar/`
 ```
-{Processar PDF: path="./Editar/Sereia Yasmine.pdf", acoes=["ler_tudo", "extrair_fotos", "gerar_html_abnt", "criar_pdf_final"]}
+Usuário → Coloca PDF em Editar/ → Agente detecta
+```
+
+### 2. Criação do CSV de controle
+```
+checks/arquivos_para_editar.csv
+```
+
+### 3. Agente lê e processa
+```
+Editar/*.pdf → Analisa → Temp → Temp HTML → Output
+```
+
+### 4. Usuário revisa
+```
+Editar → Editado (após revisão)
 ```
 
 ---
 
-**Pronto para continuar!** Agora você pode dizer "continue" ou fornecer outro arquivo.
+## 📊 ARQUIVO CSV DE CONTROLE
+
+**Localização**: `checks/arquivos_para_editar.csv`
+
+### Formato:
+```csv
+arquivo,status,data_criacao,data_conclusao,observacoes
+"Sereia Yasmine.pdf","pendente","2026-08-22 10:00","","Aguardando revisão"
+```
+
+### Colunas obrigatórias:
+- `arquivo` - nome do PDF
+- `status` - "pendente" ou "concluido"
+- `data_criacao` - quando foi colocado
+- `data_conclusao` - quando revisado
+- `observacoes` - notas do usuário
+
+---
+
+## 📋 REGRAS DE EDIÇÃO (REGRAS_EDITACAO.md)
+
+### Arquivo que deve ser lido para entender o sistema
+
+Quando solicitado para **editar, criar, modificar ou melhorar** um arquivo:
+
+1. **LER REGRAS EDITAÇÃO** (`REGRAS_EDITACAO.md`)
+2. **VERIFICAR CSV** (`checks/arquivos_para_editar.csv`)
+3. **PROCESSAR PDF** seguindo normas ABNT
+4. **INSERIR NOME** "Rodrigo Carlos Moraes" em todas as páginas
+5. **CRIAR MENU** clicável com links
+6. **PRESERVAR FOTOS** nas posições corretas
+7. **APLICAR PROTOCOLO 3.2** (Ação/Porquê/Resultado/Erro)
+8. **EXPORTAR** para `Editado/`
+
+### Comando padrão:
+```
+{Editar PDF: path="./Editar/file.pdf", acoes=["ler_tudo", "extrair", "recriar", "salvar"]}
+```
+
+---
+
+## 📊 METRICS DE SUCESSO
+
+- ✅ PDF de saída em `Editado/`
+- ✅ Normas ABNT aplicadas
+- ✅ Nome autor em todas páginas
+- ✅ Menu clicável
+- ✅ Imagens nas posições corretas
+- ✅ CSV atualizado
+
+---
+
+## 🚀 COMANDOS PRINCIPAIS
+
+### Para adicionar PDF para edição:
+```
+/Adicionar PDF: file="./Editar/novo_arquivo.pdf"
+```
+
+### Para processar PDF:
+```
+{Processar PDF: path="./Editar/file.pdf", acoes=["ler_tudo", "extrair_fotos", "gerar_html_abnt"]}
+```
+
+### Para listar pendentes:
+```
+{lster CSV: path="./checks/arquivos_para_editar.csv"}
+```
+
+---
+
+**Status**: Setup concluído, aguardando primeiro PDF em `Editar/`
