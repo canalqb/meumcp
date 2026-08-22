@@ -592,18 +592,10 @@ server.setRequestHandler(ListPromptsRequestSchema, async () => ({
 async function main() {
   await initialize();
 
-  if (config.server.transport === 'http') {
-    // Streamable HTTP transport
-    const { startHTTPServer } = await import('./http-handler');
-    const port = config.server.port;
-    const host = config.server.host;
-    await startHTTPServer(port, host, server);
-  } else {
-    // stdio transport
-    const transport = new StdioServerTransport();
-    await server.connect(transport);
-    logger.info('meumcp stdio server connected');
-  }
+  // stdio transport
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+  logger.info('meumcp stdio server connected');
 }
 
 main().catch((err) => {
