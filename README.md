@@ -13,6 +13,63 @@ Qb Nexus é a camada central de inteligência para o CanalQb — um *nexus* entr
 
 ---
 
+## 🚀 Como se conectar
+
+### 🔗 Claude Desktop (Local - STDIO)
+
+**IMPORTANTE**: Após instalar, reinicie o Claude Desktop para que as alterações tenham efeito.
+
+Edita o arquivo `claude_desktop_config.json`:
+- Windows: `C:\Users\<seu-usuario>\AppData\Roaming\Claude\claude_desktop_config.json`
+- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
+```json
+{
+  "mcpServers": {
+    "meumcp": {
+      "command": "node",
+      "args": ["C:\\Users\\Qb\\Desktop\\meumcp\\dist\\server.js"],
+      "env": {
+        "MEUMCP_CLI": "true",
+        "GITHUB_TOKEN": "ghp_sua-chave-aqui"
+      }
+    }
+  }
+}
+```
+
+> **⚠️ ATENÇÃO**: Substitua o caminho acima pelo caminho ABSOLUTO até o seu diretório meumcp.
+
+### 🔗 Claude.ai Web (Remoto - HTTP)
+
+O meumcp suporta conexão remota via **Streamable HTTP** com OAuth 2.0 integrado.
+
+**Passo 1**: Inicie o servidor HTTP
+
+```bash
+MCP_SERVER_URL=https://seu-domínio.com npm run serve:http
+# Ou localmente: MCP_SERVER_URL=http://localhost:8765 npm run serve:http
+```
+
+**Passo 2**: No Claude.ai
+1. Acesse https://claude.ai/new?modal=add-custom-connector#settings/custom-connectors
+2. Clique em "Add custom connector"
+3. Cole a URL: `https://seu-domínio.com/mcp`
+
+> **💡 Dica**: Se estiver testando localmente, use um túnel como [ngrok](https://ngrok.com/) ou [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) para expor sua porta local (8765) publicamente.
+
+**Passo 3**: O Claude.ai detectará automaticamente:
+- `/.well-known/oauth-protected-resource` — Metadata OAuth
+- `/mcp` — Endpoint principal MCP
+
+### 🔗 ChatGPT
+
+1. Navegue para https://chat.openai.com
+2. Abra as Configurações → "Plugins"
+3. Adicione como MCP Server remoto
+
+---
+
 ## 📦 Instalação
 
 ### 1. Pré-requisitos
@@ -52,7 +109,7 @@ node dist/server.js
 **Servidor HTTP (Streamable HTTP):**
 
 ```bash
-npm run serve:http
+MCP_SERVER_URL=http://localhost:8765 npm run serve:http
 # Porta padrão: http://localhost:8765
 ```
 
@@ -65,36 +122,12 @@ O meumcp suporta conectores para múltiplos agentes LLM:
 | Client | Transport | Configuração |
 |--------|-----------|--------------|
 | Claude Desktop | stdio | `node dist/server.js` |
+| Claude.ai Web | http | Porta 8765 + OAuth |
 | ChatGPT | http | Porta 8765 |
 | GitHub Copilot | stdio | `gh copilot install` |
 | Hermes Agent | stdio | `hermes` CLI |
 | OpenAI Chat | http | Porta 8766 |
 | Anthropic Claude | http | Porta 8767 |
-
-### 🔗 Claude Desktop - Configuração Manual
-
-**IMPORTANTE**: Após instalar, reinicie o Claude Desktop para que as alterações tenham efeito.
-
-Edita o arquivo `claude_desktop_config.json`:
-- Windows: `C:\Users\<seu-usuario>\AppData\Roaming\Claude\claude_desktop_config.json`
-- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-
-```json
-{
-  "mcpServers": {
-    "meumcp": {
-      "command": "node",
-      "args": ["C:\\Users\\Qb\\Desktop\\meumcp\\dist\\server.js"],
-      "env": {
-        "MEUMCP_CLI": "true",
-        "GITHUB_TOKEN": "ghp_sua-chave-aqui"
-      }
-    }
-  }
-}
-```
-
-> **⚠️ ATENÇÃO**: Substitua o caminho acima pelo caminho ABSOLUTO até o seu diretório meumcp.
 
 ### Configuração via CLI
 
@@ -119,12 +152,12 @@ npm run cli -- configure-connector --client claude --port 9000 --transport http
 | `search_knowledge` | Busca full-text em knowledge canonical |
 | `get_rules` | Carrega hierarchical rules (master + agent-specific) |
 | `check_rule` | Verifica se uma action é permitida |
-| `get_agent` | Identidade + configuração de um agente |
-| `list_mcps` | Lista todos os MCPs conhecidos + status HTTP |
+| `get_agent` | Identidade de agentes |
+| `list_mcps` | Lista MCPs conhecidos + status HTTP |
 | `get_system` | Stats do servidor (uptime, etc.) |
 | `get_llm_rules` | Rules LLM canônicas |
 | `list_connectors` | Lista conectores disponíveis |
-| `get_connector` | Detalhes de um conector específico |
+| `get_connector` | Detalhes de conector específico |
 | `configure_connector` | Configura um conector |
 | `github_auth` | Operações de auth GitHub (status, validate, sync, release) |
 
@@ -186,6 +219,7 @@ npm run cli -- github-auth --action sync
 meumcp/
 ├── src/
 │   ├── server.ts          # MCP principal (12 tools)
+│   ├── http-handler.ts    # HTTP + OAuth endpoints
 │   ├── cli.ts             # CLI interativa
 │   └── connectors/       # Plugins de conexão
 ├── rules/canonical/      # Regras LLM canônicas
@@ -209,6 +243,29 @@ npm run build    # TypeScript compile
 npm test         # Jest (10 tests)
 npm run lint     # ESLint
 npm run format   # Prettier
+```
+
+---
+
+## 🔒 OAuth 2.0 / Claude.ai Integration
+
+O meumcp implementa OAuth 2.0 conforme especificação RFC 9728:
+
+| Endpoint | Função |
+|----------|--------|
+| `/.well-known/oauth-protected-resource` | Metadata OAuth para descoberta Claude.ai |
+| `/mcp` | Endpoint principal MCP (Streamable HTTP) |
+
+### Metadata Suportada
+
+```json
+{
+  "resource": "https://claude.ai/mcp/meumcp",
+  "authorization_servers": ["https://auth.claude.ai"],
+  "scopes_supported": ["read", "write", "tools"],
+  "bearer_methods_supported": ["header"],
+  "resource_signing_alg_values_supported": ["RS256", "ES256"]
+}
 ```
 
 ---
