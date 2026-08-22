@@ -4,11 +4,13 @@
  *
  * Padrão session-aware: cada cliente obtem uma sessão via initialize handshake.
  * O session ID é retornado no header mcp-session-id e usado em requests subsequentes.
+ *
+ * Suporte OAuth 2.0 para integração com Claude.ai
  */
 import * as http from 'http';
 import { Server as HttpServer, IncomingMessage, ServerResponse } from 'http';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
-import { logger } from './core/logger';
+import { logger } from './core/logger.js';
 import type { Server } from '@modelcontextprotocol/sdk/server/index.js';
 
 // Session management: map session ID -> StreamableHTTPServerTransport
@@ -19,22 +21,56 @@ function generateSessionId(): string {
   return 'session-' + Date.now() + '-' + Math.random().toString(36).substring(2, 11);
 }
 
+// OAuth Protected Resource Metadata
+const protectedResourceMetadata = {
+  resource: process.env.MCP_SERVER_URL || 'https://claude.ai/mcp/meumcp',
+  authorization_servers: [
+    'https://auth.claude.ai'
+  ],
+  scopes_supported: ['read', 'write', 'tools'],
+  bearer_methods_supported: ['header'],
+  resource_signing_alg_values_supported: ['RS256', 'ES256']
+};
+
 export async function setupHTTPServer(mcpServer: Server): Promise<HttpServer> {
   const httpServer = http.createServer(async (req: IncomingMessage, res: ServerResponse) => {
+    const url = req.url || '/mcp';
+
     // Health check
-    if (req.url === '/health' && req.method === 'GET') {
+    if (url === '/health' && req.method === 'GET') {
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({
         status: 'ok',
         timestamp: new Date().toISOString(),
         server: 'meumcp',
         version: '1.0.0',
+        authenticated: false
       }));
       return;
     }
 
+    // OAuth Protected Resource Metadata - Claude.ai discovery
+    if (req.method === 'GET' && (url === '/.well-known/oauth-protected-resource' || url === '/.well-known/oauth-protected-resource/')) {
+      res.writeHead(200, {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-store'
+      });
+      res.end(JSON.stringify(protectedResourceMetadata, null, 2));
+      return;
+    }
+
+    // OAuth Protected Resource Metadata (without trailing slash)
+    if (req.method === 'GET' && url === '/.well-known/oauth-protected-resource') {
+      res.writeHead(200, {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-store'
+      });
+      res.end(JSON.stringify(protectedResourceMetadata, null, 2));
+      return;
+    }
+
     // MCP endpoint
-    if (req.url === '/mcp') {
+    if (url === '/mcp') {
       const sessionId = req.headers['mcp-session-id'] as string | undefined;
 
       // Get existing transport by session ID, or create new one
@@ -81,7 +117,7 @@ export async function setupHTTPServer(mcpServer: Server): Promise<HttpServer> {
     transports.clear();
   });
 
-  logger.info('MCP HTTP transport configured on /mcp (session-aware)');
+  logger.info('MCP HTTP transport configured on /mcp (session-aware, OAuth enabled)');
   return httpServer;
 }
 
