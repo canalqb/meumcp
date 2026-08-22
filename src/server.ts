@@ -5,6 +5,9 @@
  * Unifica conhecimento (Google Docs + regras locais), regras prescritivas,
  * perfis de agentes e MCPs existentes em uma única interface.
  */
+import type { IncomingMessage, ServerResponse } from 'http';
+import * as http from 'http';
+
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import {
@@ -592,10 +595,29 @@ server.setRequestHandler(ListPromptsRequestSchema, async () => ({
 async function main() {
   await initialize();
 
-  // stdio transport
-  const transport = new StdioServerTransport();
-  await server.connect(transport);
-  logger.info('meumcp stdio server connected');
+  if (config.server.transport === 'http') {
+    // Streamable HTTP transport para Claude.ai Web
+    const http = require('http');
+    const { StreamableHTTPServerTransport } = require('@modelcontextprotocol/sdk/server/streamableHttp.js');
+    
+    const transport = new StreamableHTTPServerTransport();
+    server.connect(transport);
+    transport.start();
+
+    const httpServer = http.createServer((req: IncomingMessage, res: ServerResponse) => {
+          transport.handleRequest(req, res);
+        });
+
+    const port = config.server.port || 8765;
+    const host = config.server.host || '0.0.0.0';
+    httpServer.listen(port, host);
+    logger.info(`meumcp HTTP server listening on http://${host}:${port}`);
+  } else {
+    // stdio transport (padrão)
+    const transport = new StdioServerTransport();
+    await server.connect(transport);
+    logger.info('meumcp stdio server connected');
+  }
 }
 
 main().catch((err) => {
