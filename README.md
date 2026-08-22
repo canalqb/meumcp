@@ -47,20 +47,35 @@ O meumcp suporta conexão remota via **Streamable HTTP** com OAuth 2.0 integrado
 **Passo 1**: Inicie o servidor HTTP
 
 ```bash
-MCP_SERVER_URL=https://seu-domínio.com npm run serve:http
-# Ou localmente: MCP_SERVER_URL=http://localhost:8765 npm run serve:http
+# Simples (para testes):
+node dist/server.js
+# Ou via env:
+MCP_TRANSPORT=http node dist/server.js
+
+# Ou com porta personalizada:
+MCP_SERVER_PORT=9000 MCP_TRANSPORT=http node dist/server.js
 ```
 
-**Passo 2**: No Claude.ai
-1. Acesse https://claude.ai/new?modal=add-custom-connector#settings/custom-connectors
+**Passo 2**: Se precisar de acesso público (para Claude.ai Web)
+
+```bash
+# Instale ngrok se não tiver:
+npm install -g ngrok
+
+# Exponha a porta:
+ngrok http 8765
+
+# Copie a URL (algo como https://abc123.ngrok.io)
+```
+
+**Passo 3**: No Claude.ai Web
+
+1. Acesse: https://claude.ai/new?modal=add-custom-connector#settings/custom-connectors
 2. Clique em "Add custom connector"
-3. Cole a URL: `https://seu-domínio.com/mcp`
-
-> **💡 Dica**: Se estiver testando localmente, use um túnel como [ngrok](https://ngrok.com/) ou [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) para expor sua porta local (8765) publicamente.
-
-**Passo 3**: O Claude.ai detectará automaticamente:
-- `/.well-known/oauth-protected-resource` — Metadata OAuth
-- `/mcp` — Endpoint principal MCP
+3. Nome: `meumcp`
+4. URL: `https://abc123.ngrok.io/mcp` (substitua pela sua URL ngrok)
+5. Transmissão: **HTTP Streamable**
+6. Autenticação: **Nenhum** (ou configure OAuth se necessário)
 
 ### 🔗 ChatGPT
 
