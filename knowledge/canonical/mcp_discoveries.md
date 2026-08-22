@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (177 total, 50 validados free, 127 pulados/pago)
+description: MCPs descobertos pelo keyhunter (188 total, 53 validados free, 135 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 177
+version: 188
 createdAt: 2026-08-22
 updatedAt: 2026-08-22
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-22T00:56:19.130Z
-> Total descoberto: 177 | Validados (HTTP 200 + free): 50 | Pulados (licença paga/enterprise): 127
+> Última execução: 2026-08-22T12:28:53.322Z
+> Total descoberto: 188 | Validados (HTTP 200 + free): 53 | Pulados (licença paga/enterprise): 135
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -71,6 +71,9 @@ updatedAt: 2026-08-22
 | Vamanakhil/kinetiq | Python | 0 | MIT |  | [repo](https://github.com/Vamanakhil/kinetiq) |
 | Prashant3804/zero-day-guard | Python | 0 | MIT |  | [repo](https://github.com/Prashant3804/zero-day-guard) |
 | r4yg/openfloor | Python | 0 | MIT | conference, django, django-channels | [repo](https://github.com/r4yg/openfloor) |
+| huangnan29/aiwritepaper-agentic-skill | Python | 1 | MIT |  | [repo](https://github.com/huangnan29/aiwritepaper-agentic-skill) |
+| Sachin-wish/mcp-knowledge-base-server | Python | 0 | MIT |  | [repo](https://github.com/Sachin-wish/mcp-knowledge-base-server) |
+| 2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool | Python | 0 | MIT |  | [repo](https://github.com/2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -201,6 +204,14 @@ updatedAt: 2026-08-22
 - serhatculhalik-product/telegram-topic-reader — licença: unknown
 - bh1rg1v/dsa — licença: unknown
 - dewansh-thakur-01/topicsolver — licença: unknown
+- Steron167/Comparison-AI-Agent-X — licença: unknown
+- MinaSeiffen/Vertex-LMS — licença: unknown
+- Airshock72/vertex — licença: unknown
+- feyzilim/clipfactory — licença: NOASSERTION
+- sahiljujar37-cmd/project-7 — licença: unknown
+- bakoba0829-bot/bottom-topic-ammo — licença: unknown
+- yasangi1/Exploring-Hate-Speech-in-Online-Space — licença: unknown
+- akshayakumark97/Claude-Youtube-Automate — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

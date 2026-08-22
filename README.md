@@ -245,6 +245,12 @@ MIT — parte da infraestrutura AI do @CanalQb.
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-22T12:28:48.740Z | huangnan29/aiwritepaper-agentic-skill | 1 | MIT | 200 |
+
+| 2026-08-22T12:28:50.516Z | Sachin-wish/mcp-knowledge-base-server | 0 | MIT | 200 |
+
+| 2026-08-22T12:28:53.245Z | 2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool | 0 | MIT | 200 |
+
 | 2026-08-22T00:56:13.459Z | Prashant3804/zero-day-guard | 0 | MIT | 200 |
 
 | 2026-08-22T00:56:15.794Z | r4yg/openfloor | 0 | MIT | 200 |
