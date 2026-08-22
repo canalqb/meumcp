@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (170 total, 48 validados free, 122 pulados/pago)
+description: MCPs descobertos pelo keyhunter (177 total, 50 validados free, 127 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 170
-createdAt: 2026-08-21
-updatedAt: 2026-08-21
+version: 177
+createdAt: 2026-08-22
+updatedAt: 2026-08-22
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-21T12:36:16.417Z
-> Total descoberto: 170 | Validados (HTTP 200 + free): 48 | Pulados (licença paga/enterprise): 122
+> Última execução: 2026-08-22T00:56:19.130Z
+> Total descoberto: 177 | Validados (HTTP 200 + free): 50 | Pulados (licença paga/enterprise): 127
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -69,6 +69,8 @@ updatedAt: 2026-08-21
 | dev-the-dev-while-deving/rolldeep-lab | TypeScript | 0 | MIT | education, jupyter, learning | [repo](https://github.com/dev-the-dev-while-deving/rolldeep-lab) |
 | temidayoxyz/surfercut | Python | 0 | MIT |  | [repo](https://github.com/temidayoxyz/surfercut) |
 | Vamanakhil/kinetiq | Python | 0 | MIT |  | [repo](https://github.com/Vamanakhil/kinetiq) |
+| Prashant3804/zero-day-guard | Python | 0 | MIT |  | [repo](https://github.com/Prashant3804/zero-day-guard) |
+| r4yg/openfloor | Python | 0 | MIT | conference, django, django-channels | [repo](https://github.com/r4yg/openfloor) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -194,6 +196,11 @@ updatedAt: 2026-08-21
 - geeekbar-web/topic-picker — licença: unknown
 - OnurUCA/Identifying-and-Analysing-Predominant-Discussion-Topics-in-Russian-Speaking-Telegram-Communities — licença: unknown
 - ritikmishra004/Blog_writing_agent — licença: unknown
+- PRIYAbvhf/Data_Structures_And_Algorithms — licença: unknown
+- phithounsavanh/vertex-learning-platform — licença: unknown
+- serhatculhalik-product/telegram-topic-reader — licença: unknown
+- bh1rg1v/dsa — licença: unknown
+- dewansh-thakur-01/topicsolver — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
