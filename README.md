@@ -71,6 +71,31 @@ O meumcp suporta conectores para múltiplos agentes LLM:
 | OpenAI Chat | http | Porta 8766 |
 | Anthropic Claude | http | Porta 8767 |
 
+### 🔗 Claude Desktop - Configuração Manual
+
+**IMPORTANTE**: Após instalar, reinicie o Claude Desktop para que as alterações tenham efeito.
+
+Edita o arquivo `claude_desktop_config.json`:
+- Windows: `C:\Users\<seu-usuario>\AppData\Roaming\Claude\claude_desktop_config.json`
+- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
+```json
+{
+  "mcpServers": {
+    "meumcp": {
+      "command": "node",
+      "args": ["C:\\Users\\Qb\\Desktop\\meumcp\\dist\\server.js"],
+      "env": {
+        "MEUMCP_CLI": "true",
+        "GITHUB_TOKEN": "ghp_sua-chave-aqui"
+      }
+    }
+  }
+}
+```
+
+> **⚠️ ATENÇÃO**: Substitua o caminho acima pelo caminho ABSOLUTO até o seu diretório meumcp.
+
 ### Configuração via CLI
 
 ```bash
@@ -162,7 +187,7 @@ meumcp/
 ├── src/
 │   ├── server.ts          # MCP principal (12 tools)
 │   ├── cli.ts             # CLI interativa
-│   └── connectors/        # Plugins de conexão
+│   └── connectors/       # Plugins de conexão
 ├── rules/canonical/      # Regras LLM canônicas
 ├── knowledge/
 │   ├── canonical/         # MCPs descobertos
