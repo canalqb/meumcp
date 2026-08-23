@@ -288,3 +288,14 @@ O meumcp implementa OAuth 2.0 conforme especificação RFC 9728:
 ## 🪪 Licença
 
 MIT — parte da infraestrutura AI do @CanalQb.
+
+## 🔄 Release Notes (auto)
+
+<!-- release-notes-start -->
+# Notas da Versão — keyhunter-%Y> (HEAD -> main, origin/main)b4956416fb2e0def6c13c3bd96dd619997ce2186%MHEAD
+
+Changelog automático (gerado pelas ações do GitHub):
+
+- (nenhuma mudança detectada via git log)
+
+<!-- release-notes-end -->
