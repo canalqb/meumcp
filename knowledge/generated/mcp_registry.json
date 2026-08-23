@@ -2685,5 +2685,31 @@
     "validated_at": "2026-08-22T12:28:53.245Z",
     "topics": [],
     "readme_absorbed": "2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool"
+  },
+  {
+    "id": 1343251476,
+    "full_name": "hikaru3004/topicos_especiais_programa-o",
+    "url": "https://github.com/hikaru3004/topicos_especiais_programa-o",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-23T01:00:48.418Z",
+    "topics": [],
+    "readme_absorbed": "hikaru3004/topicos_especiais_programa-o"
+  },
+  {
+    "id": 1343256256,
+    "full_name": "drewmayberry11/python-basics-to-mastery",
+    "url": "https://github.com/drewmayberry11/python-basics-to-mastery",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-23T01:00:49.275Z",
+    "topics": [],
+    "readme_absorbed": "drewmayberry11/python-basics-to-mastery"
   }
 ]
