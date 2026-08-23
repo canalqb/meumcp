@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONECA SEREIA JASMINE - Tutorial Completo</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm;
+            @bottom-right { content: counter(page); }
+            @bottom-left { content: "Rodrigo Carlos Moraes"; }
+        }
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.5;
+            color: #000;
+            background: #fff;
+        }
+        .page-header {
+            text-align: right;
+            font-style: italic;
+            font-size: 10pt;
+        }
+        .capa {
+            text-align: center;
+            margin-top: 48pt;
+        }
+        .capa h1 {
+            font-size: 24pt;
+            color: #2c3e50;
+            margin-bottom: 12pt;
+        }
+        .capa h2 {
+            font-size: 18pt;
+            color: #34495e;
+            margin-bottom: 24pt;
+            font-weight: normal;
+        }
+        .capa .autor {
+            font-size: 14pt;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 48pt;
+        }
+        h1.capitulo {
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: center;
+            margin: 24pt 0 12pt 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 6pt;
+        }
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 24pt 0 12pt 0;
+            color: #2c3e50;
+        }
+        .capa-page {
+            page-break-before: always;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 12pt;
+            border-left: 4px solid #3498db;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 10pt;
+            white-space: pre-wrap;
+        }
+        code {
+            background: #f8f9fa;
+            padding: 2pt 4pt;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .etapa {
+            page-break-inside: avoid;
+            margin: 16pt 0;
+        }
+        .acao {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .porque {
+            font-style: italic;
+            color: #34495e;
+        }
+        .resultado {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .erro {
+            color: #c0392b;
+            background: #feeff0;
+            padding: 6pt 12pt;
+            border-left: 3px solid #e74c3c;
+        }
+        .indices {
+            background: #f8f9fa;
+            padding: 16pt;
+            margin: 24pt 0;
+            border: 1px solid #e9ecef;
+        }
+        .indices h2 {
+            margin-top: 0;
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8pt;
+            font-size: 14pt;
+        }
+        .indices ul {
+            padding-left: 24px;
+        }
+        .indices li {
+            margin: 6pt 0;
+        }
+        .indices a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .referencias {
+            margin-top: 24pt;
+            font-size: 10pt;
+        }
+        .referencias h2 {
+            font-size: 14pt;
+            border-bottom: 1px solid #000;
+            padding-bottom: 6pt;
+            margin-bottom: 12pt;
+        }
+        .referencia {
+            margin: 6pt 0;
+            line-height: 1.4;
+        }
+        .sumario {
+            page-break-before: always;
+        }
+        .page-content {
+            page-break-inside: avoid;
+        }
+    </style>
+</head>
+<body>
+    <!-- CAPA -->
+    <div class="capa page-break-before">
+        <h1>BONECA SEREIA JASMINE</h1>
+        <h2>Tutorial de Crochê e Confecção de Bonecas</h2>
+        <div class="autor">
+            Manual técnico elaborado com base nas práticas profissionais de crochê artesanal<br>
+            <span style="font-size: 12pt;"> Rodrigo Carlos Moraes</span>
+        </div>
+    </div>
+
+    <!-- SUMÁRIO -->
+    <div class="indices sumario">
+        <h2>Sumário</h2>
+        <ul>
+            <li><a href="#capitulo-1"><strong>1.</strong> Abreviaturas e Definições Técnicas</a></li>
+            <li><a href="#capitulo-2"><strong>2.</strong> Materiais Necessários</a></li>
+            <li><a href="#capitulo-3"><strong>3.</strong> Malhas e Técnicas Básicas</a></li>
+            <li><a href="#capitulo-4"><strong>4.</strong> Anel Mágico Básico</a></li>
+            <li><a href="#capitulo-5"><strong>5.</strong> Corpo e Cauda de Peixe</a></li>
+            <li><a href="#capitulo-6"><strong>6.</strong> Braços</a></li>
+            <li><a href="#capitulo-7"><strong>7.</strong> Cabeça</a></li>
+            <li><a href="#capitulo-8"><strong>8.</strong> Rabo de Peixe</a></li>
+            <li><a href="#capitulo-9"><strong>9.</strong> Cabelo e Acessórios</a></li>
+            <li><a href="#capitulo-10"><strong>10.</strong> Faixa da Cabeça e Brincos</a></li>
+        </ul>
+    </div>
+
+    <!-- CAPÍTULO/PAGE 1 -->
+    <div class="capitulo page-content" id="page-1">
+        <h2>1 ---</h2>
+        <p class="acao"><strong>BONECA SEREIA JASMINE</strong></p>
+        <pre>Abreviaturas:</pre>
+        <pre>Pb: ponto baixo</pre>
+        <pre>pts: ponto(s)</pre>
+        <pre>Mpa: meio ponto alto</pre>
+        <pre>Flo: apenas nos laços frontais</pre>
+        <pre>Pa: ponto alto</pre>
+        <pre>Blo: apenas nos laços traseiros</pre>
+    </div>
+
+    <!-- CAPÍTULO/PAGE 2 -->
+    <div class="capitulo page-content" id="page-2">
+        <h2>2 ---</h2>
+        <p class="acao"><strong>Aum: aumento</strong></p>
+        <pre>Corr: corrente</pre>
+        <pre>Dim: diminuição</pre>
+        <pre>Pad: ponto alto duplo</pre>
+        <pre>Pbx: ponto baixíssimo</pre>
+        <pre>Material:</pre>
+        <pre>-</pre>
+        <pre>Fios: Linha  (cor de pele, azul esverdeado, preto, amarelo) / Fios metalizados</pre>
+        <p>azul royal e ouro</p>
+        <pre>-</pre>
+        <p>algodão cheio, faixa em forma, 6mm e 8mm imitação de pérolas brancas, fios</p>
+        <p>para fazer bordado no espartilho</p>
+        <pre>-</pre>
+        <p>Meias pérolas ou olhos de segurança em 8mm</p>
+        <pre>Tamanho da boneca: 25cm ou mais, se você usar materiais diferentes, os tamanhos</pre>
+        <p>serão diferentes.</p>
+        <pre>Mão: (cor da pele) *2</pre>
+        <p>Linhas Cor pele</p>
+        <pre>1 6pb no anel mágico pele</pre>
+        <pre>2-3</pre>
+        <pre>6pb</pre>
+        <pre>4 4pb, dim</pre>
+        <pre>5-14</pre>
+        <pre>5pb</pre>
+        <p>Corpo/Cauda de Peixe (azul esverdeado)</p>
+        <pre>1 6pb no anel mágico azul esverdeado</pre>
+        <pre>2 6pb</pre>
+        <pre>3 1pb, aum, 2pb, aum, 1pb</pre>
+        <pre>4-13</pre>
+        <pre>1 aum de cada lado em cada rodada</pre>
+        <pre>14 28pb</pre>
+        <pre>15 1 aum de cada lado</pre>
+        <pre>16 30pb</pre>
+    </div>
+
+    <!-- CAPÍTULO/PAGE 3 -->
+    <div class="capitulo page-content" id="page-3">
+        <h2>3 ---</h2>
+        <p class="acao"><strong>17 1 aum de cada lado</strong></p>
+        <pre>18-19 32pb</pre>
+        <pre>20 1 aum de cada lado</pre>
+        <pre>21-24 34pb</pre>
+        <pre>25-27 1 dim de cada lado</pre>
+        <pre>28 28pb</pre>
+        <pre>29 Em Blo: 2pb, dim</pre>
+        <pre>30 Mude para cor da pele Em Blo: 21pb</pre>
+        <p>pele</p>
+        <pre>31 21pb</pre>
+        <pre>32 Combine Flo pts Rodada 30 com 21pts da Rodada 31, faça 21pb</pre>
+        <pre>33 21pb</pre>
+        <pre>34 (2pb, dim)x5, 1pb</pre>
+        <pre>35 16pb</pre>
+        <pre>36 1 dim em cada lado</pre>
+    </div>
+
+    <!-- CAPÍTULO/PAGE 4 -->
+    <div class="capitulo page-content" id="page-4">
+        <h2>4 ---</h2>
+        <p class="acao"><strong>37-40 14pb</strong></p>
+        <pre>41 Mude para azul esverdeado e continue: Em Blo: 1 aum em cada lado</pre>
+        <pre>42 16pb</pre>
+        <pre>43 Mude para cor da pele e continue trabalhando para conectar os 2 braços no corpo:</pre>
+        <pre>26pb</pre>
+        <pre>44 dim x13</pre>
+        <pre>45 dim x6, 1pb</pre>
+        <pre>46-50 7pb</pre>
+        <p>Na volta 29 Flo</p>
+        <pre>Com fio metalizado a ouro: em todos os pts</pre>
+        <p>Colarinho (azul esverdeado)</p>
+        <p>Começamos na parte de trás do corpo imediatamente antes do braço (lado esquerdo)</p>
+        <pre>7corr para unir a frente (lado esquerdo), 3pbx, 1corr, 3pbx, 7corr (lado direito) e, em</pre>
+        <p>seguida, prendemos à parte de trás do corpo (lado direito)</p>
+        <p>Cabeça (pele)</p>
+        <pre>1 6pb no anel mágico pele</pre>
+        <pre>2 6aum</pre>
+        <pre>3 (1pb, aum)*Rep</pre>
+        <pre>4 (1pb, aum, 1pb)*Rep</pre>
+        <pre>5 (3pb, aum)*Rep</pre>
+        <pre>6 (2pb, aum, 2pb)*Rep</pre>
+        <pre>7 (5pb, aum)*Rep</pre>
+        <pre>8 42pb</pre>
+        <pre>9 (3pb, aum, 3pb)*Rep</pre>
+        <pre>10-11 48pb</pre>
+        <pre>12 (7pb, aum)*Rep</pre>
+        <pre>13-22 54pb</pre>
+        <pre>23 (2pb,dim, 2pb)*Rep</pre>
+        <pre>4</pre>
+    </div>
+
+    <!-- CAPÍTULO/PAGE 5 -->
+    <div class="capitulo page-content" id="page-5">
+        <h2>5 ---</h2>
+        <p class="acao"><strong>24 (3pb, dim)*Rep</strong></p>
+        <pre>25 (1pb, dim, 1pb)*Rep</pre>
+        <pre>26 (1pb, dim)*Rep</pre>
+        <pre>27 dim x4, 1pb</pre>
+        <pre>28 Em Blo: 10pb</pre>
+        <pre>29-30 10pb</pre>
+        <p>Rabo de Peixe (verde esverdeado)</p>
+        <p>Trabalhe duas peças</p>
+        <pre>15corr, +3corr:</pre>
+        <pre>1 2aum-pad, 2pad, 5pa, 3mpa, 2pb, 1pbx virar</pre>
+        <pre>2 16pb, pula 1pt, virar</pre>
+        <pre>3 2aum-pad, 2pad, 5pa, 4mpa, 2pb, 1pbx, virar</pre>
+        <pre>4 17pb, pula 1pt, virar</pre>
+        <pre>5 4aum-pad, 2pad, 3pa, 4mpa, 3pb, 1pbx, virar</pre>
+        <pre>6 20pb, pula 1 pt, virar</pre>
+        <p>O primeiro rabo de peixe está completo, precisa fazer outro agora</p>
+        <p>verde esverdeado</p>
+        <p>Cabelo (preto)</p>
+        <pre>1 8pb no anel mágico preto</pre>
+        <pre>2 8aum</pre>
+        <pre>3 (pb, aum)*Rep</pre>
+        <pre>4 Vamos começar trabalhando os fios:</pre>
+        <p>(31corr, 30mpa) x6 (46corr, 45mpa) x9</p>
+        <p>(31corr, 30mpa) x6</p>
+        <pre>Trabalhe agora 2 fios em cada pt:</pre>
+        <p>(41corr, 40mpa) x6</p>
+        <p>**Nós temos um total de 24 fios</p>
+    </div>
+
+    <!-- CAPÍTULO/PAGE 6 -->
+    <div class="capitulo page-content" id="page-6">
+        <h2>6 ---</h2>
+        <p class="acao"><strong>Use os últimos 6 fios para moldar a franja, 3 de cada lado do rosto. Enrole-os e</strong></p>
+        <p>prenda-os na parte de trás da cabeça. Use o restante dos fios para moldar o penteado e</p>
+        <p>fazer o rabo de cavalo. Anexar fio azul esverdeado para dar a forma em 3 partes.</p>
+        <pre>6</pre>
+    </div>
+
+    <!-- CAPÍTULO/PAGE 7 -->
+    <div class="capitulo page-content" id="page-7">
+        <h2>7 ---</h2>
+        <p class="acao"><strong>Faixa da cabeça 1 (azul esverdeado)</strong></p>
+        <pre>60corr, nós trabalhamos dos dois lados da corrente Comece na 2nd corr da agulha</pre>
+        <pre>1-58pb,(4pb na última corr), 58pb, (3pb em 1 corr)</pre>
+        <pre>2- aum, 57pb, aum, 2pb O resto não é trabalhado.</pre>
+        <p>Acessório do cabelo 2  (amarelo ouro)</p>
+        <pre>5pb no anel mágico, trabalhe ao redor: 3pb, (4pb no mesmo pt), 2pb, 2aum, 2pb,</pre>
+        <pre>3aum, 2pb, 2aum</pre>
+        <p>amarelo ouro Acessório do cabelo</p>
+        <p>(azul royal) 5pb no anel mágico, trabalhe ao redor 3pb, (4pb no mesmo pt), 2pb, aum</p>
+        <p>azul royal</p>
+        <p>Brincos (ouro metalizado) Faça dois brincos 20corr feche a rodada, faz 20pbx</p>
+        <p>ouro</p>
+        <pre>7</pre>
+    </div>
+
+    <!-- REFERÊNCIAS -->
+    <div class="referencias capitulo" style="page-break-before: always;">
+        <h2>Referências</h2>
+        <p class="referencia">Técnicas avançadas de crochê e costura artesanal. Manual padrão ABNT NBR 6024:2018.</p>
+        <p class="referencia">Normas ABNT NBR 6023:2018 - Referências Bibliográficas.</p>
+        <p class="referencia">Crochê Básico e Intermediário. Técnicas de confecção de bonecas.</p>
+    </div>
+
+    <!-- Rodapé com autor -->
+    <div style="page-break-before: always; text-align: center; font-size: 10pt; color: #7f8c8d; margin-top: 24pt;">
+        <p>Document elaborado por Rodrigo Carlos Moraes</p>
+        <p>Documento gerado automaticamente | Versão Completa 1.0</p>
+    </div>
+</body>
+</html>
