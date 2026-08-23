@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (190 total, 53 validados free, 137 pulados/pago)
+description: MCPs descobertos pelo keyhunter (198 total, 53 validados free, 145 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 190
+version: 198
 createdAt: 2026-08-23
 updatedAt: 2026-08-23
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-23T01:00:49.276Z
-> Total descoberto: 190 | Validados (HTTP 200 + free): 53 | Pulados (licença paga/enterprise): 137
+> Última execução: 2026-08-23T12:29:29.022Z
+> Total descoberto: 198 | Validados (HTTP 200 + free): 53 | Pulados (licença paga/enterprise): 145
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -214,6 +214,14 @@ updatedAt: 2026-08-23
 - akshayakumark97/Claude-Youtube-Automate — licença: unknown
 - hikaru3004/topicos_especiais_programa-o — licença: unknown
 - drewmayberry11/python-basics-to-mastery — licença: unknown
+- raginirajpoot/rpsyche — licença: unknown
+- ELLE0928/personal-research-radar — licença: unknown
+- thrishi1011/PulseDesk — licença: unknown
+- sampath-methuku-dev/topic_explainer — licença: unknown
+- sergiibabichev/Motion-and-Presence-Detection — licença: unknown
+- padmabalasundar/blog-content-crew-agent — licença: unknown
+- chinthanaboyina-kavya/AI-quiz-generator — licença: unknown
+- vickyjha/iitm-topic_explainer — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
