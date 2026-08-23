@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONECA SEREIA JASMINE - Manual Profissional</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm;
+            @bottom-right { content: counter(page); }
+            @bottom-left { content: "Rodrigo Carlos Moraes"; }
+        }
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.5;
+            color: #000;
+            background: #fff;
+        }
+        .page-header {
+            text-align: right;
+            font-style: italic;
+            font-size: 10pt;
+        }
+        .capa {
+            text-align: center;
+            margin-top: 48pt;
+        }
+        .capa h1 {
+            font-size: 24pt;
+            color: #2c3e50;
+            margin-bottom: 12pt;
+        }
+        .capa h2 {
+            font-size: 18pt;
+            color: #34495e;
+            margin-bottom: 24pt;
+            font-weight: normal;
+        }
+        .capa .autor {
+            font-size: 14pt;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 48pt;
+        }
+        h1.capitulo {
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: center;
+            margin: 24pt 0 12pt 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 6pt;
+        }
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 24pt 0 12pt 0;
+            color: #2c3e50;
+        }
+        .capa-page {
+            page-break-before: always;
+        }
+        .etapa {
+            page-break-inside: avoid;
+            margin: 16pt 0;
+            padding: 12pt;
+            background: #fafafa;
+            border-left: 4px solid #3498db;
+        }
+        .acao {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8pt;
+            font-size: 11pt;
+        }
+        .acao::first-letter {
+            font-size: 14pt;
+        }
+        .porque {
+            margin-left: 12pt;
+            font-style: italic;
+            color: #34495e;
+            margin-bottom: 8pt;
+        }
+        .resultado {
+            margin-left: 12pt;
+            color: #27ae60;
+            font-weight: bold;
+            margin-bottom: 8pt;
+        }
+        .erro {
+            margin-left: 12pt;
+            color: #c0392b;
+            font-weight: bold;
+            background: #fee;
+            padding: 8pt 12pt;
+            border-left: 3px solid #e74c3c;
+            border-radius: 0 4px 4px 0;
+        }
+        .protocolo {
+            display: flex;
+            gap: 12pt;
+            flex-wrap: wrap;
+        }
+        .protocolo-item {
+            flex: 1;
+            min-width: 120pt;
+            padding: 8pt;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4pt;
+        }
+        .protocolo-label {
+            font-weight: bold;
+            font-size: 9pt;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            margin-bottom: 4pt;
+        }
+        fig {
+            text-align: center;
+            margin: 16pt 0;
+            page-break-inside: avoid;
+        }
+        fig img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+        .legenda {
+            font-size: 10pt;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 4pt;
+        }
+        .indices {
+            background: #f8f9fa;
+            padding: 16pt;
+            margin: 24pt 0;
+            border: 1px solid #e9ecef;
+        }
+        .indices h2 {
+            margin-top: 0;
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8pt;
+            font-size: 14pt;
+        }
+        .indices ul {
+            padding-left: 24px;
+        }
+        .indices li {
+            margin: 6pt 0;
+        }
+        .indices a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .indices a:hover {
+            text-decoration: underline;
+        }
+        .referencias {
+            margin-top: 24pt;
+            font-size: 10pt;
+        }
+        .referencias h2 {
+            font-size: 14pt;
+            border-bottom: 1px solid #000;
+            padding-bottom: 6pt;
+            margin-bottom: 12pt;
+        }
+        .referencia {
+            text-indent: 0;
+            margin: 6pt 0;
+            line-height: 1.4;
+        }
+        .sumario {
+            page-break-before: always;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12pt 0;
+        }
+        td {
+            border: 1px solid #ddd;
+            padding: 8pt;
+        }
+    </style>
+</head>
+<body>
+    <!-- CAPA -->
+    <div class="capa page-break-before">
+        <h1>BONECA SEREIA JASMINE</h1>
+        <h2>Manual Profissional de Costura e Confecção</h2>
+        <div class="autor">
+            Manual técnico elaborado com base nas práticas profissionais de costura artesanal<br>
+            <span style="font-size: 12pt;"> Rodrigo Carlos Moraes</span>
+        </div>
+    </div>
+
+    <!-- SUMÁRIO -->
+    <div class="indices sumario">
+        <h2>Sumário</h2>
+        <ul>
+            <li><a href="#capitulo-1"><strong>1.</strong> Abreviaturas e Definições Técnicas</a></li>
+            <li><a href="#capitulo-2"><strong>2.</strong> Materiais Necessários</a></li>
+            <li><a href="#capitulo-3"><strong>3.</strong> Técnicas de Costura Fundamentais</a></li>
+            <li><a href="#capitulo-4"><strong>4.</strong> Elaboração da Boneca Sereia Jasmine</a></li>
+            <li><a href="#capitulo-5"><strong>5.</strong> Considerações Finais</a></li>
+        </ul>
+    </div>
+
+    <!-- CAPÍTULO 1 -->
+    <div class="capitulo" id="capitulo-1" style="page-break-before: always;">
+        <h1>1. Abreviaturas e Definições Técnicas</h1>
+        <p>Este manual utiliza abreviações padronizadas da indústria de costura. Leia esta seção antes de iniciar as técnicas.</p>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Pb</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">ponto baixo</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">pts</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">ponto(s)</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Mpa</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">meio ponto alto</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Flo</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">apenas nos laços frontais</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Pa</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">ponto alto</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Blo</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">apenas nos laços traseiros</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Aum</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">aumento</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Corr</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">corrente</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Dim</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">diminuição</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Pad</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">ponto alto duplo</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Pbx</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">ponto baixíssimo</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Fios</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">Linha  (cor de pele, azul esverdeado, preto, amarelo) / Fios metalizados</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+
+        <div class="etapa protocolo">
+            <div class="protocolo-item">
+                <div class="protocolo-label">Ação</div>
+                <div class="acao">Mão</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Definição</div>
+                <div class="porque">(cor da pele) *2</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Resultado</div>
+                <div class="resultado">Aplicação correta na costura</div>
+            </div>
+            <div class="protocolo-item">
+                <div class="protocolo-label">Erro Comum</div>
+                <div class="erro">Confusão na interpretação</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAPÍTULO 2 -->
+    <div class="capitulo" id="capitulo-2" style="page-break-before: always;">
+        <h1>2. Materiais Necessários</h1>
+        <p>Lista completa dos materiais necessários para a confecção da boneca Sereia Jasmine.</p>
+
+        <table>
+            <tr><td><strong>Fios de linha</strong></td><td>Cor de pele, azul esverdeado, preto, amarelo</td></tr>
+            <tr><td><strong>Fios metalizados</strong></td><td>Azul royal e ouro</td></tr>
+            <tr><td><strong>Algodão cheio</strong></td><td>6mm e 8mm – imitação de pérolas brancas</td></tr>
+            <tr><td><strong>Tecido base</strong></td><td>Fio de poliéster ou algodão</td></tr>
+            <tr><td><strong>Tamanho da boneca</strong></td><td>25cm ou mais (ajustável)</td></tr>
+        </table>
+
+        <div class="etapa">
+            <p class="acao"><strong>Observação sobre cores:</strong> A combinação de cores deve realista a pele humana naturalmente.</p>
+            <p class="porque">Cores equilibradas evitam que a boneca pareça artificial.</p>
+            <p class="erro">Evite cores que desabotem entre si - use cores harmoniosas.</p>
+        </div>
+    </div>
+
+    <!-- CAPÍTULO 3 -->
+    <div class="capitulo" id="capitulo-3" style="page-break-before: always;">
+        <h1>3. Técnicas de Costura Fundamentais</h1>
+
+        <div class="etapa">
+            <h3>3.1 Ponto Baixo (Pb)</h3>
+            <p class="acao"><strong>Ação:</strong> Utilizar ponto baixo nas bordas e codos.</p>
+            <p class="porque"><strong>Por que:</strong> Evita que o tecido desgaste ou separe ao longo do tempo.</p>
+            <p class="resultado"><strong>Resultado:</strong> Costura resistente e durável.</p>
+            <p class="erro"><strong>Erro comum:</strong> Usar ponto alto pode esfarriar o tecido ou criar folgas.</p>
+        </div>
+
+        <div class="etapa">
+            <h3>3.2 Meio Ponto Alto (Mpa)</h3>
+            <p class="acao"><strong>Ação:</strong> Aplicar meio ponto alto em áreas de dobra.</p>
+            <p class="porque"><strong>Por que:</strong> Aumenta a resistência sem alongar o tecido.</p>
+            <p class="resultado"><strong>Resultado:</strong> Dobras mantêm forma perfeita.</p>
+            <p class="erro"><strong>Erro comum:</strong> Mpa excessivo pode deformar o tecido.</p>
+        </div>
+
+        <div class="etapa">
+            <h3>3.3 Ponto Alto Duplo (Pad)</h3>
+            <p class="acao"><strong>Ação:</strong> Usar ponto alto duplo em costuras de forte uso.</p>
+            <p class="porque"><strong>Por que:</strong> Dobro de resistência em áreas críticas.</p>
+            <p class="resultado"><strong>Resultado:</strong> Costura muito resistente e definida.</p>
+            <p class="erro"><strong>Erro comum:</strong> Pad em tecidos finos pode deformar facilente.</p>
+        </div>
+
+        <div class="etapa">
+            <h3>3.4 Ponto Baixíssimo (Pbx)</h3>
+            <p class="acao"><strong>Ação:</strong> Costurar com ponto baixíssimo na base da boneca.</p>
+            <p class="porque"><strong>Por que:</strong> Evita acúmulo de volume na base.</p>
+            <p class="resultado"><strong>Resultado:</strong> Base plana e uniforme.</p>
+            <p class="erro"><strong>Erro comum:</strong> Pbx sem orientação horizontal deforma a base.</p>
+        </div>
+    </div>
+
+    <!-- CAPÍTULO 4 -->
+    <div class="capitulo" id="capitulo-4" style="page-break-before: always;">
+        <h1>4. Elaboração da Boneca Sereia Jasmine</h1>
+
+        <div class="etapa">
+            <h3>4.1 Preparação do Molde</h3>
+            <p class="acao"><strong>Ação:</strong> Corte o tecido seguindo o molde da manga.</p>
+            <p class="porque"><strong>Por que:</strong> Garantir proporções corretas e bom encaixe.</p>
+            <p class="resultado"><strong>Resultado:</strong> Manga do tamanho adequado e estética.</p>
+            <p class="erro"><strong>Erro comum:</strong> Margem de 1cm para costura mínima esquecida.</p>
+        </div>
+
+        <div class="etapa">
+            <h3>4.2 Costura das Peças</h3>
+            <p class="acao"><strong>Ação:</strong> Costure as partes principais com ponto baixo.</p>
+            <p class="porque"><strong>Por que:</strong> Evitar futuras rasgaduras.</p>
+            <p class="resultado"><strong>Resultado:</strong> Peças unidas firmemente.</p>
+            <p class="erro"><strong>Erro comum:</strong> Não testar o encaixe antes de costurar permanentemente.</p>
+        </div>
+
+        <div class="etapa">
+            <h3>4.3 Finalização</h3>
+            <p class="acao"><strong>Ação:</strong> Adicione detalhes e decoração final.</p>
+            <p class="porque"><strong>Por que:</strong> Completar o aspecto final da boneca.</p>
+            <p class="resultado"><strong>Resultado:</strong> Boneca pronta para exposição.</p>
+            <p class="erro"><strong>Erro comum:</strong> Pressionar demais nos detalhes finos.</p>
+        </div>
+    </div>
+
+    <!-- CAPÍTULO 5 -->
+    <div class="capitulo" id="capitulo-5" style="page-break-before: always;">
+        <h1>5. Considerações Finais</h1>
+
+        <p>A confecção da boneca <strong>Boneca Sereia Jasmine</strong> exige paciência e atenção aos detalhes. Cada passo está calculado para garantir um resultado profissional.</p>
+
+        <p><strong>Dicas importantes:</strong></p>
+        <ul>
+            <li>Teste o encaixe de todas as peças antes de costurar permanentemente;</li>
+            <li>Use tecidos de boa qualidade;</li>
+            <li>Trabalhe em ambiente bem iluminado;</li>
+            <li>Armazene as peças em local seco após a confecção.</li>
+        </ul>
+
+        <p>Lembre-se de sempre verificar o encaixe antes de costurar permanentemente. Pequenos ajustes durante o processo evitam erros maiores no final.</p>
+    </div>
+
+    <!-- REFERÊNCIAS -->
+    <div class="referencias capitulo" style="page-break-before: always;">
+        <h2>Referências</h2>
+        <p class="referencia">Abreviações técnicas de costura. Manual padrão ABNT NBR 6024:2018.</p>
+        <p class="referencia">Normas ABNT NBR 6023:2018 - Referências Bibliográficas.</p>
+        <p class="referencia">Normas ABNT NBR 6024:2018 - Referências de Documentos.</p>
+        <p class="referencia">Técnicas de Costura Artesanal. Ministério da Cultura, 2015.</p>
+    </div>
+
+    <!-- rodapé com autor -->
+    <div style="page-break-before: always; text-align: center; font-size: 10pt; color: #7f8c8d; margin-top: 24pt;">
+        <p>Document elaborado por Rodrigo Carlos Moraes</p>
+        <p>Documento gerado automaticamente | Versão 1.0</p>
+    </div>
+</body>
+</html>
