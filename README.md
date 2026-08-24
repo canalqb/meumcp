@@ -299,3 +299,12 @@ Changelog automático (gerado pelas ações do GitHub):
 - (nenhuma mudança detectada via git log)
 
 <!-- release-notes-end -->
+
+## MCPs Descoveltos pelo Keyhunter
+
+| 2026-08-24T00:58:07.802Z | 2jungwu/youtube-summarizer | 0 | MIT | 200 |
+
+| 2026-08-24T00:58:09.958Z | ADITYA-tp01/Insight-Forge-AI | 0 | MIT | 200 |
+
+| Data | Repositório | Stars | License | HTTP |
+|---|---|---|---|---|

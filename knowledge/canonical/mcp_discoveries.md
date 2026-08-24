@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (198 total, 53 validados free, 145 pulados/pago)
+description: MCPs descobertos pelo keyhunter (201 total, 55 validados free, 146 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 198
-createdAt: 2026-08-23
-updatedAt: 2026-08-23
+version: 201
+createdAt: 2026-08-24
+updatedAt: 2026-08-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-23T12:29:29.022Z
-> Total descoberto: 198 | Validados (HTTP 200 + free): 53 | Pulados (licença paga/enterprise): 145
+> Última execução: 2026-08-24T00:58:09.959Z
+> Total descoberto: 201 | Validados (HTTP 200 + free): 55 | Pulados (licença paga/enterprise): 146
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -74,6 +74,8 @@ updatedAt: 2026-08-23
 | huangnan29/aiwritepaper-agentic-skill | Python | 1 | MIT |  | [repo](https://github.com/huangnan29/aiwritepaper-agentic-skill) |
 | Sachin-wish/mcp-knowledge-base-server | Python | 0 | MIT |  | [repo](https://github.com/Sachin-wish/mcp-knowledge-base-server) |
 | 2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool | Python | 0 | MIT |  | [repo](https://github.com/2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool) |
+| 2jungwu/youtube-summarizer | Python | 0 | MIT |  | [repo](https://github.com/2jungwu/youtube-summarizer) |
+| ADITYA-tp01/Insight-Forge-AI | Python | 0 | MIT |  | [repo](https://github.com/ADITYA-tp01/Insight-Forge-AI) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -222,6 +224,7 @@ updatedAt: 2026-08-23
 - padmabalasundar/blog-content-crew-agent — licença: unknown
 - chinthanaboyina-kavya/AI-quiz-generator — licença: unknown
 - vickyjha/iitm-topic_explainer — licença: unknown
+- contactajayprakash-ops/aloud — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

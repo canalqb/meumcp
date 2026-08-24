@@ -2815,5 +2815,44 @@
     "validated_at": "2026-08-23T12:29:29.022Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1344364879,
+    "full_name": "2jungwu/youtube-summarizer",
+    "url": "https://github.com/2jungwu/youtube-summarizer",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-24T00:58:07.802Z",
+    "topics": [],
+    "readme_absorbed": "2jungwu/youtube-summarizer"
+  },
+  {
+    "id": 1344292868,
+    "full_name": "contactajayprakash-ops/aloud",
+    "url": "https://github.com/contactajayprakash-ops/aloud",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-24T00:58:08.838Z",
+    "topics": [],
+    "readme_absorbed": "contactajayprakash-ops/aloud"
+  },
+  {
+    "id": 1344290681,
+    "full_name": "ADITYA-tp01/Insight-Forge-AI",
+    "url": "https://github.com/ADITYA-tp01/Insight-Forge-AI",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-24T00:58:09.958Z",
+    "topics": [],
+    "readme_absorbed": "ADITYA-tp01/Insight-Forge-AI"
   }
 ]
