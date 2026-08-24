@@ -2854,5 +2854,65 @@
     "validated_at": "2026-08-24T00:58:09.958Z",
     "topics": [],
     "readme_absorbed": "ADITYA-tp01/Insight-Forge-AI"
+  },
+  {
+    "id": 1344919459,
+    "full_name": "dev-37/smart-study-buddy-rag",
+    "url": "https://github.com/dev-37/smart-study-buddy-rag",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-24T12:38:43.217Z",
+    "topics": [
+      "chromadb",
+      "embeddings",
+      "llm",
+      "python",
+      "rag",
+      "semantic-search",
+      "streamlit-dashboard"
+    ],
+    "readme_absorbed": "dev-37/smart-study-buddy-rag"
+  },
+  {
+    "id": 1344908049,
+    "full_name": "alex-badin/events_coverage",
+    "url": "https://github.com/alex-badin/events_coverage",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-24T12:38:44.402Z",
+    "topics": [],
+    "readme_absorbed": "alex-badin/events_coverage"
+  },
+  {
+    "id": 1344887267,
+    "full_name": "Billhlt/arena-game-ai",
+    "url": "https://github.com/Billhlt/arena-game-ai",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-24T12:38:45.520Z",
+    "topics": [],
+    "readme_absorbed": "Billhlt/arena-game-ai"
+  },
+  {
+    "id": 1344894181,
+    "full_name": "Rubidius37/Log2Topic",
+    "url": "https://github.com/Rubidius37/Log2Topic",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-24T12:38:47.762Z",
+    "topics": [],
+    "readme_absorbed": "Rubidius37/Log2Topic"
   }
 ]

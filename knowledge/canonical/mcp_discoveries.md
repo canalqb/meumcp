@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (201 total, 55 validados free, 146 pulados/pago)
+description: MCPs descobertos pelo keyhunter (205 total, 57 validados free, 148 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 201
+version: 205
 createdAt: 2026-08-24
 updatedAt: 2026-08-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-24T00:58:09.959Z
-> Total descoberto: 201 | Validados (HTTP 200 + free): 55 | Pulados (licença paga/enterprise): 146
+> Última execução: 2026-08-24T12:38:47.763Z
+> Total descoberto: 205 | Validados (HTTP 200 + free): 57 | Pulados (licença paga/enterprise): 148
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -76,6 +76,8 @@ updatedAt: 2026-08-24
 | 2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool | Python | 0 | MIT |  | [repo](https://github.com/2tnyrmcs4g-creator/2-Daily-Trending-Topics-to-Candidate-Content-Pool) |
 | 2jungwu/youtube-summarizer | Python | 0 | MIT |  | [repo](https://github.com/2jungwu/youtube-summarizer) |
 | ADITYA-tp01/Insight-Forge-AI | Python | 0 | MIT |  | [repo](https://github.com/ADITYA-tp01/Insight-Forge-AI) |
+| Billhlt/arena-game-ai | Python | 0 | MIT |  | [repo](https://github.com/Billhlt/arena-game-ai) |
+| Rubidius37/Log2Topic | Python | 0 | MIT |  | [repo](https://github.com/Rubidius37/Log2Topic) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -225,6 +227,8 @@ updatedAt: 2026-08-24
 - chinthanaboyina-kavya/AI-quiz-generator — licença: unknown
 - vickyjha/iitm-topic_explainer — licença: unknown
 - contactajayprakash-ops/aloud — licença: unknown
+- dev-37/smart-study-buddy-rag — licença: unknown
+- alex-badin/events_coverage — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

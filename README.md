@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-24T12:38:45.520Z | Billhlt/arena-game-ai | 0 | MIT | 200 |
+
+| 2026-08-24T12:38:47.762Z | Rubidius37/Log2Topic | 0 | MIT | 200 |
+
 | 2026-08-24T00:58:07.802Z | 2jungwu/youtube-summarizer | 0 | MIT | 200 |
 
 | 2026-08-24T00:58:09.958Z | ADITYA-tp01/Insight-Forge-AI | 0 | MIT | 200 |
