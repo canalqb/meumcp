@@ -2940,5 +2940,57 @@
     "validated_at": "2026-08-25T00:58:11.455Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1346103995,
+    "full_name": "sacovo/n8n-nodes-ros2",
+    "url": "https://github.com/sacovo/n8n-nodes-ros2",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-25T12:37:18.746Z",
+    "topics": [],
+    "readme_absorbed": "sacovo/n8n-nodes-ros2"
+  },
+  {
+    "id": 1346088169,
+    "full_name": "MaryamSarfraz77/roleChat-AI",
+    "url": "https://github.com/MaryamSarfraz77/roleChat-AI",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-25T12:37:19.828Z",
+    "topics": [],
+    "readme_absorbed": "MaryamSarfraz77/roleChat-AI"
+  },
+  {
+    "id": 1346051853,
+    "full_name": "riteesh800/progress-tracker",
+    "url": "https://github.com/riteesh800/progress-tracker",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-25T12:37:20.726Z",
+    "topics": [],
+    "readme_absorbed": "riteesh800/progress-tracker"
+  },
+  {
+    "id": 1345892873,
+    "full_name": "akibbashir492-coder/pdf-ai-chat",
+    "url": "https://github.com/akibbashir492-coder/pdf-ai-chat",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-25T12:37:21.612Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]

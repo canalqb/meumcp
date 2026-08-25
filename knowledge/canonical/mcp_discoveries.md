@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (207 total, 57 validados free, 150 pulados/pago)
+description: MCPs descobertos pelo keyhunter (211 total, 57 validados free, 154 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 207
+version: 211
 createdAt: 2026-08-25
 updatedAt: 2026-08-25
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-25T00:58:11.456Z
-> Total descoberto: 207 | Validados (HTTP 200 + free): 57 | Pulados (licença paga/enterprise): 150
+> Última execução: 2026-08-25T12:37:21.613Z
+> Total descoberto: 211 | Validados (HTTP 200 + free): 57 | Pulados (licença paga/enterprise): 154
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -231,6 +231,10 @@ updatedAt: 2026-08-25
 - alex-badin/events_coverage — licença: unknown
 - CaioTarso/topicos_especiais_celula_7_SI — licença: unknown
 - HannanCodeHub/PyTorch-Learning — licença: unknown
+- sacovo/n8n-nodes-ros2 — licença: unknown
+- MaryamSarfraz77/roleChat-AI — licença: unknown
+- riteesh800/progress-tracker — licença: unknown
+- akibbashir492-coder/pdf-ai-chat — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
