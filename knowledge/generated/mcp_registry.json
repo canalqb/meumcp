@@ -2914,5 +2914,31 @@
     "validated_at": "2026-08-24T12:38:47.762Z",
     "topics": [],
     "readme_absorbed": "Rubidius37/Log2Topic"
+  },
+  {
+    "id": 1345536107,
+    "full_name": "CaioTarso/topicos_especiais_celula_7_SI",
+    "url": "https://github.com/CaioTarso/topicos_especiais_celula_7_SI",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-25T00:58:10.671Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1345481916,
+    "full_name": "HannanCodeHub/PyTorch-Learning",
+    "url": "https://github.com/HannanCodeHub/PyTorch-Learning",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-25T00:58:11.455Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
