@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-26T00:59:07.465Z | IvTole/Topicos_Selectos_II_CUCEA | 0 | MIT | 200 |
+
+| 2026-08-26T00:59:08.477Z | vezril/hermes-ui | 0 | MIT | 200 |
+
 | 2026-08-24T12:38:45.520Z | Billhlt/arena-game-ai | 0 | MIT | 200 |
 
 | 2026-08-24T12:38:47.762Z | Rubidius37/Log2Topic | 0 | MIT | 200 |

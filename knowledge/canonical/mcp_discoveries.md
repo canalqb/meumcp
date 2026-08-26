@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (211 total, 57 validados free, 154 pulados/pago)
+description: MCPs descobertos pelo keyhunter (217 total, 59 validados free, 158 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 211
-createdAt: 2026-08-25
-updatedAt: 2026-08-25
+version: 217
+createdAt: 2026-08-26
+updatedAt: 2026-08-26
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-25T12:37:21.613Z
-> Total descoberto: 211 | Validados (HTTP 200 + free): 57 | Pulados (licença paga/enterprise): 154
+> Última execução: 2026-08-26T00:59:12.067Z
+> Total descoberto: 217 | Validados (HTTP 200 + free): 59 | Pulados (licença paga/enterprise): 158
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -78,6 +78,8 @@ updatedAt: 2026-08-25
 | ADITYA-tp01/Insight-Forge-AI | Python | 0 | MIT |  | [repo](https://github.com/ADITYA-tp01/Insight-Forge-AI) |
 | Billhlt/arena-game-ai | Python | 0 | MIT |  | [repo](https://github.com/Billhlt/arena-game-ai) |
 | Rubidius37/Log2Topic | Python | 0 | MIT |  | [repo](https://github.com/Rubidius37/Log2Topic) |
+| IvTole/Topicos_Selectos_II_CUCEA | Python | 0 | MIT |  | [repo](https://github.com/IvTole/Topicos_Selectos_II_CUCEA) |
+| vezril/hermes-ui | TypeScript | 0 | MIT |  | [repo](https://github.com/vezril/hermes-ui) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -235,6 +237,10 @@ updatedAt: 2026-08-25
 - MaryamSarfraz77/roleChat-AI — licença: unknown
 - riteesh800/progress-tracker — licença: unknown
 - akibbashir492-coder/pdf-ai-chat — licença: unknown
+- Fernando-Lopez-Padilla/trabajo-final-topicos-ds2-mlops — licença: unknown
+- miguellts/python-studies — licença: unknown
+- mkihahu/vertex-learning-platform — licença: unknown
+- luann-bortoli/topicos-especiais-upf — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

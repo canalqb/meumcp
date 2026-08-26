@@ -2992,5 +2992,89 @@
     "validated_at": "2026-08-25T12:37:21.612Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1346742609,
+    "full_name": "IvTole/Topicos_Selectos_II_CUCEA",
+    "url": "https://github.com/IvTole/Topicos_Selectos_II_CUCEA",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-26T00:59:07.465Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1346158244,
+    "full_name": "vezril/hermes-ui",
+    "url": "https://github.com/vezril/hermes-ui",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-26T00:59:08.477Z",
+    "topics": [],
+    "readme_absorbed": "vezril/hermes-ui"
+  },
+  {
+    "id": 1346718595,
+    "full_name": "Fernando-Lopez-Padilla/trabajo-final-topicos-ds2-mlops",
+    "url": "https://github.com/Fernando-Lopez-Padilla/trabajo-final-topicos-ds2-mlops",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-26T00:59:09.437Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1346714830,
+    "full_name": "miguellts/python-studies",
+    "url": "https://github.com/miguellts/python-studies",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-26T00:59:10.178Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1346667041,
+    "full_name": "mkihahu/vertex-learning-platform",
+    "url": "https://github.com/mkihahu/vertex-learning-platform",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-26T00:59:11.114Z",
+    "topics": [
+      "nextjs",
+      "sanity",
+      "sanity-io",
+      "sanity-studio",
+      "tailwindcss-v4"
+    ],
+    "readme_absorbed": "mkihahu/vertex-learning-platform"
+  },
+  {
+    "id": 1346706968,
+    "full_name": "luann-bortoli/topicos-especiais-upf",
+    "url": "https://github.com/luann-bortoli/topicos-especiais-upf",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-26T00:59:12.067Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
