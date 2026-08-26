@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-26T12:40:52.563Z | martinrashkov/topic-diversity-gender-prediction | 0 | MIT | 200 |
+
+| 2026-08-26T12:40:55.533Z | zz4fff/finance3 | 0 | GPL-3.0 | 200 |
+
 | 2026-08-26T00:59:07.465Z | IvTole/Topicos_Selectos_II_CUCEA | 0 | MIT | 200 |
 
 | 2026-08-26T00:59:08.477Z | vezril/hermes-ui | 0 | MIT | 200 |

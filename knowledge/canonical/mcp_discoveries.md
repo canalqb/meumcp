@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (217 total, 59 validados free, 158 pulados/pago)
+description: MCPs descobertos pelo keyhunter (226 total, 61 validados free, 165 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 217
+version: 226
 createdAt: 2026-08-26
 updatedAt: 2026-08-26
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-26T00:59:12.067Z
-> Total descoberto: 217 | Validados (HTTP 200 + free): 59 | Pulados (licença paga/enterprise): 158
+> Última execução: 2026-08-26T12:41:00.741Z
+> Total descoberto: 226 | Validados (HTTP 200 + free): 61 | Pulados (licença paga/enterprise): 165
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -80,6 +80,8 @@ updatedAt: 2026-08-26
 | Rubidius37/Log2Topic | Python | 0 | MIT |  | [repo](https://github.com/Rubidius37/Log2Topic) |
 | IvTole/Topicos_Selectos_II_CUCEA | Python | 0 | MIT |  | [repo](https://github.com/IvTole/Topicos_Selectos_II_CUCEA) |
 | vezril/hermes-ui | TypeScript | 0 | MIT |  | [repo](https://github.com/vezril/hermes-ui) |
+| martinrashkov/topic-diversity-gender-prediction | Python | 0 | MIT |  | [repo](https://github.com/martinrashkov/topic-diversity-gender-prediction) |
+| zz4fff/finance3 | TypeScript | 0 | GPL-3.0 |  | [repo](https://github.com/zz4fff/finance3) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -241,6 +243,13 @@ updatedAt: 2026-08-26
 - miguellts/python-studies — licença: unknown
 - mkihahu/vertex-learning-platform — licença: unknown
 - luann-bortoli/topicos-especiais-upf — licença: unknown
+- Shehrazali365/vertex-learning-plateform — licença: unknown
+- vir92/vertex-learning-platform — licença: unknown
+- munira3011/blog-generation — licença: unknown
+- teplorry/geo-topic-agent-runtime-v1.4.0 — licença: NOASSERTION
+- burakozg/clippings-topics — licença: unknown
+- harshwardhanshrivastava/computer-basic-quiz — licença: unknown
+- CHUNG-WEI-YONG/ResearchAgent — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
