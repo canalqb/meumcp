@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-27T06:51:26.211Z | richardchen99/nev-social-intelligence | 0 | MIT | 200 |
+
 | 2026-08-26T12:40:52.563Z | martinrashkov/topic-diversity-gender-prediction | 0 | MIT | 200 |
 
 | 2026-08-26T12:40:55.533Z | zz4fff/finance3 | 0 | GPL-3.0 | 200 |

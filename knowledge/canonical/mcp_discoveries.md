@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (226 total, 61 validados free, 165 pulados/pago)
+description: MCPs descobertos pelo keyhunter (233 total, 62 validados free, 171 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 226
-createdAt: 2026-08-26
-updatedAt: 2026-08-26
+version: 233
+createdAt: 2026-08-27
+updatedAt: 2026-08-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-26T12:41:00.741Z
-> Total descoberto: 226 | Validados (HTTP 200 + free): 61 | Pulados (licença paga/enterprise): 165
+> Última execução: 2026-08-27T06:51:28.104Z
+> Total descoberto: 233 | Validados (HTTP 200 + free): 62 | Pulados (licença paga/enterprise): 171
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -82,6 +82,7 @@ updatedAt: 2026-08-26
 | vezril/hermes-ui | TypeScript | 0 | MIT |  | [repo](https://github.com/vezril/hermes-ui) |
 | martinrashkov/topic-diversity-gender-prediction | Python | 0 | MIT |  | [repo](https://github.com/martinrashkov/topic-diversity-gender-prediction) |
 | zz4fff/finance3 | TypeScript | 0 | GPL-3.0 |  | [repo](https://github.com/zz4fff/finance3) |
+| richardchen99/nev-social-intelligence | Python | 0 | MIT |  | [repo](https://github.com/richardchen99/nev-social-intelligence) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -250,6 +251,12 @@ updatedAt: 2026-08-26
 - burakozg/clippings-topics — licença: unknown
 - harshwardhanshrivastava/computer-basic-quiz — licença: unknown
 - CHUNG-WEI-YONG/ResearchAgent — licença: unknown
+- Rajat210804/deep-research-ai-agent — licença: unknown
+- thallesnct/video-uploader — licença: unknown
+- alalachin/auto_topic_labeling — licença: unknown
+- Keerthi-Varshitha/leetcode_solutions — licença: unknown
+- reddycharitha2008-oss/leetcode_solutions — licença: unknown
+- Eklavyasharma-coder/python-basic — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
