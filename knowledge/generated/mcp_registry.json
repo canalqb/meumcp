@@ -3296,5 +3296,35 @@
     "validated_at": "2026-08-27T06:51:28.103Z",
     "topics": [],
     "readme_absorbed": "Eklavyasharma-coder/python-basic"
+  },
+  {
+    "id": 1348816058,
+    "full_name": "kellervmarcelo/jumpin_learning_plataform",
+    "url": "https://github.com/kellervmarcelo/jumpin_learning_plataform",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-27T21:37:26.833Z",
+    "topics": [
+      "clerk",
+      "nextjs",
+      "sanity"
+    ],
+    "readme_absorbed": "kellervmarcelo/jumpin_learning_plataform"
+  },
+  {
+    "id": 1348908415,
+    "full_name": "Aguila1989/obsidian-clustered-graph",
+    "url": "https://github.com/Aguila1989/obsidian-clustered-graph",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-27T21:37:28.400Z",
+    "topics": [],
+    "readme_absorbed": "Aguila1989/obsidian-clustered-graph"
   }
 ]

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (233 total, 62 validados free, 171 pulados/pago)
+description: MCPs descobertos pelo keyhunter (235 total, 63 validados free, 172 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 233
+version: 235
 createdAt: 2026-08-27
 updatedAt: 2026-08-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-27T06:51:28.104Z
-> Total descoberto: 233 | Validados (HTTP 200 + free): 62 | Pulados (licença paga/enterprise): 171
+> Última execução: 2026-08-27T21:37:28.401Z
+> Total descoberto: 235 | Validados (HTTP 200 + free): 63 | Pulados (licença paga/enterprise): 172
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -83,6 +83,7 @@ updatedAt: 2026-08-27
 | martinrashkov/topic-diversity-gender-prediction | Python | 0 | MIT |  | [repo](https://github.com/martinrashkov/topic-diversity-gender-prediction) |
 | zz4fff/finance3 | TypeScript | 0 | GPL-3.0 |  | [repo](https://github.com/zz4fff/finance3) |
 | richardchen99/nev-social-intelligence | Python | 0 | MIT |  | [repo](https://github.com/richardchen99/nev-social-intelligence) |
+| Aguila1989/obsidian-clustered-graph | TypeScript | 0 | MIT |  | [repo](https://github.com/Aguila1989/obsidian-clustered-graph) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -257,6 +258,7 @@ updatedAt: 2026-08-27
 - Keerthi-Varshitha/leetcode_solutions — licença: unknown
 - reddycharitha2008-oss/leetcode_solutions — licença: unknown
 - Eklavyasharma-coder/python-basic — licença: unknown
+- kellervmarcelo/jumpin_learning_plataform — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
