@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-28T21:39:49.178Z | ErdemKlyc/copilotstudio-personal-monorepo-template | 0 | MIT | 200 |
+
+| 2026-08-28T21:39:51.254Z | Githaiga22/CloudWithSangaloCohort3 | 0 | Apache-2.0 | 200 |
+
 | 2026-08-28T08:39:13.614Z | Shivampal157/AlgoRadar-CP | 0 | MIT | 200 |
 
 | 2026-08-28T08:39:14.815Z | allen1881996/explain-ai-with-cards | 0 | MIT | 200 |

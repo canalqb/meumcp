@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (243 total, 66 validados free, 177 pulados/pago)
+description: MCPs descobertos pelo keyhunter (250 total, 68 validados free, 182 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 243
+version: 250
 createdAt: 2026-08-28
 updatedAt: 2026-08-28
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-28T08:39:21.202Z
-> Total descoberto: 243 | Validados (HTTP 200 + free): 66 | Pulados (licença paga/enterprise): 177
+> Última execução: 2026-08-28T21:39:54.055Z
+> Total descoberto: 250 | Validados (HTTP 200 + free): 68 | Pulados (licença paga/enterprise): 182
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -87,6 +87,8 @@ updatedAt: 2026-08-28
 | Shivampal157/AlgoRadar-CP | Python | 0 | MIT | competitive-programming, python, streamlit | [repo](https://github.com/Shivampal157/AlgoRadar-CP) |
 | allen1881996/explain-ai-with-cards | Python | 0 | MIT | agent-skills, ai-education, codex | [repo](https://github.com/allen1881996/explain-ai-with-cards) |
 | Dyna-Techo/Research-topic-prediction | Python | 0 | MIT |  | [repo](https://github.com/Dyna-Techo/Research-topic-prediction) |
+| ErdemKlyc/copilotstudio-personal-monorepo-template | Python | 0 | MIT |  | [repo](https://github.com/ErdemKlyc/copilotstudio-personal-monorepo-template) |
+| Githaiga22/CloudWithSangaloCohort3 | Python | 0 | Apache-2.0 | ai-agents, fastapi, gemini-api | [repo](https://github.com/Githaiga22/CloudWithSangaloCohort3) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -267,6 +269,11 @@ updatedAt: 2026-08-28
 - SohailArif313/langchain-topic-explainer — licença: unknown
 - cktkdgkr/Paper-Topic — licença: unknown
 - surajTiwari1909/quizgenie — licença: unknown
+- Gruzver/topics_labs — licença: unknown
+- hiyossu/SpotifyAPI — licença: unknown
+- diegoallanalves/Topic-Intelligence-app — licença: unknown
+- Nayan-Kawalkar/TrendLens — licença: unknown
+- NikunjNanda/Youtube-RAG-Live-cl — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
