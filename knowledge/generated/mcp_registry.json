@@ -3326,5 +3326,125 @@
     "validated_at": "2026-08-27T21:37:28.400Z",
     "topics": [],
     "readme_absorbed": "Aguila1989/obsidian-clustered-graph"
+  },
+  {
+    "id": 1349370616,
+    "full_name": "Shivampal157/AlgoRadar-CP",
+    "url": "https://github.com/Shivampal157/AlgoRadar-CP",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:13.614Z",
+    "topics": [
+      "competitive-programming",
+      "python",
+      "streamlit"
+    ],
+    "readme_absorbed": "Shivampal157/AlgoRadar-CP"
+  },
+  {
+    "id": 1349346390,
+    "full_name": "allen1881996/explain-ai-with-cards",
+    "url": "https://github.com/allen1881996/explain-ai-with-cards",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:14.815Z",
+    "topics": [
+      "agent-skills",
+      "ai-education",
+      "codex",
+      "image-generation",
+      "visual-explainer"
+    ],
+    "readme_absorbed": "allen1881996/explain-ai-with-cards"
+  },
+  {
+    "id": 1349302156,
+    "full_name": "GuidoRiosCiaffaroni/TOPICOS_DE_DATA_SCIENCE_II",
+    "url": "https://github.com/GuidoRiosCiaffaroni/TOPICOS_DE_DATA_SCIENCE_II",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:15.832Z",
+    "topics": [],
+    "readme_absorbed": "GuidoRiosCiaffaroni/TOPICOS_DE_DATA_SCIENCE_II"
+  },
+  {
+    "id": 1349359994,
+    "full_name": "Mike31Phiri/researchX",
+    "url": "https://github.com/Mike31Phiri/researchX",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:16.866Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1349294108,
+    "full_name": "SohailArif313/langchain-topic-explainer",
+    "url": "https://github.com/SohailArif313/langchain-topic-explainer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:17.899Z",
+    "topics": [
+      "dotenv",
+      "langchain",
+      "openai",
+      "python",
+      "streamlit-webapp"
+    ],
+    "readme_absorbed": "SohailArif313/langchain-topic-explainer"
+  },
+  {
+    "id": 1349172495,
+    "full_name": "cktkdgkr/Paper-Topic",
+    "url": "https://github.com/cktkdgkr/Paper-Topic",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:18.971Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1349316264,
+    "full_name": "surajTiwari1909/quizgenie",
+    "url": "https://github.com/surajTiwari1909/quizgenie",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:20.050Z",
+    "topics": [],
+    "readme_absorbed": "surajTiwari1909/quizgenie"
+  },
+  {
+    "id": 1349311395,
+    "full_name": "Dyna-Techo/Research-topic-prediction",
+    "url": "https://github.com/Dyna-Techo/Research-topic-prediction",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-08-28T08:39:21.201Z",
+    "topics": [],
+    "readme_absorbed": "Dyna-Techo/Research-topic-prediction"
   }
 ]

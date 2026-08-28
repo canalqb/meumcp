@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (235 total, 63 validados free, 172 pulados/pago)
+description: MCPs descobertos pelo keyhunter (243 total, 66 validados free, 177 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 235
-createdAt: 2026-08-27
-updatedAt: 2026-08-27
+version: 243
+createdAt: 2026-08-28
+updatedAt: 2026-08-28
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-27T21:37:28.401Z
-> Total descoberto: 235 | Validados (HTTP 200 + free): 63 | Pulados (licença paga/enterprise): 172
+> Última execução: 2026-08-28T08:39:21.202Z
+> Total descoberto: 243 | Validados (HTTP 200 + free): 66 | Pulados (licença paga/enterprise): 177
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -84,6 +84,9 @@ updatedAt: 2026-08-27
 | zz4fff/finance3 | TypeScript | 0 | GPL-3.0 |  | [repo](https://github.com/zz4fff/finance3) |
 | richardchen99/nev-social-intelligence | Python | 0 | MIT |  | [repo](https://github.com/richardchen99/nev-social-intelligence) |
 | Aguila1989/obsidian-clustered-graph | TypeScript | 0 | MIT |  | [repo](https://github.com/Aguila1989/obsidian-clustered-graph) |
+| Shivampal157/AlgoRadar-CP | Python | 0 | MIT | competitive-programming, python, streamlit | [repo](https://github.com/Shivampal157/AlgoRadar-CP) |
+| allen1881996/explain-ai-with-cards | Python | 0 | MIT | agent-skills, ai-education, codex | [repo](https://github.com/allen1881996/explain-ai-with-cards) |
+| Dyna-Techo/Research-topic-prediction | Python | 0 | MIT |  | [repo](https://github.com/Dyna-Techo/Research-topic-prediction) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -259,6 +262,11 @@ updatedAt: 2026-08-27
 - reddycharitha2008-oss/leetcode_solutions — licença: unknown
 - Eklavyasharma-coder/python-basic — licença: unknown
 - kellervmarcelo/jumpin_learning_plataform — licença: unknown
+- GuidoRiosCiaffaroni/TOPICOS_DE_DATA_SCIENCE_II — licença: unknown
+- Mike31Phiri/researchX — licença: unknown
+- SohailArif313/langchain-topic-explainer — licença: unknown
+- cktkdgkr/Paper-Topic — licença: unknown
+- surajTiwari1909/quizgenie — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

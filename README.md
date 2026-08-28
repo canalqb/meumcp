@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-28T08:39:13.614Z | Shivampal157/AlgoRadar-CP | 0 | MIT | 200 |
+
+| 2026-08-28T08:39:14.815Z | allen1881996/explain-ai-with-cards | 0 | MIT | 200 |
+
+| 2026-08-28T08:39:21.201Z | Dyna-Techo/Research-topic-prediction | 0 | MIT | 200 |
+
 | 2026-08-27T21:37:28.400Z | Aguila1989/obsidian-clustered-graph | 0 | MIT | 200 |
 
 | 2026-08-27T06:51:26.211Z | richardchen99/nev-social-intelligence | 0 | MIT | 200 |
