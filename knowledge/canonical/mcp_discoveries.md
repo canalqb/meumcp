@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (250 total, 68 validados free, 182 pulados/pago)
+description: MCPs descobertos pelo keyhunter (253 total, 69 validados free, 184 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 250
-createdAt: 2026-08-28
-updatedAt: 2026-08-28
+version: 253
+createdAt: 2026-08-29
+updatedAt: 2026-08-29
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-28T21:39:54.055Z
-> Total descoberto: 250 | Validados (HTTP 200 + free): 68 | Pulados (licença paga/enterprise): 182
+> Última execução: 2026-08-29T05:17:55.489Z
+> Total descoberto: 253 | Validados (HTTP 200 + free): 69 | Pulados (licença paga/enterprise): 184
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -89,6 +89,7 @@ updatedAt: 2026-08-28
 | Dyna-Techo/Research-topic-prediction | Python | 0 | MIT |  | [repo](https://github.com/Dyna-Techo/Research-topic-prediction) |
 | ErdemKlyc/copilotstudio-personal-monorepo-template | Python | 0 | MIT |  | [repo](https://github.com/ErdemKlyc/copilotstudio-personal-monorepo-template) |
 | Githaiga22/CloudWithSangaloCohort3 | Python | 0 | Apache-2.0 | ai-agents, fastapi, gemini-api | [repo](https://github.com/Githaiga22/CloudWithSangaloCohort3) |
+| PROGRESSOR7676146/agents-projects-hub | Python | 0 | MIT |  | [repo](https://github.com/PROGRESSOR7676146/agents-projects-hub) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -274,6 +275,8 @@ updatedAt: 2026-08-28
 - diegoallanalves/Topic-Intelligence-app — licença: unknown
 - Nayan-Kawalkar/TrendLens — licença: unknown
 - NikunjNanda/Youtube-RAG-Live-cl — licença: unknown
+- prathameshp508/know-your-exam — licença: unknown
+- pharmacometricsai/research-ai — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
