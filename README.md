@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-29T16:05:14.822Z | TarducciM/TaskVault | 0 | MIT | 200 |
+
 | 2026-08-29T05:17:54.391Z | PROGRESSOR7676146/agents-projects-hub | 0 | MIT | 200 |
 
 | 2026-08-28T21:39:49.178Z | ErdemKlyc/copilotstudio-personal-monorepo-template | 0 | MIT | 200 |

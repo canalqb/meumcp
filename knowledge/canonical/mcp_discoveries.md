@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (253 total, 69 validados free, 184 pulados/pago)
+description: MCPs descobertos pelo keyhunter (261 total, 70 validados free, 191 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 253
+version: 261
 createdAt: 2026-08-29
 updatedAt: 2026-08-29
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-29T05:17:55.489Z
-> Total descoberto: 253 | Validados (HTTP 200 + free): 69 | Pulados (licença paga/enterprise): 184
+> Última execução: 2026-08-29T16:05:16.641Z
+> Total descoberto: 261 | Validados (HTTP 200 + free): 70 | Pulados (licença paga/enterprise): 191
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -90,6 +90,7 @@ updatedAt: 2026-08-29
 | ErdemKlyc/copilotstudio-personal-monorepo-template | Python | 0 | MIT |  | [repo](https://github.com/ErdemKlyc/copilotstudio-personal-monorepo-template) |
 | Githaiga22/CloudWithSangaloCohort3 | Python | 0 | Apache-2.0 | ai-agents, fastapi, gemini-api | [repo](https://github.com/Githaiga22/CloudWithSangaloCohort3) |
 | PROGRESSOR7676146/agents-projects-hub | Python | 0 | MIT |  | [repo](https://github.com/PROGRESSOR7676146/agents-projects-hub) |
+| TarducciM/TaskVault | TypeScript | 0 | MIT |  | [repo](https://github.com/TarducciM/TaskVault) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -277,6 +278,13 @@ updatedAt: 2026-08-29
 - NikunjNanda/Youtube-RAG-Live-cl — licença: unknown
 - prathameshp508/know-your-exam — licença: unknown
 - pharmacometricsai/research-ai — licença: unknown
+- alexops-dev/Math-Trainer — licença: NOASSERTION
+- barbarastep/conversation-topics — licença: unknown
+- RK-2332/ktv-topic-picker — licença: unknown
+- saim1437/zynli — licença: unknown
+- Dayvdallyson/docwise-ai — licença: unknown
+- MNAmrutha/AI-Study-Assistant — licença: unknown
+- ahmbenali/tech-learning-platform — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
