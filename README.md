@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-30T03:11:07.142Z | Gpraveenbabu/Selected_Topics | 0 | MIT | 200 |
+
+| 2026-08-30T03:11:10.560Z | onlyonewayhome/daily-digest-agent | 0 | Apache-2.0 | 200 |
+
 | 2026-08-29T16:05:14.822Z | TarducciM/TaskVault | 0 | MIT | 200 |
 
 | 2026-08-29T05:17:54.391Z | PROGRESSOR7676146/agents-projects-hub | 0 | MIT | 200 |

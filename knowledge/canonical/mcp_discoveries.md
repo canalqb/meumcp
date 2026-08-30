@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (261 total, 70 validados free, 191 pulados/pago)
+description: MCPs descobertos pelo keyhunter (270 total, 72 validados free, 198 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 261
-createdAt: 2026-08-29
-updatedAt: 2026-08-29
+version: 270
+createdAt: 2026-08-30
+updatedAt: 2026-08-30
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-29T16:05:16.641Z
-> Total descoberto: 261 | Validados (HTTP 200 + free): 70 | Pulados (licença paga/enterprise): 191
+> Última execução: 2026-08-30T03:11:14.731Z
+> Total descoberto: 270 | Validados (HTTP 200 + free): 72 | Pulados (licença paga/enterprise): 198
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -91,6 +91,8 @@ updatedAt: 2026-08-29
 | Githaiga22/CloudWithSangaloCohort3 | Python | 0 | Apache-2.0 | ai-agents, fastapi, gemini-api | [repo](https://github.com/Githaiga22/CloudWithSangaloCohort3) |
 | PROGRESSOR7676146/agents-projects-hub | Python | 0 | MIT |  | [repo](https://github.com/PROGRESSOR7676146/agents-projects-hub) |
 | TarducciM/TaskVault | TypeScript | 0 | MIT |  | [repo](https://github.com/TarducciM/TaskVault) |
+| Gpraveenbabu/Selected_Topics | Python | 0 | MIT |  | [repo](https://github.com/Gpraveenbabu/Selected_Topics) |
+| onlyonewayhome/daily-digest-agent | Python | 0 | Apache-2.0 |  | [repo](https://github.com/onlyonewayhome/daily-digest-agent) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -285,6 +287,13 @@ updatedAt: 2026-08-29
 - Dayvdallyson/docwise-ai — licença: unknown
 - MNAmrutha/AI-Study-Assistant — licença: unknown
 - ahmbenali/tech-learning-platform — licença: unknown
+- aarushg888/teachback — licença: unknown
+- brunoguilherme1/DeepGenerativeTopicCluster — licença: unknown
+- Brisk77/Smart-Dev-Digest — licença: unknown
+- cxhzzb/hot-video-topics — licença: unknown
+- masiarek/gov-learning-library — licença: unknown
+- sunny314woo/document-vision-topic-scout — licença: unknown
+- Abhishek140305/forecast-fusion- — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
