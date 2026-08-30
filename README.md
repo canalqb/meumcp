@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-08-30T15:54:29.487Z | angelancajas34-beep/Python-Bot-Production- | 0 | GPL-3.0 | 200 |
+
 | 2026-08-30T03:11:07.142Z | Gpraveenbabu/Selected_Topics | 0 | MIT | 200 |
 
 | 2026-08-30T03:11:10.560Z | onlyonewayhome/daily-digest-agent | 0 | Apache-2.0 | 200 |

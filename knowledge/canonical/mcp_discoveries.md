@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (270 total, 72 validados free, 198 pulados/pago)
+description: MCPs descobertos pelo keyhunter (274 total, 73 validados free, 201 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 270
+version: 274
 createdAt: 2026-08-30
 updatedAt: 2026-08-30
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-30T03:11:14.731Z
-> Total descoberto: 270 | Validados (HTTP 200 + free): 72 | Pulados (licença paga/enterprise): 198
+> Última execução: 2026-08-30T15:54:31.096Z
+> Total descoberto: 274 | Validados (HTTP 200 + free): 73 | Pulados (licença paga/enterprise): 201
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -93,6 +93,7 @@ updatedAt: 2026-08-30
 | TarducciM/TaskVault | TypeScript | 0 | MIT |  | [repo](https://github.com/TarducciM/TaskVault) |
 | Gpraveenbabu/Selected_Topics | Python | 0 | MIT |  | [repo](https://github.com/Gpraveenbabu/Selected_Topics) |
 | onlyonewayhome/daily-digest-agent | Python | 0 | Apache-2.0 |  | [repo](https://github.com/onlyonewayhome/daily-digest-agent) |
+| angelancajas34-beep/Python-Bot-Production- | Python | 0 | GPL-3.0 |  | [repo](https://github.com/angelancajas34-beep/Python-Bot-Production-) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -294,6 +295,9 @@ updatedAt: 2026-08-30
 - masiarek/gov-learning-library — licença: unknown
 - sunny314woo/document-vision-topic-scout — licença: unknown
 - Abhishek140305/forecast-fusion- — licença: unknown
+- muhammadkhalidmsais26-tech/quiz.app — licença: unknown
+- abhiraj444/FullknowledgeBase — licença: unknown
+- nandhunaveen594-cloud/DSA — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
