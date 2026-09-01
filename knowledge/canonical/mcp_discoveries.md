@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (281 total, 74 validados free, 207 pulados/pago)
+description: MCPs descobertos pelo keyhunter (285 total, 76 validados free, 209 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 281
-createdAt: 2026-08-31
-updatedAt: 2026-08-31
+version: 285
+createdAt: 2026-09-01
+updatedAt: 2026-09-01
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-08-31T18:38:47.366Z
-> Total descoberto: 281 | Validados (HTTP 200 + free): 74 | Pulados (licença paga/enterprise): 207
+> Última execução: 2026-09-01T03:11:15.177Z
+> Total descoberto: 285 | Validados (HTTP 200 + free): 76 | Pulados (licença paga/enterprise): 209
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -95,6 +95,8 @@ updatedAt: 2026-08-31
 | onlyonewayhome/daily-digest-agent | Python | 0 | Apache-2.0 |  | [repo](https://github.com/onlyonewayhome/daily-digest-agent) |
 | angelancajas34-beep/Python-Bot-Production- | Python | 0 | GPL-3.0 |  | [repo](https://github.com/angelancajas34-beep/Python-Bot-Production-) |
 | princechauhan27/InsightForge | Python | 0 | MIT |  | [repo](https://github.com/princechauhan27/InsightForge) |
+| JonathanT10/it-ops-console | Python | 0 | MIT | dashboard, entra-id, it-operations | [repo](https://github.com/JonathanT10/it-ops-console) |
+| sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation | Python | 0 | MIT |  | [repo](https://github.com/sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -305,6 +307,8 @@ updatedAt: 2026-08-31
 - drishtikaushik/leetcode-solutions — licença: unknown
 - EricSpencer00/tutor — licença: unknown
 - optimusprime2026vol1/yt-production-console — licença: unknown
+- MelbourneMama-CreativeSpace/Trending-Topics — licença: unknown
+- JoshuaG2004/nexus-study-tracker — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-01T03:11:13.258Z | JonathanT10/it-ops-console | 0 | MIT | 200 |
+
+| 2026-09-01T03:11:15.176Z | sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation | 0 | MIT | 200 |
+
 | 2026-08-31T18:38:44.477Z | princechauhan27/InsightForge | 0 | MIT | 200 |
 
 | 2026-08-30T15:54:29.487Z | angelancajas34-beep/Python-Bot-Production- | 0 | GPL-3.0 | 200 |
