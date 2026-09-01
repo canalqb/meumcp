@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (285 total, 76 validados free, 209 pulados/pago)
+description: MCPs descobertos pelo keyhunter (290 total, 78 validados free, 212 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 285
+version: 290
 createdAt: 2026-09-01
 updatedAt: 2026-09-01
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-01T03:11:15.177Z
-> Total descoberto: 285 | Validados (HTTP 200 + free): 76 | Pulados (licença paga/enterprise): 209
+> Última execução: 2026-09-01T15:57:27.372Z
+> Total descoberto: 290 | Validados (HTTP 200 + free): 78 | Pulados (licença paga/enterprise): 212
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -97,6 +97,8 @@ updatedAt: 2026-09-01
 | princechauhan27/InsightForge | Python | 0 | MIT |  | [repo](https://github.com/princechauhan27/InsightForge) |
 | JonathanT10/it-ops-console | Python | 0 | MIT | dashboard, entra-id, it-operations | [repo](https://github.com/JonathanT10/it-ops-console) |
 | sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation | Python | 0 | MIT |  | [repo](https://github.com/sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation) |
+| navidmoazzez/reddit-research-agent | TypeScript | 0 | MIT | ai-agents, claude, market-research | [repo](https://github.com/navidmoazzez/reddit-research-agent) |
+| seokhoonj/newswatcher | Python | 0 | MIT | agent-skills, claude-code, claude-skills | [repo](https://github.com/seokhoonj/newswatcher) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -309,6 +311,9 @@ updatedAt: 2026-09-01
 - optimusprime2026vol1/yt-production-console — licença: unknown
 - MelbourneMama-CreativeSpace/Trending-Topics — licença: unknown
 - JoshuaG2004/nexus-study-tracker — licença: unknown
+- jfiewogh/ENGR-102-Lab-Topic-2 — licença: unknown
+- swapnil1987/2026-topics-in-econometrics-1 — licença: unknown
+- Prutsaki/Web-App-AI — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

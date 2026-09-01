@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-01T15:57:23.238Z | navidmoazzez/reddit-research-agent | 0 | MIT | 200 |
+
+| 2026-09-01T15:57:25.194Z | seokhoonj/newswatcher | 0 | MIT | 200 |
+
 | 2026-09-01T03:11:13.258Z | JonathanT10/it-ops-console | 0 | MIT | 200 |
 
 | 2026-09-01T03:11:15.176Z | sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation | 0 | MIT | 200 |
