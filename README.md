@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-03T02:37:30.712Z | Horosheff/aphelia | 0 | MIT | 200 |
+
+| 2026-09-03T02:37:33.759Z | livonianerd/ros2-topic-inspector-web | 0 | MIT | 200 |
+
 | 2026-09-01T15:57:23.238Z | navidmoazzez/reddit-research-agent | 0 | MIT | 200 |
 
 | 2026-09-01T15:57:25.194Z | seokhoonj/newswatcher | 0 | MIT | 200 |

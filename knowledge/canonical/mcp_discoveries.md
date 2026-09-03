@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (298 total, 78 validados free, 220 pulados/pago)
+description: MCPs descobertos pelo keyhunter (305 total, 80 validados free, 225 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 298
-createdAt: 2026-09-02
-updatedAt: 2026-09-02
+version: 305
+createdAt: 2026-09-03
+updatedAt: 2026-09-03
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-02T15:50:43.445Z
-> Total descoberto: 298 | Validados (HTTP 200 + free): 78 | Pulados (licença paga/enterprise): 220
+> Última execução: 2026-09-03T02:37:35.467Z
+> Total descoberto: 305 | Validados (HTTP 200 + free): 80 | Pulados (licença paga/enterprise): 225
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -99,6 +99,8 @@ updatedAt: 2026-09-02
 | sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation | Python | 0 | MIT |  | [repo](https://github.com/sugumaran135/Automated-Podcast-Transcription-and-Topic-Segmentation) |
 | navidmoazzez/reddit-research-agent | TypeScript | 0 | MIT | ai-agents, claude, market-research | [repo](https://github.com/navidmoazzez/reddit-research-agent) |
 | seokhoonj/newswatcher | Python | 0 | MIT | agent-skills, claude-code, claude-skills | [repo](https://github.com/seokhoonj/newswatcher) |
+| Horosheff/aphelia | Python | 0 | MIT |  | [repo](https://github.com/Horosheff/aphelia) |
+| livonianerd/ros2-topic-inspector-web | Python | 0 | MIT |  | [repo](https://github.com/livonianerd/ros2-topic-inspector-web) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -322,6 +324,11 @@ updatedAt: 2026-09-02
 - kayalvizhisureshkumarcse2025-wq/StudyPilot — licença: unknown
 - acjoyner81/AI-Email-Assistant — licença: unknown
 - SifanShamlewala/News-summarizer — licença: unknown
+- LightningLauncher/CYBERNYTE — licença: unknown
+- FreddyGuzzz/topicos-practica-3-dominio — licença: unknown
+- floatingkernal/table-topics-wheel — licença: unknown
+- mhsutton07/threadradar — licença: AGPL-3.0
+- deborarv02/topicos2-backend_inicial — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
