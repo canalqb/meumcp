@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (305 total, 80 validados free, 225 pulados/pago)
+description: MCPs descobertos pelo keyhunter (311 total, 81 validados free, 230 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 305
+version: 311
 createdAt: 2026-09-03
 updatedAt: 2026-09-03
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-03T02:37:35.467Z
-> Total descoberto: 305 | Validados (HTTP 200 + free): 80 | Pulados (licença paga/enterprise): 225
+> Última execução: 2026-09-03T15:39:37.392Z
+> Total descoberto: 311 | Validados (HTTP 200 + free): 81 | Pulados (licença paga/enterprise): 230
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -101,6 +101,7 @@ updatedAt: 2026-09-03
 | seokhoonj/newswatcher | Python | 0 | MIT | agent-skills, claude-code, claude-skills | [repo](https://github.com/seokhoonj/newswatcher) |
 | Horosheff/aphelia | Python | 0 | MIT |  | [repo](https://github.com/Horosheff/aphelia) |
 | livonianerd/ros2-topic-inspector-web | Python | 0 | MIT |  | [repo](https://github.com/livonianerd/ros2-topic-inspector-web) |
+| tbar4/brain-wiki | TypeScript | 0 | MIT |  | [repo](https://github.com/tbar4/brain-wiki) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -329,6 +330,11 @@ updatedAt: 2026-09-03
 - floatingkernal/table-topics-wheel — licença: unknown
 - mhsutton07/threadradar — licença: AGPL-3.0
 - deborarv02/topicos2-backend_inicial — licença: unknown
+- Alpha-Park/genpark-topical-dialog-boundary-deflection-router-skill — licença: unknown
+- meokemmer-jpg/welle-g-topic-backlogs-docs-builder-df — licença: unknown
+- alphaparkinc/genpark-topical-dialog-boundary-deflection-router-skill — licença: unknown
+- shivamm-shukla/leetcode-solutions — licença: unknown
+- gronthagar781-alt/ai-video-creator — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

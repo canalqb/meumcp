@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-03T15:39:34.608Z | tbar4/brain-wiki | 0 | MIT | 200 |
+
 | 2026-09-03T02:37:30.712Z | Horosheff/aphelia | 0 | MIT | 200 |
 
 | 2026-09-03T02:37:33.759Z | livonianerd/ros2-topic-inspector-web | 0 | MIT | 200 |
