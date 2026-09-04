@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-04T15:38:05.379Z | christofilojohn/AgentFeed | 0 | MIT | 200 |
+
+| 2026-09-04T15:38:07.813Z | iosrxwy/ChatStamp | 2 | MIT | 200 |
+
 | 2026-09-04T02:40:53.646Z | Ghost-Agency/pipes | 0 | MIT | 200 |
 
 | 2026-09-04T02:40:55.875Z | rahul3886/SMoneyPrinterTurbo | 1 | MIT | 200 |

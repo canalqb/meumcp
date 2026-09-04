@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (316 total, 83 validados free, 233 pulados/pago)
+description: MCPs descobertos pelo keyhunter (322 total, 85 validados free, 237 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 316
+version: 322
 createdAt: 2026-09-04
 updatedAt: 2026-09-04
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-04T02:40:57.855Z
-> Total descoberto: 316 | Validados (HTTP 200 + free): 83 | Pulados (licença paga/enterprise): 233
+> Última execução: 2026-09-04T15:38:08.852Z
+> Total descoberto: 322 | Validados (HTTP 200 + free): 85 | Pulados (licença paga/enterprise): 237
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -104,6 +104,8 @@ updatedAt: 2026-09-04
 | tbar4/brain-wiki | TypeScript | 0 | MIT |  | [repo](https://github.com/tbar4/brain-wiki) |
 | Ghost-Agency/pipes | TypeScript | 0 | MIT |  | [repo](https://github.com/Ghost-Agency/pipes) |
 | rahul3886/SMoneyPrinterTurbo | Python | 1 | MIT |  | [repo](https://github.com/rahul3886/SMoneyPrinterTurbo) |
+| christofilojohn/AgentFeed | Python | 0 | MIT |  | [repo](https://github.com/christofilojohn/AgentFeed) |
+| iosrxwy/ChatStamp | Python | 2 | MIT |  | [repo](https://github.com/iosrxwy/ChatStamp) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -340,6 +342,10 @@ updatedAt: 2026-09-04
 - yashwanth008/CMPE_special_topics — licença: unknown
 - benthomasson/reasons-service-admin-client — licença: unknown
 - hashenkottegoda/RealTime-ExplainableAI-Learning-Assistant — licença: unknown
+- LoneRanger-dev/pydantic-AI-Deep-Research-Agent — licença: unknown
+- Mayuri572/mcq-document-analyzer — licença: unknown
+- swaroop-ys/AI-Project-Topic-Recommender — licença: unknown
+- andy22913539/Topics — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
