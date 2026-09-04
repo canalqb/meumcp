@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (311 total, 81 validados free, 230 pulados/pago)
+description: MCPs descobertos pelo keyhunter (316 total, 83 validados free, 233 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 311
-createdAt: 2026-09-03
-updatedAt: 2026-09-03
+version: 316
+createdAt: 2026-09-04
+updatedAt: 2026-09-04
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-03T15:39:37.392Z
-> Total descoberto: 311 | Validados (HTTP 200 + free): 81 | Pulados (licença paga/enterprise): 230
+> Última execução: 2026-09-04T02:40:57.855Z
+> Total descoberto: 316 | Validados (HTTP 200 + free): 83 | Pulados (licença paga/enterprise): 233
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -102,6 +102,8 @@ updatedAt: 2026-09-03
 | Horosheff/aphelia | Python | 0 | MIT |  | [repo](https://github.com/Horosheff/aphelia) |
 | livonianerd/ros2-topic-inspector-web | Python | 0 | MIT |  | [repo](https://github.com/livonianerd/ros2-topic-inspector-web) |
 | tbar4/brain-wiki | TypeScript | 0 | MIT |  | [repo](https://github.com/tbar4/brain-wiki) |
+| Ghost-Agency/pipes | TypeScript | 0 | MIT |  | [repo](https://github.com/Ghost-Agency/pipes) |
+| rahul3886/SMoneyPrinterTurbo | Python | 1 | MIT |  | [repo](https://github.com/rahul3886/SMoneyPrinterTurbo) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -335,6 +337,9 @@ updatedAt: 2026-09-03
 - alphaparkinc/genpark-topical-dialog-boundary-deflection-router-skill — licença: unknown
 - shivamm-shukla/leetcode-solutions — licença: unknown
 - gronthagar781-alt/ai-video-creator — licença: unknown
+- yashwanth008/CMPE_special_topics — licença: unknown
+- benthomasson/reasons-service-admin-client — licença: unknown
+- hashenkottegoda/RealTime-ExplainableAI-Learning-Assistant — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
