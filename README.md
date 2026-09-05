@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-05T02:34:50.705Z | DTanami/CreateVideosIA | 0 | MIT | 200 |
+
 | 2026-09-04T15:38:05.379Z | christofilojohn/AgentFeed | 0 | MIT | 200 |
 
 | 2026-09-04T15:38:07.813Z | iosrxwy/ChatStamp | 2 | MIT | 200 |

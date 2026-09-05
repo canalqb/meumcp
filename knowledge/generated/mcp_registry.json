@@ -4595,5 +4595,41 @@
     "validated_at": "2026-09-04T15:38:08.851Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1357691713,
+    "full_name": "DTanami/CreateVideosIA",
+    "url": "https://github.com/DTanami/CreateVideosIA",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-05T02:34:50.705Z",
+    "topics": [],
+    "readme_absorbed": "DTanami/CreateVideosIA"
+  },
+  {
+    "id": 1357557072,
+    "full_name": "Aymenjdily/biblion-testing-agentic-ai-skills",
+    "url": "https://github.com/Aymenjdily/biblion-testing-agentic-ai-skills",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-05T02:34:51.489Z",
+    "topics": [
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "claude-code",
+      "claude-skills",
+      "nextjs",
+      "sanity",
+      "sanity-io",
+      "tailwindcss"
+    ],
+    "readme_absorbed": "Aymenjdily/biblion-testing-agentic-ai-skills"
   }
 ]

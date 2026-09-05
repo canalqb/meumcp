@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (322 total, 85 validados free, 237 pulados/pago)
+description: MCPs descobertos pelo keyhunter (324 total, 86 validados free, 238 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 322
-createdAt: 2026-09-04
-updatedAt: 2026-09-04
+version: 324
+createdAt: 2026-09-05
+updatedAt: 2026-09-05
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-04T15:38:08.852Z
-> Total descoberto: 322 | Validados (HTTP 200 + free): 85 | Pulados (licença paga/enterprise): 237
+> Última execução: 2026-09-05T02:34:51.490Z
+> Total descoberto: 324 | Validados (HTTP 200 + free): 86 | Pulados (licença paga/enterprise): 238
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -106,6 +106,7 @@ updatedAt: 2026-09-04
 | rahul3886/SMoneyPrinterTurbo | Python | 1 | MIT |  | [repo](https://github.com/rahul3886/SMoneyPrinterTurbo) |
 | christofilojohn/AgentFeed | Python | 0 | MIT |  | [repo](https://github.com/christofilojohn/AgentFeed) |
 | iosrxwy/ChatStamp | Python | 2 | MIT |  | [repo](https://github.com/iosrxwy/ChatStamp) |
+| DTanami/CreateVideosIA | Python | 0 | MIT |  | [repo](https://github.com/DTanami/CreateVideosIA) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -346,6 +347,7 @@ updatedAt: 2026-09-04
 - Mayuri572/mcq-document-analyzer — licença: unknown
 - swaroop-ys/AI-Project-Topic-Recommender — licença: unknown
 - andy22913539/Topics — licença: unknown
+- Aymenjdily/biblion-testing-agentic-ai-skills — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
