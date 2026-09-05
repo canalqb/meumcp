@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-05T14:26:04.724Z | AutomationArtist01/social_stream_sentiment_analytics | 0 | MIT | 200 |
+
+| 2026-09-05T14:26:06.761Z | ChristianLin0420/agent-skills | 0 | MIT | 200 |
+
+| 2026-09-05T14:26:09.365Z | marian-kamenistak/elc-trade | 0 | MIT | 200 |
+
 | 2026-09-05T02:34:50.705Z | DTanami/CreateVideosIA | 0 | MIT | 200 |
 
 | 2026-09-04T15:38:05.379Z | christofilojohn/AgentFeed | 0 | MIT | 200 |
