@@ -4717,5 +4717,31 @@
       "model-context-protocol"
     ],
     "readme_absorbed": "marian-kamenistak/elc-trade"
+  },
+  {
+    "id": 1358326803,
+    "full_name": "isikkeskin1/StudyOS",
+    "url": "https://github.com/isikkeskin1/StudyOS",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-06T02:31:37.008Z",
+    "topics": [],
+    "readme_absorbed": "isikkeskin1/StudyOS"
+  },
+  {
+    "id": 1358719989,
+    "full_name": "mckanji7723/goaltalk",
+    "url": "https://github.com/mckanji7723/goaltalk",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-06T02:31:38.016Z",
+    "topics": [],
+    "readme_absorbed": "mckanji7723/goaltalk"
   }
 ]
