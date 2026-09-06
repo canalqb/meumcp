@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (332 total, 89 validados free, 243 pulados/pago)
+description: MCPs descobertos pelo keyhunter (338 total, 90 validados free, 248 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 332
+version: 338
 createdAt: 2026-09-06
 updatedAt: 2026-09-06
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-06T02:31:38.018Z
-> Total descoberto: 332 | Validados (HTTP 200 + free): 89 | Pulados (licença paga/enterprise): 243
+> Última execução: 2026-09-06T14:48:04.135Z
+> Total descoberto: 338 | Validados (HTTP 200 + free): 90 | Pulados (licença paga/enterprise): 248
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -110,6 +110,7 @@ updatedAt: 2026-09-06
 | AutomationArtist01/social_stream_sentiment_analytics | Python | 0 | MIT |  | [repo](https://github.com/AutomationArtist01/social_stream_sentiment_analytics) |
 | ChristianLin0420/agent-skills | Python | 0 | MIT |  | [repo](https://github.com/ChristianLin0420/agent-skills) |
 | marian-kamenistak/elc-trade | TypeScript | 0 | MIT | a2a, agent2agent, cloudflare-workers | [repo](https://github.com/marian-kamenistak/elc-trade) |
+| nuralnetworks/async-research-assistant | Python | 0 | MIT |  | [repo](https://github.com/nuralnetworks/async-research-assistant) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -356,6 +357,11 @@ updatedAt: 2026-09-06
 - NaoSaka-76/Automotive-Industry-Watch — licença: unknown
 - isikkeskin1/StudyOS — licença: unknown
 - mckanji7723/goaltalk — licença: unknown
+- ilungaadonijah/smart-study-planner — licença: unknown
+- HunGyung/korean-banking-topic-classification — licença: unknown
+- shweeta1015/StudyPilot-AI-Study-Assistant — licença: unknown
+- Alpha-Park/genpark-cross-agent-blackboard-shared-state-sync-skill — licença: unknown
+- alphaparkinc/genpark-cross-agent-blackboard-shared-state-sync-skill — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
