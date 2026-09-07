@@ -4863,5 +4863,44 @@
     "validated_at": "2026-09-07T02:29:02.246Z",
     "topics": [],
     "readme_absorbed": "renault-wei/wechat-mp-pipeline"
+  },
+  {
+    "id": 1360128293,
+    "full_name": "Essential2U/Essential-Social-Media-SuperAgent",
+    "url": "https://github.com/Essential2U/Essential-Social-Media-SuperAgent",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-07T17:05:34.577Z",
+    "topics": [],
+    "readme_absorbed": "Essential2U/Essential-Social-Media-SuperAgent"
+  },
+  {
+    "id": 1360462707,
+    "full_name": "LanarOne/Ghibleer",
+    "url": "https://github.com/LanarOne/Ghibleer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-07T17:05:35.732Z",
+    "topics": [],
+    "readme_absorbed": "LanarOne/Ghibleer"
+  },
+  {
+    "id": 1360306170,
+    "full_name": "KamiSan04/RAG-Retrieval-Augmented-Generation-",
+    "url": "https://github.com/KamiSan04/RAG-Retrieval-Augmented-Generation-",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-07T17:05:36.711Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]

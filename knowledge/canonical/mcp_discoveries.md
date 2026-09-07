@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (340 total, 91 validados free, 249 pulados/pago)
+description: MCPs descobertos pelo keyhunter (343 total, 91 validados free, 252 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 340
+version: 343
 createdAt: 2026-09-07
 updatedAt: 2026-09-07
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-07T02:29:02.247Z
-> Total descoberto: 340 | Validados (HTTP 200 + free): 91 | Pulados (licença paga/enterprise): 249
+> Última execução: 2026-09-07T17:05:36.712Z
+> Total descoberto: 343 | Validados (HTTP 200 + free): 91 | Pulados (licença paga/enterprise): 252
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -364,6 +364,9 @@ updatedAt: 2026-09-07
 - Alpha-Park/genpark-cross-agent-blackboard-shared-state-sync-skill — licença: unknown
 - alphaparkinc/genpark-cross-agent-blackboard-shared-state-sync-skill — licença: unknown
 - samyama-ai/maths_research — licença: unknown
+- Essential2U/Essential-Social-Media-SuperAgent — licença: unknown
+- LanarOne/Ghibleer — licença: unknown
+- KamiSan04/RAG-Retrieval-Augmented-Generation- — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
