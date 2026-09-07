@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (338 total, 90 validados free, 248 pulados/pago)
+description: MCPs descobertos pelo keyhunter (340 total, 91 validados free, 249 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 338
-createdAt: 2026-09-06
-updatedAt: 2026-09-06
+version: 340
+createdAt: 2026-09-07
+updatedAt: 2026-09-07
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-06T14:48:04.135Z
-> Total descoberto: 338 | Validados (HTTP 200 + free): 90 | Pulados (licença paga/enterprise): 248
+> Última execução: 2026-09-07T02:29:02.247Z
+> Total descoberto: 340 | Validados (HTTP 200 + free): 91 | Pulados (licença paga/enterprise): 249
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -111,6 +111,7 @@ updatedAt: 2026-09-06
 | ChristianLin0420/agent-skills | Python | 0 | MIT |  | [repo](https://github.com/ChristianLin0420/agent-skills) |
 | marian-kamenistak/elc-trade | TypeScript | 0 | MIT | a2a, agent2agent, cloudflare-workers | [repo](https://github.com/marian-kamenistak/elc-trade) |
 | nuralnetworks/async-research-assistant | Python | 0 | MIT |  | [repo](https://github.com/nuralnetworks/async-research-assistant) |
+| renault-wei/wechat-mp-pipeline | Python | 0 | MIT |  | [repo](https://github.com/renault-wei/wechat-mp-pipeline) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -362,6 +363,7 @@ updatedAt: 2026-09-06
 - shweeta1015/StudyPilot-AI-Study-Assistant — licença: unknown
 - Alpha-Park/genpark-cross-agent-blackboard-shared-state-sync-skill — licença: unknown
 - alphaparkinc/genpark-cross-agent-blackboard-shared-state-sync-skill — licença: unknown
+- samyama-ai/maths_research — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
