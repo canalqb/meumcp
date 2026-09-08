@@ -4902,5 +4902,44 @@
     "validated_at": "2026-09-07T17:05:36.711Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1360833634,
+    "full_name": "keito-git/seed-affective-attribution",
+    "url": "https://github.com/keito-git/seed-affective-attribution",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-08T02:42:08.151Z",
+    "topics": [],
+    "readme_absorbed": "keito-git/seed-affective-attribution"
+  },
+  {
+    "id": 1360646341,
+    "full_name": "x50MANSOUR50x/TenderTales",
+    "url": "https://github.com/x50MANSOUR50x/TenderTales",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-08T02:42:09.354Z",
+    "topics": [],
+    "readme_absorbed": "x50MANSOUR50x/TenderTales"
+  },
+  {
+    "id": 1360703110,
+    "full_name": "jhoana12dinosaurio/topico-se-or-de-la-vida",
+    "url": "https://github.com/jhoana12dinosaurio/topico-se-or-de-la-vida",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-08T02:42:10.363Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
