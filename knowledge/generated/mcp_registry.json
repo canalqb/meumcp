@@ -5022,5 +5022,44 @@
       "study-assistant"
     ],
     "readme_absorbed": "ug8yogesh/AI-Learning-Study-Assistant"
+  },
+  {
+    "id": 1361660605,
+    "full_name": "Algorithm-Artist-ctrl/smart-education-platform",
+    "url": "https://github.com/Algorithm-Artist-ctrl/smart-education-platform",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-09T02:42:05.759Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1362074562,
+    "full_name": "RmaNMetaverse/Physics-Teacher-Interactive",
+    "url": "https://github.com/RmaNMetaverse/Physics-Teacher-Interactive",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-09T02:42:06.752Z",
+    "topics": [],
+    "readme_absorbed": "RmaNMetaverse/Physics-Teacher-Interactive"
+  },
+  {
+    "id": 1362029691,
+    "full_name": "lester47/video-topic-library",
+    "url": "https://github.com/lester47/video-topic-library",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-09T02:42:07.745Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
