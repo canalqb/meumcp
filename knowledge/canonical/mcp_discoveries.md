@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (354 total, 91 validados free, 263 pulados/pago)
+description: MCPs descobertos pelo keyhunter (365 total, 92 validados free, 273 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 354
+version: 365
 createdAt: 2026-09-09
 updatedAt: 2026-09-09
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-09T02:42:07.746Z
-> Total descoberto: 354 | Validados (HTTP 200 + free): 91 | Pulados (licença paga/enterprise): 263
+> Última execução: 2026-09-09T15:47:50.443Z
+> Total descoberto: 365 | Validados (HTTP 200 + free): 92 | Pulados (licença paga/enterprise): 273
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -112,6 +112,7 @@ updatedAt: 2026-09-09
 | marian-kamenistak/elc-trade | TypeScript | 0 | MIT | a2a, agent2agent, cloudflare-workers | [repo](https://github.com/marian-kamenistak/elc-trade) |
 | nuralnetworks/async-research-assistant | Python | 0 | MIT |  | [repo](https://github.com/nuralnetworks/async-research-assistant) |
 | renault-wei/wechat-mp-pipeline | Python | 0 | MIT |  | [repo](https://github.com/renault-wei/wechat-mp-pipeline) |
+| gobelieve0905/astrbot_plugin_quote_topics | Python | 0 | MIT |  | [repo](https://github.com/gobelieve0905/astrbot_plugin_quote_topics) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -378,6 +379,16 @@ updatedAt: 2026-09-09
 - Algorithm-Artist-ctrl/smart-education-platform — licença: unknown
 - RmaNMetaverse/Physics-Teacher-Interactive — licença: unknown
 - lester47/video-topic-library — licença: unknown
+- Aashika1606/AI-Learning-Study-Assistant — licença: unknown
+- KiranVangari/API617_RotoDynamics_Demosntrators — licença: unknown
+- AINeuron95/HR_policies_bot — licença: unknown
+- FarhanCodeSpace/vertex-learning-platform — licença: unknown
+- VarunRathore137/ClinIQ-Core — licença: unknown
+- abinaya0309/AI-Learning-Study-Assistant — licença: unknown
+- LondheShubham153/roadmap.ai — licença: unknown
+- foteinosKonstantinos/topics_broadcaster_module_v2 — licença: unknown
+- EarlyBird185/Trend-Pilot — licença: unknown
+- Catejsj/topic-modelling — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

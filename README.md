@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-09T15:47:49.443Z | gobelieve0905/astrbot_plugin_quote_topics | 0 | MIT | 200 |
+
 | 2026-09-07T02:29:02.246Z | renault-wei/wechat-mp-pipeline | 0 | MIT | 200 |
 
 | 2026-09-06T14:48:04.134Z | nuralnetworks/async-research-assistant | 0 | MIT | 200 |
