@@ -5210,5 +5210,44 @@
     "validated_at": "2026-09-09T15:47:50.442Z",
     "topics": [],
     "readme_absorbed": "Catejsj/topic-modelling"
+  },
+  {
+    "id": 1363332579,
+    "full_name": "milljm/llm-vs-llm",
+    "url": "https://github.com/milljm/llm-vs-llm",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-10T02:44:09.121Z",
+    "topics": [],
+    "readme_absorbed": "milljm/llm-vs-llm"
+  },
+  {
+    "id": 1363380037,
+    "full_name": "kwis7/city-glimpse",
+    "url": "https://github.com/kwis7/city-glimpse",
+    "language": "Python",
+    "stars": 0,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-10T02:44:10.116Z",
+    "topics": [],
+    "readme_absorbed": "kwis7/city-glimpse"
+  },
+  {
+    "id": 1363319295,
+    "full_name": "mikemazzetti/ankicardmaker",
+    "url": "https://github.com/mikemazzetti/ankicardmaker",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-10T02:44:11.059Z",
+    "topics": [],
+    "readme_absorbed": "mikemazzetti/ankicardmaker"
   }
 ]

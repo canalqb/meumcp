@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (365 total, 92 validados free, 273 pulados/pago)
+description: MCPs descobertos pelo keyhunter (368 total, 93 validados free, 275 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 365
-createdAt: 2026-09-09
-updatedAt: 2026-09-09
+version: 368
+createdAt: 2026-09-10
+updatedAt: 2026-09-10
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-09T15:47:50.443Z
-> Total descoberto: 365 | Validados (HTTP 200 + free): 92 | Pulados (licença paga/enterprise): 273
+> Última execução: 2026-09-10T02:44:11.060Z
+> Total descoberto: 368 | Validados (HTTP 200 + free): 93 | Pulados (licença paga/enterprise): 275
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -113,6 +113,7 @@ updatedAt: 2026-09-09
 | nuralnetworks/async-research-assistant | Python | 0 | MIT |  | [repo](https://github.com/nuralnetworks/async-research-assistant) |
 | renault-wei/wechat-mp-pipeline | Python | 0 | MIT |  | [repo](https://github.com/renault-wei/wechat-mp-pipeline) |
 | gobelieve0905/astrbot_plugin_quote_topics | Python | 0 | MIT |  | [repo](https://github.com/gobelieve0905/astrbot_plugin_quote_topics) |
+| kwis7/city-glimpse | Python | 0 | Apache-2.0 |  | [repo](https://github.com/kwis7/city-glimpse) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -389,6 +390,8 @@ updatedAt: 2026-09-09
 - foteinosKonstantinos/topics_broadcaster_module_v2 — licença: unknown
 - EarlyBird185/Trend-Pilot — licença: unknown
 - Catejsj/topic-modelling — licença: unknown
+- milljm/llm-vs-llm — licença: unknown
+- mikemazzetti/ankicardmaker — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
