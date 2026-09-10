@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (368 total, 93 validados free, 275 pulados/pago)
+description: MCPs descobertos pelo keyhunter (373 total, 93 validados free, 280 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 368
+version: 373
 createdAt: 2026-09-10
 updatedAt: 2026-09-10
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-10T02:44:11.060Z
-> Total descoberto: 368 | Validados (HTTP 200 + free): 93 | Pulados (licença paga/enterprise): 275
+> Última execução: 2026-09-10T15:42:58.092Z
+> Total descoberto: 373 | Validados (HTTP 200 + free): 93 | Pulados (licença paga/enterprise): 280
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -392,6 +392,11 @@ updatedAt: 2026-09-10
 - Catejsj/topic-modelling — licença: unknown
 - milljm/llm-vs-llm — licença: unknown
 - mikemazzetti/ankicardmaker — licença: unknown
+- Llamalu1/newsapi-email-digest — licença: unknown
+- ShubhanshuJha/redis-tutorial — licença: unknown
+- joshua2008626/student-score-predictor-ai — licença: unknown
+- virajsamarasinghe/kafka-avro-order-processing — licença: unknown
+- geromari/Colibri — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
