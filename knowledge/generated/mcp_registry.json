@@ -5383,5 +5383,81 @@
     "validated_at": "2026-09-11T02:37:37.080Z",
     "topics": [],
     "readme_absorbed": "Dheeraj-Manwani/random-topic-generator"
+  },
+  {
+    "id": 1365835328,
+    "full_name": "mubashir72/PaperSensei",
+    "url": "https://github.com/mubashir72/PaperSensei",
+    "language": "Python",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-11T15:43:50.180Z",
+    "topics": [
+      "adaptive-learning",
+      "ai-tutor",
+      "edtech",
+      "education",
+      "exam-preparation",
+      "generative-ai",
+      "groq-api",
+      "pdf-analysis",
+      "python",
+      "streamlit"
+    ],
+    "readme_absorbed": "mubashir72/PaperSensei"
+  },
+  {
+    "id": 1366114511,
+    "full_name": "tcsr/react19-topics",
+    "url": "https://github.com/tcsr/react19-topics",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-11T15:43:51.378Z",
+    "topics": [],
+    "readme_absorbed": "tcsr/react19-topics"
+  },
+  {
+    "id": 1366192091,
+    "full_name": "nandini12k/StudyPilot",
+    "url": "https://github.com/nandini12k/StudyPilot",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-11T15:43:52.315Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1366255625,
+    "full_name": "Koustav2020Soham/RAG_Based_Scientific_Topic_Recomender",
+    "url": "https://github.com/Koustav2020Soham/RAG_Based_Scientific_Topic_Recomender",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-11T15:43:53.272Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1366237531,
+    "full_name": "SanjayAravindh/interview-recap",
+    "url": "https://github.com/SanjayAravindh/interview-recap",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-11T15:43:54.319Z",
+    "topics": [],
+    "readme_absorbed": "SanjayAravindh/interview-recap"
   }
 ]

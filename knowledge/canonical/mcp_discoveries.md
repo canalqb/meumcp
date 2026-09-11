@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (378 total, 93 validados free, 285 pulados/pago)
+description: MCPs descobertos pelo keyhunter (383 total, 94 validados free, 289 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 378
+version: 383
 createdAt: 2026-09-11
 updatedAt: 2026-09-11
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-11T02:37:37.082Z
-> Total descoberto: 378 | Validados (HTTP 200 + free): 93 | Pulados (licença paga/enterprise): 285
+> Última execução: 2026-09-11T15:43:54.320Z
+> Total descoberto: 383 | Validados (HTTP 200 + free): 94 | Pulados (licença paga/enterprise): 289
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -114,6 +114,7 @@ updatedAt: 2026-09-11
 | renault-wei/wechat-mp-pipeline | Python | 0 | MIT |  | [repo](https://github.com/renault-wei/wechat-mp-pipeline) |
 | gobelieve0905/astrbot_plugin_quote_topics | Python | 0 | MIT |  | [repo](https://github.com/gobelieve0905/astrbot_plugin_quote_topics) |
 | kwis7/city-glimpse | Python | 0 | Apache-2.0 |  | [repo](https://github.com/kwis7/city-glimpse) |
+| mubashir72/PaperSensei | Python | 1 | MIT | adaptive-learning, ai-tutor, edtech | [repo](https://github.com/mubashir72/PaperSensei) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -402,6 +403,10 @@ updatedAt: 2026-09-11
 - srilakshmibillapati/caq-game-web-transfer — licença: unknown
 - bonsai/github-api-skill — licença: unknown
 - Dheeraj-Manwani/random-topic-generator — licença: unknown
+- tcsr/react19-topics — licença: unknown
+- nandini12k/StudyPilot — licença: unknown
+- Koustav2020Soham/RAG_Based_Scientific_Topic_Recomender — licença: unknown
+- SanjayAravindh/interview-recap — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

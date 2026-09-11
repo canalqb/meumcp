@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-11T15:43:50.180Z | mubashir72/PaperSensei | 1 | MIT | 200 |
+
 | 2026-09-10T02:44:10.116Z | kwis7/city-glimpse | 0 | Apache-2.0 | 200 |
 
 | 2026-09-09T15:47:49.443Z | gobelieve0905/astrbot_plugin_quote_topics | 0 | MIT | 200 |
