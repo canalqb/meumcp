@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-12T14:52:30.006Z | svx2027/youtube-intel-mcp | 0 | MIT | 200 |
+
 | 2026-09-12T02:46:47.978Z | KALIGHAT-AC/Phiscatcher | 0 | MIT | 200 |
 
 | 2026-09-11T15:43:50.180Z | mubashir72/PaperSensei | 1 | MIT | 200 |
