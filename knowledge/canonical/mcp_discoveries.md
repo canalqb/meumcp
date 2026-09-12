@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (383 total, 94 validados free, 289 pulados/pago)
+description: MCPs descobertos pelo keyhunter (386 total, 95 validados free, 291 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 383
-createdAt: 2026-09-11
-updatedAt: 2026-09-11
+version: 386
+createdAt: 2026-09-12
+updatedAt: 2026-09-12
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-11T15:43:54.320Z
-> Total descoberto: 383 | Validados (HTTP 200 + free): 94 | Pulados (licença paga/enterprise): 289
+> Última execução: 2026-09-12T02:46:47.979Z
+> Total descoberto: 386 | Validados (HTTP 200 + free): 95 | Pulados (licença paga/enterprise): 291
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -115,6 +115,7 @@ updatedAt: 2026-09-11
 | gobelieve0905/astrbot_plugin_quote_topics | Python | 0 | MIT |  | [repo](https://github.com/gobelieve0905/astrbot_plugin_quote_topics) |
 | kwis7/city-glimpse | Python | 0 | Apache-2.0 |  | [repo](https://github.com/kwis7/city-glimpse) |
 | mubashir72/PaperSensei | Python | 1 | MIT | adaptive-learning, ai-tutor, edtech | [repo](https://github.com/mubashir72/PaperSensei) |
+| KALIGHAT-AC/Phiscatcher | Python | 0 | MIT | phishing, wireshark | [repo](https://github.com/KALIGHAT-AC/Phiscatcher) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -407,6 +408,8 @@ updatedAt: 2026-09-11
 - nandini12k/StudyPilot — licença: unknown
 - Koustav2020Soham/RAG_Based_Scientific_Topic_Recomender — licença: unknown
 - SanjayAravindh/interview-recap — licença: unknown
+- abhishektak304-maker/AI-SENTIMENT-ANALYSIS-OF-SOCIAL-MEDIA- — licença: unknown
+- DashernowXd/study-app-Lexis — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
