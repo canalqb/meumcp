@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (397 total, 99 validados free, 298 pulados/pago)
+description: MCPs descobertos pelo keyhunter (402 total, 100 validados free, 302 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 397
+version: 402
 createdAt: 2026-09-13
 updatedAt: 2026-09-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-13T02:45:09.047Z
-> Total descoberto: 397 | Validados (HTTP 200 + free): 99 | Pulados (licença paga/enterprise): 298
+> Última execução: 2026-09-13T15:29:27.930Z
+> Total descoberto: 402 | Validados (HTTP 200 + free): 100 | Pulados (licença paga/enterprise): 302
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -120,6 +120,7 @@ updatedAt: 2026-09-13
 | frabcd/github-discoverability-skill | Python | 0 | MIT | agent-skills, developer-tools, documentation | [repo](https://github.com/frabcd/github-discoverability-skill) |
 | TanbirRamim/open-source-radar | Python | 0 | MIT | awesome-list, beginner-friendly, contributing | [repo](https://github.com/TanbirRamim/open-source-radar) |
 | mjocc/tripos-topic | Python | 0 | MIT |  | [repo](https://github.com/mjocc/tripos-topic) |
+| kevmoz/macaroon-bible-evidence-mcp | Python | 0 | MIT |  | [repo](https://github.com/kevmoz/macaroon-bible-evidence-mcp) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -421,6 +422,10 @@ updatedAt: 2026-09-13
 - Moinul-Islam-71/Dev-Stack — licença: unknown
 - camli3/Robot-System-Design-1-and-2-Course-Content — licença: unknown
 - odairo3/Bulls-cows-PEASagent — licença: unknown
+- nishtha262006/depoindex — licença: unknown
+- RyanBowie/copilot-studio-powerplatform-solution-reviewer-site — licença: unknown
+- jussocialmediaexpert/Viral-Topics-Tool — licença: unknown
+- achxx7/langchain-topic-explainer — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

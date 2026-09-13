@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-13T15:29:26.079Z | kevmoz/macaroon-bible-evidence-mcp | 0 | MIT | 200 |
+
 | 2026-09-13T02:45:04.383Z | frabcd/github-discoverability-skill | 0 | MIT | 200 |
 
 | 2026-09-13T02:45:05.850Z | TanbirRamim/open-source-radar | 0 | MIT | 200 |
