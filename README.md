@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-13T02:45:04.383Z | frabcd/github-discoverability-skill | 0 | MIT | 200 |
+
+| 2026-09-13T02:45:05.850Z | TanbirRamim/open-source-radar | 0 | MIT | 200 |
+
+| 2026-09-13T02:45:09.046Z | mjocc/tripos-topic | 0 | MIT | 200 |
+
 | 2026-09-12T14:52:30.006Z | svx2027/youtube-intel-mcp | 0 | MIT | 200 |
 
 | 2026-09-12T02:46:47.978Z | KALIGHAT-AC/Phiscatcher | 0 | MIT | 200 |

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (392 total, 96 validados free, 296 pulados/pago)
+description: MCPs descobertos pelo keyhunter (397 total, 99 validados free, 298 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 392
-createdAt: 2026-09-12
-updatedAt: 2026-09-12
+version: 397
+createdAt: 2026-09-13
+updatedAt: 2026-09-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-12T14:52:30.007Z
-> Total descoberto: 392 | Validados (HTTP 200 + free): 96 | Pulados (licença paga/enterprise): 296
+> Última execução: 2026-09-13T02:45:09.047Z
+> Total descoberto: 397 | Validados (HTTP 200 + free): 99 | Pulados (licença paga/enterprise): 298
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -117,6 +117,9 @@ updatedAt: 2026-09-12
 | mubashir72/PaperSensei | Python | 1 | MIT | adaptive-learning, ai-tutor, edtech | [repo](https://github.com/mubashir72/PaperSensei) |
 | KALIGHAT-AC/Phiscatcher | Python | 0 | MIT | phishing, wireshark | [repo](https://github.com/KALIGHAT-AC/Phiscatcher) |
 | svx2027/youtube-intel-mcp | Python | 0 | MIT |  | [repo](https://github.com/svx2027/youtube-intel-mcp) |
+| frabcd/github-discoverability-skill | Python | 0 | MIT | agent-skills, developer-tools, documentation | [repo](https://github.com/frabcd/github-discoverability-skill) |
+| TanbirRamim/open-source-radar | Python | 0 | MIT | awesome-list, beginner-friendly, contributing | [repo](https://github.com/TanbirRamim/open-source-radar) |
+| mjocc/tripos-topic | Python | 0 | MIT |  | [repo](https://github.com/mjocc/tripos-topic) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -416,6 +419,8 @@ updatedAt: 2026-09-12
 - asawaripatilpy/LeetCode-Solutions — licença: unknown
 - suryapsrathore339-hue/Data-Dynamos — licença: unknown
 - Moinul-Islam-71/Dev-Stack — licença: unknown
+- camli3/Robot-System-Design-1-and-2-Course-Content — licença: unknown
+- odairo3/Bulls-cows-PEASagent — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -5579,5 +5579,89 @@
     "validated_at": "2026-09-12T14:52:30.006Z",
     "topics": [],
     "readme_absorbed": "svx2027/youtube-intel-mcp"
+  },
+  {
+    "id": 1367914742,
+    "full_name": "frabcd/github-discoverability-skill",
+    "url": "https://github.com/frabcd/github-discoverability-skill",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-13T02:45:04.383Z",
+    "topics": [
+      "agent-skills",
+      "developer-tools",
+      "documentation",
+      "github",
+      "github-automation",
+      "open-source",
+      "release-management"
+    ],
+    "readme_absorbed": "frabcd/github-discoverability-skill"
+  },
+  {
+    "id": 1367868049,
+    "full_name": "TanbirRamim/open-source-radar",
+    "url": "https://github.com/TanbirRamim/open-source-radar",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-13T02:45:05.850Z",
+    "topics": [
+      "awesome-list",
+      "beginner-friendly",
+      "contributing",
+      "developer-tools",
+      "first-timers-only",
+      "github",
+      "good-first-issue",
+      "hacktoberfest",
+      "help-wanted",
+      "open-source"
+    ],
+    "readme_absorbed": "TanbirRamim/open-source-radar"
+  },
+  {
+    "id": 1367877426,
+    "full_name": "camli3/Robot-System-Design-1-and-2-Course-Content",
+    "url": "https://github.com/camli3/Robot-System-Design-1-and-2-Course-Content",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-13T02:45:06.803Z",
+    "topics": [],
+    "readme_absorbed": "camli3/Robot-System-Design-1-and-2-Course-Content"
+  },
+  {
+    "id": 1367393122,
+    "full_name": "odairo3/Bulls-cows-PEASagent",
+    "url": "https://github.com/odairo3/Bulls-cows-PEASagent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-13T02:45:07.833Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1367844275,
+    "full_name": "mjocc/tripos-topic",
+    "url": "https://github.com/mjocc/tripos-topic",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-13T02:45:09.046Z",
+    "topics": [],
+    "readme_absorbed": "mjocc/tripos-topic"
   }
 ]
