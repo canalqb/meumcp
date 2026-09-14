@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (402 total, 100 validados free, 302 pulados/pago)
+description: MCPs descobertos pelo keyhunter (405 total, 100 validados free, 305 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 402
-createdAt: 2026-09-13
-updatedAt: 2026-09-13
+version: 405
+createdAt: 2026-09-14
+updatedAt: 2026-09-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-13T15:29:27.930Z
-> Total descoberto: 402 | Validados (HTTP 200 + free): 100 | Pulados (licença paga/enterprise): 302
+> Última execução: 2026-09-14T02:59:38.484Z
+> Total descoberto: 405 | Validados (HTTP 200 + free): 100 | Pulados (licença paga/enterprise): 305
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -426,6 +426,9 @@ updatedAt: 2026-09-13
 - RyanBowie/copilot-studio-powerplatform-solution-reviewer-site — licença: unknown
 - jussocialmediaexpert/Viral-Topics-Tool — licença: unknown
 - achxx7/langchain-topic-explainer — licença: unknown
+- gandeabraham96-lab/Topic-8 — licença: unknown
+- ISCL-UConn/seikm-daily-papers — licença: NOASSERTION
+- mesdanasi19-cyber/CSELEC2-TOPIC8-ACTS — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

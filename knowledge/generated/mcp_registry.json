@@ -5734,5 +5734,44 @@
     "validated_at": "2026-09-13T15:29:27.929Z",
     "topics": [],
     "readme_absorbed": "achxx7/langchain-topic-explainer"
+  },
+  {
+    "id": 1369147429,
+    "full_name": "gandeabraham96-lab/Topic-8",
+    "url": "https://github.com/gandeabraham96-lab/Topic-8",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-14T02:59:36.308Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1369130716,
+    "full_name": "ISCL-UConn/seikm-daily-papers",
+    "url": "https://github.com/ISCL-UConn/seikm-daily-papers",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-14T02:59:37.519Z",
+    "topics": [],
+    "readme_absorbed": "ISCL-UConn/seikm-daily-papers"
+  },
+  {
+    "id": 1369109188,
+    "full_name": "mesdanasi19-cyber/CSELEC2-TOPIC8-ACTS",
+    "url": "https://github.com/mesdanasi19-cyber/CSELEC2-TOPIC8-ACTS",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-14T02:59:38.482Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
