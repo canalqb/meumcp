@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (405 total, 100 validados free, 305 pulados/pago)
+description: MCPs descobertos pelo keyhunter (413 total, 102 validados free, 311 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 405
+version: 413
 createdAt: 2026-09-14
 updatedAt: 2026-09-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-14T02:59:38.484Z
-> Total descoberto: 405 | Validados (HTTP 200 + free): 100 | Pulados (licença paga/enterprise): 305
+> Última execução: 2026-09-14T17:29:03.654Z
+> Total descoberto: 413 | Validados (HTTP 200 + free): 102 | Pulados (licença paga/enterprise): 311
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -121,6 +121,8 @@ updatedAt: 2026-09-14
 | TanbirRamim/open-source-radar | Python | 0 | MIT | awesome-list, beginner-friendly, contributing | [repo](https://github.com/TanbirRamim/open-source-radar) |
 | mjocc/tripos-topic | Python | 0 | MIT |  | [repo](https://github.com/mjocc/tripos-topic) |
 | kevmoz/macaroon-bible-evidence-mcp | Python | 0 | MIT |  | [repo](https://github.com/kevmoz/macaroon-bible-evidence-mcp) |
+| upsalesvideo/MoneyPrinterCannon | Python | 0 | MIT |  | [repo](https://github.com/upsalesvideo/MoneyPrinterCannon) |
+| samsgates/explainara | TypeScript | 0 | MIT |  | [repo](https://github.com/samsgates/explainara) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -429,6 +431,12 @@ updatedAt: 2026-09-14
 - gandeabraham96-lab/Topic-8 — licença: unknown
 - ISCL-UConn/seikm-daily-papers — licença: NOASSERTION
 - mesdanasi19-cyber/CSELEC2-TOPIC8-ACTS — licença: unknown
+- mhdrze/leetcode-solutions — licença: unknown
+- sipahiib/NicheTopics — licença: unknown
+- Prince8879/study-workbook — licença: unknown
+- alpha041027/Trending-topics — licença: unknown
+- SaivyaKishore-1302/ros2_turtlesim — licença: unknown
+- luckychap/sk-legal-classifier — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
