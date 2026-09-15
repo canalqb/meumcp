@@ -5877,5 +5877,57 @@
     "validated_at": "2026-09-14T17:29:03.653Z",
     "topics": [],
     "readme_absorbed": "samsgates/explainara"
+  },
+  {
+    "id": 1370734445,
+    "full_name": "AbrarAhmed111/toprep",
+    "url": "https://github.com/AbrarAhmed111/toprep",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-15T03:02:09.332Z",
+    "topics": [],
+    "readme_absorbed": "AbrarAhmed111/toprep"
+  },
+  {
+    "id": 1370775325,
+    "full_name": "piyush-v-verma/nlp-chatbot",
+    "url": "https://github.com/piyush-v-verma/nlp-chatbot",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-15T03:02:10.340Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1370720653,
+    "full_name": "davirnunes/Topicos-de-Software",
+    "url": "https://github.com/davirnunes/Topicos-de-Software",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-15T03:02:11.201Z",
+    "topics": [],
+    "readme_absorbed": "davirnunes/Topicos-de-Software"
+  },
+  {
+    "id": 1370285304,
+    "full_name": "babinho001/arxiv-topic-classifier",
+    "url": "https://github.com/babinho001/arxiv-topic-classifier",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-15T03:02:12.166Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]

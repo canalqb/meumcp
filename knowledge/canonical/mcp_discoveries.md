@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (413 total, 102 validados free, 311 pulados/pago)
+description: MCPs descobertos pelo keyhunter (417 total, 103 validados free, 314 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 413
-createdAt: 2026-09-14
-updatedAt: 2026-09-14
+version: 417
+createdAt: 2026-09-15
+updatedAt: 2026-09-15
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-14T17:29:03.654Z
-> Total descoberto: 413 | Validados (HTTP 200 + free): 102 | Pulados (licença paga/enterprise): 311
+> Última execução: 2026-09-15T03:02:12.167Z
+> Total descoberto: 417 | Validados (HTTP 200 + free): 103 | Pulados (licença paga/enterprise): 314
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -123,6 +123,7 @@ updatedAt: 2026-09-14
 | kevmoz/macaroon-bible-evidence-mcp | Python | 0 | MIT |  | [repo](https://github.com/kevmoz/macaroon-bible-evidence-mcp) |
 | upsalesvideo/MoneyPrinterCannon | Python | 0 | MIT |  | [repo](https://github.com/upsalesvideo/MoneyPrinterCannon) |
 | samsgates/explainara | TypeScript | 0 | MIT |  | [repo](https://github.com/samsgates/explainara) |
+| AbrarAhmed111/toprep | TypeScript | 0 | MIT |  | [repo](https://github.com/AbrarAhmed111/toprep) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -437,6 +438,9 @@ updatedAt: 2026-09-14
 - alpha041027/Trending-topics — licença: unknown
 - SaivyaKishore-1302/ros2_turtlesim — licença: unknown
 - luckychap/sk-legal-classifier — licença: unknown
+- piyush-v-verma/nlp-chatbot — licença: unknown
+- davirnunes/Topicos-de-Software — licença: unknown
+- babinho001/arxiv-topic-classifier — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
