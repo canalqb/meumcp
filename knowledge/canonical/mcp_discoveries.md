@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (417 total, 103 validados free, 314 pulados/pago)
+description: MCPs descobertos pelo keyhunter (427 total, 104 validados free, 323 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 417
+version: 427
 createdAt: 2026-09-15
 updatedAt: 2026-09-15
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-15T03:02:12.167Z
-> Total descoberto: 417 | Validados (HTTP 200 + free): 103 | Pulados (licença paga/enterprise): 314
+> Última execução: 2026-09-15T16:05:30.406Z
+> Total descoberto: 427 | Validados (HTTP 200 + free): 104 | Pulados (licença paga/enterprise): 323
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -124,6 +124,7 @@ updatedAt: 2026-09-15
 | upsalesvideo/MoneyPrinterCannon | Python | 0 | MIT |  | [repo](https://github.com/upsalesvideo/MoneyPrinterCannon) |
 | samsgates/explainara | TypeScript | 0 | MIT |  | [repo](https://github.com/samsgates/explainara) |
 | AbrarAhmed111/toprep | TypeScript | 0 | MIT |  | [repo](https://github.com/AbrarAhmed111/toprep) |
+| treksis/reddit-topic-tracker | TypeScript | 1 | MIT |  | [repo](https://github.com/treksis/reddit-topic-tracker) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -441,6 +442,15 @@ updatedAt: 2026-09-15
 - piyush-v-verma/nlp-chatbot — licença: unknown
 - davirnunes/Topicos-de-Software — licença: unknown
 - babinho001/arxiv-topic-classifier — licença: unknown
+- salihyesil59/cosmos — licença: unknown
+- Tommy-hang/Thinkingspace — licença: unknown
+- maxplanck100/bds-past-questions — licença: unknown
+- Dinh-Khoi-Nguyen/Group05_Topic01 — licença: unknown
+- dram-dev/intelligence-network — licença: unknown
+- 25A31A4202/ExamGenius-AI — licença: unknown
+- wm-newslab/news-topic-classifier — licença: unknown
+- Nasir-Mubarak007/Vertex-learning-platform — licença: unknown
+- haseebshah1403/Mini-AI-Learning-Tracker-MCP — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

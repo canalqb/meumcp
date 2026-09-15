@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-15T16:05:27.842Z | treksis/reddit-topic-tracker | 1 | MIT | 200 |
+
 | 2026-09-15T03:02:09.332Z | AbrarAhmed111/toprep | 0 | MIT | 200 |
 
 | 2026-09-14T17:28:58.361Z | upsalesvideo/MoneyPrinterCannon | 0 | MIT | 200 |
