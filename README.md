@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-16T15:58:36.192Z | blrain3/agent-papers | 0 | MIT | 200 |
+
+| 2026-09-16T15:58:37.255Z | megazron/ros2-interaction-lint | 0 | MIT | 200 |
+
 | 2026-09-15T16:05:27.842Z | treksis/reddit-topic-tracker | 1 | MIT | 200 |
 
 | 2026-09-15T03:02:09.332Z | AbrarAhmed111/toprep | 0 | MIT | 200 |

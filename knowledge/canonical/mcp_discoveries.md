@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (427 total, 104 validados free, 323 pulados/pago)
+description: MCPs descobertos pelo keyhunter (436 total, 106 validados free, 330 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 427
+version: 436
 createdAt: 2026-09-16
 updatedAt: 2026-09-16
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-16T02:58:20.658Z
-> Total descoberto: 427 | Validados (HTTP 200 + free): 104 | Pulados (licença paga/enterprise): 323
+> Última execução: 2026-09-16T15:58:40.287Z
+> Total descoberto: 436 | Validados (HTTP 200 + free): 106 | Pulados (licença paga/enterprise): 330
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -125,6 +125,8 @@ updatedAt: 2026-09-16
 | samsgates/explainara | TypeScript | 0 | MIT |  | [repo](https://github.com/samsgates/explainara) |
 | AbrarAhmed111/toprep | TypeScript | 0 | MIT |  | [repo](https://github.com/AbrarAhmed111/toprep) |
 | treksis/reddit-topic-tracker | TypeScript | 1 | MIT |  | [repo](https://github.com/treksis/reddit-topic-tracker) |
+| blrain3/agent-papers | Python | 0 | MIT |  | [repo](https://github.com/blrain3/agent-papers) |
+| megazron/ros2-interaction-lint | Python | 0 | MIT | ci, linter, python | [repo](https://github.com/megazron/ros2-interaction-lint) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -451,6 +453,13 @@ updatedAt: 2026-09-16
 - wm-newslab/news-topic-classifier — licença: unknown
 - Nasir-Mubarak007/Vertex-learning-platform — licença: unknown
 - haseebshah1403/Mini-AI-Learning-Tracker-MCP — licença: unknown
+- abdultalha0862/Topic-Finder — licença: unknown
+- shivaylamba/qualcomm-ai-workshop-template — licença: unknown
+- srimugunthan/weekly-trending-topics-agent — licença: unknown
+- MaksBloxX/Telegram-Thread-Vault — licença: unknown
+- urshashi09/linkedin-content-agent — licença: unknown
+- Sherstik22/reddit-topic-radar — licença: unknown
+- alexcpn/llm-trust-audit — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
