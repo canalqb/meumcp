@@ -8,13 +8,13 @@ scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
 version: 427
-createdAt: 2026-09-15
-updatedAt: 2026-09-15
+createdAt: 2026-09-16
+updatedAt: 2026-09-16
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-15T16:05:30.406Z
+> Última execução: 2026-09-16T02:58:20.658Z
 > Total descoberto: 427 | Validados (HTTP 200 + free): 104 | Pulados (licença paga/enterprise): 323
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
