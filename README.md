@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-17T03:01:25.447Z | gokulsvision/helium-browser-management-system | 0 | MIT | 200 |
+
+| 2026-09-17T03:01:29.011Z | geoffmyers/emporia-vue-mqtt-bridge | 0 | GPL-3.0 | 200 |
+
 | 2026-09-16T15:58:36.192Z | blrain3/agent-papers | 0 | MIT | 200 |
 
 | 2026-09-16T15:58:37.255Z | megazron/ros2-interaction-lint | 0 | MIT | 200 |

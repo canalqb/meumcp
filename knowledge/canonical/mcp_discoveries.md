@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (436 total, 106 validados free, 330 pulados/pago)
+description: MCPs descobertos pelo keyhunter (445 total, 108 validados free, 337 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 436
-createdAt: 2026-09-16
-updatedAt: 2026-09-16
+version: 445
+createdAt: 2026-09-17
+updatedAt: 2026-09-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-16T15:58:40.287Z
-> Total descoberto: 436 | Validados (HTTP 200 + free): 106 | Pulados (licença paga/enterprise): 330
+> Última execução: 2026-09-17T03:01:29.868Z
+> Total descoberto: 445 | Validados (HTTP 200 + free): 108 | Pulados (licença paga/enterprise): 337
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -127,6 +127,8 @@ updatedAt: 2026-09-16
 | treksis/reddit-topic-tracker | TypeScript | 1 | MIT |  | [repo](https://github.com/treksis/reddit-topic-tracker) |
 | blrain3/agent-papers | Python | 0 | MIT |  | [repo](https://github.com/blrain3/agent-papers) |
 | megazron/ros2-interaction-lint | Python | 0 | MIT | ci, linter, python | [repo](https://github.com/megazron/ros2-interaction-lint) |
+| gokulsvision/helium-browser-management-system | Python | 0 | MIT |  | [repo](https://github.com/gokulsvision/helium-browser-management-system) |
+| geoffmyers/emporia-vue-mqtt-bridge | Python | 0 | GPL-3.0 | docker, emporia-vue, energy-monitoring | [repo](https://github.com/geoffmyers/emporia-vue-mqtt-bridge) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -460,6 +462,13 @@ updatedAt: 2026-09-16
 - urshashi09/linkedin-content-agent — licença: unknown
 - Sherstik22/reddit-topic-radar — licença: unknown
 - alexcpn/llm-trust-audit — licença: unknown
+- bentaherghassen/github-repo-finder — licença: unknown
+- Benjamin-e-softwarecode/-learning_log- — licença: unknown
+- Mr-heka/youtube-brain — licença: unknown
+- DrotsGS/Topicos-de-Telematica — licença: unknown
+- Edumachadoh/Topicos-Especiais-Software-A2-Django — licença: unknown
+- GobobCore/Gobob-Soho-Community — licença: NOASSERTION
+- VictorCodexKing/UGC-Pipeline — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
