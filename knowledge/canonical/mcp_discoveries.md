@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (445 total, 108 validados free, 337 pulados/pago)
+description: MCPs descobertos pelo keyhunter (458 total, 111 validados free, 347 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 445
+version: 458
 createdAt: 2026-09-17
 updatedAt: 2026-09-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-17T03:01:29.868Z
-> Total descoberto: 445 | Validados (HTTP 200 + free): 108 | Pulados (licença paga/enterprise): 337
+> Última execução: 2026-09-17T16:05:14.204Z
+> Total descoberto: 458 | Validados (HTTP 200 + free): 111 | Pulados (licença paga/enterprise): 347
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -129,6 +129,9 @@ updatedAt: 2026-09-17
 | megazron/ros2-interaction-lint | Python | 0 | MIT | ci, linter, python | [repo](https://github.com/megazron/ros2-interaction-lint) |
 | gokulsvision/helium-browser-management-system | Python | 0 | MIT |  | [repo](https://github.com/gokulsvision/helium-browser-management-system) |
 | geoffmyers/emporia-vue-mqtt-bridge | Python | 0 | GPL-3.0 | docker, emporia-vue, energy-monitoring | [repo](https://github.com/geoffmyers/emporia-vue-mqtt-bridge) |
+| unaxfromsibiria/sayteacher | Python | 0 | MIT |  | [repo](https://github.com/unaxfromsibiria/sayteacher) |
+| DevFrancisA/review-topic-embeddings | Python | 0 | MIT |  | [repo](https://github.com/DevFrancisA/review-topic-embeddings) |
+| bradleypmartin/20260930-zd-ai-pdes-demo | Python | 0 | MIT | numerical-analysis, numerical-methods, pde | [repo](https://github.com/bradleypmartin/20260930-zd-ai-pdes-demo) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -469,6 +472,16 @@ updatedAt: 2026-09-17
 - Edumachadoh/Topicos-Especiais-Software-A2-Django — licença: unknown
 - GobobCore/Gobob-Soho-Community — licença: NOASSERTION
 - VictorCodexKing/UGC-Pipeline — licença: unknown
+- gueew/Topic — licença: unknown
+- daviroch4/projeto-api-topicos — licença: unknown
+- 23240029-cmd/topicos-para-despliegue-de-aplicaciones- — licença: unknown
+- Cat-The-Developer-2/vertex-learning-platform — licença: unknown
+- Aldotehigh/Topicos — licença: unknown
+- abu-rayhan-kobir/learning-typescript — licença: unknown
+- hellonihar/AI_Prep_topics — licença: unknown
+- zhuyajing03-commits/text_analytics_derry_girls — licença: unknown
+- ShaifulPalash/linkedin-post-generator — licença: unknown
+- fayadhkader-design/content-trend-radar-virlo — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

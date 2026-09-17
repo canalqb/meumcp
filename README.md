@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-17T16:05:06.695Z | unaxfromsibiria/sayteacher | 0 | MIT | 200 |
+
+| 2026-09-17T16:05:07.623Z | DevFrancisA/review-topic-embeddings | 0 | MIT | 200 |
+
+| 2026-09-17T16:05:13.368Z | bradleypmartin/20260930-zd-ai-pdes-demo | 0 | MIT | 200 |
+
 | 2026-09-17T03:01:25.447Z | gokulsvision/helium-browser-management-system | 0 | MIT | 200 |
 
 | 2026-09-17T03:01:29.011Z | geoffmyers/emporia-vue-mqtt-bridge | 0 | GPL-3.0 | 200 |
