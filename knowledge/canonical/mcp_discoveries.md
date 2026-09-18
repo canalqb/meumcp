@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (458 total, 111 validados free, 347 pulados/pago)
+description: MCPs descobertos pelo keyhunter (463 total, 111 validados free, 352 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 458
-createdAt: 2026-09-17
-updatedAt: 2026-09-17
+version: 463
+createdAt: 2026-09-18
+updatedAt: 2026-09-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-17T16:05:14.204Z
-> Total descoberto: 458 | Validados (HTTP 200 + free): 111 | Pulados (licença paga/enterprise): 347
+> Última execução: 2026-09-18T02:49:14.602Z
+> Total descoberto: 463 | Validados (HTTP 200 + free): 111 | Pulados (licença paga/enterprise): 352
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -482,6 +482,11 @@ updatedAt: 2026-09-17
 - zhuyajing03-commits/text_analytics_derry_girls — licença: unknown
 - ShaifulPalash/linkedin-post-generator — licença: unknown
 - fayadhkader-design/content-trend-radar-virlo — licença: unknown
+- w452144816/TopicG — licença: unknown
+- DS-Jerry-in-Taiwan/team-docs-testbed — licença: unknown
+- yukkidev/VideoSummarizer — licença: unknown
+- muhammadzubair-data/customer-sentiment-voice-of-customer-analytics — licença: unknown
+- JustinOros/shorts-autopilot — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
