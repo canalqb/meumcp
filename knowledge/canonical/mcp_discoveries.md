@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (463 total, 111 validados free, 352 pulados/pago)
+description: MCPs descobertos pelo keyhunter (471 total, 114 validados free, 357 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 463
+version: 471
 createdAt: 2026-09-18
 updatedAt: 2026-09-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-18T02:49:14.602Z
-> Total descoberto: 463 | Validados (HTTP 200 + free): 111 | Pulados (licença paga/enterprise): 352
+> Última execução: 2026-09-18T15:41:06.438Z
+> Total descoberto: 471 | Validados (HTTP 200 + free): 114 | Pulados (licença paga/enterprise): 357
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -132,6 +132,9 @@ updatedAt: 2026-09-18
 | unaxfromsibiria/sayteacher | Python | 0 | MIT |  | [repo](https://github.com/unaxfromsibiria/sayteacher) |
 | DevFrancisA/review-topic-embeddings | Python | 0 | MIT |  | [repo](https://github.com/DevFrancisA/review-topic-embeddings) |
 | bradleypmartin/20260930-zd-ai-pdes-demo | Python | 0 | MIT | numerical-analysis, numerical-methods, pde | [repo](https://github.com/bradleypmartin/20260930-zd-ai-pdes-demo) |
+| boeing23/roundtable | TypeScript | 0 | MIT |  | [repo](https://github.com/boeing23/roundtable) |
+| instl999/douyin-image-gen | Python | 0 | MIT |  | [repo](https://github.com/instl999/douyin-image-gen) |
+| virajsamarasinghe/kafka-avro-processing | Python | 0 | MIT |  | [repo](https://github.com/virajsamarasinghe/kafka-avro-processing) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -487,6 +490,11 @@ updatedAt: 2026-09-18
 - yukkidev/VideoSummarizer — licença: unknown
 - muhammadzubair-data/customer-sentiment-voice-of-customer-analytics — licença: unknown
 - JustinOros/shorts-autopilot — licença: unknown
+- pranavekannan1/AskForth---AI-Research-Agent — licença: unknown
+- theanshuman12/AI-POWERED-EXAM-PREPARATION — licença: unknown
+- devilpoki/Djangolearn — licença: unknown
+- phuquytranhuynh/topic-cluster-organizer — licença: unknown
+- ShivamRK77/Research-Mind — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

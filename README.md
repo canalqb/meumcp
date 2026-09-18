@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-18T15:41:01.143Z | boeing23/roundtable | 0 | MIT | 200 |
+
+| 2026-09-18T15:41:03.468Z | instl999/douyin-image-gen | 0 | MIT | 200 |
+
+| 2026-09-18T15:41:04.402Z | virajsamarasinghe/kafka-avro-processing | 0 | MIT | 200 |
+
 | 2026-09-17T16:05:06.695Z | unaxfromsibiria/sayteacher | 0 | MIT | 200 |
 
 | 2026-09-17T16:05:07.623Z | DevFrancisA/review-topic-embeddings | 0 | MIT | 200 |
