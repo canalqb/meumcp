@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (472 total, 114 validados free, 358 pulados/pago)
+description: MCPs descobertos pelo keyhunter (479 total, 115 validados free, 364 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 472
+version: 479
 createdAt: 2026-09-19
 updatedAt: 2026-09-19
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-19T02:47:33.992Z
-> Total descoberto: 472 | Validados (HTTP 200 + free): 114 | Pulados (licença paga/enterprise): 358
+> Última execução: 2026-09-19T15:13:19.484Z
+> Total descoberto: 479 | Validados (HTTP 200 + free): 115 | Pulados (licença paga/enterprise): 364
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -135,6 +135,7 @@ updatedAt: 2026-09-19
 | boeing23/roundtable | TypeScript | 0 | MIT |  | [repo](https://github.com/boeing23/roundtable) |
 | instl999/douyin-image-gen | Python | 0 | MIT |  | [repo](https://github.com/instl999/douyin-image-gen) |
 | virajsamarasinghe/kafka-avro-processing | Python | 0 | MIT |  | [repo](https://github.com/virajsamarasinghe/kafka-avro-processing) |
+| ockentap/hermes-dynamic-memory | Python | 0 | Apache-2.0 | agent-memory, ai-agents, claude-code | [repo](https://github.com/ockentap/hermes-dynamic-memory) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -496,6 +497,12 @@ updatedAt: 2026-09-19
 - phuquytranhuynh/topic-cluster-organizer — licença: unknown
 - ShivamRK77/Research-Mind — licença: unknown
 - JustinLaSalle/Resume2-research-report-agent — licença: unknown
+- Shivendra1230/EduPilot — licença: unknown
+- sm-th/zulip-publisher — licença: unknown
+- Fakease/industrial-hazard-analysis — licença: unknown
+- Kavyaboompur/leetcode_problems — licença: unknown
+- 110-818/pyside6_Multi_Topic_Quotes — licença: unknown
+- vedsairaj-lab/Python-Quiz — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
