@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-20T15:17:36.622Z | mayx1998/ai-office-assistant | 0 | MIT | 200 |
+
+| 2026-09-20T15:17:38.136Z | yangchibok/tce-coherence | 0 | MIT | 200 |
+
+| 2026-09-20T15:17:39.587Z | Zzedd2001/bnb-blocktime-arbitrage | 0 | MIT | 200 |
+
+| 2026-09-20T15:17:46.748Z | qq276948241/flow-register-seal-topic-51834 | 0 | MIT | 200 |
+
 | 2026-09-20T03:00:26.792Z | asuka123456789/zotero-topic-explorer | 0 | MIT | 200 |
 
 | 2026-09-19T15:13:13.799Z | ockentap/hermes-dynamic-memory | 0 | Apache-2.0 | 200 |

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (482 total, 116 validados free, 366 pulados/pago)
+description: MCPs descobertos pelo keyhunter (490 total, 120 validados free, 370 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 482
+version: 490
 createdAt: 2026-09-20
 updatedAt: 2026-09-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-20T03:00:27.600Z
-> Total descoberto: 482 | Validados (HTTP 200 + free): 116 | Pulados (licença paga/enterprise): 366
+> Última execução: 2026-09-20T15:17:46.766Z
+> Total descoberto: 490 | Validados (HTTP 200 + free): 120 | Pulados (licença paga/enterprise): 370
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -137,6 +137,10 @@ updatedAt: 2026-09-20
 | virajsamarasinghe/kafka-avro-processing | Python | 0 | MIT |  | [repo](https://github.com/virajsamarasinghe/kafka-avro-processing) |
 | ockentap/hermes-dynamic-memory | Python | 0 | Apache-2.0 | agent-memory, ai-agents, claude-code | [repo](https://github.com/ockentap/hermes-dynamic-memory) |
 | asuka123456789/zotero-topic-explorer | TypeScript | 0 | MIT |  | [repo](https://github.com/asuka123456789/zotero-topic-explorer) |
+| mayx1998/ai-office-assistant | Python | 0 | MIT |  | [repo](https://github.com/mayx1998/ai-office-assistant) |
+| yangchibok/tce-coherence | Python | 0 | MIT |  | [repo](https://github.com/yangchibok/tce-coherence) |
+| Zzedd2001/bnb-blocktime-arbitrage | Python | 0 | MIT |  | [repo](https://github.com/Zzedd2001/bnb-blocktime-arbitrage) |
+| qq276948241/flow-register-seal-topic-51834 | Python | 0 | MIT |  | [repo](https://github.com/qq276948241/flow-register-seal-topic-51834) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -506,6 +510,10 @@ updatedAt: 2026-09-20
 - vedsairaj-lab/Python-Quiz — licença: unknown
 - imtaejugkim/international_daily_topic — licença: unknown
 - rycho65/cramOS — licença: unknown
+- ankitnitt15/multi-persona-debate — licença: unknown
+- KritikaNp/leetcode — licença: unknown
+- jsdlamini/upsas — licença: unknown
+- kpisacic/dhmz_mqtt — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
