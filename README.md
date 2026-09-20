@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-20T03:00:26.792Z | asuka123456789/zotero-topic-explorer | 0 | MIT | 200 |
+
 | 2026-09-19T15:13:13.799Z | ockentap/hermes-dynamic-memory | 0 | Apache-2.0 | 200 |
 
 | 2026-09-18T15:41:01.143Z | boeing23/roundtable | 0 | MIT | 200 |

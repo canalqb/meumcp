@@ -6842,5 +6842,44 @@
     "validated_at": "2026-09-19T15:13:19.482Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1377814146,
+    "full_name": "imtaejugkim/international_daily_topic",
+    "url": "https://github.com/imtaejugkim/international_daily_topic",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-20T03:00:25.601Z",
+    "topics": [],
+    "readme_absorbed": "imtaejugkim/international_daily_topic"
+  },
+  {
+    "id": 1377828875,
+    "full_name": "asuka123456789/zotero-topic-explorer",
+    "url": "https://github.com/asuka123456789/zotero-topic-explorer",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-20T03:00:26.792Z",
+    "topics": [],
+    "readme_absorbed": "asuka123456789/zotero-topic-explorer"
+  },
+  {
+    "id": 1377371076,
+    "full_name": "rycho65/cramOS",
+    "url": "https://github.com/rycho65/cramOS",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-20T03:00:27.598Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (479 total, 115 validados free, 364 pulados/pago)
+description: MCPs descobertos pelo keyhunter (482 total, 116 validados free, 366 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 479
-createdAt: 2026-09-19
-updatedAt: 2026-09-19
+version: 482
+createdAt: 2026-09-20
+updatedAt: 2026-09-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-19T15:13:19.484Z
-> Total descoberto: 479 | Validados (HTTP 200 + free): 115 | Pulados (licença paga/enterprise): 364
+> Última execução: 2026-09-20T03:00:27.600Z
+> Total descoberto: 482 | Validados (HTTP 200 + free): 116 | Pulados (licença paga/enterprise): 366
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -136,6 +136,7 @@ updatedAt: 2026-09-19
 | instl999/douyin-image-gen | Python | 0 | MIT |  | [repo](https://github.com/instl999/douyin-image-gen) |
 | virajsamarasinghe/kafka-avro-processing | Python | 0 | MIT |  | [repo](https://github.com/virajsamarasinghe/kafka-avro-processing) |
 | ockentap/hermes-dynamic-memory | Python | 0 | Apache-2.0 | agent-memory, ai-agents, claude-code | [repo](https://github.com/ockentap/hermes-dynamic-memory) |
+| asuka123456789/zotero-topic-explorer | TypeScript | 0 | MIT |  | [repo](https://github.com/asuka123456789/zotero-topic-explorer) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -503,6 +504,8 @@ updatedAt: 2026-09-19
 - Kavyaboompur/leetcode_problems — licença: unknown
 - 110-818/pyside6_Multi_Topic_Quotes — licença: unknown
 - vedsairaj-lab/Python-Quiz — licença: unknown
+- imtaejugkim/international_daily_topic — licença: unknown
+- rycho65/cramOS — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
