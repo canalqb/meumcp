@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-21T02:57:28.543Z | amanili77/creator-workbench | 0 | MIT | 200 |
+
+| 2026-09-21T02:57:31.669Z | xiezhi11/durable-node-task-graph-base | 0 | MIT | 200 |
+
+| 2026-09-21T02:57:32.683Z | sheldor26/youtube-transcriber | 0 | MIT | 200 |
+
+| 2026-09-21T02:57:33.670Z | millsks/pixi-primer-sandbox | 0 | MIT | 200 |
+
 | 2026-09-20T15:17:36.622Z | mayx1998/ai-office-assistant | 0 | MIT | 200 |
 
 | 2026-09-20T15:17:38.136Z | yangchibok/tce-coherence | 0 | MIT | 200 |

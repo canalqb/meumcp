@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (490 total, 120 validados free, 370 pulados/pago)
+description: MCPs descobertos pelo keyhunter (498 total, 124 validados free, 374 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 490
-createdAt: 2026-09-20
-updatedAt: 2026-09-20
+version: 498
+createdAt: 2026-09-21
+updatedAt: 2026-09-21
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-20T15:17:46.766Z
-> Total descoberto: 490 | Validados (HTTP 200 + free): 120 | Pulados (licença paga/enterprise): 370
+> Última execução: 2026-09-21T02:57:35.870Z
+> Total descoberto: 498 | Validados (HTTP 200 + free): 124 | Pulados (licença paga/enterprise): 374
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -141,6 +141,10 @@ updatedAt: 2026-09-20
 | yangchibok/tce-coherence | Python | 0 | MIT |  | [repo](https://github.com/yangchibok/tce-coherence) |
 | Zzedd2001/bnb-blocktime-arbitrage | Python | 0 | MIT |  | [repo](https://github.com/Zzedd2001/bnb-blocktime-arbitrage) |
 | qq276948241/flow-register-seal-topic-51834 | Python | 0 | MIT |  | [repo](https://github.com/qq276948241/flow-register-seal-topic-51834) |
+| amanili77/creator-workbench | Python | 0 | MIT |  | [repo](https://github.com/amanili77/creator-workbench) |
+| xiezhi11/durable-node-task-graph-base | TypeScript | 0 | MIT |  | [repo](https://github.com/xiezhi11/durable-node-task-graph-base) |
+| sheldor26/youtube-transcriber | Python | 0 | MIT | fastapi, faster-whisper, speech-to-text | [repo](https://github.com/sheldor26/youtube-transcriber) |
+| millsks/pixi-primer-sandbox | Python | 0 | MIT | labs, learning, learning-by-doing | [repo](https://github.com/millsks/pixi-primer-sandbox) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -514,6 +518,10 @@ updatedAt: 2026-09-20
 - KritikaNp/leetcode — licença: unknown
 - jsdlamini/upsas — licença: unknown
 - kpisacic/dhmz_mqtt — licença: unknown
+- pteldm/Topicos-avancados-iv — licença: unknown
+- xiezhi11/temporal-fence-match-testbed — licença: unknown
+- DataSWil/Micro-Proyecto-Modelado-de-Topicos — licença: unknown
+- duddnd36-code/topic1-lv-cache — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
