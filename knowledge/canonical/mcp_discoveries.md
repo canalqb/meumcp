@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (498 total, 124 validados free, 374 pulados/pago)
+description: MCPs descobertos pelo keyhunter (512 total, 130 validados free, 382 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 498
+version: 512
 createdAt: 2026-09-21
 updatedAt: 2026-09-21
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-21T02:57:35.870Z
-> Total descoberto: 498 | Validados (HTTP 200 + free): 124 | Pulados (licença paga/enterprise): 374
+> Última execução: 2026-09-21T17:42:58.089Z
+> Total descoberto: 512 | Validados (HTTP 200 + free): 130 | Pulados (licença paga/enterprise): 382
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -145,6 +145,12 @@ updatedAt: 2026-09-21
 | xiezhi11/durable-node-task-graph-base | TypeScript | 0 | MIT |  | [repo](https://github.com/xiezhi11/durable-node-task-graph-base) |
 | sheldor26/youtube-transcriber | Python | 0 | MIT | fastapi, faster-whisper, speech-to-text | [repo](https://github.com/sheldor26/youtube-transcriber) |
 | millsks/pixi-primer-sandbox | Python | 0 | MIT | labs, learning, learning-by-doing | [repo](https://github.com/millsks/pixi-primer-sandbox) |
+| cMDRDATA123/Hybrid-Topic | Python | 0 | MIT |  | [repo](https://github.com/cMDRDATA123/Hybrid-Topic) |
+| RoshiniKrishnasri/Social-Media-Sentiment-Analysis-for-Mental-Health-Awareness | Python | 0 | Apache-2.0 |  | [repo](https://github.com/RoshiniKrishnasri/Social-Media-Sentiment-Analysis-for-Mental-Health-Awareness) |
+| YangChen-cn/TopicTidy | Python | 0 | MIT |  | [repo](https://github.com/YangChen-cn/TopicTidy) |
+| Aarohi1301/Kawaii-Cat-Runner-Game | Python | 0 | MIT |  | [repo](https://github.com/Aarohi1301/Kawaii-Cat-Runner-Game) |
+| rogerdemello/recall-cloudflare-agent | TypeScript | 0 | MIT |  | [repo](https://github.com/rogerdemello/recall-cloudflare-agent) |
+| yngvemikkelsen/ehr-representation-noninvariance | Python | 0 | MIT |  | [repo](https://github.com/yngvemikkelsen/ehr-representation-noninvariance) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -522,6 +528,14 @@ updatedAt: 2026-09-21
 - xiezhi11/temporal-fence-match-testbed — licença: unknown
 - DataSWil/Micro-Proyecto-Modelado-de-Topicos — licença: unknown
 - duddnd36-code/topic1-lv-cache — licença: unknown
+- amalshaji925/research-ai — licença: unknown
+- sefuwunder/longview — licença: unknown
+- neuratechcompany-ops/Kettu-Shortmaster — licença: NOASSERTION
+- atharvdashpute2/AI-Blog-Generator-using-OpenAI-API — licença: unknown
+- Nalapko67/Topic-3 — licença: unknown
+- tui-lipan/rozi-extension-index — licença: NOASSERTION
+- alavielica-jpg/ielts-agent — licença: unknown
+- maltesh3825-byte/DSA-IN-CPP-PRACTICE-PROBLEMS- — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
