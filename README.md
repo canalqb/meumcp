@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-22T16:07:56.304Z | pastdotdev/past-news | 0 | MIT | 200 |
+
+| 2026-09-22T16:07:58.409Z | aska-digital/protean-ordaprompt | 0 | MIT | 200 |
+
+| 2026-09-22T16:08:03.829Z | nadirdev1/gdelt-mcp | 0 | MIT | 200 |
+
 | 2026-09-21T17:42:46.102Z | cMDRDATA123/Hybrid-Topic | 0 | MIT | 200 |
 
 | 2026-09-21T17:42:47.243Z | RoshiniKrishnasri/Social-Media-Sentiment-Analysis-for-Mental-Health-Awareness | 0 | Apache-2.0 | 200 |

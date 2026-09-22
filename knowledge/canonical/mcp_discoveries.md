@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (516 total, 130 validados free, 386 pulados/pago)
+description: MCPs descobertos pelo keyhunter (524 total, 133 validados free, 391 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 516
+version: 524
 createdAt: 2026-09-22
 updatedAt: 2026-09-22
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-22T02:57:38.968Z
-> Total descoberto: 516 | Validados (HTTP 200 + free): 130 | Pulados (licença paga/enterprise): 386
+> Última execução: 2026-09-22T16:08:03.831Z
+> Total descoberto: 524 | Validados (HTTP 200 + free): 133 | Pulados (licença paga/enterprise): 391
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -151,6 +151,9 @@ updatedAt: 2026-09-22
 | Aarohi1301/Kawaii-Cat-Runner-Game | Python | 0 | MIT |  | [repo](https://github.com/Aarohi1301/Kawaii-Cat-Runner-Game) |
 | rogerdemello/recall-cloudflare-agent | TypeScript | 0 | MIT |  | [repo](https://github.com/rogerdemello/recall-cloudflare-agent) |
 | yngvemikkelsen/ehr-representation-noninvariance | Python | 0 | MIT |  | [repo](https://github.com/yngvemikkelsen/ehr-representation-noninvariance) |
+| pastdotdev/past-news | Python | 0 | MIT | fastapi, memory-api, past | [repo](https://github.com/pastdotdev/past-news) |
+| aska-digital/protean-ordaprompt | Python | 0 | MIT |  | [repo](https://github.com/aska-digital/protean-ordaprompt) |
+| nadirdev1/gdelt-mcp | TypeScript | 0 | MIT |  | [repo](https://github.com/nadirdev1/gdelt-mcp) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -540,6 +543,11 @@ updatedAt: 2026-09-22
 - sudanshusingh12/AI_Assesment_Generator — licença: NOASSERTION
 - daepicshahh/WikiCli — licença: unknown
 - luvyoun0224-beep/mom-blog-skill — licença: unknown
+- julcodes01/Topic-1-task-2 — licença: unknown
+- piyushb03/NewsPulse — licença: unknown
+- ahmedmahni07-commits/27100150_PA1 — licença: unknown
+- gvrscodes/eli5 — licença: unknown
+- CHEPURISOHANSAI/AI-study-assistant — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
