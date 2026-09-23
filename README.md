@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-23T02:57:33.727Z | tobbyyan-barker/thesis-topic-assistant | 0 | MIT | 200 |
+
 | 2026-09-22T16:07:56.304Z | pastdotdev/past-news | 0 | MIT | 200 |
 
 | 2026-09-22T16:07:58.409Z | aska-digital/protean-ordaprompt | 0 | MIT | 200 |

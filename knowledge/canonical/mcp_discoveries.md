@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (524 total, 133 validados free, 391 pulados/pago)
+description: MCPs descobertos pelo keyhunter (527 total, 134 validados free, 393 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 524
-createdAt: 2026-09-22
-updatedAt: 2026-09-22
+version: 527
+createdAt: 2026-09-23
+updatedAt: 2026-09-23
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-22T16:08:03.831Z
-> Total descoberto: 524 | Validados (HTTP 200 + free): 133 | Pulados (licença paga/enterprise): 391
+> Última execução: 2026-09-23T02:57:33.729Z
+> Total descoberto: 527 | Validados (HTTP 200 + free): 134 | Pulados (licença paga/enterprise): 393
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -154,6 +154,7 @@ updatedAt: 2026-09-22
 | pastdotdev/past-news | Python | 0 | MIT | fastapi, memory-api, past | [repo](https://github.com/pastdotdev/past-news) |
 | aska-digital/protean-ordaprompt | Python | 0 | MIT |  | [repo](https://github.com/aska-digital/protean-ordaprompt) |
 | nadirdev1/gdelt-mcp | TypeScript | 0 | MIT |  | [repo](https://github.com/nadirdev1/gdelt-mcp) |
+| tobbyyan-barker/thesis-topic-assistant | Python | 0 | MIT |  | [repo](https://github.com/tobbyyan-barker/thesis-topic-assistant) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -548,6 +549,8 @@ updatedAt: 2026-09-22
 - ahmedmahni07-commits/27100150_PA1 — licença: unknown
 - gvrscodes/eli5 — licença: unknown
 - CHEPURISOHANSAI/AI-study-assistant — licença: unknown
+- pyae-bhone-khant/TopicLoom-app — licença: unknown
+- kennedy-muhumuza/inspiring-bible-study-library — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
