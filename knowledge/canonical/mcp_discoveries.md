@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (527 total, 134 validados free, 393 pulados/pago)
+description: MCPs descobertos pelo keyhunter (534 total, 137 validados free, 397 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 527
+version: 534
 createdAt: 2026-09-23
 updatedAt: 2026-09-23
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-23T02:57:33.729Z
-> Total descoberto: 527 | Validados (HTTP 200 + free): 134 | Pulados (licença paga/enterprise): 393
+> Última execução: 2026-09-23T15:57:33.885Z
+> Total descoberto: 534 | Validados (HTTP 200 + free): 137 | Pulados (licença paga/enterprise): 397
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -155,6 +155,9 @@ updatedAt: 2026-09-23
 | aska-digital/protean-ordaprompt | Python | 0 | MIT |  | [repo](https://github.com/aska-digital/protean-ordaprompt) |
 | nadirdev1/gdelt-mcp | TypeScript | 0 | MIT |  | [repo](https://github.com/nadirdev1/gdelt-mcp) |
 | tobbyyan-barker/thesis-topic-assistant | Python | 0 | MIT |  | [repo](https://github.com/tobbyyan-barker/thesis-topic-assistant) |
+| Simanto-Sarker/Simanto-Sarker-OmniVidex | Python | 0 | MIT |  | [repo](https://github.com/Simanto-Sarker/Simanto-Sarker-OmniVidex) |
+| ksn199ms/TheMalayaliTeacher | TypeScript | 0 | MIT |  | [repo](https://github.com/ksn199ms/TheMalayaliTeacher) |
+| arrizabalagags-png/BatteryReviewForge | Python | 0 | MIT | agent-skills, battery, battery-research | [repo](https://github.com/arrizabalagags-png/BatteryReviewForge) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -551,6 +554,10 @@ updatedAt: 2026-09-23
 - CHEPURISOHANSAI/AI-study-assistant — licença: unknown
 - pyae-bhone-khant/TopicLoom-app — licença: unknown
 - kennedy-muhumuza/inspiring-bible-study-library — licença: unknown
+- isma-py/Topic-3_part-3.2 — licença: unknown
+- MahmoudTarek44/backend-study-tracker — licença: unknown
+- yash-chaudhary19/News-Pulse — licença: unknown
+- monsterbat/mindmap — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 

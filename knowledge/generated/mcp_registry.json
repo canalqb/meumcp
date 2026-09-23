@@ -7491,5 +7491,112 @@
     "validated_at": "2026-09-23T02:57:33.727Z",
     "topics": [],
     "readme_absorbed": "tobbyyan-barker/thesis-topic-assistant"
+  },
+  {
+    "id": 1383695760,
+    "full_name": "isma-py/Topic-3_part-3.2",
+    "url": "https://github.com/isma-py/Topic-3_part-3.2",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-23T15:57:28.820Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1383674205,
+    "full_name": "Simanto-Sarker/Simanto-Sarker-OmniVidex",
+    "url": "https://github.com/Simanto-Sarker/Simanto-Sarker-OmniVidex",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-23T15:57:29.640Z",
+    "topics": [],
+    "readme_absorbed": "Simanto-Sarker/Simanto-Sarker-OmniVidex"
+  },
+  {
+    "id": 1383469584,
+    "full_name": "MahmoudTarek44/backend-study-tracker",
+    "url": "https://github.com/MahmoudTarek44/backend-study-tracker",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-23T15:57:30.552Z",
+    "topics": [],
+    "readme_absorbed": "MahmoudTarek44/backend-study-tracker"
+  },
+  {
+    "id": 1383723212,
+    "full_name": "ksn199ms/TheMalayaliTeacher",
+    "url": "https://github.com/ksn199ms/TheMalayaliTeacher",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-23T15:57:31.321Z",
+    "topics": [],
+    "readme_absorbed": "ksn199ms/TheMalayaliTeacher"
+  },
+  {
+    "id": 1383723609,
+    "full_name": "yash-chaudhary19/News-Pulse",
+    "url": "https://github.com/yash-chaudhary19/News-Pulse",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-23T15:57:32.042Z",
+    "topics": [],
+    "readme_absorbed": "yash-chaudhary19/News-Pulse"
+  },
+  {
+    "id": 1382773044,
+    "full_name": "arrizabalagags-png/BatteryReviewForge",
+    "url": "https://github.com/arrizabalagags-png/BatteryReviewForge",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-23T15:57:32.986Z",
+    "topics": [
+      "agent-skills",
+      "battery",
+      "battery-research",
+      "codex-skills",
+      "electrochemistry",
+      "research-workflow",
+      "review-article",
+      "scientific-writing"
+    ],
+    "readme_absorbed": "arrizabalagags-png/BatteryReviewForge"
+  },
+  {
+    "id": 1383639458,
+    "full_name": "monsterbat/mindmap",
+    "url": "https://github.com/monsterbat/mindmap",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-23T15:57:33.883Z",
+    "topics": [
+      "ai-assisted",
+      "javascript",
+      "mindmap",
+      "planning",
+      "python",
+      "task-management"
+    ],
+    "readme_absorbed": "monsterbat/mindmap"
   }
 ]
