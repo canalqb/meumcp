@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (536 total, 138 validados free, 398 pulados/pago)
+description: MCPs descobertos pelo keyhunter (544 total, 142 validados free, 402 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 536
+version: 544
 createdAt: 2026-09-24
 updatedAt: 2026-09-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-24T02:48:04.126Z
-> Total descoberto: 536 | Validados (HTTP 200 + free): 138 | Pulados (licença paga/enterprise): 398
+> Última execução: 2026-09-24T16:21:13.233Z
+> Total descoberto: 544 | Validados (HTTP 200 + free): 142 | Pulados (licença paga/enterprise): 402
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -159,6 +159,10 @@ updatedAt: 2026-09-24
 | ksn199ms/TheMalayaliTeacher | TypeScript | 0 | MIT |  | [repo](https://github.com/ksn199ms/TheMalayaliTeacher) |
 | arrizabalagags-png/BatteryReviewForge | Python | 0 | MIT | agent-skills, battery, battery-research | [repo](https://github.com/arrizabalagags-png/BatteryReviewForge) |
 | bryl-dev/signal | Python | 0 | MIT |  | [repo](https://github.com/bryl-dev/signal) |
+| ceelew/youtube-topic-filter-template | TypeScript | 0 | MIT |  | [repo](https://github.com/ceelew/youtube-topic-filter-template) |
+| sanjuDiatm-design/multi-agent-system | Python | 0 | MIT |  | [repo](https://github.com/sanjuDiatm-design/multi-agent-system) |
+| fbwork/mtpr-reading-lists | Python | 0 | MIT |  | [repo](https://github.com/fbwork/mtpr-reading-lists) |
+| XRdawang666/textclassify-lab | Python | 0 | MIT |  | [repo](https://github.com/XRdawang666/textclassify-lab) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -560,6 +564,10 @@ updatedAt: 2026-09-24
 - yash-chaudhary19/News-Pulse — licença: unknown
 - monsterbat/mindmap — licença: NOASSERTION
 - ChampCNV/deep-research-dossier — licença: unknown
+- fredericdehedin/joke-engine — licença: unknown
+- Mimtat/REC2-COCORES — licença: unknown
+- nachiketnarkhede/ZEQUI-AI- — licença: unknown
+- Drishya-code/DSA-command-center — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
