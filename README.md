@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-24T02:48:03.056Z | bryl-dev/signal | 0 | MIT | 200 |
+
 | 2026-09-23T15:57:29.640Z | Simanto-Sarker/Simanto-Sarker-OmniVidex | 0 | MIT | 200 |
 
 | 2026-09-23T15:57:31.321Z | ksn199ms/TheMalayaliTeacher | 0 | MIT | 200 |

@@ -7598,5 +7598,31 @@
       "task-management"
     ],
     "readme_absorbed": "monsterbat/mindmap"
+  },
+  {
+    "id": 1384465134,
+    "full_name": "bryl-dev/signal",
+    "url": "https://github.com/bryl-dev/signal",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-24T02:48:03.056Z",
+    "topics": [],
+    "readme_absorbed": "bryl-dev/signal"
+  },
+  {
+    "id": 1384211139,
+    "full_name": "ChampCNV/deep-research-dossier",
+    "url": "https://github.com/ChampCNV/deep-research-dossier",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-24T02:48:04.124Z",
+    "topics": [],
+    "readme_absorbed": "ChampCNV/deep-research-dossier"
   }
 ]

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (534 total, 137 validados free, 397 pulados/pago)
+description: MCPs descobertos pelo keyhunter (536 total, 138 validados free, 398 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 534
-createdAt: 2026-09-23
-updatedAt: 2026-09-23
+version: 536
+createdAt: 2026-09-24
+updatedAt: 2026-09-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-23T15:57:33.885Z
-> Total descoberto: 534 | Validados (HTTP 200 + free): 137 | Pulados (licença paga/enterprise): 397
+> Última execução: 2026-09-24T02:48:04.126Z
+> Total descoberto: 536 | Validados (HTTP 200 + free): 138 | Pulados (licença paga/enterprise): 398
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -158,6 +158,7 @@ updatedAt: 2026-09-23
 | Simanto-Sarker/Simanto-Sarker-OmniVidex | Python | 0 | MIT |  | [repo](https://github.com/Simanto-Sarker/Simanto-Sarker-OmniVidex) |
 | ksn199ms/TheMalayaliTeacher | TypeScript | 0 | MIT |  | [repo](https://github.com/ksn199ms/TheMalayaliTeacher) |
 | arrizabalagags-png/BatteryReviewForge | Python | 0 | MIT | agent-skills, battery, battery-research | [repo](https://github.com/arrizabalagags-png/BatteryReviewForge) |
+| bryl-dev/signal | Python | 0 | MIT |  | [repo](https://github.com/bryl-dev/signal) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -558,6 +559,7 @@ updatedAt: 2026-09-23
 - MahmoudTarek44/backend-study-tracker — licença: unknown
 - yash-chaudhary19/News-Pulse — licença: unknown
 - monsterbat/mindmap — licença: NOASSERTION
+- ChampCNV/deep-research-dossier — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
