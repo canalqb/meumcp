@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-25T03:04:35.961Z | ai4evt/StoryReel-AI | 0 | MIT | 200 |
+
+| 2026-09-25T03:04:37.230Z | lperezmo/topic-filter-mod | 0 | GPL-3.0 | 200 |
+
+| 2026-09-25T03:04:38.425Z | neelsatyavolu/videomcp | 0 | MIT | 200 |
+
 | 2026-09-24T16:21:07.303Z | ceelew/youtube-topic-filter-template | 0 | MIT | 200 |
 
 | 2026-09-24T16:21:08.289Z | sanjuDiatm-design/multi-agent-system | 0 | MIT | 200 |

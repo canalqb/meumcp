@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (544 total, 142 validados free, 402 pulados/pago)
+description: MCPs descobertos pelo keyhunter (549 total, 145 validados free, 404 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 544
-createdAt: 2026-09-24
-updatedAt: 2026-09-24
+version: 549
+createdAt: 2026-09-25
+updatedAt: 2026-09-25
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-24T16:21:13.233Z
-> Total descoberto: 544 | Validados (HTTP 200 + free): 142 | Pulados (licença paga/enterprise): 402
+> Última execução: 2026-09-25T03:04:40.686Z
+> Total descoberto: 549 | Validados (HTTP 200 + free): 145 | Pulados (licença paga/enterprise): 404
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -163,6 +163,9 @@ updatedAt: 2026-09-24
 | sanjuDiatm-design/multi-agent-system | Python | 0 | MIT |  | [repo](https://github.com/sanjuDiatm-design/multi-agent-system) |
 | fbwork/mtpr-reading-lists | Python | 0 | MIT |  | [repo](https://github.com/fbwork/mtpr-reading-lists) |
 | XRdawang666/textclassify-lab | Python | 0 | MIT |  | [repo](https://github.com/XRdawang666/textclassify-lab) |
+| ai4evt/StoryReel-AI | Python | 0 | MIT | ai-video, automation, content-creation | [repo](https://github.com/ai4evt/StoryReel-AI) |
+| lperezmo/topic-filter-mod | Python | 0 | GPL-3.0 |  | [repo](https://github.com/lperezmo/topic-filter-mod) |
+| neelsatyavolu/videomcp | TypeScript | 0 | MIT | claude-code, cli, codex | [repo](https://github.com/neelsatyavolu/videomcp) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -568,6 +571,8 @@ updatedAt: 2026-09-24
 - Mimtat/REC2-COCORES — licença: unknown
 - nachiketnarkhede/ZEQUI-AI- — licença: unknown
 - Drishya-code/DSA-command-center — licença: unknown
+- kubilaykoccc/mini-llm — licença: unknown
+- nishantsingh93/pulse — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
