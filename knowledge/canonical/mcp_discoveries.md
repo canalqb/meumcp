@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (549 total, 145 validados free, 404 pulados/pago)
+description: MCPs descobertos pelo keyhunter (555 total, 146 validados free, 409 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 549
+version: 555
 createdAt: 2026-09-25
 updatedAt: 2026-09-25
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-25T03:04:40.686Z
-> Total descoberto: 549 | Validados (HTTP 200 + free): 145 | Pulados (licença paga/enterprise): 404
+> Última execução: 2026-09-25T16:21:29.946Z
+> Total descoberto: 555 | Validados (HTTP 200 + free): 146 | Pulados (licença paga/enterprise): 409
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -166,6 +166,7 @@ updatedAt: 2026-09-25
 | ai4evt/StoryReel-AI | Python | 0 | MIT | ai-video, automation, content-creation | [repo](https://github.com/ai4evt/StoryReel-AI) |
 | lperezmo/topic-filter-mod | Python | 0 | GPL-3.0 |  | [repo](https://github.com/lperezmo/topic-filter-mod) |
 | neelsatyavolu/videomcp | TypeScript | 0 | MIT | claude-code, cli, codex | [repo](https://github.com/neelsatyavolu/videomcp) |
+| Wirasm/archon-video | Python | 0 | MIT |  | [repo](https://github.com/Wirasm/archon-video) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -573,6 +574,11 @@ updatedAt: 2026-09-25
 - Drishya-code/DSA-command-center — licença: unknown
 - kubilaykoccc/mini-llm — licença: unknown
 - nishantsingh93/pulse — licença: unknown
+- Liangyl0428/energy-topic-hotspots — licença: unknown
+- Liangyl0428/energy-topic-identification — licença: unknown
+- sovichea99/17_SUOY_SOVICHEA_HOMEWORK_TOPIC07_SHOPPING_AGENT — licença: unknown
+- Rushant-123/agentbus — licença: unknown
+- BNM-IN/team-knowledge-hub-library — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

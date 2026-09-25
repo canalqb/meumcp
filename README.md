@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-25T16:21:26.765Z | Wirasm/archon-video | 0 | MIT | 200 |
+
 | 2026-09-25T03:04:35.961Z | ai4evt/StoryReel-AI | 0 | MIT | 200 |
 
 | 2026-09-25T03:04:37.230Z | lperezmo/topic-filter-mod | 0 | GPL-3.0 | 200 |
