@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (561 total, 149 validados free, 412 pulados/pago)
+description: MCPs descobertos pelo keyhunter (566 total, 150 validados free, 416 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 561
+version: 566
 createdAt: 2026-09-26
 updatedAt: 2026-09-26
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-26T03:09:13.818Z
-> Total descoberto: 561 | Validados (HTTP 200 + free): 149 | Pulados (licença paga/enterprise): 412
+> Última execução: 2026-09-26T15:36:05.200Z
+> Total descoberto: 566 | Validados (HTTP 200 + free): 150 | Pulados (licença paga/enterprise): 416
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -170,6 +170,7 @@ updatedAt: 2026-09-26
 | ramtoo-cell/agent-event-bus | Python | 0 | MIT |  | [repo](https://github.com/ramtoo-cell/agent-event-bus) |
 | ftaricano/tapagent-telegram | Python | 0 | MIT | ai, automation, bot | [repo](https://github.com/ftaricano/tapagent-telegram) |
 | typesearch-ai/news-briefing | TypeScript | 0 | MIT | ai-agents, demo, llm | [repo](https://github.com/typesearch-ai/news-briefing) |
+| ninad-k/Echoface | Python | 0 | Apache-2.0 | ai-avatar, ffmpeg, local-first | [repo](https://github.com/ninad-k/Echoface) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -585,6 +586,10 @@ updatedAt: 2026-09-26
 - richard-costa/learning-links — licença: unknown
 - MortyYJT/MercuryDesk — licença: unknown
 - BarryLi159159/humanoid — licença: NOASSERTION
+- karanbagh/slack-notifier — licença: unknown
+- MonicaRajeshkanna/ai-research-agent — licença: unknown
+- Arkoms903/learninig_recc_db_implemented — licença: unknown
+- Janicebenita/Customer-Feedback-Intelligence-Agent — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

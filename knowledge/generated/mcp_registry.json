@@ -7995,5 +7995,80 @@
     "validated_at": "2026-09-26T03:09:13.817Z",
     "topics": [],
     "readme_absorbed": "BarryLi159159/humanoid"
+  },
+  {
+    "id": 1388459365,
+    "full_name": "ninad-k/Echoface",
+    "url": "https://github.com/ninad-k/Echoface",
+    "language": "Python",
+    "stars": 0,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-26T15:36:01.910Z",
+    "topics": [
+      "ai-avatar",
+      "ffmpeg",
+      "local-first",
+      "piper-tts",
+      "python",
+      "sadtalker",
+      "talking-head",
+      "wav2lip",
+      "youtube-shorts"
+    ],
+    "readme_absorbed": "ninad-k/Echoface"
+  },
+  {
+    "id": 1389422958,
+    "full_name": "karanbagh/slack-notifier",
+    "url": "https://github.com/karanbagh/slack-notifier",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-26T15:36:02.742Z",
+    "topics": [],
+    "readme_absorbed": "karanbagh/slack-notifier"
+  },
+  {
+    "id": 1389416605,
+    "full_name": "MonicaRajeshkanna/ai-research-agent",
+    "url": "https://github.com/MonicaRajeshkanna/ai-research-agent",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-26T15:36:03.562Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1389373091,
+    "full_name": "Arkoms903/learninig_recc_db_implemented",
+    "url": "https://github.com/Arkoms903/learninig_recc_db_implemented",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-26T15:36:04.347Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1389319291,
+    "full_name": "Janicebenita/Customer-Feedback-Intelligence-Agent",
+    "url": "https://github.com/Janicebenita/Customer-Feedback-Intelligence-Agent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-26T15:36:05.199Z",
+    "topics": [],
+    "readme_absorbed": "Janicebenita/Customer-Feedback-Intelligence-Agent"
   }
 ]
