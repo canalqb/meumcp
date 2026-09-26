@@ -7898,5 +7898,102 @@
     "validated_at": "2026-09-25T16:21:29.944Z",
     "topics": [],
     "readme_absorbed": "BNM-IN/team-knowledge-hub-library"
+  },
+  {
+    "id": 1388426399,
+    "full_name": "ramtoo-cell/agent-event-bus",
+    "url": "https://github.com/ramtoo-cell/agent-event-bus",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-26T03:09:09.077Z",
+    "topics": [],
+    "readme_absorbed": "ramtoo-cell/agent-event-bus"
+  },
+  {
+    "id": 1388409962,
+    "full_name": "ftaricano/tapagent-telegram",
+    "url": "https://github.com/ftaricano/tapagent-telegram",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-26T03:09:10.008Z",
+    "topics": [
+      "ai",
+      "automation",
+      "bot",
+      "bridge",
+      "claude-code",
+      "developer-tools",
+      "python",
+      "telegram"
+    ],
+    "readme_absorbed": "ftaricano/tapagent-telegram"
+  },
+  {
+    "id": 1388236688,
+    "full_name": "richard-costa/learning-links",
+    "url": "https://github.com/richard-costa/learning-links",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-26T03:09:10.895Z",
+    "topics": [],
+    "readme_absorbed": "richard-costa/learning-links"
+  },
+  {
+    "id": 1387991968,
+    "full_name": "typesearch-ai/news-briefing",
+    "url": "https://github.com/typesearch-ai/news-briefing",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-26T03:09:11.873Z",
+    "topics": [
+      "ai-agents",
+      "demo",
+      "llm",
+      "news-api",
+      "news-briefing",
+      "news-search",
+      "nextjs",
+      "typesearch",
+      "vercel-ai-sdk"
+    ],
+    "readme_absorbed": "typesearch-ai/news-briefing"
+  },
+  {
+    "id": 1388376396,
+    "full_name": "MortyYJT/MercuryDesk",
+    "url": "https://github.com/MortyYJT/MercuryDesk",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-26T03:09:12.809Z",
+    "topics": [],
+    "readme_absorbed": "MortyYJT/MercuryDesk"
+  },
+  {
+    "id": 1388322846,
+    "full_name": "BarryLi159159/humanoid",
+    "url": "https://github.com/BarryLi159159/humanoid",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-26T03:09:13.817Z",
+    "topics": [],
+    "readme_absorbed": "BarryLi159159/humanoid"
   }
 ]

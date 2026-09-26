@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-26T03:09:09.077Z | ramtoo-cell/agent-event-bus | 0 | MIT | 200 |
+
+| 2026-09-26T03:09:10.008Z | ftaricano/tapagent-telegram | 0 | MIT | 200 |
+
+| 2026-09-26T03:09:11.873Z | typesearch-ai/news-briefing | 0 | MIT | 200 |
+
 | 2026-09-25T16:21:26.765Z | Wirasm/archon-video | 0 | MIT | 200 |
 
 | 2026-09-25T03:04:35.961Z | ai4evt/StoryReel-AI | 0 | MIT | 200 |
