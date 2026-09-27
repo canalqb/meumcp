@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (573 total, 152 validados free, 421 pulados/pago)
+description: MCPs descobertos pelo keyhunter (580 total, 155 validados free, 425 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 573
+version: 580
 createdAt: 2026-09-27
 updatedAt: 2026-09-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-27T03:15:10.925Z
-> Total descoberto: 573 | Validados (HTTP 200 + free): 152 | Pulados (licença paga/enterprise): 421
+> Última execução: 2026-09-27T16:15:13.086Z
+> Total descoberto: 580 | Validados (HTTP 200 + free): 155 | Pulados (licença paga/enterprise): 425
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -173,6 +173,9 @@ updatedAt: 2026-09-27
 | ninad-k/Echoface | Python | 0 | Apache-2.0 | ai-avatar, ffmpeg, local-first | [repo](https://github.com/ninad-k/Echoface) |
 | ashwanthlonely/Linkedin-automation | Python | 0 | MIT |  | [repo](https://github.com/ashwanthlonely/Linkedin-automation) |
 | RomanShvardak/wikipedia-trend-agent | Python | 0 | Apache-2.0 |  | [repo](https://github.com/RomanShvardak/wikipedia-trend-agent) |
+| IvanBil/wiki-radar-skill | Python | 0 | MIT |  | [repo](https://github.com/IvanBil/wiki-radar-skill) |
+| thruuu/thruuu-skills | Python | 0 | MIT |  | [repo](https://github.com/thruuu/thruuu-skills) |
+| YouRanCoder/aiflow | TypeScript | 1 | MIT |  | [repo](https://github.com/YouRanCoder/aiflow) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -597,6 +600,10 @@ updatedAt: 2026-09-27
 - RITHxDTT/21_YUNG_BUNNARITH_AI_HOMEWORK_TOPIC_07 — licença: unknown
 - roblitz-spec/weather-sculpt — licença: NOASSERTION
 - LazyAI-Engineer/InstaAI-Carousel — licença: unknown
+- veasnavk5/19_SOM_VEASNA_SR_HOMEWORK_Topic7 — licença: unknown
+- veasnavk5/19_SOM_VEASNA_SR_HOMEWORK__Topic07 — licença: unknown
+- veasnavk5/19_SOM_VEASNA_SR_HOMEWORK_Topic07 — licença: unknown
+- Jana08-hub/Fleet-Track — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

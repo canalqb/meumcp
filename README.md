@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-27T16:15:09.204Z | IvanBil/wiki-radar-skill | 0 | MIT | 200 |
+
+| 2026-09-27T16:15:11.436Z | thruuu/thruuu-skills | 0 | MIT | 200 |
+
+| 2026-09-27T16:15:12.152Z | YouRanCoder/aiflow | 1 | MIT | 200 |
+
 | 2026-09-27T03:15:06.520Z | ashwanthlonely/Linkedin-automation | 0 | MIT | 200 |
 
 | 2026-09-27T03:15:10.923Z | RomanShvardak/wikipedia-trend-agent | 0 | Apache-2.0 | 200 |
