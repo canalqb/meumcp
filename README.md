@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-27T03:15:06.520Z | ashwanthlonely/Linkedin-automation | 0 | MIT | 200 |
+
+| 2026-09-27T03:15:10.923Z | RomanShvardak/wikipedia-trend-agent | 0 | Apache-2.0 | 200 |
+
 | 2026-09-26T15:36:01.910Z | ninad-k/Echoface | 0 | Apache-2.0 | 200 |
 
 | 2026-09-26T03:09:09.077Z | ramtoo-cell/agent-event-bus | 0 | MIT | 200 |

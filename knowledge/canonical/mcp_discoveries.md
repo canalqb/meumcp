@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (566 total, 150 validados free, 416 pulados/pago)
+description: MCPs descobertos pelo keyhunter (573 total, 152 validados free, 421 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 566
-createdAt: 2026-09-26
-updatedAt: 2026-09-26
+version: 573
+createdAt: 2026-09-27
+updatedAt: 2026-09-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-26T15:36:05.200Z
-> Total descoberto: 566 | Validados (HTTP 200 + free): 150 | Pulados (licença paga/enterprise): 416
+> Última execução: 2026-09-27T03:15:10.925Z
+> Total descoberto: 573 | Validados (HTTP 200 + free): 152 | Pulados (licença paga/enterprise): 421
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -171,6 +171,8 @@ updatedAt: 2026-09-26
 | ftaricano/tapagent-telegram | Python | 0 | MIT | ai, automation, bot | [repo](https://github.com/ftaricano/tapagent-telegram) |
 | typesearch-ai/news-briefing | TypeScript | 0 | MIT | ai-agents, demo, llm | [repo](https://github.com/typesearch-ai/news-briefing) |
 | ninad-k/Echoface | Python | 0 | Apache-2.0 | ai-avatar, ffmpeg, local-first | [repo](https://github.com/ninad-k/Echoface) |
+| ashwanthlonely/Linkedin-automation | Python | 0 | MIT |  | [repo](https://github.com/ashwanthlonely/Linkedin-automation) |
+| RomanShvardak/wikipedia-trend-agent | Python | 0 | Apache-2.0 |  | [repo](https://github.com/RomanShvardak/wikipedia-trend-agent) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -590,6 +592,11 @@ updatedAt: 2026-09-26
 - MonicaRajeshkanna/ai-research-agent — licença: unknown
 - Arkoms903/learninig_recc_db_implemented — licença: unknown
 - Janicebenita/Customer-Feedback-Intelligence-Agent — licença: unknown
+- bgtechlab/Trending-Topic-Finder — licença: unknown
+- hemanbhullar/Pytest-Request-module-API-Testing-All-Topics — licença: unknown
+- RITHxDTT/21_YUNG_BUNNARITH_AI_HOMEWORK_TOPIC_07 — licença: unknown
+- roblitz-spec/weather-sculpt — licença: NOASSERTION
+- LazyAI-Engineer/InstaAI-Carousel — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
