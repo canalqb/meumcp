@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (580 total, 155 validados free, 425 pulados/pago)
+description: MCPs descobertos pelo keyhunter (583 total, 156 validados free, 427 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 580
-createdAt: 2026-09-27
-updatedAt: 2026-09-27
+version: 583
+createdAt: 2026-09-28
+updatedAt: 2026-09-28
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-27T16:15:13.086Z
-> Total descoberto: 580 | Validados (HTTP 200 + free): 155 | Pulados (licença paga/enterprise): 425
+> Última execução: 2026-09-28T03:11:46.179Z
+> Total descoberto: 583 | Validados (HTTP 200 + free): 156 | Pulados (licença paga/enterprise): 427
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -176,6 +176,7 @@ updatedAt: 2026-09-27
 | IvanBil/wiki-radar-skill | Python | 0 | MIT |  | [repo](https://github.com/IvanBil/wiki-radar-skill) |
 | thruuu/thruuu-skills | Python | 0 | MIT |  | [repo](https://github.com/thruuu/thruuu-skills) |
 | YouRanCoder/aiflow | TypeScript | 1 | MIT |  | [repo](https://github.com/YouRanCoder/aiflow) |
+| ismailokta/pi-commit-split | TypeScript | 0 | MIT |  | [repo](https://github.com/ismailokta/pi-commit-split) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -604,6 +605,8 @@ updatedAt: 2026-09-27
 - veasnavk5/19_SOM_VEASNA_SR_HOMEWORK__Topic07 — licença: unknown
 - veasnavk5/19_SOM_VEASNA_SR_HOMEWORK_Topic07 — licença: unknown
 - Jana08-hub/Fleet-Track — licença: unknown
+- Prasoon1111/Source-Behaviour-Analyzer — licença: unknown
+- CSCCMichael-Ko/Michael-Ko---Project-1-Repository — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

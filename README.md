@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-28T03:11:45.312Z | ismailokta/pi-commit-split | 0 | MIT | 200 |
+
 | 2026-09-27T16:15:09.204Z | IvanBil/wiki-radar-skill | 0 | MIT | 200 |
 
 | 2026-09-27T16:15:11.436Z | thruuu/thruuu-skills | 0 | MIT | 200 |
