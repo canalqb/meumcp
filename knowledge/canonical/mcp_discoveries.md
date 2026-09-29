@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (595 total, 160 validados free, 435 pulados/pago)
+description: MCPs descobertos pelo keyhunter (604 total, 160 validados free, 444 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 595
+version: 604
 createdAt: 2026-09-29
 updatedAt: 2026-09-29
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-29T03:50:01.008Z
-> Total descoberto: 595 | Validados (HTTP 200 + free): 160 | Pulados (licença paga/enterprise): 435
+> Última execução: 2026-09-29T17:29:56.139Z
+> Total descoberto: 604 | Validados (HTTP 200 + free): 160 | Pulados (licença paga/enterprise): 444
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -619,6 +619,15 @@ updatedAt: 2026-09-29
 - irachrist1/swahili-news-sequential-models — licença: unknown
 - kunalwagh77/Building-Facade-Defect-Classification — licença: unknown
 - rachtachar/Selected_Topic_MiniProject — licença: unknown
+- hmcts/dtsse-agent-hub — licença: unknown
+- fernandaarnaut/topico-do-dia — licença: unknown
+- DE-GOURAVKUMAR/kafka_to_cassandra — licença: unknown
+- ericprince957-cloud/absu-project-hub — licença: unknown
+- ultriti/Research-Paper-Topic-Classification-End-to-End-System — licença: unknown
+- Gauravsrivastava76/studymate-ai — licença: unknown
+- JohnChukwuemekaMgbemene/Topic-5 — licença: unknown
+- jibranabduljabbar/shopify-ai-blog-publisher — licença: unknown
+- gcjk768/sg-recipe-bot — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
