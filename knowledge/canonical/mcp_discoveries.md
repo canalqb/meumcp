@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (589 total, 156 validados free, 433 pulados/pago)
+description: MCPs descobertos pelo keyhunter (595 total, 160 validados free, 435 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 589
-createdAt: 2026-09-28
-updatedAt: 2026-09-28
+version: 595
+createdAt: 2026-09-29
+updatedAt: 2026-09-29
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-28T19:08:08.057Z
-> Total descoberto: 589 | Validados (HTTP 200 + free): 156 | Pulados (licença paga/enterprise): 433
+> Última execução: 2026-09-29T03:50:01.008Z
+> Total descoberto: 595 | Validados (HTTP 200 + free): 160 | Pulados (licença paga/enterprise): 435
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -177,6 +177,10 @@ updatedAt: 2026-09-28
 | thruuu/thruuu-skills | Python | 0 | MIT |  | [repo](https://github.com/thruuu/thruuu-skills) |
 | YouRanCoder/aiflow | TypeScript | 1 | MIT |  | [repo](https://github.com/YouRanCoder/aiflow) |
 | ismailokta/pi-commit-split | TypeScript | 0 | MIT |  | [repo](https://github.com/ismailokta/pi-commit-split) |
+| chencyr/dual-doc-export | Python | 0 | MIT |  | [repo](https://github.com/chencyr/dual-doc-export) |
+| tojacob03/forschungsatlas | TypeScript | 0 | MIT | openalex, python, research-information | [repo](https://github.com/tojacob03/forschungsatlas) |
+| lhg-skills/lhg-benchmark-topic-factory | Python | 0 | MIT |  | [repo](https://github.com/lhg-skills/lhg-benchmark-topic-factory) |
+| mergesafe-ai/claude-telegram-topics | TypeScript | 0 | MIT |  | [repo](https://github.com/mergesafe-ai/claude-telegram-topics) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -613,6 +617,8 @@ updatedAt: 2026-09-28
 - OMSHIVSHARAN/AI-Engineer — licença: unknown
 - harshit26bas10088-hash/Quiz-and-Flashcard — licença: unknown
 - irachrist1/swahili-news-sequential-models — licença: unknown
+- kunalwagh77/Building-Facade-Defect-Classification — licença: unknown
+- rachtachar/Selected_Topic_MiniProject — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

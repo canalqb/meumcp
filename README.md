@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-29T03:49:56.746Z | chencyr/dual-doc-export | 0 | MIT | 200 |
+
+| 2026-09-29T03:49:58.098Z | tojacob03/forschungsatlas | 0 | MIT | 200 |
+
+| 2026-09-29T03:50:00.110Z | lhg-skills/lhg-benchmark-topic-factory | 0 | MIT | 200 |
+
+| 2026-09-29T03:50:01.006Z | mergesafe-ai/claude-telegram-topics | 0 | MIT | 200 |
+
 | 2026-09-28T03:11:45.312Z | ismailokta/pi-commit-split | 0 | MIT | 200 |
 
 | 2026-09-27T16:15:09.204Z | IvanBil/wiki-radar-skill | 0 | MIT | 200 |

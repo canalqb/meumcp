@@ -8369,5 +8369,91 @@
     "validated_at": "2026-09-28T19:08:08.055Z",
     "topics": [],
     "readme_absorbed": "irachrist1/swahili-news-sequential-models"
+  },
+  {
+    "id": 1394180518,
+    "full_name": "kunalwagh77/Building-Facade-Defect-Classification",
+    "url": "https://github.com/kunalwagh77/Building-Facade-Defect-Classification",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-29T03:49:54.876Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1394138391,
+    "full_name": "rachtachar/Selected_Topic_MiniProject",
+    "url": "https://github.com/rachtachar/Selected_Topic_MiniProject",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-09-29T03:49:55.821Z",
+    "topics": [],
+    "readme_absorbed": "rachtachar/Selected_Topic_MiniProject"
+  },
+  {
+    "id": 1394107325,
+    "full_name": "chencyr/dual-doc-export",
+    "url": "https://github.com/chencyr/dual-doc-export",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-29T03:49:56.746Z",
+    "topics": [],
+    "readme_absorbed": "chencyr/dual-doc-export"
+  },
+  {
+    "id": 1393933319,
+    "full_name": "tojacob03/forschungsatlas",
+    "url": "https://github.com/tojacob03/forschungsatlas",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-29T03:49:58.098Z",
+    "topics": [
+      "openalex",
+      "python",
+      "research-information",
+      "scholarly-data",
+      "typescript",
+      "university",
+      "vite"
+    ],
+    "readme_absorbed": "tojacob03/forschungsatlas"
+  },
+  {
+    "id": 1394073342,
+    "full_name": "lhg-skills/lhg-benchmark-topic-factory",
+    "url": "https://github.com/lhg-skills/lhg-benchmark-topic-factory",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-29T03:50:00.110Z",
+    "topics": [],
+    "readme_absorbed": "lhg-skills/lhg-benchmark-topic-factory"
+  },
+  {
+    "id": 1394085359,
+    "full_name": "mergesafe-ai/claude-telegram-topics",
+    "url": "https://github.com/mergesafe-ai/claude-telegram-topics",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-09-29T03:50:01.006Z",
+    "topics": [],
+    "readme_absorbed": "mergesafe-ai/claude-telegram-topics"
   }
 ]
