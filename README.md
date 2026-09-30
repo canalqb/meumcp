@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-30T03:38:08.083Z | cyhzzz/topic-hot | 0 | MIT | 200 |
+
+| 2026-09-30T03:38:11.398Z | DeepSeekOracle/-Autonomous-AI-Talk-Radio | 0 | Apache-2.0 | 200 |
+
 | 2026-09-29T03:49:56.746Z | chencyr/dual-doc-export | 0 | MIT | 200 |
 
 | 2026-09-29T03:49:58.098Z | tojacob03/forschungsatlas | 0 | MIT | 200 |

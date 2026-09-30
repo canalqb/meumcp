@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (604 total, 160 validados free, 444 pulados/pago)
+description: MCPs descobertos pelo keyhunter (613 total, 162 validados free, 451 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 604
-createdAt: 2026-09-29
-updatedAt: 2026-09-29
+version: 613
+createdAt: 2026-09-30
+updatedAt: 2026-09-30
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-29T17:29:56.139Z
-> Total descoberto: 604 | Validados (HTTP 200 + free): 160 | Pulados (licença paga/enterprise): 444
+> Última execução: 2026-09-30T03:38:14.517Z
+> Total descoberto: 613 | Validados (HTTP 200 + free): 162 | Pulados (licença paga/enterprise): 451
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -181,6 +181,8 @@ updatedAt: 2026-09-29
 | tojacob03/forschungsatlas | TypeScript | 0 | MIT | openalex, python, research-information | [repo](https://github.com/tojacob03/forschungsatlas) |
 | lhg-skills/lhg-benchmark-topic-factory | Python | 0 | MIT |  | [repo](https://github.com/lhg-skills/lhg-benchmark-topic-factory) |
 | mergesafe-ai/claude-telegram-topics | TypeScript | 0 | MIT |  | [repo](https://github.com/mergesafe-ai/claude-telegram-topics) |
+| cyhzzz/topic-hot | TypeScript | 0 | MIT |  | [repo](https://github.com/cyhzzz/topic-hot) |
+| DeepSeekOracle/-Autonomous-AI-Talk-Radio | TypeScript | 0 | Apache-2.0 |  | [repo](https://github.com/DeepSeekOracle/-Autonomous-AI-Talk-Radio) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -628,6 +630,13 @@ updatedAt: 2026-09-29
 - JohnChukwuemekaMgbemene/Topic-5 — licença: unknown
 - jibranabduljabbar/shopify-ai-blog-publisher — licença: unknown
 - gcjk768/sg-recipe-bot — licença: unknown
+- kushbpatel1011-cloud/Jev-review — licença: unknown
+- bhuvesh1/edunotebook — licença: unknown
+- videmsahithi25-glitch/Deepagent — licença: unknown
+- sharvesh-sathish-kumar/CIMA — licença: unknown
+- mesdanasi19-cyber/CSELEC2-TOPIC9-ACTS — licença: unknown
+- vandellier/rundown — licença: unknown
+- mathavanbsccs25-bot/EduGenie-AI-Project — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
