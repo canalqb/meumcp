@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (613 total, 162 validados free, 451 pulados/pago)
+description: MCPs descobertos pelo keyhunter (621 total, 166 validados free, 455 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 613
+version: 621
 createdAt: 2026-09-30
 updatedAt: 2026-09-30
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-09-30T03:38:14.517Z
-> Total descoberto: 613 | Validados (HTTP 200 + free): 162 | Pulados (licença paga/enterprise): 451
+> Última execução: 2026-09-30T17:28:23.197Z
+> Total descoberto: 621 | Validados (HTTP 200 + free): 166 | Pulados (licença paga/enterprise): 455
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -183,6 +183,10 @@ updatedAt: 2026-09-30
 | mergesafe-ai/claude-telegram-topics | TypeScript | 0 | MIT |  | [repo](https://github.com/mergesafe-ai/claude-telegram-topics) |
 | cyhzzz/topic-hot | TypeScript | 0 | MIT |  | [repo](https://github.com/cyhzzz/topic-hot) |
 | DeepSeekOracle/-Autonomous-AI-Talk-Radio | TypeScript | 0 | Apache-2.0 |  | [repo](https://github.com/DeepSeekOracle/-Autonomous-AI-Talk-Radio) |
+| Blaiirytale/TKUbuddy | TypeScript | 0 | MIT |  | [repo](https://github.com/Blaiirytale/TKUbuddy) |
+| Farhan-ux/chat-topic-modeler | TypeScript | 0 | MIT |  | [repo](https://github.com/Farhan-ux/chat-topic-modeler) |
+| amirtavakolihaghighi/claude-code-telegram-bridge | Python | 0 | MIT | automation, claude-code, python | [repo](https://github.com/amirtavakolihaghighi/claude-code-telegram-bridge) |
+| wally-dk24/trendwatch | Python | 0 | MIT |  | [repo](https://github.com/wally-dk24/trendwatch) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -637,6 +641,10 @@ updatedAt: 2026-09-30
 - mesdanasi19-cyber/CSELEC2-TOPIC9-ACTS — licença: unknown
 - vandellier/rundown — licença: unknown
 - mathavanbsccs25-bot/EduGenie-AI-Project — licença: unknown
+- buihuy100704-blip/Finance_Auction_Topic15_v5-1-.zip — licença: unknown
+- utkarsh13200/ReelForge-AI — licença: unknown
+- khandelwalharshit2832/VITyarthi_Project — licença: unknown
+- Dev-coder21/MythForge — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

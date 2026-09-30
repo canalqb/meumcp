@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-09-30T17:28:18.962Z | Blaiirytale/TKUbuddy | 0 | MIT | 200 |
+
+| 2026-09-30T17:28:21.388Z | Farhan-ux/chat-topic-modeler | 0 | MIT | 200 |
+
+| 2026-09-30T17:28:22.235Z | amirtavakolihaghighi/claude-code-telegram-bridge | 0 | MIT | 200 |
+
+| 2026-09-30T17:28:23.195Z | wally-dk24/trendwatch | 0 | MIT | 200 |
+
 | 2026-09-30T03:38:08.083Z | cyhzzz/topic-hot | 0 | MIT | 200 |
 
 | 2026-09-30T03:38:11.398Z | DeepSeekOracle/-Autonomous-AI-Talk-Radio | 0 | Apache-2.0 | 200 |
