@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-01T17:53:48.984Z | hugoblanc/strato | 0 | MIT | 200 |
+
+| 2026-10-01T17:53:49.842Z | Mikepat711/explainer-video-pipeline | 1 | MIT | 200 |
+
 | 2026-09-30T17:28:18.962Z | Blaiirytale/TKUbuddy | 0 | MIT | 200 |
 
 | 2026-09-30T17:28:21.388Z | Farhan-ux/chat-topic-modeler | 0 | MIT | 200 |

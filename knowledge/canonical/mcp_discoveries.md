@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (624 total, 166 validados free, 458 pulados/pago)
+description: MCPs descobertos pelo keyhunter (632 total, 168 validados free, 464 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 624
+version: 632
 createdAt: 2026-10-01
 updatedAt: 2026-10-01
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-01T03:43:43.767Z
-> Total descoberto: 624 | Validados (HTTP 200 + free): 166 | Pulados (licença paga/enterprise): 458
+> Última execução: 2026-10-01T17:53:51.745Z
+> Total descoberto: 632 | Validados (HTTP 200 + free): 168 | Pulados (licença paga/enterprise): 464
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -187,6 +187,8 @@ updatedAt: 2026-10-01
 | Farhan-ux/chat-topic-modeler | TypeScript | 0 | MIT |  | [repo](https://github.com/Farhan-ux/chat-topic-modeler) |
 | amirtavakolihaghighi/claude-code-telegram-bridge | Python | 0 | MIT | automation, claude-code, python | [repo](https://github.com/amirtavakolihaghighi/claude-code-telegram-bridge) |
 | wally-dk24/trendwatch | Python | 0 | MIT |  | [repo](https://github.com/wally-dk24/trendwatch) |
+| hugoblanc/strato | TypeScript | 0 | MIT |  | [repo](https://github.com/hugoblanc/strato) |
+| Mikepat711/explainer-video-pipeline | Python | 1 | MIT |  | [repo](https://github.com/Mikepat711/explainer-video-pipeline) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -648,6 +650,12 @@ updatedAt: 2026-10-01
 - SanketBhandarii/3-idiots — licença: unknown
 - racso222003/TopicGym_V.1.0 — licença: unknown
 - heock8528/ros2_study — licença: unknown
+- harshkumarcloud/preppilot — licença: unknown
+- lyr-ai/leetcode — licença: unknown
+- d4nilevi4/apehub-bot — licença: unknown
+- folarinwa4-rasaq/Wikipedia-AI-Researcher — licença: unknown
+- Enybyy/descargar-videos-bulk — licença: unknown
+- sufiankhan-dev/Lernio — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
