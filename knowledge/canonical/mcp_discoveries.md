@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (635 total, 168 validados free, 467 pulados/pago)
+description: MCPs descobertos pelo keyhunter (639 total, 170 validados free, 469 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 635
+version: 639
 createdAt: 2026-10-02
 updatedAt: 2026-10-02
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-02T03:42:48.141Z
-> Total descoberto: 635 | Validados (HTTP 200 + free): 168 | Pulados (licença paga/enterprise): 467
+> Última execução: 2026-10-02T17:18:10.158Z
+> Total descoberto: 639 | Validados (HTTP 200 + free): 170 | Pulados (licença paga/enterprise): 469
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -189,6 +189,8 @@ updatedAt: 2026-10-02
 | wally-dk24/trendwatch | Python | 0 | MIT |  | [repo](https://github.com/wally-dk24/trendwatch) |
 | hugoblanc/strato | TypeScript | 0 | MIT |  | [repo](https://github.com/hugoblanc/strato) |
 | Mikepat711/explainer-video-pipeline | Python | 1 | MIT |  | [repo](https://github.com/Mikepat711/explainer-video-pipeline) |
+| d0j/tow | Python | 0 | MIT | deluge, fastapi, portable | [repo](https://github.com/d0j/tow) |
+| kshah200419-create/paperpilot | Python | 0 | MIT | arxiv, data-pipeline, fastapi | [repo](https://github.com/kshah200419-create/paperpilot) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -659,6 +661,8 @@ updatedAt: 2026-10-02
 - rhezadaniel7/news-topic-growth-forecasting — licença: unknown
 - BACON233555/DailyPaperSummaryGeneration_Skill — licença: unknown
 - octoberKidd0/RAG-based-system-with-RBAC — licença: unknown
+- sdpilon/claude-code-policy-plugin — licença: unknown
+- VISHWANATHAN13/ConceptExplain-CrewAI — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

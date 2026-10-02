@@ -9003,5 +9003,81 @@
     "validated_at": "2026-10-02T03:42:48.138Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1401615102,
+    "full_name": "d0j/tow",
+    "url": "https://github.com/d0j/tow",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-02T17:18:07.425Z",
+    "topics": [
+      "deluge",
+      "fastapi",
+      "portable",
+      "python",
+      "qbittorrent",
+      "self-hosted",
+      "telegram-notifications",
+      "torrent",
+      "torrent-tracker",
+      "transmission"
+    ],
+    "readme_absorbed": "d0j/tow"
+  },
+  {
+    "id": 1402099902,
+    "full_name": "kshah200419-create/paperpilot",
+    "url": "https://github.com/kshah200419-create/paperpilot",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-02T17:18:08.480Z",
+    "topics": [
+      "arxiv",
+      "data-pipeline",
+      "fastapi",
+      "hybrid-search",
+      "information-retrieval",
+      "llm",
+      "machine-learning",
+      "pgvector",
+      "postgresql",
+      "rag",
+      "react",
+      "typescript"
+    ],
+    "readme_absorbed": "kshah200419-create/paperpilot"
+  },
+  {
+    "id": 1402089453,
+    "full_name": "sdpilon/claude-code-policy-plugin",
+    "url": "https://github.com/sdpilon/claude-code-policy-plugin",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-02T17:18:09.317Z",
+    "topics": [],
+    "readme_absorbed": "sdpilon/claude-code-policy-plugin"
+  },
+  {
+    "id": 1402074060,
+    "full_name": "VISHWANATHAN13/ConceptExplain-CrewAI",
+    "url": "https://github.com/VISHWANATHAN13/ConceptExplain-CrewAI",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-02T17:18:10.157Z",
+    "topics": [],
+    "readme_absorbed": "VISHWANATHAN13/ConceptExplain-CrewAI"
   }
 ]

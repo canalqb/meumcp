@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-02T17:18:07.425Z | d0j/tow | 0 | MIT | 200 |
+
+| 2026-10-02T17:18:08.480Z | kshah200419-create/paperpilot | 0 | MIT | 200 |
+
 | 2026-10-01T17:53:48.984Z | hugoblanc/strato | 0 | MIT | 200 |
 
 | 2026-10-01T17:53:49.842Z | Mikepat711/explainer-video-pipeline | 1 | MIT | 200 |
