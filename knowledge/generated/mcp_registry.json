@@ -8964,5 +8964,44 @@
       "tailwindcss"
     ],
     "readme_absorbed": "sufiankhan-dev/Lernio"
+  },
+  {
+    "id": 1400992123,
+    "full_name": "rhezadaniel7/news-topic-growth-forecasting",
+    "url": "https://github.com/rhezadaniel7/news-topic-growth-forecasting",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-02T03:42:46.302Z",
+    "topics": [],
+    "readme_absorbed": "rhezadaniel7/news-topic-growth-forecasting"
+  },
+  {
+    "id": 1400998485,
+    "full_name": "BACON233555/DailyPaperSummaryGeneration_Skill",
+    "url": "https://github.com/BACON233555/DailyPaperSummaryGeneration_Skill",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-02T03:42:47.345Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1400942307,
+    "full_name": "octoberKidd0/RAG-based-system-with-RBAC",
+    "url": "https://github.com/octoberKidd0/RAG-based-system-with-RBAC",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-02T03:42:48.138Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
