@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (639 total, 170 validados free, 469 pulados/pago)
+description: MCPs descobertos pelo keyhunter (641 total, 170 validados free, 471 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 639
-createdAt: 2026-10-02
-updatedAt: 2026-10-02
+version: 641
+createdAt: 2026-10-03
+updatedAt: 2026-10-03
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-02T17:18:10.158Z
-> Total descoberto: 639 | Validados (HTTP 200 + free): 170 | Pulados (licença paga/enterprise): 469
+> Última execução: 2026-10-03T03:27:36.693Z
+> Total descoberto: 641 | Validados (HTTP 200 + free): 170 | Pulados (licença paga/enterprise): 471
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -663,6 +663,8 @@ updatedAt: 2026-10-02
 - octoberKidd0/RAG-based-system-with-RBAC — licença: unknown
 - sdpilon/claude-code-policy-plugin — licença: unknown
 - VISHWANATHAN13/ConceptExplain-CrewAI — licença: unknown
+- MangeshVajire/Smart-Parking-and-Traffic-Visualzation — licença: unknown
+- NaveenkumarGnanasekar/ros2-fundamentals — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -9079,5 +9079,31 @@
     "validated_at": "2026-10-02T17:18:10.157Z",
     "topics": [],
     "readme_absorbed": "VISHWANATHAN13/ConceptExplain-CrewAI"
+  },
+  {
+    "id": 1402597983,
+    "full_name": "MangeshVajire/Smart-Parking-and-Traffic-Visualzation",
+    "url": "https://github.com/MangeshVajire/Smart-Parking-and-Traffic-Visualzation",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-03T03:27:36.004Z",
+    "topics": [],
+    "readme_absorbed": "MangeshVajire/Smart-Parking-and-Traffic-Visualzation"
+  },
+  {
+    "id": 1402537481,
+    "full_name": "NaveenkumarGnanasekar/ros2-fundamentals",
+    "url": "https://github.com/NaveenkumarGnanasekar/ros2-fundamentals",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-03T03:27:36.692Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
