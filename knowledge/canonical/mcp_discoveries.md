@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (641 total, 170 validados free, 471 pulados/pago)
+description: MCPs descobertos pelo keyhunter (648 total, 173 validados free, 475 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 641
+version: 648
 createdAt: 2026-10-03
 updatedAt: 2026-10-03
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-03T03:27:36.693Z
-> Total descoberto: 641 | Validados (HTTP 200 + free): 170 | Pulados (licença paga/enterprise): 471
+> Última execução: 2026-10-03T15:35:51.863Z
+> Total descoberto: 648 | Validados (HTTP 200 + free): 173 | Pulados (licença paga/enterprise): 475
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -191,6 +191,9 @@ updatedAt: 2026-10-03
 | Mikepat711/explainer-video-pipeline | Python | 1 | MIT |  | [repo](https://github.com/Mikepat711/explainer-video-pipeline) |
 | d0j/tow | Python | 0 | MIT | deluge, fastapi, portable | [repo](https://github.com/d0j/tow) |
 | kshah200419-create/paperpilot | Python | 0 | MIT | arxiv, data-pipeline, fastapi | [repo](https://github.com/kshah200419-create/paperpilot) |
+| muditsinghbisht/pocket-book | TypeScript | 0 | MIT |  | [repo](https://github.com/muditsinghbisht/pocket-book) |
+| LiangRuoYi1223/light_up_LED | Python | 0 | MIT |  | [repo](https://github.com/LiangRuoYi1223/light_up_LED) |
+| NoProblUm/dsh-codexlike-projectless | TypeScript | 1 | MIT | dsh-plugin | [repo](https://github.com/NoProblUm/dsh-codexlike-projectless) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -665,6 +668,10 @@ updatedAt: 2026-10-03
 - VISHWANATHAN13/ConceptExplain-CrewAI — licença: unknown
 - MangeshVajire/Smart-Parking-and-Traffic-Visualzation — licença: unknown
 - NaveenkumarGnanasekar/ros2-fundamentals — licença: unknown
+- bbmane/scarab-index — licença: unknown
+- sejal261/Exam_Question_Predictor — licença: unknown
+- prashanthchowdary93/Multi_AI_Agent_Software_Languages_Learning_System_Project — licença: unknown
+- nazifah-nawal/Os_Page_Replacement — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

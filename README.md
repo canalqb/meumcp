@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-03T15:35:46.388Z | muditsinghbisht/pocket-book | 0 | MIT | 200 |
+
+| 2026-10-03T15:35:49.905Z | LiangRuoYi1223/light_up_LED | 0 | MIT | 200 |
+
+| 2026-10-03T15:35:51.862Z | NoProblUm/dsh-codexlike-projectless | 1 | MIT | 200 |
+
 | 2026-10-02T17:18:07.425Z | d0j/tow | 0 | MIT | 200 |
 
 | 2026-10-02T17:18:08.480Z | kshah200419-create/paperpilot | 0 | MIT | 200 |

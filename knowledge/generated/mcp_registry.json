@@ -9105,5 +9105,105 @@
     "validated_at": "2026-10-03T03:27:36.692Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1403282210,
+    "full_name": "muditsinghbisht/pocket-book",
+    "url": "https://github.com/muditsinghbisht/pocket-book",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-03T15:35:46.388Z",
+    "topics": [],
+    "readme_absorbed": "muditsinghbisht/pocket-book"
+  },
+  {
+    "id": 1403020781,
+    "full_name": "bbmane/scarab-index",
+    "url": "https://github.com/bbmane/scarab-index",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-03T15:35:47.217Z",
+    "topics": [
+      "egypt",
+      "egyptology",
+      "historical",
+      "historical-data",
+      "history",
+      "typescript"
+    ],
+    "readme_absorbed": "bbmane/scarab-index"
+  },
+  {
+    "id": 1403310714,
+    "full_name": "sejal261/Exam_Question_Predictor",
+    "url": "https://github.com/sejal261/Exam_Question_Predictor",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-03T15:35:48.051Z",
+    "topics": [],
+    "readme_absorbed": "sejal261/Exam_Question_Predictor"
+  },
+  {
+    "id": 1403006510,
+    "full_name": "prashanthchowdary93/Multi_AI_Agent_Software_Languages_Learning_System_Project",
+    "url": "https://github.com/prashanthchowdary93/Multi_AI_Agent_Software_Languages_Learning_System_Project",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-03T15:35:49.028Z",
+    "topics": [],
+    "readme_absorbed": "prashanthchowdary93/Multi_AI_Agent_Software_Languages_Learning_System_Project"
+  },
+  {
+    "id": 1403228488,
+    "full_name": "LiangRuoYi1223/light_up_LED",
+    "url": "https://github.com/LiangRuoYi1223/light_up_LED",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-03T15:35:49.905Z",
+    "topics": [],
+    "readme_absorbed": "LiangRuoYi1223/light_up_LED"
+  },
+  {
+    "id": 1403275210,
+    "full_name": "nazifah-nawal/Os_Page_Replacement",
+    "url": "https://github.com/nazifah-nawal/Os_Page_Replacement",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-03T15:35:50.866Z",
+    "topics": [],
+    "readme_absorbed": "nazifah-nawal/Os_Page_Replacement"
+  },
+  {
+    "id": 1402962113,
+    "full_name": "NoProblUm/dsh-codexlike-projectless",
+    "url": "https://github.com/NoProblUm/dsh-codexlike-projectless",
+    "language": "TypeScript",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-03T15:35:51.862Z",
+    "topics": [
+      "dsh-plugin"
+    ],
+    "readme_absorbed": "NoProblUm/dsh-codexlike-projectless"
   }
 ]
