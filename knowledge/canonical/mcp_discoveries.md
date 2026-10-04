@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (648 total, 173 validados free, 475 pulados/pago)
+description: MCPs descobertos pelo keyhunter (653 total, 174 validados free, 479 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 648
-createdAt: 2026-10-03
-updatedAt: 2026-10-03
+version: 653
+createdAt: 2026-10-04
+updatedAt: 2026-10-04
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-03T15:35:51.863Z
-> Total descoberto: 648 | Validados (HTTP 200 + free): 173 | Pulados (licença paga/enterprise): 475
+> Última execução: 2026-10-04T03:55:17.956Z
+> Total descoberto: 653 | Validados (HTTP 200 + free): 174 | Pulados (licença paga/enterprise): 479
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -194,6 +194,7 @@ updatedAt: 2026-10-03
 | muditsinghbisht/pocket-book | TypeScript | 0 | MIT |  | [repo](https://github.com/muditsinghbisht/pocket-book) |
 | LiangRuoYi1223/light_up_LED | Python | 0 | MIT |  | [repo](https://github.com/LiangRuoYi1223/light_up_LED) |
 | NoProblUm/dsh-codexlike-projectless | TypeScript | 1 | MIT | dsh-plugin | [repo](https://github.com/NoProblUm/dsh-codexlike-projectless) |
+| MadanMohan0537/ai-stakeholder-sentiment-analyzer | Python | 0 | MIT |  | [repo](https://github.com/MadanMohan0537/ai-stakeholder-sentiment-analyzer) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -672,6 +673,10 @@ updatedAt: 2026-10-03
 - sejal261/Exam_Question_Predictor — licença: unknown
 - prashanthchowdary93/Multi_AI_Agent_Software_Languages_Learning_System_Project — licença: unknown
 - nazifah-nawal/Os_Page_Replacement — licença: unknown
+- ej770/consumer-complaint-intelligence — licença: unknown
+- ALPHAMAN-0/Learn_Python_AIUB — licença: unknown
+- ctalau/dita-structure-translation-poc — licença: unknown
+- emmabellerogo/cst-435-topic-2 — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

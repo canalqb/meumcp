@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-04T03:55:16.547Z | MadanMohan0537/ai-stakeholder-sentiment-analyzer | 0 | MIT | 200 |
+
 | 2026-10-03T15:35:46.388Z | muditsinghbisht/pocket-book | 0 | MIT | 200 |
 
 | 2026-10-03T15:35:49.905Z | LiangRuoYi1223/light_up_LED | 0 | MIT | 200 |
