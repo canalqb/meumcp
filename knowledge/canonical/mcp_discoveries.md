@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (653 total, 174 validados free, 479 pulados/pago)
+description: MCPs descobertos pelo keyhunter (663 total, 176 validados free, 487 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 653
+version: 663
 createdAt: 2026-10-04
 updatedAt: 2026-10-04
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-04T03:55:17.956Z
-> Total descoberto: 653 | Validados (HTTP 200 + free): 174 | Pulados (licença paga/enterprise): 479
+> Última execução: 2026-10-04T16:19:47.257Z
+> Total descoberto: 663 | Validados (HTTP 200 + free): 176 | Pulados (licença paga/enterprise): 487
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -195,6 +195,8 @@ updatedAt: 2026-10-04
 | LiangRuoYi1223/light_up_LED | Python | 0 | MIT |  | [repo](https://github.com/LiangRuoYi1223/light_up_LED) |
 | NoProblUm/dsh-codexlike-projectless | TypeScript | 1 | MIT | dsh-plugin | [repo](https://github.com/NoProblUm/dsh-codexlike-projectless) |
 | MadanMohan0537/ai-stakeholder-sentiment-analyzer | Python | 0 | MIT |  | [repo](https://github.com/MadanMohan0537/ai-stakeholder-sentiment-analyzer) |
+| dwijmistry266-ship-it/ddcet-drill | Python | 1 | MIT |  | [repo](https://github.com/dwijmistry266-ship-it/ddcet-drill) |
+| ifnesi/saguin-viewer | Python | 0 | Apache-2.0 | dashboard, golang, iot | [repo](https://github.com/ifnesi/saguin-viewer) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -677,6 +679,14 @@ updatedAt: 2026-10-04
 - ALPHAMAN-0/Learn_Python_AIUB — licença: unknown
 - ctalau/dita-structure-translation-poc — licença: unknown
 - emmabellerogo/cst-435-topic-2 — licença: unknown
+- riteshdhakulkar/LessonPlanBuilder-IITTechfest — licença: unknown
+- Abolfazl-Momeni5/special-topics-exercise — licença: unknown
+- sfaizyab2006/Smart-Study-Planner — licença: unknown
+- brijs/explainers — licença: unknown
+- mzaiger/TrendingTopics — licença: unknown
+- jaron-robot/demo_python_topic_novel — licença: unknown
+- mrrishit909/wikipedia-attention — licença: unknown
+- divyaddot7-wq/AI-study-Buddy — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
