@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-05T03:40:02.257Z | Win-Hao/knowledge-video | 0 | MIT | 200 |
+
 | 2026-10-04T16:19:42.445Z | dwijmistry266-ship-it/ddcet-drill | 1 | MIT | 200 |
 
 | 2026-10-04T16:19:46.024Z | ifnesi/saguin-viewer | 0 | Apache-2.0 | 200 |

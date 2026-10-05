@@ -9411,5 +9411,71 @@
     "validated_at": "2026-10-04T16:19:47.255Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1404882026,
+    "full_name": "Sheltercosmo/0halluciation-drift-indexing",
+    "url": "https://github.com/Sheltercosmo/0halluciation-drift-indexing",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-05T03:40:01.362Z",
+    "topics": [
+      "bayesian-inference",
+      "bayesian-statistics",
+      "decision-models",
+      "document-chunking",
+      "document-indexing",
+      "embedding-free",
+      "extractive-summarization",
+      "jev",
+      "python",
+      "rag",
+      "reranking",
+      "retrieval-augmented-generation",
+      "semantic-chunking",
+      "statistical-priors",
+      "topic-segmentation",
+      "typesafe-ai"
+    ],
+    "readme_absorbed": "Sheltercosmo/0halluciation-drift-indexing"
+  },
+  {
+    "id": 1404662214,
+    "full_name": "Win-Hao/knowledge-video",
+    "url": "https://github.com/Win-Hao/knowledge-video",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-05T03:40:02.257Z",
+    "topics": [
+      "agent-skills",
+      "beat-sync",
+      "claude-code",
+      "explainer",
+      "hyperframes",
+      "knowledge",
+      "skill",
+      "storyboard",
+      "video"
+    ],
+    "readme_absorbed": "Win-Hao/knowledge-video"
+  },
+  {
+    "id": 1404778794,
+    "full_name": "venugeorgia-crypto/MedForge",
+    "url": "https://github.com/venugeorgia-crypto/MedForge",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-05T03:40:03.089Z",
+    "topics": [],
+    "readme_absorbed": "venugeorgia-crypto/MedForge"
   }
 ]

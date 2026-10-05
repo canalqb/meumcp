@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (663 total, 176 validados free, 487 pulados/pago)
+description: MCPs descobertos pelo keyhunter (666 total, 177 validados free, 489 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 663
-createdAt: 2026-10-04
-updatedAt: 2026-10-04
+version: 666
+createdAt: 2026-10-05
+updatedAt: 2026-10-05
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-04T16:19:47.257Z
-> Total descoberto: 663 | Validados (HTTP 200 + free): 176 | Pulados (licença paga/enterprise): 487
+> Última execução: 2026-10-05T03:40:03.092Z
+> Total descoberto: 666 | Validados (HTTP 200 + free): 177 | Pulados (licença paga/enterprise): 489
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -197,6 +197,7 @@ updatedAt: 2026-10-04
 | MadanMohan0537/ai-stakeholder-sentiment-analyzer | Python | 0 | MIT |  | [repo](https://github.com/MadanMohan0537/ai-stakeholder-sentiment-analyzer) |
 | dwijmistry266-ship-it/ddcet-drill | Python | 1 | MIT |  | [repo](https://github.com/dwijmistry266-ship-it/ddcet-drill) |
 | ifnesi/saguin-viewer | Python | 0 | Apache-2.0 | dashboard, golang, iot | [repo](https://github.com/ifnesi/saguin-viewer) |
+| Win-Hao/knowledge-video | Python | 0 | MIT | agent-skills, beat-sync, claude-code | [repo](https://github.com/Win-Hao/knowledge-video) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -687,6 +688,8 @@ updatedAt: 2026-10-04
 - jaron-robot/demo_python_topic_novel — licença: unknown
 - mrrishit909/wikipedia-attention — licença: unknown
 - divyaddot7-wq/AI-study-Buddy — licença: unknown
+- Sheltercosmo/0halluciation-drift-indexing — licença: unknown
+- venugeorgia-crypto/MedForge — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
