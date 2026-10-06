@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (666 total, 177 validados free, 489 pulados/pago)
+description: MCPs descobertos pelo keyhunter (674 total, 179 validados free, 495 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 666
-createdAt: 2026-10-05
-updatedAt: 2026-10-05
+version: 674
+createdAt: 2026-10-06
+updatedAt: 2026-10-06
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-05T03:40:03.092Z
-> Total descoberto: 666 | Validados (HTTP 200 + free): 177 | Pulados (licença paga/enterprise): 489
+> Última execução: 2026-10-06T04:28:05.854Z
+> Total descoberto: 674 | Validados (HTTP 200 + free): 179 | Pulados (licença paga/enterprise): 495
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -198,6 +198,8 @@ updatedAt: 2026-10-05
 | dwijmistry266-ship-it/ddcet-drill | Python | 1 | MIT |  | [repo](https://github.com/dwijmistry266-ship-it/ddcet-drill) |
 | ifnesi/saguin-viewer | Python | 0 | Apache-2.0 | dashboard, golang, iot | [repo](https://github.com/ifnesi/saguin-viewer) |
 | Win-Hao/knowledge-video | Python | 0 | MIT | agent-skills, beat-sync, claude-code | [repo](https://github.com/Win-Hao/knowledge-video) |
+| show20130831/YouTube-Learning-Assistant | Python | 0 | MIT |  | [repo](https://github.com/show20130831/YouTube-Learning-Assistant) |
+| alto-computer/alto-rooms | TypeScript | 0 | MIT |  | [repo](https://github.com/alto-computer/alto-rooms) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -690,6 +692,12 @@ updatedAt: 2026-10-05
 - divyaddot7-wq/AI-study-Buddy — licença: unknown
 - Sheltercosmo/0halluciation-drift-indexing — licença: unknown
 - venugeorgia-crypto/MedForge — licença: unknown
+- osos7mood/psu-deck-tracker — licença: unknown
+- CamIbarra21/Murdoku_TopicosCC — licença: unknown
+- Cesaredmyt/proyectoEntregaTopicos — licença: unknown
+- Rajnish-kumar12/Python — licença: unknown
+- danyEvan/challenge-backend-cc — licença: unknown
+- ComeGalletas/file-sorter — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
