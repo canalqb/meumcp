@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-06T17:47:35.618Z | Ramakrishna2006/MyMart | 0 | MIT | 200 |
+
+| 2026-10-06T17:47:39.548Z | csjad/content-forge | 0 | MIT | 200 |
+
 | 2026-10-06T04:28:02.361Z | show20130831/YouTube-Learning-Assistant | 0 | MIT | 200 |
 
 | 2026-10-06T04:28:03.174Z | alto-computer/alto-rooms | 0 | MIT | 200 |

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (674 total, 179 validados free, 495 pulados/pago)
+description: MCPs descobertos pelo keyhunter (682 total, 181 validados free, 501 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 674
+version: 682
 createdAt: 2026-10-06
 updatedAt: 2026-10-06
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-06T04:28:05.854Z
-> Total descoberto: 674 | Validados (HTTP 200 + free): 179 | Pulados (licença paga/enterprise): 495
+> Última execução: 2026-10-06T17:47:40.482Z
+> Total descoberto: 682 | Validados (HTTP 200 + free): 181 | Pulados (licença paga/enterprise): 501
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -200,6 +200,8 @@ updatedAt: 2026-10-06
 | Win-Hao/knowledge-video | Python | 0 | MIT | agent-skills, beat-sync, claude-code | [repo](https://github.com/Win-Hao/knowledge-video) |
 | show20130831/YouTube-Learning-Assistant | Python | 0 | MIT |  | [repo](https://github.com/show20130831/YouTube-Learning-Assistant) |
 | alto-computer/alto-rooms | TypeScript | 0 | MIT |  | [repo](https://github.com/alto-computer/alto-rooms) |
+| Ramakrishna2006/MyMart | Python | 0 | MIT |  | [repo](https://github.com/Ramakrishna2006/MyMart) |
+| csjad/content-forge | Python | 0 | MIT | ai, automation, content-automation | [repo](https://github.com/csjad/content-forge) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -698,6 +700,12 @@ updatedAt: 2026-10-06
 - Rajnish-kumar12/Python — licença: unknown
 - danyEvan/challenge-backend-cc — licença: unknown
 - ComeGalletas/file-sorter — licença: unknown
+- Faishal9097/Guided_Topic_Detection — licença: unknown
+- matteotessera/SentiMap — licença: unknown
+- saiakshayapathri/MeetMind-AI-Lecture-Meeting-Intelligence-Assistant — licença: unknown
+- mmlong818/open-academic-paper-gen — licença: AGPL-3.0
+- Tanishka2468/Math-Problem-Topic-Classifier — licença: unknown
+- harinaath7777/AIRA-AI — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
