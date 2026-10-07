@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (689 total, 181 validados free, 508 pulados/pago)
+description: MCPs descobertos pelo keyhunter (694 total, 183 validados free, 511 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 689
+version: 694
 createdAt: 2026-10-07
 updatedAt: 2026-10-07
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-07T03:54:05.148Z
-> Total descoberto: 689 | Validados (HTTP 200 + free): 181 | Pulados (licença paga/enterprise): 508
+> Última execução: 2026-10-07T18:19:49.238Z
+> Total descoberto: 694 | Validados (HTTP 200 + free): 183 | Pulados (licença paga/enterprise): 511
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -202,6 +202,8 @@ updatedAt: 2026-10-07
 | alto-computer/alto-rooms | TypeScript | 0 | MIT |  | [repo](https://github.com/alto-computer/alto-rooms) |
 | Ramakrishna2006/MyMart | Python | 0 | MIT |  | [repo](https://github.com/Ramakrishna2006/MyMart) |
 | csjad/content-forge | Python | 0 | MIT | ai, automation, content-automation | [repo](https://github.com/csjad/content-forge) |
+| 1027victor/scTIER | Python | 0 | Apache-2.0 |  | [repo](https://github.com/1027victor/scTIER) |
+| SamShmid/hermes-skeleton | Python | 0 | MIT |  | [repo](https://github.com/SamShmid/hermes-skeleton) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -713,6 +715,9 @@ updatedAt: 2026-10-07
 - ChenxiaoHao/MewHelp — licença: unknown
 - WinterBambie/conversation-classifier-tlcomunication — licença: unknown
 - specialistvlad/language-navigator — licença: unknown
+- anselmzyx/TrendAhead — licença: unknown
+- ElvisHan2022/paper-atlas — licença: unknown
+- Akshay-KS198/Python-Advanced — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-07T18:19:45.342Z | 1027victor/scTIER | 0 | Apache-2.0 | 200 |
+
+| 2026-10-07T18:19:49.236Z | SamShmid/hermes-skeleton | 0 | MIT | 200 |
+
 | 2026-10-06T17:47:35.618Z | Ramakrishna2006/MyMart | 0 | MIT | 200 |
 
 | 2026-10-06T17:47:39.548Z | csjad/content-forge | 0 | MIT | 200 |
