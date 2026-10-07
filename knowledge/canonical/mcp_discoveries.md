@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (682 total, 181 validados free, 501 pulados/pago)
+description: MCPs descobertos pelo keyhunter (689 total, 181 validados free, 508 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 682
-createdAt: 2026-10-06
-updatedAt: 2026-10-06
+version: 689
+createdAt: 2026-10-07
+updatedAt: 2026-10-07
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-06T17:47:40.482Z
-> Total descoberto: 682 | Validados (HTTP 200 + free): 181 | Pulados (licença paga/enterprise): 501
+> Última execução: 2026-10-07T03:54:05.148Z
+> Total descoberto: 689 | Validados (HTTP 200 + free): 181 | Pulados (licença paga/enterprise): 508
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -706,6 +706,13 @@ updatedAt: 2026-10-06
 - mmlong818/open-academic-paper-gen — licença: AGPL-3.0
 - Tanishka2468/Math-Problem-Topic-Classifier — licença: unknown
 - harinaath7777/AIRA-AI — licença: unknown
+- beam2711/Selected-Topic-for-INE-SubTest2 — licença: unknown
+- cc8632417-beep/MIT-news-sentiment-analysis-and-topic-modeling_NLP_python — licença: unknown
+- justsaltfish/Topic2 — licença: unknown
+- saurya2016/python-basics-advanced-concept — licença: unknown
+- ChenxiaoHao/MewHelp — licença: unknown
+- WinterBambie/conversation-classifier-tlcomunication — licença: unknown
+- specialistvlad/language-navigator — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
