@@ -9865,5 +9865,86 @@
     "validated_at": "2026-10-07T18:19:49.236Z",
     "topics": [],
     "readme_absorbed": "SamShmid/hermes-skeleton"
+  },
+  {
+    "id": 1409687012,
+    "full_name": "TradexCodes/Helix",
+    "url": "https://github.com/TradexCodes/Helix",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T04:07:27.400Z",
+    "topics": [],
+    "readme_absorbed": "TradexCodes/Helix"
+  },
+  {
+    "id": 1409609915,
+    "full_name": "m5rc238/radr",
+    "url": "https://github.com/m5rc238/radr",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T04:07:28.403Z",
+    "topics": [],
+    "readme_absorbed": "m5rc238/radr"
+  },
+  {
+    "id": 1409252667,
+    "full_name": "mcp-tool-shop-org/rnd",
+    "url": "https://github.com/mcp-tool-shop-org/rnd",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-08T04:07:29.337Z",
+    "topics": [
+      "cli",
+      "experiments",
+      "fts5",
+      "knowledge-base",
+      "llm-agents",
+      "mcp-tool-shop",
+      "python",
+      "research",
+      "research-notes",
+      "sqlite"
+    ],
+    "readme_absorbed": "mcp-tool-shop-org/rnd"
+  },
+  {
+    "id": 1409686391,
+    "full_name": "Emutisya/maternity-health-copilot",
+    "url": "https://github.com/Emutisya/maternity-health-copilot",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-08T04:07:30.544Z",
+    "topics": [
+      "health-education",
+      "machine-learning",
+      "python",
+      "responsible-ai"
+    ],
+    "readme_absorbed": "Emutisya/maternity-health-copilot"
+  },
+  {
+    "id": 1409513643,
+    "full_name": "ahmadshah-ka/CadencePilot",
+    "url": "https://github.com/ahmadshah-ka/CadencePilot",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T04:07:31.530Z",
+    "topics": [],
+    "readme_absorbed": "ahmadshah-ka/CadencePilot"
   }
 ]

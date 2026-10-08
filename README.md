@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-08T04:07:29.337Z | mcp-tool-shop-org/rnd | 0 | MIT | 200 |
+
+| 2026-10-08T04:07:30.544Z | Emutisya/maternity-health-copilot | 0 | MIT | 200 |
+
 | 2026-10-07T18:19:45.342Z | 1027victor/scTIER | 0 | Apache-2.0 | 200 |
 
 | 2026-10-07T18:19:49.236Z | SamShmid/hermes-skeleton | 0 | MIT | 200 |

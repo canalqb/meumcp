@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (694 total, 183 validados free, 511 pulados/pago)
+description: MCPs descobertos pelo keyhunter (699 total, 185 validados free, 514 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 694
-createdAt: 2026-10-07
-updatedAt: 2026-10-07
+version: 699
+createdAt: 2026-10-08
+updatedAt: 2026-10-08
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-07T18:19:49.238Z
-> Total descoberto: 694 | Validados (HTTP 200 + free): 183 | Pulados (licença paga/enterprise): 511
+> Última execução: 2026-10-08T04:07:31.531Z
+> Total descoberto: 699 | Validados (HTTP 200 + free): 185 | Pulados (licença paga/enterprise): 514
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -204,6 +204,8 @@ updatedAt: 2026-10-07
 | csjad/content-forge | Python | 0 | MIT | ai, automation, content-automation | [repo](https://github.com/csjad/content-forge) |
 | 1027victor/scTIER | Python | 0 | Apache-2.0 |  | [repo](https://github.com/1027victor/scTIER) |
 | SamShmid/hermes-skeleton | Python | 0 | MIT |  | [repo](https://github.com/SamShmid/hermes-skeleton) |
+| mcp-tool-shop-org/rnd | Python | 0 | MIT | cli, experiments, fts5 | [repo](https://github.com/mcp-tool-shop-org/rnd) |
+| Emutisya/maternity-health-copilot | Python | 0 | MIT | health-education, machine-learning, python | [repo](https://github.com/Emutisya/maternity-health-copilot) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -718,6 +720,9 @@ updatedAt: 2026-10-07
 - anselmzyx/TrendAhead — licença: unknown
 - ElvisHan2022/paper-atlas — licença: unknown
 - Akshay-KS198/Python-Advanced — licença: unknown
+- TradexCodes/Helix — licença: unknown
+- m5rc238/radr — licença: unknown
+- ahmadshah-ka/CadencePilot — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
