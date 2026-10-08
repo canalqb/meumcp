@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (699 total, 185 validados free, 514 pulados/pago)
+description: MCPs descobertos pelo keyhunter (705 total, 186 validados free, 519 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 699
+version: 705
 createdAt: 2026-10-08
 updatedAt: 2026-10-08
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-08T04:07:31.531Z
-> Total descoberto: 699 | Validados (HTTP 200 + free): 185 | Pulados (licença paga/enterprise): 514
+> Última execução: 2026-10-08T18:19:21.177Z
+> Total descoberto: 705 | Validados (HTTP 200 + free): 186 | Pulados (licença paga/enterprise): 519
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -206,6 +206,7 @@ updatedAt: 2026-10-08
 | SamShmid/hermes-skeleton | Python | 0 | MIT |  | [repo](https://github.com/SamShmid/hermes-skeleton) |
 | mcp-tool-shop-org/rnd | Python | 0 | MIT | cli, experiments, fts5 | [repo](https://github.com/mcp-tool-shop-org/rnd) |
 | Emutisya/maternity-health-copilot | Python | 0 | MIT | health-education, machine-learning, python | [repo](https://github.com/Emutisya/maternity-health-copilot) |
+| Nimesh000/docugen-ai | Python | 0 | MIT |  | [repo](https://github.com/Nimesh000/docugen-ai) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -723,6 +724,11 @@ updatedAt: 2026-10-08
 - TradexCodes/Helix — licença: unknown
 - m5rc238/radr — licença: unknown
 - ahmadshah-ka/CadencePilot — licença: unknown
+- brunomorales729-maker/AI-Projects — licença: unknown
+- jayanshisinha-ui/Trending-Topics-Analyzer — licença: unknown
+- ayato-dev/TelegramAgent — licença: unknown
+- Mohamedballouch/jev-darija-demo — licença: unknown
+- AdolfoOrtiz/Topicos — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

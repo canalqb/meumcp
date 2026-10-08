@@ -9946,5 +9946,83 @@
     "validated_at": "2026-10-08T04:07:31.530Z",
     "topics": [],
     "readme_absorbed": "ahmadshah-ka/CadencePilot"
+  },
+  {
+    "id": 1410699183,
+    "full_name": "brunomorales729-maker/AI-Projects",
+    "url": "https://github.com/brunomorales729-maker/AI-Projects",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T18:19:16.672Z",
+    "topics": [],
+    "readme_absorbed": "brunomorales729-maker/AI-Projects"
+  },
+  {
+    "id": 1410741039,
+    "full_name": "jayanshisinha-ui/Trending-Topics-Analyzer",
+    "url": "https://github.com/jayanshisinha-ui/Trending-Topics-Analyzer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T18:19:17.552Z",
+    "topics": [],
+    "readme_absorbed": "jayanshisinha-ui/Trending-Topics-Analyzer"
+  },
+  {
+    "id": 1410268375,
+    "full_name": "Nimesh000/docugen-ai",
+    "url": "https://github.com/Nimesh000/docugen-ai",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-08T18:19:18.444Z",
+    "topics": [],
+    "readme_absorbed": "Nimesh000/docugen-ai"
+  },
+  {
+    "id": 1410760876,
+    "full_name": "ayato-dev/TelegramAgent",
+    "url": "https://github.com/ayato-dev/TelegramAgent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T18:19:19.414Z",
+    "topics": [],
+    "readme_absorbed": "ayato-dev/TelegramAgent"
+  },
+  {
+    "id": 1410747969,
+    "full_name": "Mohamedballouch/jev-darija-demo",
+    "url": "https://github.com/Mohamedballouch/jev-darija-demo",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T18:19:20.223Z",
+    "topics": [],
+    "readme_absorbed": "Mohamedballouch/jev-darija-demo"
+  },
+  {
+    "id": 1410733938,
+    "full_name": "AdolfoOrtiz/Topicos",
+    "url": "https://github.com/AdolfoOrtiz/Topicos",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-08T18:19:21.175Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
