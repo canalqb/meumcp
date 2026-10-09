@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-09T17:52:36.238Z | RolanAlyoubi/Feedlytics | 0 | MIT | 200 |
+
 | 2026-10-08T18:19:18.444Z | Nimesh000/docugen-ai | 0 | MIT | 200 |
 
 | 2026-10-08T04:07:29.337Z | mcp-tool-shop-org/rnd | 0 | MIT | 200 |

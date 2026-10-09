@@ -10050,5 +10050,70 @@
     "validated_at": "2026-10-09T04:12:29.907Z",
     "topics": [],
     "readme_absorbed": "yugeshwaran-an/MOVIE-BOOKING-SYSTEM"
+  },
+  {
+    "id": 1412090115,
+    "full_name": "MT513-Web/bert-news-classifier",
+    "url": "https://github.com/MT513-Web/bert-news-classifier",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-09T17:52:32.290Z",
+    "topics": [],
+    "readme_absorbed": "MT513-Web/bert-news-classifier"
+  },
+  {
+    "id": 1411986358,
+    "full_name": "hisaanahmad7-lgtm/Complete-Pandas-By-Hisaan_Ahmad",
+    "url": "https://github.com/hisaanahmad7-lgtm/Complete-Pandas-By-Hisaan_Ahmad",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-09T17:52:33.254Z",
+    "topics": [],
+    "readme_absorbed": "hisaanahmad7-lgtm/Complete-Pandas-By-Hisaan_Ahmad"
+  },
+  {
+    "id": 1411311505,
+    "full_name": "LxCenady/Wace_Training_Framework",
+    "url": "https://github.com/LxCenady/Wace_Training_Framework",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-09T17:52:34.298Z",
+    "topics": [],
+    "readme_absorbed": "LxCenady/Wace_Training_Framework"
+  },
+  {
+    "id": 1411661071,
+    "full_name": "KaineDeepdelver/SkepticScraper",
+    "url": "https://github.com/KaineDeepdelver/SkepticScraper",
+    "language": "TypeScript",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-09T17:52:35.369Z",
+    "topics": [],
+    "readme_absorbed": "KaineDeepdelver/SkepticScraper"
+  },
+  {
+    "id": 1412055662,
+    "full_name": "RolanAlyoubi/Feedlytics",
+    "url": "https://github.com/RolanAlyoubi/Feedlytics",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-09T17:52:36.238Z",
+    "topics": [],
+    "readme_absorbed": "RolanAlyoubi/Feedlytics"
   }
 ]

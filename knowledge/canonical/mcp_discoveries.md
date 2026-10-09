@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (707 total, 186 validados free, 521 pulados/pago)
+description: MCPs descobertos pelo keyhunter (712 total, 187 validados free, 525 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 707
+version: 712
 createdAt: 2026-10-09
 updatedAt: 2026-10-09
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-09T04:12:29.909Z
-> Total descoberto: 707 | Validados (HTTP 200 + free): 186 | Pulados (licença paga/enterprise): 521
+> Última execução: 2026-10-09T17:52:36.240Z
+> Total descoberto: 712 | Validados (HTTP 200 + free): 187 | Pulados (licença paga/enterprise): 525
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -207,6 +207,7 @@ updatedAt: 2026-10-09
 | mcp-tool-shop-org/rnd | Python | 0 | MIT | cli, experiments, fts5 | [repo](https://github.com/mcp-tool-shop-org/rnd) |
 | Emutisya/maternity-health-copilot | Python | 0 | MIT | health-education, machine-learning, python | [repo](https://github.com/Emutisya/maternity-health-copilot) |
 | Nimesh000/docugen-ai | Python | 0 | MIT |  | [repo](https://github.com/Nimesh000/docugen-ai) |
+| RolanAlyoubi/Feedlytics | Python | 0 | MIT |  | [repo](https://github.com/RolanAlyoubi/Feedlytics) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -731,6 +732,10 @@ updatedAt: 2026-10-09
 - AdolfoOrtiz/Topicos — licença: unknown
 - haydarkadioglu/script-to-video — licença: unknown
 - yugeshwaran-an/MOVIE-BOOKING-SYSTEM — licença: unknown
+- MT513-Web/bert-news-classifier — licença: unknown
+- hisaanahmad7-lgtm/Complete-Pandas-By-Hisaan_Ahmad — licença: unknown
+- LxCenady/Wace_Training_Framework — licença: NOASSERTION
+- KaineDeepdelver/SkepticScraper — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
