@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (716 total, 189 validados free, 527 pulados/pago)
+description: MCPs descobertos pelo keyhunter (724 total, 193 validados free, 531 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 716
+version: 724
 createdAt: 2026-10-10
 updatedAt: 2026-10-10
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-10T03:57:50.314Z
-> Total descoberto: 716 | Validados (HTTP 200 + free): 189 | Pulados (licença paga/enterprise): 527
+> Última execução: 2026-10-10T16:49:38.491Z
+> Total descoberto: 724 | Validados (HTTP 200 + free): 193 | Pulados (licença paga/enterprise): 531
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -210,6 +210,10 @@ updatedAt: 2026-10-10
 | RolanAlyoubi/Feedlytics | Python | 0 | MIT |  | [repo](https://github.com/RolanAlyoubi/Feedlytics) |
 | Swarajaya/genesis-lab | TypeScript | 0 | MIT |  | [repo](https://github.com/Swarajaya/genesis-lab) |
 | alberthfsmoreira/parolar | Python | 0 | MIT | ab-testing, crowd-reaction, multilingual | [repo](https://github.com/alberthfsmoreira/parolar) |
+| lsh523318106-afk/TrendRadar | Python | 0 | GPL-3.0 |  | [repo](https://github.com/lsh523318106-afk/TrendRadar) |
+| 3559413914-spec/astrbot_plugin_topic_router | Python | 1 | MIT |  | [repo](https://github.com/3559413914-spec/astrbot_plugin_topic_router) |
+| uskanda/smarternews | TypeScript | 0 | MIT |  | [repo](https://github.com/uskanda/smarternews) |
+| TayHCode/channelrecap | Python | 0 | MIT |  | [repo](https://github.com/TayHCode/channelrecap) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -740,6 +744,10 @@ updatedAt: 2026-10-10
 - KaineDeepdelver/SkepticScraper — licença: unknown
 - cookb07/TextClassifer3000 — licença: unknown
 - Vaishnavi1-hub/IPL-Twitter-Trends-Analysis — licença: unknown
+- parth230406-create/AI-based-Tutoring-Video-Generator — licença: unknown
+- Pratyushsharma28/Board-Ace-AI — licença: unknown
+- muhammad-abbas-10/ai-shorts-reels-yt-fb-insta — licença: unknown
+- evecount/lecturesinplace — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
