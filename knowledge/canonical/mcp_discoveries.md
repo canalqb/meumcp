@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (712 total, 187 validados free, 525 pulados/pago)
+description: MCPs descobertos pelo keyhunter (716 total, 189 validados free, 527 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 712
-createdAt: 2026-10-09
-updatedAt: 2026-10-09
+version: 716
+createdAt: 2026-10-10
+updatedAt: 2026-10-10
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-09T17:52:36.240Z
-> Total descoberto: 712 | Validados (HTTP 200 + free): 187 | Pulados (licença paga/enterprise): 525
+> Última execução: 2026-10-10T03:57:50.314Z
+> Total descoberto: 716 | Validados (HTTP 200 + free): 189 | Pulados (licença paga/enterprise): 527
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -208,6 +208,8 @@ updatedAt: 2026-10-09
 | Emutisya/maternity-health-copilot | Python | 0 | MIT | health-education, machine-learning, python | [repo](https://github.com/Emutisya/maternity-health-copilot) |
 | Nimesh000/docugen-ai | Python | 0 | MIT |  | [repo](https://github.com/Nimesh000/docugen-ai) |
 | RolanAlyoubi/Feedlytics | Python | 0 | MIT |  | [repo](https://github.com/RolanAlyoubi/Feedlytics) |
+| Swarajaya/genesis-lab | TypeScript | 0 | MIT |  | [repo](https://github.com/Swarajaya/genesis-lab) |
+| alberthfsmoreira/parolar | Python | 0 | MIT | ab-testing, crowd-reaction, multilingual | [repo](https://github.com/alberthfsmoreira/parolar) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -736,6 +738,8 @@ updatedAt: 2026-10-09
 - hisaanahmad7-lgtm/Complete-Pandas-By-Hisaan_Ahmad — licença: unknown
 - LxCenady/Wace_Training_Framework — licença: NOASSERTION
 - KaineDeepdelver/SkepticScraper — licença: unknown
+- cookb07/TextClassifer3000 — licença: unknown
+- Vaishnavi1-hub/IPL-Twitter-Trends-Analysis — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

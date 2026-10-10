@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-10T03:57:47.077Z | Swarajaya/genesis-lab | 0 | MIT | 200 |
+
+| 2026-10-10T03:57:50.312Z | alberthfsmoreira/parolar | 0 | MIT | 200 |
+
 | 2026-10-09T17:52:36.238Z | RolanAlyoubi/Feedlytics | 0 | MIT | 200 |
 
 | 2026-10-08T18:19:18.444Z | Nimesh000/docugen-ai | 0 | MIT | 200 |
