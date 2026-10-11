@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (724 total, 193 validados free, 531 pulados/pago)
+description: MCPs descobertos pelo keyhunter (726 total, 194 validados free, 532 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 724
-createdAt: 2026-10-10
-updatedAt: 2026-10-10
+version: 726
+createdAt: 2026-10-11
+updatedAt: 2026-10-11
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-10T16:49:38.491Z
-> Total descoberto: 724 | Validados (HTTP 200 + free): 193 | Pulados (licença paga/enterprise): 531
+> Última execução: 2026-10-11T03:32:25.157Z
+> Total descoberto: 726 | Validados (HTTP 200 + free): 194 | Pulados (licença paga/enterprise): 532
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -214,6 +214,7 @@ updatedAt: 2026-10-10
 | 3559413914-spec/astrbot_plugin_topic_router | Python | 1 | MIT |  | [repo](https://github.com/3559413914-spec/astrbot_plugin_topic_router) |
 | uskanda/smarternews | TypeScript | 0 | MIT |  | [repo](https://github.com/uskanda/smarternews) |
 | TayHCode/channelrecap | Python | 0 | MIT |  | [repo](https://github.com/TayHCode/channelrecap) |
+| rudzy123/umd-cs4993-systems-capstone | Python | 0 | MIT |  | [repo](https://github.com/rudzy123/umd-cs4993-systems-capstone) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -748,6 +749,7 @@ updatedAt: 2026-10-10
 - Pratyushsharma28/Board-Ace-AI — licença: unknown
 - muhammad-abbas-10/ai-shorts-reels-yt-fb-insta — licença: unknown
 - evecount/lecturesinplace — licença: unknown
+- Jarrettluo/skywork-ppt-skill — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

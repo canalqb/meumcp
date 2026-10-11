@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-11T03:32:25.155Z | rudzy123/umd-cs4993-systems-capstone | 0 | MIT | 200 |
+
 | 2026-10-10T16:49:32.642Z | lsh523318106-afk/TrendRadar | 0 | GPL-3.0 | 200 |
 
 | 2026-10-10T16:49:35.973Z | 3559413914-spec/astrbot_plugin_topic_router | 1 | MIT | 200 |

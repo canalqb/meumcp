@@ -10279,5 +10279,31 @@
     "validated_at": "2026-10-10T16:49:38.489Z",
     "topics": [],
     "readme_absorbed": "TayHCode/channelrecap"
+  },
+  {
+    "id": 1413874423,
+    "full_name": "Jarrettluo/skywork-ppt-skill",
+    "url": "https://github.com/Jarrettluo/skywork-ppt-skill",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-11T03:32:24.289Z",
+    "topics": [],
+    "readme_absorbed": "Jarrettluo/skywork-ppt-skill"
+  },
+  {
+    "id": 1413794942,
+    "full_name": "rudzy123/umd-cs4993-systems-capstone",
+    "url": "https://github.com/rudzy123/umd-cs4993-systems-capstone",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-11T03:32:25.155Z",
+    "topics": [],
+    "readme_absorbed": "rudzy123/umd-cs4993-systems-capstone"
   }
 ]
