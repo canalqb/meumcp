@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (726 total, 194 validados free, 532 pulados/pago)
+description: MCPs descobertos pelo keyhunter (731 total, 196 validados free, 535 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 726
+version: 731
 createdAt: 2026-10-11
 updatedAt: 2026-10-11
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-11T03:32:25.157Z
-> Total descoberto: 726 | Validados (HTTP 200 + free): 194 | Pulados (licença paga/enterprise): 532
+> Última execução: 2026-10-11T17:13:28.097Z
+> Total descoberto: 731 | Validados (HTTP 200 + free): 196 | Pulados (licença paga/enterprise): 535
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -215,6 +215,8 @@ updatedAt: 2026-10-11
 | uskanda/smarternews | TypeScript | 0 | MIT |  | [repo](https://github.com/uskanda/smarternews) |
 | TayHCode/channelrecap | Python | 0 | MIT |  | [repo](https://github.com/TayHCode/channelrecap) |
 | rudzy123/umd-cs4993-systems-capstone | Python | 0 | MIT |  | [repo](https://github.com/rudzy123/umd-cs4993-systems-capstone) |
+| gtjsq/hermes-topics-memory | Python | 0 | MIT |  | [repo](https://github.com/gtjsq/hermes-topics-memory) |
+| kotiniiqq/ai-video-pipeline | TypeScript | 0 | MIT | ai-video, automation, fastapi | [repo](https://github.com/kotiniiqq/ai-video-pipeline) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -750,6 +752,9 @@ updatedAt: 2026-10-11
 - muhammad-abbas-10/ai-shorts-reels-yt-fb-insta — licença: unknown
 - evecount/lecturesinplace — licença: unknown
 - Jarrettluo/skywork-ppt-skill — licença: unknown
+- myllatshimna/Sustainability_MVP — licença: unknown
+- haliskilic/rtlsdr-telegram — licença: NOASSERTION
+- SDEYHAX91/Multi-Agent-Research-System-using-Langchain — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
