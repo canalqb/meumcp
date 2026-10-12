@@ -10390,5 +10390,44 @@
       "typescript"
     ],
     "readme_absorbed": "kotiniiqq/ai-video-pipeline"
+  },
+  {
+    "id": 1414577501,
+    "full_name": "JaswanthMannem/RecallCode",
+    "url": "https://github.com/JaswanthMannem/RecallCode",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-12T03:56:16.970Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1414932649,
+    "full_name": "aylqs2025/topic-compass",
+    "url": "https://github.com/aylqs2025/topic-compass",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-12T03:56:18.135Z",
+    "topics": [],
+    "readme_absorbed": "aylqs2025/topic-compass"
+  },
+  {
+    "id": 1414883384,
+    "full_name": "quz2004/topic-model-count-splitting",
+    "url": "https://github.com/quz2004/topic-model-count-splitting",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-12T03:56:19.306Z",
+    "topics": [],
+    "readme_absorbed": "quz2004/topic-model-count-splitting"
   }
 ]

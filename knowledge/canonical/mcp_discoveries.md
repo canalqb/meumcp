@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (731 total, 196 validados free, 535 pulados/pago)
+description: MCPs descobertos pelo keyhunter (734 total, 197 validados free, 537 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 731
-createdAt: 2026-10-11
-updatedAt: 2026-10-11
+version: 734
+createdAt: 2026-10-12
+updatedAt: 2026-10-12
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-11T17:13:28.097Z
-> Total descoberto: 731 | Validados (HTTP 200 + free): 196 | Pulados (licença paga/enterprise): 535
+> Última execução: 2026-10-12T03:56:19.308Z
+> Total descoberto: 734 | Validados (HTTP 200 + free): 197 | Pulados (licença paga/enterprise): 537
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -217,6 +217,7 @@ updatedAt: 2026-10-11
 | rudzy123/umd-cs4993-systems-capstone | Python | 0 | MIT |  | [repo](https://github.com/rudzy123/umd-cs4993-systems-capstone) |
 | gtjsq/hermes-topics-memory | Python | 0 | MIT |  | [repo](https://github.com/gtjsq/hermes-topics-memory) |
 | kotiniiqq/ai-video-pipeline | TypeScript | 0 | MIT | ai-video, automation, fastapi | [repo](https://github.com/kotiniiqq/ai-video-pipeline) |
+| quz2004/topic-model-count-splitting | Python | 0 | MIT |  | [repo](https://github.com/quz2004/topic-model-count-splitting) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -755,6 +756,8 @@ updatedAt: 2026-10-11
 - myllatshimna/Sustainability_MVP — licença: unknown
 - haliskilic/rtlsdr-telegram — licença: NOASSERTION
 - SDEYHAX91/Multi-Agent-Research-System-using-Langchain — licença: unknown
+- JaswanthMannem/RecallCode — licença: unknown
+- aylqs2025/topic-compass — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

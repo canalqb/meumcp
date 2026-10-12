@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-12T03:56:19.306Z | quz2004/topic-model-count-splitting | 0 | MIT | 200 |
+
 | 2026-10-11T17:13:26.192Z | gtjsq/hermes-topics-memory | 0 | MIT | 200 |
 
 | 2026-10-11T17:13:28.096Z | kotiniiqq/ai-video-pipeline | 0 | MIT | 200 |
