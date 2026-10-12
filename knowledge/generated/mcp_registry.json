@@ -10429,5 +10429,83 @@
     "validated_at": "2026-10-12T03:56:19.306Z",
     "topics": [],
     "readme_absorbed": "quz2004/topic-model-count-splitting"
+  },
+  {
+    "id": 1416067874,
+    "full_name": "guyshalom1/osint-news-monitor",
+    "url": "https://github.com/guyshalom1/osint-news-monitor",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-12T20:47:29.382Z",
+    "topics": [],
+    "readme_absorbed": "guyshalom1/osint-news-monitor"
+  },
+  {
+    "id": 1415943817,
+    "full_name": "Tanish-o9/Research-with-crewAI",
+    "url": "https://github.com/Tanish-o9/Research-with-crewAI",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-12T20:47:30.268Z",
+    "topics": [],
+    "readme_absorbed": "Tanish-o9/Research-with-crewAI"
+  },
+  {
+    "id": 1416070059,
+    "full_name": "akshaymemane/asd-ste100-teach-skill",
+    "url": "https://github.com/akshaymemane/asd-ste100-teach-skill",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-12T20:47:30.965Z",
+    "topics": [],
+    "readme_absorbed": "akshaymemane/asd-ste100-teach-skill"
+  },
+  {
+    "id": 1416025200,
+    "full_name": "2020wmarvil/gloss",
+    "url": "https://github.com/2020wmarvil/gloss",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-12T20:47:31.828Z",
+    "topics": [],
+    "readme_absorbed": "2020wmarvil/gloss"
+  },
+  {
+    "id": 1415465960,
+    "full_name": "Vikram008-stack/podcast-radar",
+    "url": "https://github.com/Vikram008-stack/podcast-radar",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-12T20:47:32.757Z",
+    "topics": [],
+    "readme_absorbed": "Vikram008-stack/podcast-radar"
+  },
+  {
+    "id": 1416022115,
+    "full_name": "Akkuez/missings-topics",
+    "url": "https://github.com/Akkuez/missings-topics",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-12T20:47:33.616Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]

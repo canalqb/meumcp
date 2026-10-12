@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (734 total, 197 validados free, 537 pulados/pago)
+description: MCPs descobertos pelo keyhunter (740 total, 199 validados free, 541 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 734
+version: 740
 createdAt: 2026-10-12
 updatedAt: 2026-10-12
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-12T03:56:19.308Z
-> Total descoberto: 734 | Validados (HTTP 200 + free): 197 | Pulados (licença paga/enterprise): 537
+> Última execução: 2026-10-12T20:47:33.619Z
+> Total descoberto: 740 | Validados (HTTP 200 + free): 199 | Pulados (licença paga/enterprise): 541
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -218,6 +218,8 @@ updatedAt: 2026-10-12
 | gtjsq/hermes-topics-memory | Python | 0 | MIT |  | [repo](https://github.com/gtjsq/hermes-topics-memory) |
 | kotiniiqq/ai-video-pipeline | TypeScript | 0 | MIT | ai-video, automation, fastapi | [repo](https://github.com/kotiniiqq/ai-video-pipeline) |
 | quz2004/topic-model-count-splitting | Python | 0 | MIT |  | [repo](https://github.com/quz2004/topic-model-count-splitting) |
+| akshaymemane/asd-ste100-teach-skill | Python | 0 | MIT |  | [repo](https://github.com/akshaymemane/asd-ste100-teach-skill) |
+| 2020wmarvil/gloss | TypeScript | 0 | MIT |  | [repo](https://github.com/2020wmarvil/gloss) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -758,6 +760,10 @@ updatedAt: 2026-10-12
 - SDEYHAX91/Multi-Agent-Research-System-using-Langchain — licença: unknown
 - JaswanthMannem/RecallCode — licença: unknown
 - aylqs2025/topic-compass — licença: unknown
+- guyshalom1/osint-news-monitor — licença: unknown
+- Tanish-o9/Research-with-crewAI — licença: unknown
+- Vikram008-stack/podcast-radar — licença: unknown
+- Akkuez/missings-topics — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
