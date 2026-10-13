@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (740 total, 199 validados free, 541 pulados/pago)
+description: MCPs descobertos pelo keyhunter (744 total, 200 validados free, 544 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 740
-createdAt: 2026-10-12
-updatedAt: 2026-10-12
+version: 744
+createdAt: 2026-10-13
+updatedAt: 2026-10-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-12T20:47:33.619Z
-> Total descoberto: 740 | Validados (HTTP 200 + free): 199 | Pulados (licença paga/enterprise): 541
+> Última execução: 2026-10-13T05:06:13.777Z
+> Total descoberto: 744 | Validados (HTTP 200 + free): 200 | Pulados (licença paga/enterprise): 544
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -220,6 +220,7 @@ updatedAt: 2026-10-12
 | quz2004/topic-model-count-splitting | Python | 0 | MIT |  | [repo](https://github.com/quz2004/topic-model-count-splitting) |
 | akshaymemane/asd-ste100-teach-skill | Python | 0 | MIT |  | [repo](https://github.com/akshaymemane/asd-ste100-teach-skill) |
 | 2020wmarvil/gloss | TypeScript | 0 | MIT |  | [repo](https://github.com/2020wmarvil/gloss) |
+| sahilhossain27/food-review-analyzer | Python | 0 | MIT |  | [repo](https://github.com/sahilhossain27/food-review-analyzer) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -764,6 +765,9 @@ updatedAt: 2026-10-12
 - Tanish-o9/Research-with-crewAI — licença: unknown
 - Vikram008-stack/podcast-radar — licença: unknown
 - Akkuez/missings-topics — licença: unknown
+- Curley-Penguine/dorsal — licença: unknown
+- JavinezCyver/QuizCraft — licença: unknown
+- Nenosaj/Meta-Instagram-Scraper — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

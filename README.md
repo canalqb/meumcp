@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-13T05:06:12.542Z | sahilhossain27/food-review-analyzer | 0 | MIT | 200 |
+
 | 2026-10-12T20:47:30.965Z | akshaymemane/asd-ste100-teach-skill | 0 | MIT | 200 |
 
 | 2026-10-12T20:47:31.828Z | 2020wmarvil/gloss | 0 | MIT | 200 |

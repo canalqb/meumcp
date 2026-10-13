@@ -10507,5 +10507,57 @@
     "validated_at": "2026-10-12T20:47:33.616Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1416369732,
+    "full_name": "Curley-Penguine/dorsal",
+    "url": "https://github.com/Curley-Penguine/dorsal",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-13T05:06:10.052Z",
+    "topics": [],
+    "readme_absorbed": "Curley-Penguine/dorsal"
+  },
+  {
+    "id": 1416442975,
+    "full_name": "JavinezCyver/QuizCraft",
+    "url": "https://github.com/JavinezCyver/QuizCraft",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-13T05:06:11.296Z",
+    "topics": [],
+    "readme_absorbed": "JavinezCyver/QuizCraft"
+  },
+  {
+    "id": 1416404972,
+    "full_name": "sahilhossain27/food-review-analyzer",
+    "url": "https://github.com/sahilhossain27/food-review-analyzer",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-13T05:06:12.542Z",
+    "topics": [],
+    "readme_absorbed": "sahilhossain27/food-review-analyzer"
+  },
+  {
+    "id": 1416408283,
+    "full_name": "Nenosaj/Meta-Instagram-Scraper",
+    "url": "https://github.com/Nenosaj/Meta-Instagram-Scraper",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-13T05:06:13.775Z",
+    "topics": [],
+    "readme_absorbed": "Nenosaj/Meta-Instagram-Scraper"
   }
 ]
