@@ -10559,5 +10559,44 @@
     "validated_at": "2026-10-13T05:06:13.775Z",
     "topics": [],
     "readme_absorbed": "Nenosaj/Meta-Instagram-Scraper"
+  },
+  {
+    "id": 1416974778,
+    "full_name": "Marco-Picone-Teaching/python-advanced-topics-playground",
+    "url": "https://github.com/Marco-Picone-Teaching/python-advanced-topics-playground",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-13T18:46:41.099Z",
+    "topics": [],
+    "readme_absorbed": "Marco-Picone-Teaching/python-advanced-topics-playground"
+  },
+  {
+    "id": 1417631990,
+    "full_name": "antoniovazquezm/expo-evaluacion-topicos",
+    "url": "https://github.com/antoniovazquezm/expo-evaluacion-topicos",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-13T18:46:41.984Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1417639617,
+    "full_name": "reecegerhart/Cst435Topic3",
+    "url": "https://github.com/reecegerhart/Cst435Topic3",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-13T18:46:42.897Z",
+    "topics": [],
+    "readme_absorbed": "reecegerhart/Cst435Topic3"
   }
 ]
