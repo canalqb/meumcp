@@ -10598,5 +10598,52 @@
     "validated_at": "2026-10-13T18:46:42.897Z",
     "topics": [],
     "readme_absorbed": "reecegerhart/Cst435Topic3"
+  },
+  {
+    "id": 1418294048,
+    "full_name": "imnotnikos/Credit-Dashboard-for-Claude",
+    "url": "https://github.com/imnotnikos/Credit-Dashboard-for-Claude",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-14T03:12:56.737Z",
+    "topics": [],
+    "readme_absorbed": "imnotnikos/Credit-Dashboard-for-Claude"
+  },
+  {
+    "id": 1418288545,
+    "full_name": "OttoPrua/frame-ppt",
+    "url": "https://github.com/OttoPrua/frame-ppt",
+    "language": "Python",
+    "stars": 0,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-14T03:12:57.639Z",
+    "topics": [
+      "agent-skill",
+      "ai-ppt",
+      "ppt",
+      "pptx",
+      "pyramid-principle",
+      "slides",
+      "svg"
+    ],
+    "readme_absorbed": "OttoPrua/frame-ppt"
+  },
+  {
+    "id": 1418226869,
+    "full_name": "assafkip/audio-class",
+    "url": "https://github.com/assafkip/audio-class",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-14T03:12:58.507Z",
+    "topics": [],
+    "readme_absorbed": "assafkip/audio-class"
   }
 ]

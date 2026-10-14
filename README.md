@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-14T03:12:57.639Z | OttoPrua/frame-ppt | 0 | Apache-2.0 | 200 |
+
+| 2026-10-14T03:12:58.507Z | assafkip/audio-class | 0 | MIT | 200 |
+
 | 2026-10-13T05:06:12.542Z | sahilhossain27/food-review-analyzer | 0 | MIT | 200 |
 
 | 2026-10-12T20:47:30.965Z | akshaymemane/asd-ste100-teach-skill | 0 | MIT | 200 |

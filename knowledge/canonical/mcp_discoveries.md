@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (747 total, 200 validados free, 547 pulados/pago)
+description: MCPs descobertos pelo keyhunter (750 total, 202 validados free, 548 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 747
-createdAt: 2026-10-13
-updatedAt: 2026-10-13
+version: 750
+createdAt: 2026-10-14
+updatedAt: 2026-10-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-13T18:46:42.899Z
-> Total descoberto: 747 | Validados (HTTP 200 + free): 200 | Pulados (licença paga/enterprise): 547
+> Última execução: 2026-10-14T03:12:58.509Z
+> Total descoberto: 750 | Validados (HTTP 200 + free): 202 | Pulados (licença paga/enterprise): 548
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -221,6 +221,8 @@ updatedAt: 2026-10-13
 | akshaymemane/asd-ste100-teach-skill | Python | 0 | MIT |  | [repo](https://github.com/akshaymemane/asd-ste100-teach-skill) |
 | 2020wmarvil/gloss | TypeScript | 0 | MIT |  | [repo](https://github.com/2020wmarvil/gloss) |
 | sahilhossain27/food-review-analyzer | Python | 0 | MIT |  | [repo](https://github.com/sahilhossain27/food-review-analyzer) |
+| OttoPrua/frame-ppt | Python | 0 | Apache-2.0 | agent-skill, ai-ppt, ppt | [repo](https://github.com/OttoPrua/frame-ppt) |
+| assafkip/audio-class | Python | 0 | MIT |  | [repo](https://github.com/assafkip/audio-class) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -771,6 +773,7 @@ updatedAt: 2026-10-13
 - Marco-Picone-Teaching/python-advanced-topics-playground — licença: NOASSERTION
 - antoniovazquezm/expo-evaluacion-topicos — licença: unknown
 - reecegerhart/Cst435Topic3 — licença: unknown
+- imnotnikos/Credit-Dashboard-for-Claude — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
