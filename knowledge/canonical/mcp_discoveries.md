@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (750 total, 202 validados free, 548 pulados/pago)
+description: MCPs descobertos pelo keyhunter (756 total, 204 validados free, 552 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 750
+version: 756
 createdAt: 2026-10-14
 updatedAt: 2026-10-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-14T03:12:58.509Z
-> Total descoberto: 750 | Validados (HTTP 200 + free): 202 | Pulados (licença paga/enterprise): 548
+> Última execução: 2026-10-14T16:22:08.095Z
+> Total descoberto: 756 | Validados (HTTP 200 + free): 204 | Pulados (licença paga/enterprise): 552
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -223,6 +223,8 @@ updatedAt: 2026-10-14
 | sahilhossain27/food-review-analyzer | Python | 0 | MIT |  | [repo](https://github.com/sahilhossain27/food-review-analyzer) |
 | OttoPrua/frame-ppt | Python | 0 | Apache-2.0 | agent-skill, ai-ppt, ppt | [repo](https://github.com/OttoPrua/frame-ppt) |
 | assafkip/audio-class | Python | 0 | MIT |  | [repo](https://github.com/assafkip/audio-class) |
+| Ednah-Rebeccah/social-media-engagement-prediction | Python | 0 | MIT |  | [repo](https://github.com/Ednah-Rebeccah/social-media-engagement-prediction) |
+| mi11ione/querschnitt | Python | 0 | Apache-2.0 |  | [repo](https://github.com/mi11ione/querschnitt) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -774,6 +776,10 @@ updatedAt: 2026-10-14
 - antoniovazquezm/expo-evaluacion-topicos — licença: unknown
 - reecegerhart/Cst435Topic3 — licença: unknown
 - imnotnikos/Credit-Dashboard-for-Claude — licença: unknown
+- kenryu42/x-bookmarks — licença: unknown
+- Hyainth/hot-topic-agent — licença: unknown
+- scida-science/scida-science.github.io — licença: unknown
+- AlainFord/Frontend-Interview — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 

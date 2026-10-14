@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-14T16:22:02.645Z | Ednah-Rebeccah/social-media-engagement-prediction | 0 | MIT | 200 |
+
+| 2026-10-14T16:22:05.035Z | mi11ione/querschnitt | 0 | Apache-2.0 | 200 |
+
 | 2026-10-14T03:12:57.639Z | OttoPrua/frame-ppt | 0 | Apache-2.0 | 200 |
 
 | 2026-10-14T03:12:58.507Z | assafkip/audio-class | 0 | MIT | 200 |
