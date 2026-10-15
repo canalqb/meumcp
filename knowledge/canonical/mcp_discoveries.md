@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (756 total, 204 validados free, 552 pulados/pago)
+description: MCPs descobertos pelo keyhunter (762 total, 206 validados free, 556 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 756
-createdAt: 2026-10-14
-updatedAt: 2026-10-14
+version: 762
+createdAt: 2026-10-15
+updatedAt: 2026-10-15
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-14T16:22:08.095Z
-> Total descoberto: 756 | Validados (HTTP 200 + free): 204 | Pulados (licença paga/enterprise): 552
+> Última execução: 2026-10-15T02:51:50.334Z
+> Total descoberto: 762 | Validados (HTTP 200 + free): 206 | Pulados (licença paga/enterprise): 556
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -225,6 +225,8 @@ updatedAt: 2026-10-14
 | assafkip/audio-class | Python | 0 | MIT |  | [repo](https://github.com/assafkip/audio-class) |
 | Ednah-Rebeccah/social-media-engagement-prediction | Python | 0 | MIT |  | [repo](https://github.com/Ednah-Rebeccah/social-media-engagement-prediction) |
 | mi11ione/querschnitt | Python | 0 | Apache-2.0 |  | [repo](https://github.com/mi11ione/querschnitt) |
+| millsks/python-practicum | Python | 0 | MIT |  | [repo](https://github.com/millsks/python-practicum) |
+| savannahx0uybzri53ntk7c-tech/ai-shengyijing | Python | 0 | MIT |  | [repo](https://github.com/savannahx0uybzri53ntk7c-tech/ai-shengyijing) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -780,6 +782,10 @@ updatedAt: 2026-10-14
 - Hyainth/hot-topic-agent — licença: unknown
 - scida-science/scida-science.github.io — licença: unknown
 - AlainFord/Frontend-Interview — licença: NOASSERTION
+- adarzhpathade/Nodus — licença: unknown
+- jibmaird/NCAS-vet-cystitis-classifier — licença: NOASSERTION
+- pauloWare/morrowind-pfp-ptbr — licença: unknown
+- 0xnurrabby/nurxai-lore-bot — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

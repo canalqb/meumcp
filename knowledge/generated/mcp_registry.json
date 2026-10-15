@@ -10736,5 +10736,88 @@
       "tailwindcss"
     ],
     "readme_absorbed": "AlainFord/Frontend-Interview"
+  },
+  {
+    "id": 1420053346,
+    "full_name": "adarzhpathade/Nodus",
+    "url": "https://github.com/adarzhpathade/Nodus",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-15T02:51:45.225Z",
+    "topics": [],
+    "readme_absorbed": "adarzhpathade/Nodus"
+  },
+  {
+    "id": 1419987428,
+    "full_name": "millsks/python-practicum",
+    "url": "https://github.com/millsks/python-practicum",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-15T02:51:46.350Z",
+    "topics": [],
+    "readme_absorbed": "millsks/python-practicum"
+  },
+  {
+    "id": 1420063387,
+    "full_name": "jibmaird/NCAS-vet-cystitis-classifier",
+    "url": "https://github.com/jibmaird/NCAS-vet-cystitis-classifier",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-15T02:51:47.390Z",
+    "topics": [
+      "antimicrobial-stewardship",
+      "bert",
+      "clinical-nlp",
+      "veterinary"
+    ],
+    "readme_absorbed": "jibmaird/NCAS-vet-cystitis-classifier"
+  },
+  {
+    "id": 1420033284,
+    "full_name": "savannahx0uybzri53ntk7c-tech/ai-shengyijing",
+    "url": "https://github.com/savannahx0uybzri53ntk7c-tech/ai-shengyijing",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-15T02:51:48.564Z",
+    "topics": [],
+    "readme_absorbed": "savannahx0uybzri53ntk7c-tech/ai-shengyijing"
+  },
+  {
+    "id": 1420016724,
+    "full_name": "pauloWare/morrowind-pfp-ptbr",
+    "url": "https://github.com/pauloWare/morrowind-pfp-ptbr",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-15T02:51:49.430Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1419946569,
+    "full_name": "0xnurrabby/nurxai-lore-bot",
+    "url": "https://github.com/0xnurrabby/nurxai-lore-bot",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-15T02:51:50.332Z",
+    "topics": [],
+    "readme_absorbed": "0xnurrabby/nurxai-lore-bot"
   }
 ]
