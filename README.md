@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-15T16:10:09.611Z | proBieri/dingz-ha-bridge | 0 | MIT | 200 |
+
+| 2026-10-15T16:10:10.827Z | arjha10-max/Agentic-Research-Lab | 0 | MIT | 200 |
+
+| 2026-10-15T16:10:13.771Z | ruhil6789/ai-guardrail | 0 | MIT | 200 |
+
 | 2026-10-15T02:51:46.350Z | millsks/python-practicum | 0 | MIT | 200 |
 
 | 2026-10-15T02:51:48.564Z | savannahx0uybzri53ntk7c-tech/ai-shengyijing | 0 | MIT | 200 |

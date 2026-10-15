@@ -10819,5 +10819,78 @@
     "validated_at": "2026-10-15T02:51:50.332Z",
     "topics": [],
     "readme_absorbed": "0xnurrabby/nurxai-lore-bot"
+  },
+  {
+    "id": 1420370530,
+    "full_name": "proBieri/dingz-ha-bridge",
+    "url": "https://github.com/proBieri/dingz-ha-bridge",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-15T16:10:09.611Z",
+    "topics": [
+      "dingz",
+      "home-assistant",
+      "homeassistant",
+      "homeassistant-addons",
+      "iolo",
+      "mqtt",
+      "mqtt-discovery"
+    ],
+    "readme_absorbed": "proBieri/dingz-ha-bridge"
+  },
+  {
+    "id": 1420895620,
+    "full_name": "arjha10-max/Agentic-Research-Lab",
+    "url": "https://github.com/arjha10-max/Agentic-Research-Lab",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-15T16:10:10.827Z",
+    "topics": [],
+    "readme_absorbed": "arjha10-max/Agentic-Research-Lab"
+  },
+  {
+    "id": 1420904526,
+    "full_name": "gowlikarr/WebSearch_LangChain",
+    "url": "https://github.com/gowlikarr/WebSearch_LangChain",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-15T16:10:11.869Z",
+    "topics": [],
+    "readme_absorbed": "gowlikarr/WebSearch_LangChain"
+  },
+  {
+    "id": 1420944010,
+    "full_name": "pawarpayal09/AcademicNotesAI_Dashboard",
+    "url": "https://github.com/pawarpayal09/AcademicNotesAI_Dashboard",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-15T16:10:12.832Z",
+    "topics": [],
+    "readme_absorbed": "pawarpayal09/AcademicNotesAI_Dashboard"
+  },
+  {
+    "id": 1420924475,
+    "full_name": "ruhil6789/ai-guardrail",
+    "url": "https://github.com/ruhil6789/ai-guardrail",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-15T16:10:13.771Z",
+    "topics": [],
+    "readme_absorbed": "ruhil6789/ai-guardrail"
   }
 ]

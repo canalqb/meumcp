@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (762 total, 206 validados free, 556 pulados/pago)
+description: MCPs descobertos pelo keyhunter (767 total, 209 validados free, 558 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 762
+version: 767
 createdAt: 2026-10-15
 updatedAt: 2026-10-15
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-15T02:51:50.334Z
-> Total descoberto: 762 | Validados (HTTP 200 + free): 206 | Pulados (licença paga/enterprise): 556
+> Última execução: 2026-10-15T16:10:13.773Z
+> Total descoberto: 767 | Validados (HTTP 200 + free): 209 | Pulados (licença paga/enterprise): 558
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -227,6 +227,9 @@ updatedAt: 2026-10-15
 | mi11ione/querschnitt | Python | 0 | Apache-2.0 |  | [repo](https://github.com/mi11ione/querschnitt) |
 | millsks/python-practicum | Python | 0 | MIT |  | [repo](https://github.com/millsks/python-practicum) |
 | savannahx0uybzri53ntk7c-tech/ai-shengyijing | Python | 0 | MIT |  | [repo](https://github.com/savannahx0uybzri53ntk7c-tech/ai-shengyijing) |
+| proBieri/dingz-ha-bridge | Python | 0 | MIT | dingz, home-assistant, homeassistant | [repo](https://github.com/proBieri/dingz-ha-bridge) |
+| arjha10-max/Agentic-Research-Lab | Python | 0 | MIT |  | [repo](https://github.com/arjha10-max/Agentic-Research-Lab) |
+| ruhil6789/ai-guardrail | Python | 0 | MIT |  | [repo](https://github.com/ruhil6789/ai-guardrail) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -786,6 +789,8 @@ updatedAt: 2026-10-15
 - jibmaird/NCAS-vet-cystitis-classifier — licença: NOASSERTION
 - pauloWare/morrowind-pfp-ptbr — licença: unknown
 - 0xnurrabby/nurxai-lore-bot — licença: unknown
+- gowlikarr/WebSearch_LangChain — licença: unknown
+- pawarpayal09/AcademicNotesAI_Dashboard — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
