@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (770 total, 210 validados free, 560 pulados/pago)
+description: MCPs descobertos pelo keyhunter (777 total, 210 validados free, 567 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 770
+version: 777
 createdAt: 2026-10-16
 updatedAt: 2026-10-16
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-16T02:48:59.846Z
-> Total descoberto: 770 | Validados (HTTP 200 + free): 210 | Pulados (licença paga/enterprise): 560
+> Última execução: 2026-10-16T15:57:20.972Z
+> Total descoberto: 777 | Validados (HTTP 200 + free): 210 | Pulados (licença paga/enterprise): 567
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -794,6 +794,13 @@ updatedAt: 2026-10-16
 - pawarpayal09/AcademicNotesAI_Dashboard — licença: unknown
 - ddrisco11/Media-Bias-Sentiment-Analysis-LLM — licença: unknown
 - IK-2006/TOPICOS-ESPECIAS-DESENVOLVIMENTO — licença: unknown
+- subinthomas2004/dynamic-ai-prompt-assistant — licença: unknown
+- yinasaurus/spm-topic-sharing — licença: unknown
+- Kungaar-svg/Viralcraft-ai — licença: unknown
+- avikds/embeddinggemma-from-scratch-train-a-text-embedding-model-in-pytorch — licença: unknown
+- subinthomas2004/Autonomous-Agent — licença: unknown
+- Muhammad773-bit/crewai-research-report-generator — licença: unknown
+- mepkn/learn — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
