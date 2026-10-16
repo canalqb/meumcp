@@ -10892,5 +10892,44 @@
     "validated_at": "2026-10-15T16:10:13.771Z",
     "topics": [],
     "readme_absorbed": "ruhil6789/ai-guardrail"
+  },
+  {
+    "id": 1421402067,
+    "full_name": "ddrisco11/Media-Bias-Sentiment-Analysis-LLM",
+    "url": "https://github.com/ddrisco11/Media-Bias-Sentiment-Analysis-LLM",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-16T02:48:58.174Z",
+    "topics": [],
+    "readme_absorbed": "ddrisco11/Media-Bias-Sentiment-Analysis-LLM"
+  },
+  {
+    "id": 1421540635,
+    "full_name": "zz4fff/finance4.0",
+    "url": "https://github.com/zz4fff/finance4.0",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-16T02:48:58.968Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1421485106,
+    "full_name": "IK-2006/TOPICOS-ESPECIAS-DESENVOLVIMENTO",
+    "url": "https://github.com/IK-2006/TOPICOS-ESPECIAS-DESENVOLVIMENTO",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-16T02:48:59.844Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (767 total, 209 validados free, 558 pulados/pago)
+description: MCPs descobertos pelo keyhunter (770 total, 210 validados free, 560 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 767
-createdAt: 2026-10-15
-updatedAt: 2026-10-15
+version: 770
+createdAt: 2026-10-16
+updatedAt: 2026-10-16
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-15T16:10:13.773Z
-> Total descoberto: 767 | Validados (HTTP 200 + free): 209 | Pulados (licença paga/enterprise): 558
+> Última execução: 2026-10-16T02:48:59.846Z
+> Total descoberto: 770 | Validados (HTTP 200 + free): 210 | Pulados (licença paga/enterprise): 560
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -230,6 +230,7 @@ updatedAt: 2026-10-15
 | proBieri/dingz-ha-bridge | Python | 0 | MIT | dingz, home-assistant, homeassistant | [repo](https://github.com/proBieri/dingz-ha-bridge) |
 | arjha10-max/Agentic-Research-Lab | Python | 0 | MIT |  | [repo](https://github.com/arjha10-max/Agentic-Research-Lab) |
 | ruhil6789/ai-guardrail | Python | 0 | MIT |  | [repo](https://github.com/ruhil6789/ai-guardrail) |
+| zz4fff/finance4.0 | TypeScript | 0 | MIT |  | [repo](https://github.com/zz4fff/finance4.0) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -791,6 +792,8 @@ updatedAt: 2026-10-15
 - 0xnurrabby/nurxai-lore-bot — licença: unknown
 - gowlikarr/WebSearch_LangChain — licença: unknown
 - pawarpayal09/AcademicNotesAI_Dashboard — licença: unknown
+- ddrisco11/Media-Bias-Sentiment-Analysis-LLM — licença: unknown
+- IK-2006/TOPICOS-ESPECIAS-DESENVOLVIMENTO — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

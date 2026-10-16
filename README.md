@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-16T02:48:58.968Z | zz4fff/finance4.0 | 0 | MIT | 200 |
+
 | 2026-10-15T16:10:09.611Z | proBieri/dingz-ha-bridge | 0 | MIT | 200 |
 
 | 2026-10-15T16:10:10.827Z | arjha10-max/Agentic-Research-Lab | 0 | MIT | 200 |
