@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (777 total, 210 validados free, 567 pulados/pago)
+description: MCPs descobertos pelo keyhunter (782 total, 210 validados free, 572 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 777
-createdAt: 2026-10-16
-updatedAt: 2026-10-16
+version: 782
+createdAt: 2026-10-17
+updatedAt: 2026-10-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-16T15:57:20.972Z
-> Total descoberto: 777 | Validados (HTTP 200 + free): 210 | Pulados (licença paga/enterprise): 567
+> Última execução: 2026-10-17T02:40:40.672Z
+> Total descoberto: 782 | Validados (HTTP 200 + free): 210 | Pulados (licença paga/enterprise): 572
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -801,6 +801,11 @@ updatedAt: 2026-10-16
 - subinthomas2004/Autonomous-Agent — licença: unknown
 - Muhammad773-bit/crewai-research-report-generator — licença: unknown
 - mepkn/learn — licença: unknown
+- nguyenchiminhhieu/aivn-excel-qa — licença: unknown
+- Astra-lele/trade-data-explorer — licença: unknown
+- sv0902/customer-feedback-router — licença: unknown
+- Osie2x/cross-cultural-topic-modeling-audit — licença: unknown
+- mr-asare-samuel/Python-Concepts-Roadmap — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

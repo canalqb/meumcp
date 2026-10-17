@@ -11034,5 +11034,70 @@
       "vite"
     ],
     "readme_absorbed": "mepkn/learn"
+  },
+  {
+    "id": 1422382615,
+    "full_name": "nguyenchiminhhieu/aivn-excel-qa",
+    "url": "https://github.com/nguyenchiminhhieu/aivn-excel-qa",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-17T02:40:37.524Z",
+    "topics": [],
+    "readme_absorbed": "nguyenchiminhhieu/aivn-excel-qa"
+  },
+  {
+    "id": 1422657684,
+    "full_name": "Astra-lele/trade-data-explorer",
+    "url": "https://github.com/Astra-lele/trade-data-explorer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-17T02:40:38.418Z",
+    "topics": [],
+    "readme_absorbed": "Astra-lele/trade-data-explorer"
+  },
+  {
+    "id": 1422852517,
+    "full_name": "sv0902/customer-feedback-router",
+    "url": "https://github.com/sv0902/customer-feedback-router",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-17T02:40:39.154Z",
+    "topics": [],
+    "readme_absorbed": "sv0902/customer-feedback-router"
+  },
+  {
+    "id": 1422845413,
+    "full_name": "Osie2x/cross-cultural-topic-modeling-audit",
+    "url": "https://github.com/Osie2x/cross-cultural-topic-modeling-audit",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-17T02:40:39.871Z",
+    "topics": [],
+    "readme_absorbed": "Osie2x/cross-cultural-topic-modeling-audit"
+  },
+  {
+    "id": 1422818676,
+    "full_name": "mr-asare-samuel/Python-Concepts-Roadmap",
+    "url": "https://github.com/mr-asare-samuel/Python-Concepts-Roadmap",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-17T02:40:40.669Z",
+    "topics": [],
+    "readme_absorbed": "mr-asare-samuel/Python-Concepts-Roadmap"
   }
 ]
