@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (782 total, 210 validados free, 572 pulados/pago)
+description: MCPs descobertos pelo keyhunter (785 total, 211 validados free, 574 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 782
+version: 785
 createdAt: 2026-10-17
 updatedAt: 2026-10-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-17T02:40:40.672Z
-> Total descoberto: 782 | Validados (HTTP 200 + free): 210 | Pulados (licença paga/enterprise): 572
+> Última execução: 2026-10-17T14:50:22.297Z
+> Total descoberto: 785 | Validados (HTTP 200 + free): 211 | Pulados (licença paga/enterprise): 574
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -231,6 +231,7 @@ updatedAt: 2026-10-17
 | arjha10-max/Agentic-Research-Lab | Python | 0 | MIT |  | [repo](https://github.com/arjha10-max/Agentic-Research-Lab) |
 | ruhil6789/ai-guardrail | Python | 0 | MIT |  | [repo](https://github.com/ruhil6789/ai-guardrail) |
 | zz4fff/finance4.0 | TypeScript | 0 | MIT |  | [repo](https://github.com/zz4fff/finance4.0) |
+| raiton0902/personal-learning | Python | 0 | MIT |  | [repo](https://github.com/raiton0902/personal-learning) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -806,6 +807,8 @@ updatedAt: 2026-10-17
 - sv0902/customer-feedback-router — licença: unknown
 - Osie2x/cross-cultural-topic-modeling-audit — licença: unknown
 - mr-asare-samuel/Python-Concepts-Roadmap — licença: unknown
+- Sci-fi-coder/Orion — licença: unknown
+- obhor/tcs-codevita-solutions — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -11099,5 +11099,56 @@
     "validated_at": "2026-10-17T02:40:40.669Z",
     "topics": [],
     "readme_absorbed": "mr-asare-samuel/Python-Concepts-Roadmap"
+  },
+  {
+    "id": 1423381520,
+    "full_name": "raiton0902/personal-learning",
+    "url": "https://github.com/raiton0902/personal-learning",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-17T14:50:20.512Z",
+    "topics": [],
+    "readme_absorbed": "raiton0902/personal-learning"
+  },
+  {
+    "id": 1423340097,
+    "full_name": "Sci-fi-coder/Orion",
+    "url": "https://github.com/Sci-fi-coder/Orion",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-17T14:50:21.422Z",
+    "topics": [],
+    "readme_absorbed": "Sci-fi-coder/Orion"
+  },
+  {
+    "id": 1423370565,
+    "full_name": "obhor/tcs-codevita-solutions",
+    "url": "https://github.com/obhor/tcs-codevita-solutions",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-17T14:50:22.294Z",
+    "topics": [
+      "algorithms",
+      "codevita",
+      "codevita-solutions",
+      "coding-interview",
+      "competitive-programming",
+      "data-structures",
+      "placement-preparation",
+      "previous-year-questions",
+      "python",
+      "tcs",
+      "tcs-codevita"
+    ],
+    "readme_absorbed": "obhor/tcs-codevita-solutions"
   }
 ]
