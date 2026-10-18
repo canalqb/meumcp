@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (788 total, 212 validados free, 576 pulados/pago)
+description: MCPs descobertos pelo keyhunter (799 total, 214 validados free, 585 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 788
+version: 799
 createdAt: 2026-10-18
 updatedAt: 2026-10-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-18T02:41:58.295Z
-> Total descoberto: 788 | Validados (HTTP 200 + free): 212 | Pulados (licença paga/enterprise): 576
+> Última execução: 2026-10-18T15:15:53.674Z
+> Total descoberto: 799 | Validados (HTTP 200 + free): 214 | Pulados (licença paga/enterprise): 585
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -233,6 +233,8 @@ updatedAt: 2026-10-18
 | zz4fff/finance4.0 | TypeScript | 0 | MIT |  | [repo](https://github.com/zz4fff/finance4.0) |
 | raiton0902/personal-learning | Python | 0 | MIT |  | [repo](https://github.com/raiton0902/personal-learning) |
 | GerardWu100/question-bank-prep | TypeScript | 0 | MIT | ai-tutor, cfa, cfa-exam | [repo](https://github.com/GerardWu100/question-bank-prep) |
+| taku629/ledgerpilot | Python | 0 | MIT |  | [repo](https://github.com/taku629/ledgerpilot) |
+| Suesone/headline | Python | 0 | MIT |  | [repo](https://github.com/Suesone/headline) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -812,6 +814,15 @@ updatedAt: 2026-10-18
 - obhor/tcs-codevita-solutions — licença: unknown
 - KBVYSHNAVI/LearnLens--AI — licença: unknown
 - dschwen/paper-of-the-day — licença: unknown
+- shalu891/NumPY-Practice — licença: unknown
+- AryaLolusare2712/DSA-Journey-Python — licença: unknown
+- Maya-Klein/dependency-followup — licença: unknown
+- mopri58/Smart-Study-planner-AI — licença: unknown
+- vedant400/StudyPlanner — licença: unknown
+- saad9122/special-topics-benchmark-assignment-1 — licença: unknown
+- sjev/wp-wiki — licença: unknown
+- JacobWillson13/grateful-dead-lyric-analysis — licença: unknown
+- Rao-Waleed-Nadeem/Learnova — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

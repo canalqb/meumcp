@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-18T15:15:44.783Z | taku629/ledgerpilot | 0 | MIT | 200 |
+
+| 2026-10-18T15:15:45.921Z | Suesone/headline | 0 | MIT | 200 |
+
 | 2026-10-18T02:41:57.347Z | GerardWu100/question-bank-prep | 0 | MIT | 200 |
 
 | 2026-10-17T14:50:20.512Z | raiton0902/personal-learning | 0 | MIT | 200 |
