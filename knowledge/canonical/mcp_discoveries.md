@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (785 total, 211 validados free, 574 pulados/pago)
+description: MCPs descobertos pelo keyhunter (788 total, 212 validados free, 576 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 785
-createdAt: 2026-10-17
-updatedAt: 2026-10-17
+version: 788
+createdAt: 2026-10-18
+updatedAt: 2026-10-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-17T14:50:22.297Z
-> Total descoberto: 785 | Validados (HTTP 200 + free): 211 | Pulados (licença paga/enterprise): 574
+> Última execução: 2026-10-18T02:41:58.295Z
+> Total descoberto: 788 | Validados (HTTP 200 + free): 212 | Pulados (licença paga/enterprise): 576
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -232,6 +232,7 @@ updatedAt: 2026-10-17
 | ruhil6789/ai-guardrail | Python | 0 | MIT |  | [repo](https://github.com/ruhil6789/ai-guardrail) |
 | zz4fff/finance4.0 | TypeScript | 0 | MIT |  | [repo](https://github.com/zz4fff/finance4.0) |
 | raiton0902/personal-learning | Python | 0 | MIT |  | [repo](https://github.com/raiton0902/personal-learning) |
+| GerardWu100/question-bank-prep | TypeScript | 0 | MIT | ai-tutor, cfa, cfa-exam | [repo](https://github.com/GerardWu100/question-bank-prep) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -809,6 +810,8 @@ updatedAt: 2026-10-17
 - mr-asare-samuel/Python-Concepts-Roadmap — licença: unknown
 - Sci-fi-coder/Orion — licença: unknown
 - obhor/tcs-codevita-solutions — licença: unknown
+- KBVYSHNAVI/LearnLens--AI — licença: unknown
+- dschwen/paper-of-the-day — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

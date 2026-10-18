@@ -11150,5 +11150,65 @@
       "tcs-codevita"
     ],
     "readme_absorbed": "obhor/tcs-codevita-solutions"
+  },
+  {
+    "id": 1423920075,
+    "full_name": "KBVYSHNAVI/LearnLens--AI",
+    "url": "https://github.com/KBVYSHNAVI/LearnLens--AI",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-18T02:41:56.427Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1423664522,
+    "full_name": "GerardWu100/question-bank-prep",
+    "url": "https://github.com/GerardWu100/question-bank-prep",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-18T02:41:57.347Z",
+    "topics": [
+      "ai-tutor",
+      "cfa",
+      "cfa-exam",
+      "cfa-level-1",
+      "cfa-level-2",
+      "cfa-level-3",
+      "docker",
+      "exam-prep",
+      "latex",
+      "markdown",
+      "multiple-choice",
+      "practice-questions",
+      "question-bank",
+      "quiz-app",
+      "react",
+      "self-hosted",
+      "sqlite",
+      "study-app",
+      "test-prep",
+      "typescript"
+    ],
+    "readme_absorbed": "GerardWu100/question-bank-prep"
+  },
+  {
+    "id": 1423540897,
+    "full_name": "dschwen/paper-of-the-day",
+    "url": "https://github.com/dschwen/paper-of-the-day",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-18T02:41:58.294Z",
+    "topics": [],
+    "readme_absorbed": "dschwen/paper-of-the-day"
   }
 ]
