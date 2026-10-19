@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-19T02:55:06.498Z | Qinhuai8822/account-diagnosis | 0 | MIT | 200 |
+
+| 2026-10-19T02:55:08.727Z | Ravinuthala-Venkata-Siva-Prasad/Wikipedia-Arxiv-Research-Search-Engine | 0 | MIT | 200 |
+
 | 2026-10-18T15:15:44.783Z | taku629/ledgerpilot | 0 | MIT | 200 |
 
 | 2026-10-18T15:15:45.921Z | Suesone/headline | 0 | MIT | 200 |

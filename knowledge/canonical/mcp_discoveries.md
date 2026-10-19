@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (799 total, 214 validados free, 585 pulados/pago)
+description: MCPs descobertos pelo keyhunter (808 total, 216 validados free, 592 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 799
-createdAt: 2026-10-18
-updatedAt: 2026-10-18
+version: 808
+createdAt: 2026-10-19
+updatedAt: 2026-10-19
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-18T15:15:53.674Z
-> Total descoberto: 799 | Validados (HTTP 200 + free): 214 | Pulados (licença paga/enterprise): 585
+> Última execução: 2026-10-19T02:55:09.906Z
+> Total descoberto: 808 | Validados (HTTP 200 + free): 216 | Pulados (licença paga/enterprise): 592
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -235,6 +235,8 @@ updatedAt: 2026-10-18
 | GerardWu100/question-bank-prep | TypeScript | 0 | MIT | ai-tutor, cfa, cfa-exam | [repo](https://github.com/GerardWu100/question-bank-prep) |
 | taku629/ledgerpilot | Python | 0 | MIT |  | [repo](https://github.com/taku629/ledgerpilot) |
 | Suesone/headline | Python | 0 | MIT |  | [repo](https://github.com/Suesone/headline) |
+| Qinhuai8822/account-diagnosis | Python | 0 | MIT |  | [repo](https://github.com/Qinhuai8822/account-diagnosis) |
+| Ravinuthala-Venkata-Siva-Prasad/Wikipedia-Arxiv-Research-Search-Engine | Python | 0 | MIT |  | [repo](https://github.com/Ravinuthala-Venkata-Siva-Prasad/Wikipedia-Arxiv-Research-Search-Engine) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -823,6 +825,13 @@ updatedAt: 2026-10-18
 - sjev/wp-wiki — licença: unknown
 - JacobWillson13/grateful-dead-lyric-analysis — licença: unknown
 - Rao-Waleed-Nadeem/Learnova — licença: unknown
+- Invincible1811/same-label-different-work — licença: unknown
+- Rav790/Quiz-Performance-Analytics-System — licença: unknown
+- rdlmda/forumbot — licença: AGPL-3.0
+- Weeexiao/shortdrama-topic-script — licença: unknown
+- kaim-tqkhai711/HW2_NMAI_Topic1 — licença: unknown
+- d3vPadawann/topicos-avancados-proj-uni-1 — licença: unknown
+- fabianhdz/reinforcement-learning — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
