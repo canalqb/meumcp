@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-19T18:13:08.514Z | dilipgaikwads/taleforge | 0 | MIT | 200 |
+
+| 2026-10-19T18:13:12.639Z | Shubham-Goswami-06/LabLog | 0 | Apache-2.0 | 200 |
+
+| 2026-10-19T18:13:14.400Z | shrmilamango/longform-video-pipeline | 0 | MIT | 200 |
+
 | 2026-10-19T02:55:06.498Z | Qinhuai8822/account-diagnosis | 0 | MIT | 200 |
 
 | 2026-10-19T02:55:08.727Z | Ravinuthala-Venkata-Siva-Prasad/Wikipedia-Arxiv-Research-Search-Engine | 0 | MIT | 200 |
