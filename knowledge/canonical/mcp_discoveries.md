@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (823 total, 222 validados free, 601 pulados/pago)
+description: MCPs descobertos pelo keyhunter (836 total, 224 validados free, 612 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 823
+version: 836
 createdAt: 2026-10-20
 updatedAt: 2026-10-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-20T03:05:11.641Z
-> Total descoberto: 823 | Validados (HTTP 200 + free): 222 | Pulados (licença paga/enterprise): 601
+> Última execução: 2026-10-20T16:13:45.055Z
+> Total descoberto: 836 | Validados (HTTP 200 + free): 224 | Pulados (licença paga/enterprise): 612
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -243,6 +243,8 @@ updatedAt: 2026-10-20
 | ENER90/product-hunt-scraper | TypeScript | 0 | MIT | apify, apify-actor, crawlee | [repo](https://github.com/ENER90/product-hunt-scraper) |
 | PatrickNDevelopment/topic-pulse | TypeScript | 0 | MIT | analytics, explainability, react | [repo](https://github.com/PatrickNDevelopment/topic-pulse) |
 | Stelar0720/Proyecto_1_Topicos_II | Python | 0 | MIT |  | [repo](https://github.com/Stelar0720/Proyecto_1_Topicos_II) |
+| aniketks1/tabsprout | TypeScript | 0 | MIT |  | [repo](https://github.com/aniketks1/tabsprout) |
+| NagasakiSaki/ai-newsroom | Python | 0 | MIT | ai-news, fastapi, information-retrieval | [repo](https://github.com/NagasakiSaki/ai-newsroom) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -847,6 +849,17 @@ updatedAt: 2026-10-20
 - qustnwks02-cyber/blog-topic-bot — licença: unknown
 - Plebabble/Courseflow — licença: unknown
 - goravjhabakh/vertex — licença: unknown
+- akash0467-spec/LDA_Topic_Modeling — licença: unknown
+- Jackson-Dataciders/pathforge — licença: unknown
+- EgoQuantAI/egoquant-backend — licença: unknown
+- Borla25/team-01-quantum-computing — licença: unknown
+- EgoQuantAI/egoquant-frontend — licença: unknown
+- joshieyu/DrumLoopQuery — licença: unknown
+- chester-hill-solutions/civicsignal — licença: unknown
+- duclucky/quorum-current-genlayer — licença: unknown
+- Lena6779/Similarity_Threshold_Experiment — licença: unknown
+- Jotham-Siror/karo — licença: unknown
+- johnong04/famILY — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 

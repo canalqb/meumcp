@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-20T16:13:35.815Z | aniketks1/tabsprout | 0 | MIT | 200 |
+
+| 2026-10-20T16:13:43.177Z | NagasakiSaki/ai-newsroom | 0 | MIT | 200 |
+
 | 2026-10-20T03:05:06.545Z | ENER90/product-hunt-scraper | 0 | MIT | 200 |
 
 | 2026-10-20T03:05:10.436Z | PatrickNDevelopment/topic-pulse | 0 | MIT | 200 |
