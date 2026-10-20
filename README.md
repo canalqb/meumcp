@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-20T03:05:06.545Z | ENER90/product-hunt-scraper | 0 | MIT | 200 |
+
+| 2026-10-20T03:05:10.436Z | PatrickNDevelopment/topic-pulse | 0 | MIT | 200 |
+
+| 2026-10-20T03:05:11.585Z | Stelar0720/Proyecto_1_Topicos_II | 0 | MIT | 200 |
+
 | 2026-10-19T18:13:08.514Z | dilipgaikwads/taleforge | 0 | MIT | 200 |
 
 | 2026-10-19T18:13:12.639Z | Shubham-Goswami-06/LabLog | 0 | Apache-2.0 | 200 |

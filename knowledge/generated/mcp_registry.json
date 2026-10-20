@@ -11598,5 +11598,107 @@
     "validated_at": "2026-10-19T18:13:15.302Z",
     "topics": [],
     "readme_absorbed": "mohammedadalachi/ai-repo-tracker"
+  },
+  {
+    "id": 1426430626,
+    "full_name": "ENER90/product-hunt-scraper",
+    "url": "https://github.com/ENER90/product-hunt-scraper",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-20T03:05:06.545Z",
+    "topics": [
+      "apify",
+      "apify-actor",
+      "crawlee",
+      "graphql",
+      "lead-generation",
+      "nodejs",
+      "product-hunt",
+      "scraper",
+      "startups",
+      "typescript",
+      "web-scraping"
+    ],
+    "readme_absorbed": "ENER90/product-hunt-scraper"
+  },
+  {
+    "id": 1426423014,
+    "full_name": "qustnwks02-cyber/blog-topic-bot",
+    "url": "https://github.com/qustnwks02-cyber/blog-topic-bot",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-20T03:05:07.575Z",
+    "topics": [],
+    "readme_absorbed": "qustnwks02-cyber/blog-topic-bot"
+  },
+  {
+    "id": 1426042760,
+    "full_name": "Plebabble/Courseflow",
+    "url": "https://github.com/Plebabble/Courseflow",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-20T03:05:08.469Z",
+    "topics": [],
+    "readme_absorbed": "Plebabble/Courseflow"
+  },
+  {
+    "id": 1426386964,
+    "full_name": "goravjhabakh/vertex",
+    "url": "https://github.com/goravjhabakh/vertex",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-20T03:05:09.311Z",
+    "topics": [
+      "clerk",
+      "nextjs",
+      "posthog",
+      "sanity",
+      "typescript"
+    ],
+    "readme_absorbed": "goravjhabakh/vertex"
+  },
+  {
+    "id": 1426408609,
+    "full_name": "PatrickNDevelopment/topic-pulse",
+    "url": "https://github.com/PatrickNDevelopment/topic-pulse",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-20T03:05:10.436Z",
+    "topics": [
+      "analytics",
+      "explainability",
+      "react",
+      "typescript",
+      "youtube-data-api"
+    ],
+    "readme_absorbed": "PatrickNDevelopment/topic-pulse"
+  },
+  {
+    "id": 1426160235,
+    "full_name": "Stelar0720/Proyecto_1_Topicos_II",
+    "url": "https://github.com/Stelar0720/Proyecto_1_Topicos_II",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-20T03:05:11.585Z",
+    "topics": [],
+    "readme_absorbed": "Stelar0720/Proyecto_1_Topicos_II"
   }
 ]

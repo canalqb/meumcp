@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (817 total, 219 validados free, 598 pulados/pago)
+description: MCPs descobertos pelo keyhunter (823 total, 222 validados free, 601 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 817
-createdAt: 2026-10-19
-updatedAt: 2026-10-19
+version: 823
+createdAt: 2026-10-20
+updatedAt: 2026-10-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-19T18:13:15.304Z
-> Total descoberto: 817 | Validados (HTTP 200 + free): 219 | Pulados (licença paga/enterprise): 598
+> Última execução: 2026-10-20T03:05:11.641Z
+> Total descoberto: 823 | Validados (HTTP 200 + free): 222 | Pulados (licença paga/enterprise): 601
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -240,6 +240,9 @@ updatedAt: 2026-10-19
 | dilipgaikwads/taleforge | Python | 0 | MIT |  | [repo](https://github.com/dilipgaikwads/taleforge) |
 | Shubham-Goswami-06/LabLog | Python | 0 | Apache-2.0 |  | [repo](https://github.com/Shubham-Goswami-06/LabLog) |
 | shrmilamango/longform-video-pipeline | Python | 0 | MIT | automation, davinci-resolve, ffmpeg | [repo](https://github.com/shrmilamango/longform-video-pipeline) |
+| ENER90/product-hunt-scraper | TypeScript | 0 | MIT | apify, apify-actor, crawlee | [repo](https://github.com/ENER90/product-hunt-scraper) |
+| PatrickNDevelopment/topic-pulse | TypeScript | 0 | MIT | analytics, explainability, react | [repo](https://github.com/PatrickNDevelopment/topic-pulse) |
+| Stelar0720/Proyecto_1_Topicos_II | Python | 0 | MIT |  | [repo](https://github.com/Stelar0720/Proyecto_1_Topicos_II) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -841,6 +844,9 @@ updatedAt: 2026-10-19
 - JhenkarC-555/LDA-Topic-Explorer — licença: unknown
 - AdrienDuval/La-Chiikawa — licença: unknown
 - mohammedadalachi/ai-repo-tracker — licença: unknown
+- qustnwks02-cyber/blog-topic-bot — licença: unknown
+- Plebabble/Courseflow — licença: unknown
+- goravjhabakh/vertex — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
