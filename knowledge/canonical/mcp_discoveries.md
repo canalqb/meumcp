@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (841 total, 225 validados free, 616 pulados/pago)
+description: MCPs descobertos pelo keyhunter (847 total, 227 validados free, 620 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 841
+version: 847
 createdAt: 2026-10-21
 updatedAt: 2026-10-21
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-21T02:59:53.049Z
-> Total descoberto: 841 | Validados (HTTP 200 + free): 225 | Pulados (licença paga/enterprise): 616
+> Última execução: 2026-10-21T16:28:39.119Z
+> Total descoberto: 847 | Validados (HTTP 200 + free): 227 | Pulados (licença paga/enterprise): 620
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -246,6 +246,8 @@ updatedAt: 2026-10-21
 | aniketks1/tabsprout | TypeScript | 0 | MIT |  | [repo](https://github.com/aniketks1/tabsprout) |
 | NagasakiSaki/ai-newsroom | Python | 0 | MIT | ai-news, fastapi, information-retrieval | [repo](https://github.com/NagasakiSaki/ai-newsroom) |
 | shiei/gh-radar | TypeScript | 0 | MIT | developer-tools, github-api, github-pages | [repo](https://github.com/shiei/gh-radar) |
+| Prasanth595/MoneyPrinterTurbo-mirror | Python | 0 | MIT |  | [repo](https://github.com/Prasanth595/MoneyPrinterTurbo-mirror) |
+| embit087/loupe | TypeScript | 0 | MIT |  | [repo](https://github.com/embit087/loupe) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -865,6 +867,10 @@ updatedAt: 2026-10-21
 - antonio-marcos1989/case-ia-classificacao-de-topicos — licença: unknown
 - Farad017/NaijanNewsScrapper — licença: unknown
 - bengineerdavis/topical — licença: unknown
+- SquardError/algorithms-textbook — licença: unknown
+- Johang727/CMP375 — licença: unknown
+- rajuvarmalanke1-hash/pgr-ai-chatbot — licença: unknown
+- cusherahkugan/Cron-Daemon — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

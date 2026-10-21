@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-21T16:28:34.328Z | Prasanth595/MoneyPrinterTurbo-mirror | 0 | MIT | 200 |
+
+| 2026-10-21T16:28:39.101Z | embit087/loupe | 0 | MIT | 200 |
+
 | 2026-10-21T02:59:49.020Z | shiei/gh-radar | 0 | MIT | 200 |
 
 | 2026-10-20T16:13:35.815Z | aniketks1/tabsprout | 0 | MIT | 200 |
