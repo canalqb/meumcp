@@ -11878,5 +11878,81 @@
     "validated_at": "2026-10-20T16:13:45.052Z",
     "topics": [],
     "readme_absorbed": "johnong04/famILY"
+  },
+  {
+    "id": 1427651721,
+    "full_name": "shiei/gh-radar",
+    "url": "https://github.com/shiei/gh-radar",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-21T02:59:49.020Z",
+    "topics": [
+      "developer-tools",
+      "github-api",
+      "github-pages",
+      "github-trending",
+      "open-source",
+      "react",
+      "repository-search",
+      "trending",
+      "typescript",
+      "vite"
+    ],
+    "readme_absorbed": "shiei/gh-radar"
+  },
+  {
+    "id": 1427479919,
+    "full_name": "chikuang/Teaching-GenAI",
+    "url": "https://github.com/chikuang/Teaching-GenAI",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-21T02:59:50.118Z",
+    "topics": [],
+    "readme_absorbed": "chikuang/Teaching-GenAI"
+  },
+  {
+    "id": 1427707044,
+    "full_name": "antonio-marcos1989/case-ia-classificacao-de-topicos",
+    "url": "https://github.com/antonio-marcos1989/case-ia-classificacao-de-topicos",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-21T02:59:51.040Z",
+    "topics": [],
+    "readme_absorbed": "antonio-marcos1989/case-ia-classificacao-de-topicos"
+  },
+  {
+    "id": 1427428070,
+    "full_name": "Farad017/NaijanNewsScrapper",
+    "url": "https://github.com/Farad017/NaijanNewsScrapper",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-21T02:59:52.031Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1427760648,
+    "full_name": "bengineerdavis/topical",
+    "url": "https://github.com/bengineerdavis/topical",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-21T02:59:53.047Z",
+    "topics": [],
+    "readme_absorbed": "bengineerdavis/topical"
   }
 ]

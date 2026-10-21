@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (836 total, 224 validados free, 612 pulados/pago)
+description: MCPs descobertos pelo keyhunter (841 total, 225 validados free, 616 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 836
-createdAt: 2026-10-20
-updatedAt: 2026-10-20
+version: 841
+createdAt: 2026-10-21
+updatedAt: 2026-10-21
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-20T16:13:45.055Z
-> Total descoberto: 836 | Validados (HTTP 200 + free): 224 | Pulados (licença paga/enterprise): 612
+> Última execução: 2026-10-21T02:59:53.049Z
+> Total descoberto: 841 | Validados (HTTP 200 + free): 225 | Pulados (licença paga/enterprise): 616
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -245,6 +245,7 @@ updatedAt: 2026-10-20
 | Stelar0720/Proyecto_1_Topicos_II | Python | 0 | MIT |  | [repo](https://github.com/Stelar0720/Proyecto_1_Topicos_II) |
 | aniketks1/tabsprout | TypeScript | 0 | MIT |  | [repo](https://github.com/aniketks1/tabsprout) |
 | NagasakiSaki/ai-newsroom | Python | 0 | MIT | ai-news, fastapi, information-retrieval | [repo](https://github.com/NagasakiSaki/ai-newsroom) |
+| shiei/gh-radar | TypeScript | 0 | MIT | developer-tools, github-api, github-pages | [repo](https://github.com/shiei/gh-radar) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -860,6 +861,10 @@ updatedAt: 2026-10-20
 - Lena6779/Similarity_Threshold_Experiment — licença: unknown
 - Jotham-Siror/karo — licença: unknown
 - johnong04/famILY — licença: NOASSERTION
+- chikuang/Teaching-GenAI — licença: unknown
+- antonio-marcos1989/case-ia-classificacao-de-topicos — licença: unknown
+- Farad017/NaijanNewsScrapper — licença: unknown
+- bengineerdavis/topical — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

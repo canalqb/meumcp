@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-21T02:59:49.020Z | shiei/gh-radar | 0 | MIT | 200 |
+
 | 2026-10-20T16:13:35.815Z | aniketks1/tabsprout | 0 | MIT | 200 |
 
 | 2026-10-20T16:13:43.177Z | NagasakiSaki/ai-newsroom | 0 | MIT | 200 |
