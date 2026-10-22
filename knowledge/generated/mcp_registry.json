@@ -12084,5 +12084,70 @@
     "validated_at": "2026-10-22T03:05:48.717Z",
     "topics": [],
     "readme_absorbed": "JeanphiloGong/agent-retrieval-lab"
+  },
+  {
+    "id": 1429944302,
+    "full_name": "Tajdar-Khalil/AI-crypto-content-studio",
+    "url": "https://github.com/Tajdar-Khalil/AI-crypto-content-studio",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T16:29:01.933Z",
+    "topics": [],
+    "readme_absorbed": "Tajdar-Khalil/AI-crypto-content-studio"
+  },
+  {
+    "id": 1429955214,
+    "full_name": "Adii2556/Topicore",
+    "url": "https://github.com/Adii2556/Topicore",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T16:29:02.867Z",
+    "topics": [],
+    "readme_absorbed": "Adii2556/Topicore"
+  },
+  {
+    "id": 1429855845,
+    "full_name": "arfat-xyz/bcs-qna-based-on-topic",
+    "url": "https://github.com/arfat-xyz/bcs-qna-based-on-topic",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T16:29:03.922Z",
+    "topics": [],
+    "readme_absorbed": "arfat-xyz/bcs-qna-based-on-topic"
+  },
+  {
+    "id": 1429934714,
+    "full_name": "PrateekT1987/multi_agent_research_system",
+    "url": "https://github.com/PrateekT1987/multi_agent_research_system",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T16:29:04.920Z",
+    "topics": [],
+    "readme_absorbed": "PrateekT1987/multi_agent_research_system"
+  },
+  {
+    "id": 1429933788,
+    "full_name": "khpandit/blog-agent",
+    "url": "https://github.com/khpandit/blog-agent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T16:29:05.970Z",
+    "topics": [],
+    "readme_absorbed": "khpandit/blog-agent"
   }
 ]
