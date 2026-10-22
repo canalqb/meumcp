@@ -12032,5 +12032,57 @@
     "validated_at": "2026-10-21T16:28:39.101Z",
     "topics": [],
     "readme_absorbed": "embit087/loupe"
+  },
+  {
+    "id": 1429151983,
+    "full_name": "altzotify-cell/RecapStudio",
+    "url": "https://github.com/altzotify-cell/RecapStudio",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T03:05:45.881Z",
+    "topics": [],
+    "readme_absorbed": "altzotify-cell/RecapStudio"
+  },
+  {
+    "id": 1429136762,
+    "full_name": "shanshanhappy/ClipFlow",
+    "url": "https://github.com/shanshanhappy/ClipFlow",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-22T03:05:46.746Z",
+    "topics": [],
+    "readme_absorbed": "shanshanhappy/ClipFlow"
+  },
+  {
+    "id": 1429116626,
+    "full_name": "Gaurav-Singh-09/reuters-news-topic-classifier",
+    "url": "https://github.com/Gaurav-Singh-09/reuters-news-topic-classifier",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T03:05:47.786Z",
+    "topics": [],
+    "readme_absorbed": "Gaurav-Singh-09/reuters-news-topic-classifier"
+  },
+  {
+    "id": 1429113623,
+    "full_name": "JeanphiloGong/agent-retrieval-lab",
+    "url": "https://github.com/JeanphiloGong/agent-retrieval-lab",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-22T03:05:48.717Z",
+    "topics": [],
+    "readme_absorbed": "JeanphiloGong/agent-retrieval-lab"
   }
 ]

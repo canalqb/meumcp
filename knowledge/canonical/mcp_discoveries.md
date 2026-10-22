@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (847 total, 227 validados free, 620 pulados/pago)
+description: MCPs descobertos pelo keyhunter (851 total, 228 validados free, 623 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 847
-createdAt: 2026-10-21
-updatedAt: 2026-10-21
+version: 851
+createdAt: 2026-10-22
+updatedAt: 2026-10-22
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-21T16:28:39.119Z
-> Total descoberto: 847 | Validados (HTTP 200 + free): 227 | Pulados (licença paga/enterprise): 620
+> Última execução: 2026-10-22T03:05:48.719Z
+> Total descoberto: 851 | Validados (HTTP 200 + free): 228 | Pulados (licença paga/enterprise): 623
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -248,6 +248,7 @@ updatedAt: 2026-10-21
 | shiei/gh-radar | TypeScript | 0 | MIT | developer-tools, github-api, github-pages | [repo](https://github.com/shiei/gh-radar) |
 | Prasanth595/MoneyPrinterTurbo-mirror | Python | 0 | MIT |  | [repo](https://github.com/Prasanth595/MoneyPrinterTurbo-mirror) |
 | embit087/loupe | TypeScript | 0 | MIT |  | [repo](https://github.com/embit087/loupe) |
+| shanshanhappy/ClipFlow | Python | 0 | MIT |  | [repo](https://github.com/shanshanhappy/ClipFlow) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -871,6 +872,9 @@ updatedAt: 2026-10-21
 - Johang727/CMP375 — licença: unknown
 - rajuvarmalanke1-hash/pgr-ai-chatbot — licença: unknown
 - cusherahkugan/Cron-Daemon — licença: unknown
+- altzotify-cell/RecapStudio — licença: unknown
+- Gaurav-Singh-09/reuters-news-topic-classifier — licença: unknown
+- JeanphiloGong/agent-retrieval-lab — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
