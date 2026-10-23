@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (856 total, 228 validados free, 628 pulados/pago)
+description: MCPs descobertos pelo keyhunter (861 total, 229 validados free, 632 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 856
-createdAt: 2026-10-22
-updatedAt: 2026-10-22
+version: 861
+createdAt: 2026-10-23
+updatedAt: 2026-10-23
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-22T16:29:05.973Z
-> Total descoberto: 856 | Validados (HTTP 200 + free): 228 | Pulados (licença paga/enterprise): 628
+> Última execução: 2026-10-23T03:02:01.948Z
+> Total descoberto: 861 | Validados (HTTP 200 + free): 229 | Pulados (licença paga/enterprise): 632
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -249,6 +249,7 @@ updatedAt: 2026-10-22
 | Prasanth595/MoneyPrinterTurbo-mirror | Python | 0 | MIT |  | [repo](https://github.com/Prasanth595/MoneyPrinterTurbo-mirror) |
 | embit087/loupe | TypeScript | 0 | MIT |  | [repo](https://github.com/embit087/loupe) |
 | shanshanhappy/ClipFlow | Python | 0 | MIT |  | [repo](https://github.com/shanshanhappy/ClipFlow) |
+| aiden609906-sketch/code-rendered-video | Python | 1 | MIT |  | [repo](https://github.com/aiden609906-sketch/code-rendered-video) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -880,6 +881,10 @@ updatedAt: 2026-10-22
 - arfat-xyz/bcs-qna-based-on-topic — licença: unknown
 - PrateekT1987/multi_agent_research_system — licença: unknown
 - khpandit/blog-agent — licença: unknown
+- zmeer1229/washu-ra-knowledge — licença: unknown
+- jingchang0623-crypto/xinlika — licença: NOASSERTION
+- zzzmomo-code/signals-systems-topic1 — licença: unknown
+- aidenxia-28/narrow-ft-traces — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

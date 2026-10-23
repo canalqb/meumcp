@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-23T03:01:58.775Z | aiden609906-sketch/code-rendered-video | 1 | MIT | 200 |
+
 | 2026-10-22T03:05:46.746Z | shanshanhappy/ClipFlow | 0 | MIT | 200 |
 
 | 2026-10-21T16:28:34.328Z | Prasanth595/MoneyPrinterTurbo-mirror | 0 | MIT | 200 |

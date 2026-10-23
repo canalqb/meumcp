@@ -12149,5 +12149,78 @@
     "validated_at": "2026-10-22T16:29:05.970Z",
     "topics": [],
     "readme_absorbed": "khpandit/blog-agent"
+  },
+  {
+    "id": 1430451001,
+    "full_name": "zmeer1229/washu-ra-knowledge",
+    "url": "https://github.com/zmeer1229/washu-ra-knowledge",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-23T03:01:57.737Z",
+    "topics": [],
+    "readme_absorbed": "zmeer1229/washu-ra-knowledge"
+  },
+  {
+    "id": 1430490246,
+    "full_name": "aiden609906-sketch/code-rendered-video",
+    "url": "https://github.com/aiden609906-sketch/code-rendered-video",
+    "language": "Python",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-23T03:01:58.775Z",
+    "topics": [],
+    "readme_absorbed": "aiden609906-sketch/code-rendered-video"
+  },
+  {
+    "id": 1430475790,
+    "full_name": "jingchang0623-crypto/xinlika",
+    "url": "https://github.com/jingchang0623-crypto/xinlika",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-23T03:01:59.978Z",
+    "topics": [
+      "ai-memory",
+      "langgraph",
+      "lifelogging",
+      "personal-agent",
+      "self-hosted",
+      "voice-notes",
+      "xinlika"
+    ],
+    "readme_absorbed": "jingchang0623-crypto/xinlika"
+  },
+  {
+    "id": 1430493736,
+    "full_name": "zzzmomo-code/signals-systems-topic1",
+    "url": "https://github.com/zzzmomo-code/signals-systems-topic1",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-23T03:02:00.888Z",
+    "topics": [],
+    "readme_absorbed": "zzzmomo-code/signals-systems-topic1"
+  },
+  {
+    "id": 1430466014,
+    "full_name": "aidenxia-28/narrow-ft-traces",
+    "url": "https://github.com/aidenxia-28/narrow-ft-traces",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-23T03:02:01.947Z",
+    "topics": [],
+    "readme_absorbed": "aidenxia-28/narrow-ft-traces"
   }
 ]
