@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-23T16:18:46.443Z | Hemanth9336/AWS-Cloud-Engineer-Roadmap | 0 | MIT | 200 |
+
+| 2026-10-23T16:18:48.869Z | Matti-D-Rocketta/actu-to-me | 0 | MIT | 200 |
+
+| 2026-10-23T16:18:49.860Z | ca4219248-blip/reelwright | 0 | MIT | 200 |
+
+| 2026-10-23T16:18:56.446Z | lucaslfa1/omni | 0 | MIT | 200 |
+
 | 2026-10-23T03:01:58.775Z | aiden609906-sketch/code-rendered-video | 1 | MIT | 200 |
 
 | 2026-10-22T03:05:46.746Z | shanshanhappy/ClipFlow | 0 | MIT | 200 |
