@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (874 total, 234 validados free, 640 pulados/pago)
+description: MCPs descobertos pelo keyhunter (883 total, 235 validados free, 648 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 874
+version: 883
 createdAt: 2026-10-24
 updatedAt: 2026-10-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-24T02:58:48.426Z
-> Total descoberto: 874 | Validados (HTTP 200 + free): 234 | Pulados (licença paga/enterprise): 640
+> Última execução: 2026-10-24T15:16:00.599Z
+> Total descoberto: 883 | Validados (HTTP 200 + free): 235 | Pulados (licença paga/enterprise): 648
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -255,6 +255,7 @@ updatedAt: 2026-10-24
 | ca4219248-blip/reelwright | TypeScript | 0 | MIT |  | [repo](https://github.com/ca4219248-blip/reelwright) |
 | lucaslfa1/omni | Python | 0 | MIT | agent-skills, chatgpt-skills, claude-code-plugin | [repo](https://github.com/lucaslfa1/omni) |
 | PusuPav/social-radar | Python | 0 | MIT |  | [repo](https://github.com/PusuPav/social-radar) |
+| MasterYip/InfoHub | Python | 10 | MIT |  | [repo](https://github.com/MasterYip/InfoHub) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -898,6 +899,14 @@ updatedAt: 2026-10-24
 - Ponce1969/book-text-rag — licença: unknown
 - Anoof1895/cambridge-igcse-topicals — licença: unknown
 - alphaparkinc/genpark-semantic-chunking-and-token-density-splitter-skill — licença: unknown
+- lohithmutyala21-tech/spredtruth — licença: unknown
+- rajaajay9865-commits/Automatic-Topic-Tagging-for-Student-Notes — licença: unknown
+- vickyvicky122/recreg — licença: unknown
+- koresrushti81/AI_Question_Paper_Generator — licença: unknown
+- izman48/learning-tracker — licença: AGPL-3.0
+- Krakaziabls/seelearn — licença: unknown
+- r0wan1ooo5/news_topic — licença: unknown
+- jeanremy-berard/ai-bi-watch — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
