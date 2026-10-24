@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (870 total, 233 validados free, 637 pulados/pago)
+description: MCPs descobertos pelo keyhunter (874 total, 234 validados free, 640 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 870
-createdAt: 2026-10-23
-updatedAt: 2026-10-23
+version: 874
+createdAt: 2026-10-24
+updatedAt: 2026-10-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-23T16:18:56.448Z
-> Total descoberto: 870 | Validados (HTTP 200 + free): 233 | Pulados (licença paga/enterprise): 637
+> Última execução: 2026-10-24T02:58:48.426Z
+> Total descoberto: 874 | Validados (HTTP 200 + free): 234 | Pulados (licença paga/enterprise): 640
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -254,6 +254,7 @@ updatedAt: 2026-10-23
 | Matti-D-Rocketta/actu-to-me | Python | 0 | MIT |  | [repo](https://github.com/Matti-D-Rocketta/actu-to-me) |
 | ca4219248-blip/reelwright | TypeScript | 0 | MIT |  | [repo](https://github.com/ca4219248-blip/reelwright) |
 | lucaslfa1/omni | Python | 0 | MIT | agent-skills, chatgpt-skills, claude-code-plugin | [repo](https://github.com/lucaslfa1/omni) |
+| PusuPav/social-radar | Python | 0 | MIT |  | [repo](https://github.com/PusuPav/social-radar) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -894,6 +895,9 @@ updatedAt: 2026-10-23
 - davy254/AI_STUDY_BUDDY — licença: unknown
 - tanviptl2008-debug/tanvi-patel-20 — licença: unknown
 - itismannpatel/twofold-techverse26 — licença: unknown
+- Ponce1969/book-text-rag — licença: unknown
+- Anoof1895/cambridge-igcse-topicals — licença: unknown
+- alphaparkinc/genpark-semantic-chunking-and-token-density-splitter-skill — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

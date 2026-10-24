@@ -12359,5 +12359,57 @@
       "gemini-skills"
     ],
     "readme_absorbed": "lucaslfa1/omni"
+  },
+  {
+    "id": 1431702856,
+    "full_name": "PusuPav/social-radar",
+    "url": "https://github.com/PusuPav/social-radar",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-24T02:58:45.114Z",
+    "topics": [],
+    "readme_absorbed": "PusuPav/social-radar"
+  },
+  {
+    "id": 1431424061,
+    "full_name": "Ponce1969/book-text-rag",
+    "url": "https://github.com/Ponce1969/book-text-rag",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-24T02:58:46.355Z",
+    "topics": [],
+    "readme_absorbed": "Ponce1969/book-text-rag"
+  },
+  {
+    "id": 1431734005,
+    "full_name": "Anoof1895/cambridge-igcse-topicals",
+    "url": "https://github.com/Anoof1895/cambridge-igcse-topicals",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-24T02:58:47.489Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1431717483,
+    "full_name": "alphaparkinc/genpark-semantic-chunking-and-token-density-splitter-skill",
+    "url": "https://github.com/alphaparkinc/genpark-semantic-chunking-and-token-density-splitter-skill",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-24T02:58:48.424Z",
+    "topics": [],
+    "readme_absorbed": "alphaparkinc/genpark-semantic-chunking-and-token-density-splitter-skill"
   }
 ]

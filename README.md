@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-24T02:58:45.114Z | PusuPav/social-radar | 0 | MIT | 200 |
+
 | 2026-10-23T16:18:46.443Z | Hemanth9336/AWS-Cloud-Engineer-Roadmap | 0 | MIT | 200 |
 
 | 2026-10-23T16:18:48.869Z | Matti-D-Rocketta/actu-to-me | 0 | MIT | 200 |
