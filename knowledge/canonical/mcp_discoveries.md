@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (883 total, 235 validados free, 648 pulados/pago)
+description: MCPs descobertos pelo keyhunter (888 total, 236 validados free, 652 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 883
-createdAt: 2026-10-24
-updatedAt: 2026-10-24
+version: 888
+createdAt: 2026-10-25
+updatedAt: 2026-10-25
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-24T15:16:00.599Z
-> Total descoberto: 883 | Validados (HTTP 200 + free): 235 | Pulados (licença paga/enterprise): 648
+> Última execução: 2026-10-25T02:51:35.999Z
+> Total descoberto: 888 | Validados (HTTP 200 + free): 236 | Pulados (licença paga/enterprise): 652
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -256,6 +256,7 @@ updatedAt: 2026-10-24
 | lucaslfa1/omni | Python | 0 | MIT | agent-skills, chatgpt-skills, claude-code-plugin | [repo](https://github.com/lucaslfa1/omni) |
 | PusuPav/social-radar | Python | 0 | MIT |  | [repo](https://github.com/PusuPav/social-radar) |
 | MasterYip/InfoHub | Python | 10 | MIT |  | [repo](https://github.com/MasterYip/InfoHub) |
+| kaanzapkinus/ompweb-plus | TypeScript | 0 | MIT |  | [repo](https://github.com/kaanzapkinus/ompweb-plus) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -907,6 +908,10 @@ updatedAt: 2026-10-24
 - Krakaziabls/seelearn — licença: unknown
 - r0wan1ooo5/news_topic — licença: unknown
 - jeanremy-berard/ai-bi-watch — licença: unknown
+- tw2818/research-os — licença: unknown
+- prx0r/essay-corpus — licença: unknown
+- AsorKy/Katas — licença: unknown
+- shuhei0720/system_architect_topic — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

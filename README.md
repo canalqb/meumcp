@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-25T02:51:35.997Z | kaanzapkinus/ompweb-plus | 0 | MIT | 200 |
+
 | 2026-10-24T15:15:59.412Z | MasterYip/InfoHub | 10 | MIT | 200 |
 
 | 2026-10-24T02:58:45.114Z | PusuPav/social-radar | 0 | MIT | 200 |
