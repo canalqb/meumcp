@@ -302,6 +302,16 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-25T15:25:52.173Z | AlejoTechEngineer/miniflix-docker-k8s-lab | 0 | MIT | 200 |
+
+| 2026-10-25T15:25:53.260Z | FarazLabs/ManagedDotNet.SignalR.Topics.Clients | 0 | MIT | 200 |
+
+| 2026-10-25T15:25:55.362Z | chriswang/dsh-conversation-tree | 0 | MIT | 200 |
+
+| 2026-10-25T15:25:56.443Z | DrunkSkipper/claude-tg | 0 | MIT | 200 |
+
+| 2026-10-25T15:25:57.734Z | ryanhyma/librechat-loadlab | 0 | MIT | 200 |
+
 | 2026-10-25T02:51:35.997Z | kaanzapkinus/ompweb-plus | 0 | MIT | 200 |
 
 | 2026-10-24T15:15:59.412Z | MasterYip/InfoHub | 10 | MIT | 200 |

@@ -12593,5 +12593,113 @@
     "validated_at": "2026-10-25T02:51:35.997Z",
     "topics": [],
     "readme_absorbed": "kaanzapkinus/ompweb-plus"
+  },
+  {
+    "id": 1433324740,
+    "full_name": "minjichoi314/topic4",
+    "url": "https://github.com/minjichoi314/topic4",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:50.040Z",
+    "topics": [],
+    "readme_absorbed": "minjichoi314/topic4"
+  },
+  {
+    "id": 1433074929,
+    "full_name": "UtkarshDhairyaPanwar/daily-atlas",
+    "url": "https://github.com/UtkarshDhairyaPanwar/daily-atlas",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:51.148Z",
+    "topics": [],
+    "readme_absorbed": "UtkarshDhairyaPanwar/daily-atlas"
+  },
+  {
+    "id": 1433336511,
+    "full_name": "AlejoTechEngineer/miniflix-docker-k8s-lab",
+    "url": "https://github.com/AlejoTechEngineer/miniflix-docker-k8s-lab",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:52.173Z",
+    "topics": [],
+    "readme_absorbed": "AlejoTechEngineer/miniflix-docker-k8s-lab"
+  },
+  {
+    "id": 1433127899,
+    "full_name": "FarazLabs/ManagedDotNet.SignalR.Topics.Clients",
+    "url": "https://github.com/FarazLabs/ManagedDotNet.SignalR.Topics.Clients",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:53.260Z",
+    "topics": [],
+    "readme_absorbed": "FarazLabs/ManagedDotNet.SignalR.Topics.Clients"
+  },
+  {
+    "id": 1433288084,
+    "full_name": "faresmergui/my-learning-lab",
+    "url": "https://github.com/faresmergui/my-learning-lab",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:54.184Z",
+    "topics": [],
+    "readme_absorbed": "faresmergui/my-learning-lab"
+  },
+  {
+    "id": 1433322816,
+    "full_name": "chriswang/dsh-conversation-tree",
+    "url": "https://github.com/chriswang/dsh-conversation-tree",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:55.362Z",
+    "topics": [],
+    "readme_absorbed": "chriswang/dsh-conversation-tree"
+  },
+  {
+    "id": 1432967978,
+    "full_name": "DrunkSkipper/claude-tg",
+    "url": "https://github.com/DrunkSkipper/claude-tg",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:56.443Z",
+    "topics": [
+      "claude-code",
+      "remote-control",
+      "telegram"
+    ],
+    "readme_absorbed": "DrunkSkipper/claude-tg"
+  },
+  {
+    "id": 1433281346,
+    "full_name": "ryanhyma/librechat-loadlab",
+    "url": "https://github.com/ryanhyma/librechat-loadlab",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-25T15:25:57.734Z",
+    "topics": [],
+    "readme_absorbed": "ryanhyma/librechat-loadlab"
   }
 ]

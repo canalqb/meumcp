@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (888 total, 236 validados free, 652 pulados/pago)
+description: MCPs descobertos pelo keyhunter (896 total, 241 validados free, 655 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 888
+version: 896
 createdAt: 2026-10-25
 updatedAt: 2026-10-25
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-25T02:51:35.999Z
-> Total descoberto: 888 | Validados (HTTP 200 + free): 236 | Pulados (licença paga/enterprise): 652
+> Última execução: 2026-10-25T15:25:57.736Z
+> Total descoberto: 896 | Validados (HTTP 200 + free): 241 | Pulados (licença paga/enterprise): 655
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -257,6 +257,11 @@ updatedAt: 2026-10-25
 | PusuPav/social-radar | Python | 0 | MIT |  | [repo](https://github.com/PusuPav/social-radar) |
 | MasterYip/InfoHub | Python | 10 | MIT |  | [repo](https://github.com/MasterYip/InfoHub) |
 | kaanzapkinus/ompweb-plus | TypeScript | 0 | MIT |  | [repo](https://github.com/kaanzapkinus/ompweb-plus) |
+| AlejoTechEngineer/miniflix-docker-k8s-lab | Python | 0 | MIT |  | [repo](https://github.com/AlejoTechEngineer/miniflix-docker-k8s-lab) |
+| FarazLabs/ManagedDotNet.SignalR.Topics.Clients | TypeScript | 0 | MIT |  | [repo](https://github.com/FarazLabs/ManagedDotNet.SignalR.Topics.Clients) |
+| chriswang/dsh-conversation-tree | TypeScript | 0 | MIT |  | [repo](https://github.com/chriswang/dsh-conversation-tree) |
+| DrunkSkipper/claude-tg | Python | 0 | MIT | claude-code, remote-control, telegram | [repo](https://github.com/DrunkSkipper/claude-tg) |
+| ryanhyma/librechat-loadlab | Python | 0 | MIT |  | [repo](https://github.com/ryanhyma/librechat-loadlab) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -912,6 +917,9 @@ updatedAt: 2026-10-25
 - prx0r/essay-corpus — licença: unknown
 - AsorKy/Katas — licença: unknown
 - shuhei0720/system_architect_topic — licença: unknown
+- minjichoi314/topic4 — licença: unknown
+- UtkarshDhairyaPanwar/daily-atlas — licença: unknown
+- faresmergui/my-learning-lab — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
