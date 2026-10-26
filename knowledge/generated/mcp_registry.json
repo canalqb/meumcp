@@ -12727,5 +12727,57 @@
     "validated_at": "2026-10-26T02:50:20.766Z",
     "topics": [],
     "readme_absorbed": "minjichoi314/topic4"
+  },
+  {
+    "id": 1434019238,
+    "full_name": "Jal246/research-mcp",
+    "url": "https://github.com/Jal246/research-mcp",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-26T18:06:33.900Z",
+    "topics": [],
+    "readme_absorbed": "Jal246/research-mcp"
+  },
+  {
+    "id": 1434724188,
+    "full_name": "Liangyl0428/energy-topic-recognition-601",
+    "url": "https://github.com/Liangyl0428/energy-topic-recognition-601",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-26T18:06:35.016Z",
+    "topics": [],
+    "readme_absorbed": "Liangyl0428/energy-topic-recognition-601"
+  },
+  {
+    "id": 1434717597,
+    "full_name": "Sowmiyaa15/AI-Research-Copilot-Swarm",
+    "url": "https://github.com/Sowmiyaa15/AI-Research-Copilot-Swarm",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-26T18:06:36.048Z",
+    "topics": [],
+    "readme_absorbed": "Sowmiyaa15/AI-Research-Copilot-Swarm"
+  },
+  {
+    "id": 1434694346,
+    "full_name": "PD-XuHui/Topic-Search-Expert-ZY",
+    "url": "https://github.com/PD-XuHui/Topic-Search-Expert-ZY",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-26T18:06:37.105Z",
+    "topics": [],
+    "readme_absorbed": "PD-XuHui/Topic-Search-Expert-ZY"
   }
 ]
