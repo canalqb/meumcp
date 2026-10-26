@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (896 total, 241 validados free, 655 pulados/pago)
+description: MCPs descobertos pelo keyhunter (898 total, 242 validados free, 656 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 896
-createdAt: 2026-10-25
-updatedAt: 2026-10-25
+version: 898
+createdAt: 2026-10-26
+updatedAt: 2026-10-26
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-25T15:25:57.736Z
-> Total descoberto: 896 | Validados (HTTP 200 + free): 241 | Pulados (licença paga/enterprise): 655
+> Última execução: 2026-10-26T02:50:20.769Z
+> Total descoberto: 898 | Validados (HTTP 200 + free): 242 | Pulados (licença paga/enterprise): 656
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -262,6 +262,7 @@ updatedAt: 2026-10-25
 | chriswang/dsh-conversation-tree | TypeScript | 0 | MIT |  | [repo](https://github.com/chriswang/dsh-conversation-tree) |
 | DrunkSkipper/claude-tg | Python | 0 | MIT | claude-code, remote-control, telegram | [repo](https://github.com/DrunkSkipper/claude-tg) |
 | ryanhyma/librechat-loadlab | Python | 0 | MIT |  | [repo](https://github.com/ryanhyma/librechat-loadlab) |
+| zaulem/citafacil-topicos2 | Python | 0 | MIT |  | [repo](https://github.com/zaulem/citafacil-topicos2) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -920,6 +921,7 @@ updatedAt: 2026-10-25
 - minjichoi314/topic4 — licença: unknown
 - UtkarshDhairyaPanwar/daily-atlas — licença: unknown
 - faresmergui/my-learning-lab — licença: unknown
+- minjichoi314/topic4 — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-26T02:50:19.360Z | zaulem/citafacil-topicos2 | 0 | MIT | 200 |
+
 | 2026-10-25T15:25:52.173Z | AlejoTechEngineer/miniflix-docker-k8s-lab | 0 | MIT | 200 |
 
 | 2026-10-25T15:25:53.260Z | FarazLabs/ManagedDotNet.SignalR.Topics.Clients | 0 | MIT | 200 |
