@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (905 total, 243 validados free, 662 pulados/pago)
+description: MCPs descobertos pelo keyhunter (911 total, 246 validados free, 665 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 905
+version: 911
 createdAt: 2026-10-27
 updatedAt: 2026-10-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-27T03:24:05.717Z
-> Total descoberto: 905 | Validados (HTTP 200 + free): 243 | Pulados (licença paga/enterprise): 662
+> Última execução: 2026-10-27T17:17:57.713Z
+> Total descoberto: 911 | Validados (HTTP 200 + free): 246 | Pulados (licença paga/enterprise): 665
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -264,6 +264,9 @@ updatedAt: 2026-10-27
 | ryanhyma/librechat-loadlab | Python | 0 | MIT |  | [repo](https://github.com/ryanhyma/librechat-loadlab) |
 | zaulem/citafacil-topicos2 | Python | 0 | MIT |  | [repo](https://github.com/zaulem/citafacil-topicos2) |
 | stevenguyenbt/mega-shot | Python | 0 | MIT | ai-agent, ai-video, ai-video-generator | [repo](https://github.com/stevenguyenbt/mega-shot) |
+| actogram/scholar-mcp | Python | 0 | MIT | bibliometrics, mcp, open-science | [repo](https://github.com/actogram/scholar-mcp) |
+| pulkitkomal/trends-analyser | Python | 0 | MIT |  | [repo](https://github.com/pulkitkomal/trends-analyser) |
+| PastorD/rosbag-timeline | Python | 0 | Apache-2.0 |  | [repo](https://github.com/PastorD/rosbag-timeline) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -929,6 +932,9 @@ updatedAt: 2026-10-27
 - PD-XuHui/Topic-Search-Expert-ZY — licença: unknown
 - saurabhdhule2005/youtube-video-analyzer — licença: unknown
 - FelipeSantiago1/Topicos-Especificos-em-SI-1 — licença: unknown
+- wolassaaa/cdk20-video — licença: unknown
+- omerOxO/HealthTeach-using-ML-Topics — licença: unknown
+- Cafi9219/Ferroptosis_pipeline — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

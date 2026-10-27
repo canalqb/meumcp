@@ -12834,5 +12834,89 @@
     "validated_at": "2026-10-27T03:24:05.714Z",
     "topics": [],
     "readme_absorbed": "FelipeSantiago1/Topicos-Especificos-em-SI-1"
+  },
+  {
+    "id": 1436028299,
+    "full_name": "wolassaaa/cdk20-video",
+    "url": "https://github.com/wolassaaa/cdk20-video",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-27T17:17:52.905Z",
+    "topics": [],
+    "readme_absorbed": "wolassaaa/cdk20-video"
+  },
+  {
+    "id": 1435501169,
+    "full_name": "actogram/scholar-mcp",
+    "url": "https://github.com/actogram/scholar-mcp",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-27T17:17:53.951Z",
+    "topics": [
+      "bibliometrics",
+      "mcp",
+      "open-science",
+      "pubmed",
+      "research-collaboration"
+    ],
+    "readme_absorbed": "actogram/scholar-mcp"
+  },
+  {
+    "id": 1436007022,
+    "full_name": "omerOxO/HealthTeach-using-ML-Topics",
+    "url": "https://github.com/omerOxO/HealthTeach-using-ML-Topics",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-27T17:17:54.779Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1435992221,
+    "full_name": "pulkitkomal/trends-analyser",
+    "url": "https://github.com/pulkitkomal/trends-analyser",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-27T17:17:55.657Z",
+    "topics": [],
+    "readme_absorbed": "pulkitkomal/trends-analyser"
+  },
+  {
+    "id": 1435952215,
+    "full_name": "Cafi9219/Ferroptosis_pipeline",
+    "url": "https://github.com/Cafi9219/Ferroptosis_pipeline",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-27T17:17:56.556Z",
+    "topics": [],
+    "readme_absorbed": "Cafi9219/Ferroptosis_pipeline"
+  },
+  {
+    "id": 1435973968,
+    "full_name": "PastorD/rosbag-timeline",
+    "url": "https://github.com/PastorD/rosbag-timeline",
+    "language": "Python",
+    "stars": 0,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-27T17:17:57.711Z",
+    "topics": [],
+    "readme_absorbed": "PastorD/rosbag-timeline"
   }
 ]

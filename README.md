@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-27T17:17:53.951Z | actogram/scholar-mcp | 0 | MIT | 200 |
+
+| 2026-10-27T17:17:55.657Z | pulkitkomal/trends-analyser | 0 | MIT | 200 |
+
+| 2026-10-27T17:17:57.711Z | PastorD/rosbag-timeline | 0 | Apache-2.0 | 200 |
+
 | 2026-10-27T03:24:03.669Z | stevenguyenbt/mega-shot | 0 | MIT | 200 |
 
 | 2026-10-26T02:50:19.360Z | zaulem/citafacil-topicos2 | 0 | MIT | 200 |
