@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (902 total, 242 validados free, 660 pulados/pago)
+description: MCPs descobertos pelo keyhunter (905 total, 243 validados free, 662 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 902
-createdAt: 2026-10-26
-updatedAt: 2026-10-26
+version: 905
+createdAt: 2026-10-27
+updatedAt: 2026-10-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-26T18:06:37.107Z
-> Total descoberto: 902 | Validados (HTTP 200 + free): 242 | Pulados (licença paga/enterprise): 660
+> Última execução: 2026-10-27T03:24:05.717Z
+> Total descoberto: 905 | Validados (HTTP 200 + free): 243 | Pulados (licença paga/enterprise): 662
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -263,6 +263,7 @@ updatedAt: 2026-10-26
 | DrunkSkipper/claude-tg | Python | 0 | MIT | claude-code, remote-control, telegram | [repo](https://github.com/DrunkSkipper/claude-tg) |
 | ryanhyma/librechat-loadlab | Python | 0 | MIT |  | [repo](https://github.com/ryanhyma/librechat-loadlab) |
 | zaulem/citafacil-topicos2 | Python | 0 | MIT |  | [repo](https://github.com/zaulem/citafacil-topicos2) |
+| stevenguyenbt/mega-shot | Python | 0 | MIT | ai-agent, ai-video, ai-video-generator | [repo](https://github.com/stevenguyenbt/mega-shot) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -926,6 +927,8 @@ updatedAt: 2026-10-26
 - Liangyl0428/energy-topic-recognition-601 — licença: unknown
 - Sowmiyaa15/AI-Research-Copilot-Swarm — licença: unknown
 - PD-XuHui/Topic-Search-Expert-ZY — licença: unknown
+- saurabhdhule2005/youtube-video-analyzer — licença: unknown
+- FelipeSantiago1/Topicos-Especificos-em-SI-1 — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -12779,5 +12779,60 @@
     "validated_at": "2026-10-26T18:06:37.105Z",
     "topics": [],
     "readme_absorbed": "PD-XuHui/Topic-Search-Expert-ZY"
+  },
+  {
+    "id": 1435139535,
+    "full_name": "stevenguyenbt/mega-shot",
+    "url": "https://github.com/stevenguyenbt/mega-shot",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-27T03:24:03.669Z",
+    "topics": [
+      "ai-agent",
+      "ai-video",
+      "ai-video-generator",
+      "automation",
+      "claude-code",
+      "claude-skill",
+      "content-creation",
+      "subtitles",
+      "text-to-video",
+      "threejs",
+      "tiktok",
+      "video-generation",
+      "voice-cloning",
+      "youtube",
+      "youtube-shorts"
+    ],
+    "readme_absorbed": "stevenguyenbt/mega-shot"
+  },
+  {
+    "id": 1435137702,
+    "full_name": "saurabhdhule2005/youtube-video-analyzer",
+    "url": "https://github.com/saurabhdhule2005/youtube-video-analyzer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-27T03:24:04.664Z",
+    "topics": [],
+    "readme_absorbed": "saurabhdhule2005/youtube-video-analyzer"
+  },
+  {
+    "id": 1435106633,
+    "full_name": "FelipeSantiago1/Topicos-Especificos-em-SI-1",
+    "url": "https://github.com/FelipeSantiago1/Topicos-Especificos-em-SI-1",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-27T03:24:05.714Z",
+    "topics": [],
+    "readme_absorbed": "FelipeSantiago1/Topicos-Especificos-em-SI-1"
   }
 ]
