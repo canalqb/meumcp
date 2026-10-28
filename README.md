@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-28T03:39:53.115Z | mohamedharhash/operator-layer-ros2 | 0 | MIT | 200 |
+
+| 2026-10-28T03:39:53.889Z | janozeli/rankgrep | 0 | MIT | 200 |
+
+| 2026-10-28T03:39:54.760Z | Daejun/mind-stack | 0 | MIT | 200 |
+
+| 2026-10-28T03:40:00.792Z | Sentimenta1ist/x-scout | 0 | MIT | 200 |
+
 | 2026-10-27T17:17:53.951Z | actogram/scholar-mcp | 0 | MIT | 200 |
 
 | 2026-10-27T17:17:55.657Z | pulkitkomal/trends-analyser | 0 | MIT | 200 |

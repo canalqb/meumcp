@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (911 total, 246 validados free, 665 pulados/pago)
+description: MCPs descobertos pelo keyhunter (921 total, 250 validados free, 671 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 911
-createdAt: 2026-10-27
-updatedAt: 2026-10-27
+version: 921
+createdAt: 2026-10-28
+updatedAt: 2026-10-28
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-27T17:17:57.713Z
-> Total descoberto: 911 | Validados (HTTP 200 + free): 246 | Pulados (licença paga/enterprise): 665
+> Última execução: 2026-10-28T03:40:00.794Z
+> Total descoberto: 921 | Validados (HTTP 200 + free): 250 | Pulados (licença paga/enterprise): 671
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -267,6 +267,10 @@ updatedAt: 2026-10-27
 | actogram/scholar-mcp | Python | 0 | MIT | bibliometrics, mcp, open-science | [repo](https://github.com/actogram/scholar-mcp) |
 | pulkitkomal/trends-analyser | Python | 0 | MIT |  | [repo](https://github.com/pulkitkomal/trends-analyser) |
 | PastorD/rosbag-timeline | Python | 0 | Apache-2.0 |  | [repo](https://github.com/PastorD/rosbag-timeline) |
+| mohamedharhash/operator-layer-ros2 | Python | 0 | MIT |  | [repo](https://github.com/mohamedharhash/operator-layer-ros2) |
+| janozeli/rankgrep | Python | 0 | MIT |  | [repo](https://github.com/janozeli/rankgrep) |
+| Daejun/mind-stack | TypeScript | 0 | MIT |  | [repo](https://github.com/Daejun/mind-stack) |
+| Sentimenta1ist/x-scout | Python | 0 | MIT | anthropic, automation, claude | [repo](https://github.com/Sentimenta1ist/x-scout) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -935,6 +939,12 @@ updatedAt: 2026-10-27
 - wolassaaa/cdk20-video — licença: unknown
 - omerOxO/HealthTeach-using-ML-Topics — licença: unknown
 - Cafi9219/Ferroptosis_pipeline — licença: unknown
+- NADA-ELSAYED909/PharmaPulse-Analytics — licença: unknown
+- LukeGSOSStudy/SOSStudy — licença: unknown
+- owen9527tang/app-review-topic-modeling — licença: NOASSERTION
+- divyanshiix/interactive-quiz-app- — licença: unknown
+- science-vault/video-library — licença: unknown
+- science-vault/powerpoint-library — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
