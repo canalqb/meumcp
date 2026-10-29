@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (926 total, 250 validados free, 676 pulados/pago)
+description: MCPs descobertos pelo keyhunter (930 total, 251 validados free, 679 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 926
-createdAt: 2026-10-28
-updatedAt: 2026-10-28
+version: 930
+createdAt: 2026-10-29
+updatedAt: 2026-10-29
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-28T17:48:29.322Z
-> Total descoberto: 926 | Validados (HTTP 200 + free): 250 | Pulados (licença paga/enterprise): 676
+> Última execução: 2026-10-29T04:00:01.238Z
+> Total descoberto: 930 | Validados (HTTP 200 + free): 251 | Pulados (licença paga/enterprise): 679
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -271,6 +271,7 @@ updatedAt: 2026-10-28
 | janozeli/rankgrep | Python | 0 | MIT |  | [repo](https://github.com/janozeli/rankgrep) |
 | Daejun/mind-stack | TypeScript | 0 | MIT |  | [repo](https://github.com/Daejun/mind-stack) |
 | Sentimenta1ist/x-scout | Python | 0 | MIT | anthropic, automation, claude | [repo](https://github.com/Sentimenta1ist/x-scout) |
+| ejblhj-ui/topic-file-finder | Python | 0 | MIT |  | [repo](https://github.com/ejblhj-ui/topic-file-finder) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -950,6 +951,9 @@ updatedAt: 2026-10-28
 - clementfarabet/learnx — licença: unknown
 - 25thakrea-source/Leetcode_Solution — licença: unknown
 - M4dhav/GitHub-Topics-Adder — licença: unknown
+- araume/TopicGen — licença: unknown
+- hieune321/mas-project-topic1 — licença: unknown
+- Universe-ustc/auto-organizer — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

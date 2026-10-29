@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-29T03:59:59.273Z | ejblhj-ui/topic-file-finder | 0 | MIT | 200 |
+
 | 2026-10-28T03:39:53.115Z | mohamedharhash/operator-layer-ros2 | 0 | MIT | 200 |
 
 | 2026-10-28T03:39:53.889Z | janozeli/rankgrep | 0 | MIT | 200 |
