@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-29T17:55:12.251Z | HypeR-Proj/ci | 0 | Apache-2.0 | 200 |
+
+| 2026-10-29T17:55:15.583Z | antoineib28/topic-radar | 0 | MIT | 200 |
+
 | 2026-10-29T03:59:59.273Z | ejblhj-ui/topic-file-finder | 0 | MIT | 200 |
 
 | 2026-10-28T03:39:53.115Z | mohamedharhash/operator-layer-ros2 | 0 | MIT | 200 |

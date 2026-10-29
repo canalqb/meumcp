@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (930 total, 251 validados free, 679 pulados/pago)
+description: MCPs descobertos pelo keyhunter (938 total, 253 validados free, 685 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 930
+version: 938
 createdAt: 2026-10-29
 updatedAt: 2026-10-29
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-29T04:00:01.238Z
-> Total descoberto: 930 | Validados (HTTP 200 + free): 251 | Pulados (licença paga/enterprise): 679
+> Última execução: 2026-10-29T17:55:17.636Z
+> Total descoberto: 938 | Validados (HTTP 200 + free): 253 | Pulados (licença paga/enterprise): 685
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -272,6 +272,8 @@ updatedAt: 2026-10-29
 | Daejun/mind-stack | TypeScript | 0 | MIT |  | [repo](https://github.com/Daejun/mind-stack) |
 | Sentimenta1ist/x-scout | Python | 0 | MIT | anthropic, automation, claude | [repo](https://github.com/Sentimenta1ist/x-scout) |
 | ejblhj-ui/topic-file-finder | Python | 0 | MIT |  | [repo](https://github.com/ejblhj-ui/topic-file-finder) |
+| HypeR-Proj/ci | Python | 0 | Apache-2.0 |  | [repo](https://github.com/HypeR-Proj/ci) |
+| antoineib28/topic-radar | Python | 0 | MIT |  | [repo](https://github.com/antoineib28/topic-radar) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -954,6 +956,12 @@ updatedAt: 2026-10-29
 - araume/TopicGen — licença: unknown
 - hieune321/mas-project-topic1 — licença: unknown
 - Universe-ustc/auto-organizer — licença: unknown
+- mahmoudhussein1227/Road-to-PyUVM — licença: unknown
+- fpolinux/Personal_Quant — licença: unknown
+- nithishyadhav/AI-SMART-PAPPER-ANALYZER — licença: unknown
+- jayy1506/medimage — licença: unknown
+- aidenxia-28/narrow-ft-traces — licença: unknown
+- ahirraogaurav/MultiagentAi — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
