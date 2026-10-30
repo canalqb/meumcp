@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (942 total, 255 validados free, 687 pulados/pago)
+description: MCPs descobertos pelo keyhunter (949 total, 257 validados free, 692 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 942
+version: 949
 createdAt: 2026-10-30
 updatedAt: 2026-10-30
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-30T04:01:30.682Z
-> Total descoberto: 942 | Validados (HTTP 200 + free): 255 | Pulados (licença paga/enterprise): 687
+> Última execução: 2026-10-30T17:38:23.365Z
+> Total descoberto: 949 | Validados (HTTP 200 + free): 257 | Pulados (licença paga/enterprise): 692
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -276,6 +276,8 @@ updatedAt: 2026-10-30
 | antoineib28/topic-radar | Python | 0 | MIT |  | [repo](https://github.com/antoineib28/topic-radar) |
 | GeojoL/-wsearch | Python | 0 | MIT |  | [repo](https://github.com/GeojoL/-wsearch) |
 | BioX-NKU/HERTA | Python | 0 | MIT |  | [repo](https://github.com/BioX-NKU/HERTA) |
+| texno2816-creator/ResearchLens | Python | 0 | MIT | ai, education, flask | [repo](https://github.com/texno2816-creator/ResearchLens) |
+| Ai-deparments/hr-agent-live-test | Python | 0 | MIT |  | [repo](https://github.com/Ai-deparments/hr-agent-live-test) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -966,6 +968,11 @@ updatedAt: 2026-10-30
 - ahirraogaurav/MultiagentAi — licença: unknown
 - Icarobarroso/vde-classificacao-topicos — licença: unknown
 - Ethan-upgrade/sv-topic-screener — licença: unknown
+- NobodySS07/bharatiya-shorts-engine — licença: unknown
+- VectorJeager/ahang-X-content-research-github — licença: NOASSERTION
+- MrHJie/technical-text-ranking — licença: unknown
+- t3mii/fed-clustering — licença: unknown
+- Muhammad-Anas804/SEO_Agent_Studio — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

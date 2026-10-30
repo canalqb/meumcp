@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-30T17:38:18.928Z | texno2816-creator/ResearchLens | 0 | MIT | 200 |
+
+| 2026-10-30T17:38:20.813Z | Ai-deparments/hr-agent-live-test | 0 | MIT | 200 |
+
 | 2026-10-30T04:01:27.451Z | GeojoL/-wsearch | 0 | MIT | 200 |
 
 | 2026-10-30T04:01:28.595Z | BioX-NKU/HERTA | 0 | MIT | 200 |

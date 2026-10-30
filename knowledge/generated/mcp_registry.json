@@ -13339,5 +13339,102 @@
     "validated_at": "2026-10-30T04:01:30.680Z",
     "topics": [],
     "readme_absorbed": "Ethan-upgrade/sv-topic-screener"
+  },
+  {
+    "id": 1440024054,
+    "full_name": "NobodySS07/bharatiya-shorts-engine",
+    "url": "https://github.com/NobodySS07/bharatiya-shorts-engine",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-30T17:38:14.931Z",
+    "topics": [],
+    "readme_absorbed": "NobodySS07/bharatiya-shorts-engine"
+  },
+  {
+    "id": 1439983359,
+    "full_name": "VectorJeager/ahang-X-content-research-github",
+    "url": "https://github.com/VectorJeager/ahang-X-content-research-github",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-30T17:38:16.256Z",
+    "topics": [],
+    "readme_absorbed": "VectorJeager/ahang-X-content-research-github"
+  },
+  {
+    "id": 1439742138,
+    "full_name": "MrHJie/technical-text-ranking",
+    "url": "https://github.com/MrHJie/technical-text-ranking",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-30T17:38:17.594Z",
+    "topics": [],
+    "readme_absorbed": "MrHJie/technical-text-ranking"
+  },
+  {
+    "id": 1439989937,
+    "full_name": "texno2816-creator/ResearchLens",
+    "url": "https://github.com/texno2816-creator/ResearchLens",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-30T17:38:18.928Z",
+    "topics": [
+      "ai",
+      "education",
+      "flask",
+      "openalex",
+      "research"
+    ],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1440002832,
+    "full_name": "Ai-deparments/hr-agent-live-test",
+    "url": "https://github.com/Ai-deparments/hr-agent-live-test",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-30T17:38:20.813Z",
+    "topics": [],
+    "readme_absorbed": "Ai-deparments/hr-agent-live-test"
+  },
+  {
+    "id": 1439914592,
+    "full_name": "t3mii/fed-clustering",
+    "url": "https://github.com/t3mii/fed-clustering",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-30T17:38:21.984Z",
+    "topics": [],
+    "readme_absorbed": "t3mii/fed-clustering"
+  },
+  {
+    "id": 1439993327,
+    "full_name": "Muhammad-Anas804/SEO_Agent_Studio",
+    "url": "https://github.com/Muhammad-Anas804/SEO_Agent_Studio",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-30T17:38:23.363Z",
+    "topics": [],
+    "readme_absorbed": "Muhammad-Anas804/SEO_Agent_Studio"
   }
 ]
