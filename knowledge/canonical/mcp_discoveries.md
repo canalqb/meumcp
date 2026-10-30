@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (938 total, 253 validados free, 685 pulados/pago)
+description: MCPs descobertos pelo keyhunter (942 total, 255 validados free, 687 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 938
-createdAt: 2026-10-29
-updatedAt: 2026-10-29
+version: 942
+createdAt: 2026-10-30
+updatedAt: 2026-10-30
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-29T17:55:17.636Z
-> Total descoberto: 938 | Validados (HTTP 200 + free): 253 | Pulados (licença paga/enterprise): 685
+> Última execução: 2026-10-30T04:01:30.682Z
+> Total descoberto: 942 | Validados (HTTP 200 + free): 255 | Pulados (licença paga/enterprise): 687
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -274,6 +274,8 @@ updatedAt: 2026-10-29
 | ejblhj-ui/topic-file-finder | Python | 0 | MIT |  | [repo](https://github.com/ejblhj-ui/topic-file-finder) |
 | HypeR-Proj/ci | Python | 0 | Apache-2.0 |  | [repo](https://github.com/HypeR-Proj/ci) |
 | antoineib28/topic-radar | Python | 0 | MIT |  | [repo](https://github.com/antoineib28/topic-radar) |
+| GeojoL/-wsearch | Python | 0 | MIT |  | [repo](https://github.com/GeojoL/-wsearch) |
+| BioX-NKU/HERTA | Python | 0 | MIT |  | [repo](https://github.com/BioX-NKU/HERTA) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -962,6 +964,8 @@ updatedAt: 2026-10-29
 - jayy1506/medimage — licença: unknown
 - aidenxia-28/narrow-ft-traces — licença: unknown
 - ahirraogaurav/MultiagentAi — licença: unknown
+- Icarobarroso/vde-classificacao-topicos — licença: unknown
+- Ethan-upgrade/sv-topic-screener — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

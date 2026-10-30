@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-30T04:01:27.451Z | GeojoL/-wsearch | 0 | MIT | 200 |
+
+| 2026-10-30T04:01:28.595Z | BioX-NKU/HERTA | 0 | MIT | 200 |
+
 | 2026-10-29T17:55:12.251Z | HypeR-Proj/ci | 0 | Apache-2.0 | 200 |
 
 | 2026-10-29T17:55:15.583Z | antoineib28/topic-radar | 0 | MIT | 200 |
