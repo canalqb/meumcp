@@ -13436,5 +13436,31 @@
     "validated_at": "2026-10-30T17:38:23.363Z",
     "topics": [],
     "readme_absorbed": "Muhammad-Anas804/SEO_Agent_Studio"
+  },
+  {
+    "id": 1440455035,
+    "full_name": "emmanueluwa/agentiq",
+    "url": "https://github.com/emmanueluwa/agentiq",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-31T03:45:58.664Z",
+    "topics": [],
+    "readme_absorbed": "emmanueluwa/agentiq"
+  },
+  {
+    "id": 1440352186,
+    "full_name": "tradernonymous/tikbot",
+    "url": "https://github.com/tradernonymous/tikbot",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-31T03:45:59.767Z",
+    "topics": [],
+    "readme_absorbed": "tradernonymous/tikbot"
   }
 ]
