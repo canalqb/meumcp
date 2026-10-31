@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (951 total, 258 validados free, 693 pulados/pago)
+description: MCPs descobertos pelo keyhunter (958 total, 261 validados free, 697 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 951
+version: 958
 createdAt: 2026-10-31
 updatedAt: 2026-10-31
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-31T03:45:59.768Z
-> Total descoberto: 951 | Validados (HTTP 200 + free): 258 | Pulados (licença paga/enterprise): 693
+> Última execução: 2026-10-31T16:42:09.459Z
+> Total descoberto: 958 | Validados (HTTP 200 + free): 261 | Pulados (licença paga/enterprise): 697
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -279,6 +279,9 @@ updatedAt: 2026-10-31
 | texno2816-creator/ResearchLens | Python | 0 | MIT | ai, education, flask | [repo](https://github.com/texno2816-creator/ResearchLens) |
 | Ai-deparments/hr-agent-live-test | Python | 0 | MIT |  | [repo](https://github.com/Ai-deparments/hr-agent-live-test) |
 | tradernonymous/tikbot | TypeScript | 0 | Apache-2.0 |  | [repo](https://github.com/tradernonymous/tikbot) |
+| sfohr/easytopics | Python | 0 | MIT |  | [repo](https://github.com/sfohr/easytopics) |
+| CarlosSalasMacias/BiblioTopic | Python | 0 | MIT |  | [repo](https://github.com/CarlosSalasMacias/BiblioTopic) |
+| danielw-sudo/agentuto | TypeScript | 0 | MIT | math, science, stem | [repo](https://github.com/danielw-sudo/agentuto) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -975,6 +978,10 @@ updatedAt: 2026-10-31
 - t3mii/fed-clustering — licença: unknown
 - Muhammad-Anas804/SEO_Agent_Studio — licença: unknown
 - emmanueluwa/agentiq — licença: unknown
+- samaelmansy014-ctrl/Political-Debate-Arena — licença: unknown
+- ircdpro/trivia-3000-strict-review — licença: NOASSERTION
+- huangbai-AI/topic-assistant-public — licença: unknown
+- nazimgauri1177-web/yttopicfinder — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

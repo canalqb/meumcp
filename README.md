@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-10-31T16:42:06.803Z | sfohr/easytopics | 0 | MIT | 200 |
+
+| 2026-10-31T16:42:07.782Z | CarlosSalasMacias/BiblioTopic | 0 | MIT | 200 |
+
+| 2026-10-31T16:42:08.636Z | danielw-sudo/agentuto | 0 | MIT | 200 |
+
 | 2026-10-31T03:45:59.767Z | tradernonymous/tikbot | 0 | Apache-2.0 | 200 |
 
 | 2026-10-30T17:38:18.928Z | texno2816-creator/ResearchLens | 0 | MIT | 200 |

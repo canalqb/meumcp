@@ -13462,5 +13462,101 @@
     "validated_at": "2026-10-31T03:45:59.767Z",
     "topics": [],
     "readme_absorbed": "tradernonymous/tikbot"
+  },
+  {
+    "id": 1441020545,
+    "full_name": "samaelmansy014-ctrl/Political-Debate-Arena",
+    "url": "https://github.com/samaelmansy014-ctrl/Political-Debate-Arena",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-31T16:42:04.321Z",
+    "topics": [],
+    "readme_absorbed": "samaelmansy014-ctrl/Political-Debate-Arena"
+  },
+  {
+    "id": 1441038965,
+    "full_name": "ircdpro/trivia-3000-strict-review",
+    "url": "https://github.com/ircdpro/trivia-3000-strict-review",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-31T16:42:05.246Z",
+    "topics": [],
+    "readme_absorbed": "ircdpro/trivia-3000-strict-review"
+  },
+  {
+    "id": 1441036383,
+    "full_name": "huangbai-AI/topic-assistant-public",
+    "url": "https://github.com/huangbai-AI/topic-assistant-public",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-31T16:42:05.967Z",
+    "topics": [],
+    "readme_absorbed": "huangbai-AI/topic-assistant-public"
+  },
+  {
+    "id": 1441023834,
+    "full_name": "sfohr/easytopics",
+    "url": "https://github.com/sfohr/easytopics",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-31T16:42:06.803Z",
+    "topics": [],
+    "readme_absorbed": "sfohr/easytopics"
+  },
+  {
+    "id": 1440894779,
+    "full_name": "CarlosSalasMacias/BiblioTopic",
+    "url": "https://github.com/CarlosSalasMacias/BiblioTopic",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-31T16:42:07.782Z",
+    "topics": [],
+    "readme_absorbed": "CarlosSalasMacias/BiblioTopic"
+  },
+  {
+    "id": 1440615973,
+    "full_name": "danielw-sudo/agentuto",
+    "url": "https://github.com/danielw-sudo/agentuto",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-10-31T16:42:08.636Z",
+    "topics": [
+      "math",
+      "science",
+      "stem",
+      "turorial"
+    ],
+    "readme_absorbed": "danielw-sudo/agentuto"
+  },
+  {
+    "id": 1441014914,
+    "full_name": "nazimgauri1177-web/yttopicfinder",
+    "url": "https://github.com/nazimgauri1177-web/yttopicfinder",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-10-31T16:42:09.457Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
