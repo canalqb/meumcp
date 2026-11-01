@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (958 total, 261 validados free, 697 pulados/pago)
+description: MCPs descobertos pelo keyhunter (964 total, 263 validados free, 701 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 958
-createdAt: 2026-10-31
-updatedAt: 2026-10-31
+version: 964
+createdAt: 2026-11-01
+updatedAt: 2026-11-01
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-10-31T16:42:09.459Z
-> Total descoberto: 958 | Validados (HTTP 200 + free): 261 | Pulados (licença paga/enterprise): 697
+> Última execução: 2026-11-01T03:54:51.245Z
+> Total descoberto: 964 | Validados (HTTP 200 + free): 263 | Pulados (licença paga/enterprise): 701
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -282,6 +282,8 @@ updatedAt: 2026-10-31
 | sfohr/easytopics | Python | 0 | MIT |  | [repo](https://github.com/sfohr/easytopics) |
 | CarlosSalasMacias/BiblioTopic | Python | 0 | MIT |  | [repo](https://github.com/CarlosSalasMacias/BiblioTopic) |
 | danielw-sudo/agentuto | TypeScript | 0 | MIT | math, science, stem | [repo](https://github.com/danielw-sudo/agentuto) |
+| jwiegley/agent-mail | Python | 0 | BSD-3-Clause |  | [repo](https://github.com/jwiegley/agent-mail) |
+| muhdammar-azizan/uthm-codeverse-ai-powered-python | Python | 0 | MIT |  | [repo](https://github.com/muhdammar-azizan/uthm-codeverse-ai-powered-python) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -982,6 +984,10 @@ updatedAt: 2026-10-31
 - ircdpro/trivia-3000-strict-review — licença: NOASSERTION
 - huangbai-AI/topic-assistant-public — licença: unknown
 - nazimgauri1177-web/yttopicfinder — licença: unknown
+- taupan14/indie-go-next — licença: unknown
+- nuketownada/pubsub-push — licença: unknown
+- voduckhang/career-topic — licença: unknown
+- milkycloud-dev/tapo-sd-archiver — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 

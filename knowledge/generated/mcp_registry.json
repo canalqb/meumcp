@@ -13558,5 +13558,83 @@
     "validated_at": "2026-10-31T16:42:09.457Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1441454548,
+    "full_name": "taupan14/indie-go-next",
+    "url": "https://github.com/taupan14/indie-go-next",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-01T03:54:46.904Z",
+    "topics": [],
+    "readme_absorbed": "taupan14/indie-go-next"
+  },
+  {
+    "id": 1441351123,
+    "full_name": "nuketownada/pubsub-push",
+    "url": "https://github.com/nuketownada/pubsub-push",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-01T03:54:47.827Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1441446708,
+    "full_name": "voduckhang/career-topic",
+    "url": "https://github.com/voduckhang/career-topic",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-01T03:54:48.661Z",
+    "topics": [],
+    "readme_absorbed": "voduckhang/career-topic"
+  },
+  {
+    "id": 1441127838,
+    "full_name": "jwiegley/agent-mail",
+    "url": "https://github.com/jwiegley/agent-mail",
+    "language": "Python",
+    "stars": 0,
+    "license": "BSD-3-Clause",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-01T03:54:49.570Z",
+    "topics": [],
+    "readme_absorbed": "jwiegley/agent-mail"
+  },
+  {
+    "id": 1441124079,
+    "full_name": "muhdammar-azizan/uthm-codeverse-ai-powered-python",
+    "url": "https://github.com/muhdammar-azizan/uthm-codeverse-ai-powered-python",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-01T03:54:50.415Z",
+    "topics": [],
+    "readme_absorbed": "muhdammar-azizan/uthm-codeverse-ai-powered-python"
+  },
+  {
+    "id": 1441414834,
+    "full_name": "milkycloud-dev/tapo-sd-archiver",
+    "url": "https://github.com/milkycloud-dev/tapo-sd-archiver",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-01T03:54:51.243Z",
+    "topics": [],
+    "readme_absorbed": "milkycloud-dev/tapo-sd-archiver"
   }
 ]

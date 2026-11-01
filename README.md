@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-01T03:54:49.570Z | jwiegley/agent-mail | 0 | BSD-3-Clause | 200 |
+
+| 2026-11-01T03:54:50.415Z | muhdammar-azizan/uthm-codeverse-ai-powered-python | 0 | MIT | 200 |
+
 | 2026-10-31T16:42:06.803Z | sfohr/easytopics | 0 | MIT | 200 |
 
 | 2026-10-31T16:42:07.782Z | CarlosSalasMacias/BiblioTopic | 0 | MIT | 200 |
