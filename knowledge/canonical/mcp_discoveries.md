@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (964 total, 263 validados free, 701 pulados/pago)
+description: MCPs descobertos pelo keyhunter (968 total, 264 validados free, 704 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 964
+version: 968
 createdAt: 2026-11-01
 updatedAt: 2026-11-01
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-01T03:54:51.245Z
-> Total descoberto: 964 | Validados (HTTP 200 + free): 263 | Pulados (licença paga/enterprise): 701
+> Última execução: 2026-11-01T17:31:54.280Z
+> Total descoberto: 968 | Validados (HTTP 200 + free): 264 | Pulados (licença paga/enterprise): 704
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -284,6 +284,7 @@ updatedAt: 2026-11-01
 | danielw-sudo/agentuto | TypeScript | 0 | MIT | math, science, stem | [repo](https://github.com/danielw-sudo/agentuto) |
 | jwiegley/agent-mail | Python | 0 | BSD-3-Clause |  | [repo](https://github.com/jwiegley/agent-mail) |
 | muhdammar-azizan/uthm-codeverse-ai-powered-python | Python | 0 | MIT |  | [repo](https://github.com/muhdammar-azizan/uthm-codeverse-ai-powered-python) |
+| ArtomYuan/dsh-caduceus | TypeScript | 0 | MIT |  | [repo](https://github.com/ArtomYuan/dsh-caduceus) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -988,6 +989,9 @@ updatedAt: 2026-11-01
 - nuketownada/pubsub-push — licença: unknown
 - voduckhang/career-topic — licença: unknown
 - milkycloud-dev/tapo-sd-archiver — licença: NOASSERTION
+- anushkakushwah/Python-programs — licença: unknown
+- Danial-Dirar/yt-shorts-automation — licença: unknown
+- arfatsherkhan786-a11y/Week4_Language_Trends_NLP — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
