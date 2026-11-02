@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (968 total, 264 validados free, 704 pulados/pago)
+description: MCPs descobertos pelo keyhunter (973 total, 269 validados free, 704 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 968
-createdAt: 2026-11-01
-updatedAt: 2026-11-01
+version: 973
+createdAt: 2026-11-02
+updatedAt: 2026-11-02
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-01T17:31:54.280Z
-> Total descoberto: 968 | Validados (HTTP 200 + free): 264 | Pulados (licença paga/enterprise): 704
+> Última execução: 2026-11-02T03:58:30.022Z
+> Total descoberto: 973 | Validados (HTTP 200 + free): 269 | Pulados (licença paga/enterprise): 704
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -285,6 +285,11 @@ updatedAt: 2026-11-01
 | jwiegley/agent-mail | Python | 0 | BSD-3-Clause |  | [repo](https://github.com/jwiegley/agent-mail) |
 | muhdammar-azizan/uthm-codeverse-ai-powered-python | Python | 0 | MIT |  | [repo](https://github.com/muhdammar-azizan/uthm-codeverse-ai-powered-python) |
 | ArtomYuan/dsh-caduceus | TypeScript | 0 | MIT |  | [repo](https://github.com/ArtomYuan/dsh-caduceus) |
+| moises-cisneros/Proyecto-1-Topicos | Python | 0 | MIT |  | [repo](https://github.com/moises-cisneros/Proyecto-1-Topicos) |
+| joshuah-1998/tesla-overlay | Python | 1 | MIT |  | [repo](https://github.com/joshuah-1998/tesla-overlay) |
+| prayashcloud/axomiya-study-companion | Python | 3 | MIT | ai-tutor, assamese, bharatcode | [repo](https://github.com/prayashcloud/axomiya-study-companion) |
+| CloudCorpRecords/textgraph | TypeScript | 0 | MIT |  | [repo](https://github.com/CloudCorpRecords/textgraph) |
+| jaganrao03/library-tidy | Python | 0 | MIT |  | [repo](https://github.com/jaganrao03/library-tidy) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 

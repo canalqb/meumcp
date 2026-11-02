@@ -302,6 +302,16 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-02T03:58:26.785Z | moises-cisneros/Proyecto-1-Topicos | 0 | MIT | 200 |
+
+| 2026-11-02T03:58:27.584Z | joshuah-1998/tesla-overlay | 1 | MIT | 200 |
+
+| 2026-11-02T03:58:28.392Z | prayashcloud/axomiya-study-companion | 3 | MIT | 200 |
+
+| 2026-11-02T03:58:29.178Z | CloudCorpRecords/textgraph | 0 | MIT | 200 |
+
+| 2026-11-02T03:58:30.019Z | jaganrao03/library-tidy | 0 | MIT | 200 |
+
 | 2026-11-01T17:31:53.575Z | ArtomYuan/dsh-caduceus | 0 | MIT | 200 |
 
 | 2026-11-01T03:54:49.570Z | jwiegley/agent-mail | 0 | BSD-3-Clause | 200 |

@@ -13698,5 +13698,78 @@
       "text-mining"
     ],
     "readme_absorbed": "arfatsherkhan786-a11y/Week4_Language_Trends_NLP"
+  },
+  {
+    "id": 1442363538,
+    "full_name": "moises-cisneros/Proyecto-1-Topicos",
+    "url": "https://github.com/moises-cisneros/Proyecto-1-Topicos",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-02T03:58:26.785Z",
+    "topics": [],
+    "readme_absorbed": "moises-cisneros/Proyecto-1-Topicos"
+  },
+  {
+    "id": 1442455638,
+    "full_name": "joshuah-1998/tesla-overlay",
+    "url": "https://github.com/joshuah-1998/tesla-overlay",
+    "language": "Python",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-02T03:58:27.584Z",
+    "topics": [],
+    "readme_absorbed": "joshuah-1998/tesla-overlay"
+  },
+  {
+    "id": 1442418947,
+    "full_name": "prayashcloud/axomiya-study-companion",
+    "url": "https://github.com/prayashcloud/axomiya-study-companion",
+    "language": "Python",
+    "stars": 3,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-02T03:58:28.392Z",
+    "topics": [
+      "ai-tutor",
+      "assamese",
+      "bharatcode",
+      "education",
+      "hackathon",
+      "python",
+      "streamlit"
+    ],
+    "readme_absorbed": "prayashcloud/axomiya-study-companion"
+  },
+  {
+    "id": 1442426270,
+    "full_name": "CloudCorpRecords/textgraph",
+    "url": "https://github.com/CloudCorpRecords/textgraph",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-02T03:58:29.178Z",
+    "topics": [],
+    "readme_absorbed": "CloudCorpRecords/textgraph"
+  },
+  {
+    "id": 1442403588,
+    "full_name": "jaganrao03/library-tidy",
+    "url": "https://github.com/jaganrao03/library-tidy",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-02T03:58:30.019Z",
+    "topics": [],
+    "readme_absorbed": "jaganrao03/library-tidy"
   }
 ]
