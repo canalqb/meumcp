@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (974 total, 269 validados free, 705 pulados/pago)
+description: MCPs descobertos pelo keyhunter (979 total, 270 validados free, 709 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 974
-createdAt: 2026-11-02
-updatedAt: 2026-11-02
+version: 979
+createdAt: 2026-11-03
+updatedAt: 2026-11-03
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-02T21:17:46.232Z
-> Total descoberto: 974 | Validados (HTTP 200 + free): 269 | Pulados (licença paga/enterprise): 705
+> Última execução: 2026-11-03T04:59:42.487Z
+> Total descoberto: 979 | Validados (HTTP 200 + free): 270 | Pulados (licença paga/enterprise): 709
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -290,6 +290,7 @@ updatedAt: 2026-11-02
 | prayashcloud/axomiya-study-companion | Python | 3 | MIT | ai-tutor, assamese, bharatcode | [repo](https://github.com/prayashcloud/axomiya-study-companion) |
 | CloudCorpRecords/textgraph | TypeScript | 0 | MIT |  | [repo](https://github.com/CloudCorpRecords/textgraph) |
 | jaganrao03/library-tidy | Python | 0 | MIT |  | [repo](https://github.com/jaganrao03/library-tidy) |
+| disit-tech/viral-scout | Python | 0 | MIT |  | [repo](https://github.com/disit-tech/viral-scout) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -998,6 +999,10 @@ updatedAt: 2026-11-02
 - Danial-Dirar/yt-shorts-automation — licença: unknown
 - arfatsherkhan786-a11y/Week4_Language_Trends_NLP — licença: unknown
 - IsaiasGutierrezTeran/Proyecto_Topicos — licença: unknown
+- Briii88/hsk-vocabulary-topics — licença: NOASSERTION
+- Dev-gora/EchoLabs — licença: unknown
+- klion534/kali-security-orchestrator — licença: unknown
+- HaoweiFan0912/comment-grabber — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

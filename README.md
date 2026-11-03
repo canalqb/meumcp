@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-03T04:59:40.445Z | disit-tech/viral-scout | 0 | MIT | 200 |
+
 | 2026-11-02T03:58:26.785Z | moises-cisneros/Proyecto-1-Topicos | 0 | MIT | 200 |
 
 | 2026-11-02T03:58:27.584Z | joshuah-1998/tesla-overlay | 1 | MIT | 200 |
