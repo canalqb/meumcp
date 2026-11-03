@@ -13849,5 +13849,53 @@
     "validated_at": "2026-11-03T04:59:42.484Z",
     "topics": [],
     "readme_absorbed": "HaoweiFan0912/comment-grabber"
+  },
+  {
+    "id": 1444287893,
+    "full_name": "kairos-industries/varve",
+    "url": "https://github.com/kairos-industries/varve",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-03T18:57:17.982Z",
+    "topics": [
+      "agent-memory",
+      "claude-code",
+      "codex",
+      "knowledge-base",
+      "llm-wiki",
+      "mcp",
+      "obsidian",
+      "semantic-search"
+    ],
+    "readme_absorbed": "kairos-industries/varve"
+  },
+  {
+    "id": 1444612247,
+    "full_name": "michaelohale2/cross-domain-creativity-mapper",
+    "url": "https://github.com/michaelohale2/cross-domain-creativity-mapper",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-03T18:57:19.094Z",
+    "topics": [],
+    "readme_absorbed": "michaelohale2/cross-domain-creativity-mapper"
+  },
+  {
+    "id": 1444658603,
+    "full_name": "manuelcecchetto/torn-rooms",
+    "url": "https://github.com/manuelcecchetto/torn-rooms",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-03T18:57:20.227Z",
+    "topics": [],
+    "readme_absorbed": "manuelcecchetto/torn-rooms"
   }
 ]

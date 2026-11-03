@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (979 total, 270 validados free, 709 pulados/pago)
+description: MCPs descobertos pelo keyhunter (982 total, 271 validados free, 711 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 979
+version: 982
 createdAt: 2026-11-03
 updatedAt: 2026-11-03
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-03T04:59:42.487Z
-> Total descoberto: 979 | Validados (HTTP 200 + free): 270 | Pulados (licença paga/enterprise): 709
+> Última execução: 2026-11-03T18:57:20.230Z
+> Total descoberto: 982 | Validados (HTTP 200 + free): 271 | Pulados (licença paga/enterprise): 711
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -291,6 +291,7 @@ updatedAt: 2026-11-03
 | CloudCorpRecords/textgraph | TypeScript | 0 | MIT |  | [repo](https://github.com/CloudCorpRecords/textgraph) |
 | jaganrao03/library-tidy | Python | 0 | MIT |  | [repo](https://github.com/jaganrao03/library-tidy) |
 | disit-tech/viral-scout | Python | 0 | MIT |  | [repo](https://github.com/disit-tech/viral-scout) |
+| kairos-industries/varve | TypeScript | 0 | MIT | agent-memory, claude-code, codex | [repo](https://github.com/kairos-industries/varve) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1003,6 +1004,8 @@ updatedAt: 2026-11-03
 - Dev-gora/EchoLabs — licença: unknown
 - klion534/kali-security-orchestrator — licença: unknown
 - HaoweiFan0912/comment-grabber — licença: unknown
+- michaelohale2/cross-domain-creativity-mapper — licença: unknown
+- manuelcecchetto/torn-rooms — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 
