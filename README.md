@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-04T19:15:13.625Z | alexccastilho/gclaude-indexer | 0 | GPL-3.0 | 200 |
+
+| 2026-11-04T19:15:17.242Z | alex-quiterio/precog-trend-radar | 0 | MIT | 200 |
+
 | 2026-11-04T04:31:17.688Z | CloudCorpRecords/knowdrift | 0 | MIT | 200 |
 
 | 2026-11-04T04:31:18.645Z | chickenfeetbatman/streamlet-kafka-lite | 0 | MIT | 200 |

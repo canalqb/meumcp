@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (991 total, 275 validados free, 716 pulados/pago)
+description: MCPs descobertos pelo keyhunter (997 total, 277 validados free, 720 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 991
+version: 997
 createdAt: 2026-11-04
 updatedAt: 2026-11-04
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-04T04:31:21.420Z
-> Total descoberto: 991 | Validados (HTTP 200 + free): 275 | Pulados (licença paga/enterprise): 716
+> Última execução: 2026-11-04T19:15:18.491Z
+> Total descoberto: 997 | Validados (HTTP 200 + free): 277 | Pulados (licença paga/enterprise): 720
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -296,6 +296,8 @@ updatedAt: 2026-11-04
 | chickenfeetbatman/streamlet-kafka-lite | Python | 0 | MIT |  | [repo](https://github.com/chickenfeetbatman/streamlet-kafka-lite) |
 | jasveerai88/creator-dedupe | Python | 0 | MIT | content-creator, creator-tools, deduplication | [repo](https://github.com/jasveerai88/creator-dedupe) |
 | reer-robotics/knowledge-graph | Python | 0 | MIT |  | [repo](https://github.com/reer-robotics/knowledge-graph) |
+| alexccastilho/gclaude-indexer | Python | 0 | GPL-3.0 | brasil, claude, claude-ai | [repo](https://github.com/alexccastilho/gclaude-indexer) |
+| alex-quiterio/precog-trend-radar | TypeScript | 0 | MIT |  | [repo](https://github.com/alex-quiterio/precog-trend-radar) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1015,6 +1017,10 @@ updatedAt: 2026-11-04
 - tsaaguur/ui — licença: unknown
 - QingxiBat/hot-topic-monitoring — licença: unknown
 - mia-gamedev/Telegram_Starboard_Bot — licença: unknown
+- anish891/ai-interview-prep — licença: unknown
+- shubhamgawas4506-coder/Multi-Agent-AI-Research-System-Using-Langchain — licença: unknown
+- alanmaizon/Open-This-Wall — licença: unknown
+- adityadiwakar2006-png/one_kighters — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
