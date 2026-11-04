@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-04T04:31:17.688Z | CloudCorpRecords/knowdrift | 0 | MIT | 200 |
+
+| 2026-11-04T04:31:18.645Z | chickenfeetbatman/streamlet-kafka-lite | 0 | MIT | 200 |
+
+| 2026-11-04T04:31:20.483Z | jasveerai88/creator-dedupe | 0 | MIT | 200 |
+
+| 2026-11-04T04:31:21.417Z | reer-robotics/knowledge-graph | 0 | MIT | 200 |
+
 | 2026-11-03T18:57:17.982Z | kairos-industries/varve | 0 | MIT | 200 |
 
 | 2026-11-03T04:59:40.445Z | disit-tech/viral-scout | 0 | MIT | 200 |
