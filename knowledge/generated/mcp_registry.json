@@ -14122,5 +14122,89 @@
     "validated_at": "2026-11-04T19:15:18.488Z",
     "topics": [],
     "readme_absorbed": "adityadiwakar2006-png/one_kighters"
+  },
+  {
+    "id": 1446148047,
+    "full_name": "johnnygodsa/agentic-video-studio",
+    "url": "https://github.com/johnnygodsa/agentic-video-studio",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-05T04:47:37.419Z",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "claude-code",
+      "codex",
+      "content-creation",
+      "fact-checking",
+      "ffmpeg",
+      "python",
+      "text-to-speech",
+      "tts",
+      "video-generation",
+      "video-production",
+      "youtube"
+    ],
+    "readme_absorbed": "johnnygodsa/agentic-video-studio"
+  },
+  {
+    "id": 1446506896,
+    "full_name": "DDXYY189/zhengda-topic-evaluator",
+    "url": "https://github.com/DDXYY189/zhengda-topic-evaluator",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-05T04:47:38.412Z",
+    "topics": [],
+    "readme_absorbed": "DDXYY189/zhengda-topic-evaluator"
+  },
+  {
+    "id": 1446518847,
+    "full_name": "emmabellerogo/cst-435-topic-5-trioformer",
+    "url": "https://github.com/emmabellerogo/cst-435-topic-5-trioformer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-05T04:47:39.922Z",
+    "topics": [],
+    "readme_absorbed": "emmabellerogo/cst-435-topic-5-trioformer"
+  },
+  {
+    "id": 1446451830,
+    "full_name": "clhforensics/aicontent",
+    "url": "https://github.com/clhforensics/aicontent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-05T04:47:40.784Z",
+    "topics": [],
+    "readme_absorbed": "clhforensics/aicontent"
+  },
+  {
+    "id": 1446505256,
+    "full_name": "on-retryx/trendhound",
+    "url": "https://github.com/on-retryx/trendhound",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-05T04:47:41.635Z",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "trends",
+      "x"
+    ],
+    "readme_absorbed": "on-retryx/trendhound"
   }
 ]

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (997 total, 277 validados free, 720 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1002 total, 279 validados free, 723 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 997
-createdAt: 2026-11-04
-updatedAt: 2026-11-04
+version: 1002
+createdAt: 2026-11-05
+updatedAt: 2026-11-05
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-04T19:15:18.491Z
-> Total descoberto: 997 | Validados (HTTP 200 + free): 277 | Pulados (licença paga/enterprise): 720
+> Última execução: 2026-11-05T04:47:41.637Z
+> Total descoberto: 1002 | Validados (HTTP 200 + free): 279 | Pulados (licença paga/enterprise): 723
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -298,6 +298,8 @@ updatedAt: 2026-11-04
 | reer-robotics/knowledge-graph | Python | 0 | MIT |  | [repo](https://github.com/reer-robotics/knowledge-graph) |
 | alexccastilho/gclaude-indexer | Python | 0 | GPL-3.0 | brasil, claude, claude-ai | [repo](https://github.com/alexccastilho/gclaude-indexer) |
 | alex-quiterio/precog-trend-radar | TypeScript | 0 | MIT |  | [repo](https://github.com/alex-quiterio/precog-trend-radar) |
+| johnnygodsa/agentic-video-studio | Python | 0 | MIT | ai-agents, automation, claude-code | [repo](https://github.com/johnnygodsa/agentic-video-studio) |
+| on-retryx/trendhound | Python | 0 | MIT | ai-agents, claude-code, trends | [repo](https://github.com/on-retryx/trendhound) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1021,6 +1023,9 @@ updatedAt: 2026-11-04
 - shubhamgawas4506-coder/Multi-Agent-AI-Research-System-Using-Langchain — licença: unknown
 - alanmaizon/Open-This-Wall — licença: unknown
 - adityadiwakar2006-png/one_kighters — licença: unknown
+- DDXYY189/zhengda-topic-evaluator — licença: unknown
+- emmabellerogo/cst-435-topic-5-trioformer — licença: unknown
+- clhforensics/aicontent — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

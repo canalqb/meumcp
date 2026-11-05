@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-05T04:47:37.419Z | johnnygodsa/agentic-video-studio | 0 | MIT | 200 |
+
+| 2026-11-05T04:47:41.635Z | on-retryx/trendhound | 0 | MIT | 200 |
+
 | 2026-11-04T19:15:13.625Z | alexccastilho/gclaude-indexer | 0 | GPL-3.0 | 200 |
 
 | 2026-11-04T19:15:17.242Z | alex-quiterio/precog-trend-radar | 0 | MIT | 200 |
