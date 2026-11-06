@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-06T18:47:11.168Z | model-bender/claudex-learn | 0 | MIT | 200 |
+
+| 2026-11-06T18:47:12.100Z | KI-Schleswig-Holstein/gap-finder | 0 | MIT | 200 |
+
+| 2026-11-06T18:47:14.116Z | anneheartrecord/weread-atlas | 0 | MIT | 200 |
+
 | 2026-11-06T04:47:11.412Z | qilaidev/tg-channel-analyzer | 0 | MIT | 200 |
 
 | 2026-11-06T04:47:13.506Z | LinyiAIGC/ai-workspace-kit | 0 | MIT | 200 |

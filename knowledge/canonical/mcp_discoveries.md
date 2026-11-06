@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1012 total, 281 validados free, 731 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1018 total, 284 validados free, 734 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1012
+version: 1018
 createdAt: 2026-11-06
 updatedAt: 2026-11-06
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-06T04:47:14.544Z
-> Total descoberto: 1012 | Validados (HTTP 200 + free): 281 | Pulados (licença paga/enterprise): 731
+> Última execução: 2026-11-06T18:47:15.880Z
+> Total descoberto: 1018 | Validados (HTTP 200 + free): 284 | Pulados (licença paga/enterprise): 734
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -302,6 +302,9 @@ updatedAt: 2026-11-06
 | on-retryx/trendhound | Python | 0 | MIT | ai-agents, claude-code, trends | [repo](https://github.com/on-retryx/trendhound) |
 | qilaidev/tg-channel-analyzer | Python | 0 | MIT | analytics, channel-analysis, content-diagnostics | [repo](https://github.com/qilaidev/tg-channel-analyzer) |
 | LinyiAIGC/ai-workspace-kit | Python | 0 | MIT |  | [repo](https://github.com/LinyiAIGC/ai-workspace-kit) |
+| model-bender/claudex-learn | Python | 0 | MIT |  | [repo](https://github.com/model-bender/claudex-learn) |
+| KI-Schleswig-Holstein/gap-finder | Python | 0 | MIT |  | [repo](https://github.com/KI-Schleswig-Holstein/gap-finder) |
+| anneheartrecord/weread-atlas | Python | 0 | MIT | agent-skills, claude-code, knowledge-map | [repo](https://github.com/anneheartrecord/weread-atlas) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1036,6 +1039,9 @@ updatedAt: 2026-11-06
 - qilaidev/telegram-cs-bot — licença: NOASSERTION
 - nissysharon/TechBit — licença: unknown
 - binhnuoctrangsu/ATFB_GROUP12_TOPIC7 — licença: unknown
+- MullaiVenese03/Commit — licença: unknown
+- Astheno-sphere/offshore_simulations — licença: NOASSERTION
+- basavarajdandgund-cmd/4sf25ci029_assignment_3c — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

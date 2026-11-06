@@ -14351,5 +14351,90 @@
     "validated_at": "2026-11-06T04:47:14.541Z",
     "topics": [],
     "readme_absorbed": "binhnuoctrangsu/ATFB_GROUP12_TOPIC7"
+  },
+  {
+    "id": 1448603222,
+    "full_name": "model-bender/claudex-learn",
+    "url": "https://github.com/model-bender/claudex-learn",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-06T18:47:11.168Z",
+    "topics": [],
+    "readme_absorbed": "model-bender/claudex-learn"
+  },
+  {
+    "id": 1448568564,
+    "full_name": "KI-Schleswig-Holstein/gap-finder",
+    "url": "https://github.com/KI-Schleswig-Holstein/gap-finder",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-06T18:47:12.100Z",
+    "topics": [],
+    "readme_absorbed": "KI-Schleswig-Holstein/gap-finder"
+  },
+  {
+    "id": 1448234045,
+    "full_name": "MullaiVenese03/Commit",
+    "url": "https://github.com/MullaiVenese03/Commit",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-06T18:47:13.119Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1448151904,
+    "full_name": "anneheartrecord/weread-atlas",
+    "url": "https://github.com/anneheartrecord/weread-atlas",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-06T18:47:14.116Z",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "knowledge-map",
+      "obsidian",
+      "reading-notes",
+      "weread"
+    ],
+    "readme_absorbed": "anneheartrecord/weread-atlas"
+  },
+  {
+    "id": 1448379133,
+    "full_name": "Astheno-sphere/offshore_simulations",
+    "url": "https://github.com/Astheno-sphere/offshore_simulations",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-06T18:47:14.968Z",
+    "topics": [],
+    "readme_absorbed": "Astheno-sphere/offshore_simulations"
+  },
+  {
+    "id": 1448126723,
+    "full_name": "basavarajdandgund-cmd/4sf25ci029_assignment_3c",
+    "url": "https://github.com/basavarajdandgund-cmd/4sf25ci029_assignment_3c",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-06T18:47:15.878Z",
+    "topics": [],
+    "readme_absorbed": "basavarajdandgund-cmd/4sf25ci029_assignment_3c"
   }
 ]
