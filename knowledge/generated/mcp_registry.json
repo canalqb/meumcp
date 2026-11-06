@@ -14271,5 +14271,85 @@
     "validated_at": "2026-11-05T19:23:13.961Z",
     "topics": [],
     "readme_absorbed": "dineshsai05/ce725-real-estate-feasibility"
+  },
+  {
+    "id": 1447838891,
+    "full_name": "qilaidev/telegram-cs-bot",
+    "url": "https://github.com/qilaidev/telegram-cs-bot",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-06T04:47:09.107Z",
+    "topics": [
+      "customer-support",
+      "python",
+      "rate-limiting",
+      "sqlalchemy",
+      "state-machine",
+      "telegram",
+      "telegram-bot"
+    ],
+    "readme_absorbed": "qilaidev/telegram-cs-bot"
+  },
+  {
+    "id": 1447838882,
+    "full_name": "qilaidev/tg-channel-analyzer",
+    "url": "https://github.com/qilaidev/tg-channel-analyzer",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-06T04:47:11.412Z",
+    "topics": [
+      "analytics",
+      "channel-analysis",
+      "content-diagnostics",
+      "python",
+      "telegram",
+      "telegram-bot"
+    ],
+    "readme_absorbed": "qilaidev/tg-channel-analyzer"
+  },
+  {
+    "id": 1447830289,
+    "full_name": "nissysharon/TechBit",
+    "url": "https://github.com/nissysharon/TechBit",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-06T04:47:12.414Z",
+    "topics": [],
+    "readme_absorbed": "nissysharon/TechBit"
+  },
+  {
+    "id": 1447761023,
+    "full_name": "LinyiAIGC/ai-workspace-kit",
+    "url": "https://github.com/LinyiAIGC/ai-workspace-kit",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-06T04:47:13.506Z",
+    "topics": [],
+    "readme_absorbed": "LinyiAIGC/ai-workspace-kit"
+  },
+  {
+    "id": 1447763978,
+    "full_name": "binhnuoctrangsu/ATFB_GROUP12_TOPIC7",
+    "url": "https://github.com/binhnuoctrangsu/ATFB_GROUP12_TOPIC7",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-06T04:47:14.541Z",
+    "topics": [],
+    "readme_absorbed": "binhnuoctrangsu/ATFB_GROUP12_TOPIC7"
   }
 ]

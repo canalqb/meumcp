@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1007 total, 279 validados free, 728 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1012 total, 281 validados free, 731 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1007
-createdAt: 2026-11-05
-updatedAt: 2026-11-05
+version: 1012
+createdAt: 2026-11-06
+updatedAt: 2026-11-06
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-05T19:23:13.963Z
-> Total descoberto: 1007 | Validados (HTTP 200 + free): 279 | Pulados (licença paga/enterprise): 728
+> Última execução: 2026-11-06T04:47:14.544Z
+> Total descoberto: 1012 | Validados (HTTP 200 + free): 281 | Pulados (licença paga/enterprise): 731
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -300,6 +300,8 @@ updatedAt: 2026-11-05
 | alex-quiterio/precog-trend-radar | TypeScript | 0 | MIT |  | [repo](https://github.com/alex-quiterio/precog-trend-radar) |
 | johnnygodsa/agentic-video-studio | Python | 0 | MIT | ai-agents, automation, claude-code | [repo](https://github.com/johnnygodsa/agentic-video-studio) |
 | on-retryx/trendhound | Python | 0 | MIT | ai-agents, claude-code, trends | [repo](https://github.com/on-retryx/trendhound) |
+| qilaidev/tg-channel-analyzer | Python | 0 | MIT | analytics, channel-analysis, content-diagnostics | [repo](https://github.com/qilaidev/tg-channel-analyzer) |
+| LinyiAIGC/ai-workspace-kit | Python | 0 | MIT |  | [repo](https://github.com/LinyiAIGC/ai-workspace-kit) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1031,6 +1033,9 @@ updatedAt: 2026-11-05
 - uttamCS77/MHT_CET-Analysis-Web-Practice — licença: unknown
 - ariannacortesi/HumanActivityClassification — licença: unknown
 - dineshsai05/ce725-real-estate-feasibility — licença: unknown
+- qilaidev/telegram-cs-bot — licença: NOASSERTION
+- nissysharon/TechBit — licença: unknown
+- binhnuoctrangsu/ATFB_GROUP12_TOPIC7 — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

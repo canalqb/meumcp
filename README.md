@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-06T04:47:11.412Z | qilaidev/tg-channel-analyzer | 0 | MIT | 200 |
+
+| 2026-11-06T04:47:13.506Z | LinyiAIGC/ai-workspace-kit | 0 | MIT | 200 |
+
 | 2026-11-05T04:47:37.419Z | johnnygodsa/agentic-video-studio | 0 | MIT | 200 |
 
 | 2026-11-05T04:47:41.635Z | on-retryx/trendhound | 0 | MIT | 200 |
