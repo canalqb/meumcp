@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1023 total, 287 validados free, 736 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1027 total, 289 validados free, 738 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1023
+version: 1027
 createdAt: 2026-11-07
 updatedAt: 2026-11-07
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-07T04:15:55.236Z
-> Total descoberto: 1023 | Validados (HTTP 200 + free): 287 | Pulados (licença paga/enterprise): 736
+> Última execução: 2026-11-07T17:18:32.969Z
+> Total descoberto: 1027 | Validados (HTTP 200 + free): 289 | Pulados (licença paga/enterprise): 738
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -308,6 +308,8 @@ updatedAt: 2026-11-07
 | rosendocamal/advanced-programming-topics | Python | 0 | MIT | advaced-programming-topics, apt, flet-python | [repo](https://github.com/rosendocamal/advanced-programming-topics) |
 | Leo2183/paperpulse | Python | 0 | MIT | europepmc, literature-monitoring, paper-monitoring | [repo](https://github.com/Leo2183/paperpulse) |
 | phanthanhdieulinh/study-atlas | Python | 0 | MIT | claude-code, claude-skill, exam-prep | [repo](https://github.com/phanthanhdieulinh/study-atlas) |
+| lfoletti/newskit | Python | 0 | MIT | ai-agents, anthropic, claude | [repo](https://github.com/lfoletti/newskit) |
+| szmlb/ros2-topic-peek | Python | 0 | Apache-2.0 |  | [repo](https://github.com/szmlb/ros2-topic-peek) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1047,6 +1049,8 @@ updatedAt: 2026-11-07
 - basavarajdandgund-cmd/4sf25ci029_assignment_3c — licença: unknown
 - scodeman/Topico — licença: unknown
 - contentincubator2-ops/SoWork-Brainstorm-Kit — licença: NOASSERTION
+- Dhanush-Pb/HandGestureAI-ML — licença: unknown
+- parths301/topic-radar — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 

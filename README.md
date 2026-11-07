@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-07T17:18:29.462Z | lfoletti/newskit | 0 | MIT | 200 |
+
+| 2026-11-07T17:18:31.712Z | szmlb/ros2-topic-peek | 0 | Apache-2.0 | 200 |
+
 | 2026-11-07T04:15:52.368Z | rosendocamal/advanced-programming-topics | 0 | MIT | 200 |
 
 | 2026-11-07T04:15:54.300Z | Leo2183/paperpulse | 0 | MIT | 200 |
