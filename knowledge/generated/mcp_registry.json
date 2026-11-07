@@ -14436,5 +14436,103 @@
     "validated_at": "2026-11-06T18:47:15.878Z",
     "topics": [],
     "readme_absorbed": "basavarajdandgund-cmd/4sf25ci029_assignment_3c"
+  },
+  {
+    "id": 1449010155,
+    "full_name": "scodeman/Topico",
+    "url": "https://github.com/scodeman/Topico",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-07T04:15:51.384Z",
+    "topics": [],
+    "readme_absorbed": "scodeman/Topico"
+  },
+  {
+    "id": 1448800426,
+    "full_name": "rosendocamal/advanced-programming-topics",
+    "url": "https://github.com/rosendocamal/advanced-programming-topics",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-07T04:15:52.368Z",
+    "topics": [
+      "advaced-programming-topics",
+      "apt",
+      "flet-python",
+      "python"
+    ],
+    "readme_absorbed": "rosendocamal/advanced-programming-topics"
+  },
+  {
+    "id": 1448798330,
+    "full_name": "contentincubator2-ops/SoWork-Brainstorm-Kit",
+    "url": "https://github.com/contentincubator2-ops/SoWork-Brainstorm-Kit",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-07T04:15:53.249Z",
+    "topics": [
+      "ai",
+      "ai-assistant",
+      "brainstorming",
+      "chatgpt",
+      "creative-thinking",
+      "english",
+      "facilitation",
+      "i18n",
+      "ideation",
+      "prompts",
+      "role-play",
+      "roleplaying",
+      "traditional-chinese",
+      "workshop"
+    ],
+    "readme_absorbed": "contentincubator2-ops/SoWork-Brainstorm-Kit"
+  },
+  {
+    "id": 1448920278,
+    "full_name": "Leo2183/paperpulse",
+    "url": "https://github.com/Leo2183/paperpulse",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-07T04:15:54.300Z",
+    "topics": [
+      "europepmc",
+      "literature-monitoring",
+      "paper-monitoring",
+      "pubmed",
+      "pyside6",
+      "scholarly-alerts"
+    ],
+    "readme_absorbed": "Leo2183/paperpulse"
+  },
+  {
+    "id": 1448978828,
+    "full_name": "phanthanhdieulinh/study-atlas",
+    "url": "https://github.com/phanthanhdieulinh/study-atlas",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-07T04:15:55.234Z",
+    "topics": [
+      "claude-code",
+      "claude-skill",
+      "exam-prep",
+      "flashcards",
+      "study-tools"
+    ],
+    "readme_absorbed": "phanthanhdieulinh/study-atlas"
   }
 ]

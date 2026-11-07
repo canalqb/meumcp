@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-07T04:15:52.368Z | rosendocamal/advanced-programming-topics | 0 | MIT | 200 |
+
+| 2026-11-07T04:15:54.300Z | Leo2183/paperpulse | 0 | MIT | 200 |
+
+| 2026-11-07T04:15:55.234Z | phanthanhdieulinh/study-atlas | 0 | MIT | 200 |
+
 | 2026-11-06T18:47:11.168Z | model-bender/claudex-learn | 0 | MIT | 200 |
 
 | 2026-11-06T18:47:12.100Z | KI-Schleswig-Holstein/gap-finder | 0 | MIT | 200 |
