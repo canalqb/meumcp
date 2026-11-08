@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-08T03:58:34.249Z | ghanendrasahu/production-engineering | 0 | MIT | 200 |
+
+| 2026-11-08T03:58:35.857Z | avm-sistemas/my-mcp-server-storage | 0 | GPL-3.0 | 200 |
+
 | 2026-11-07T17:18:29.462Z | lfoletti/newskit | 0 | MIT | 200 |
 
 | 2026-11-07T17:18:31.712Z | szmlb/ros2-topic-peek | 0 | Apache-2.0 | 200 |

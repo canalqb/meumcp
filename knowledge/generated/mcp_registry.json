@@ -14628,5 +14628,71 @@
       "youtube-tools"
     ],
     "readme_absorbed": "parths301/topic-radar"
+  },
+  {
+    "id": 1449943268,
+    "full_name": "Ranjesh-random/lesson-content-generator",
+    "url": "https://github.com/Ranjesh-random/lesson-content-generator",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-08T03:58:33.464Z",
+    "topics": [],
+    "readme_absorbed": "Ranjesh-random/lesson-content-generator"
+  },
+  {
+    "id": 1449890165,
+    "full_name": "ghanendrasahu/production-engineering",
+    "url": "https://github.com/ghanendrasahu/production-engineering",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-08T03:58:34.249Z",
+    "topics": [
+      "ai-agents",
+      "backend",
+      "devops",
+      "distributed-systems",
+      "knowledge-base",
+      "production-engineering",
+      "skills",
+      "sre"
+    ],
+    "readme_absorbed": "ghanendrasahu/production-engineering"
+  },
+  {
+    "id": 1449909352,
+    "full_name": "lilyd1879-svg/factcheck-topicmesh",
+    "url": "https://github.com/lilyd1879-svg/factcheck-topicmesh",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-08T03:58:35.003Z",
+    "topics": [],
+    "readme_absorbed": "lilyd1879-svg/factcheck-topicmesh"
+  },
+  {
+    "id": 1449866878,
+    "full_name": "avm-sistemas/my-mcp-server-storage",
+    "url": "https://github.com/avm-sistemas/my-mcp-server-storage",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "GPL-3.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-08T03:58:35.857Z",
+    "topics": [
+      "docker",
+      "mcp-server",
+      "sqlite3-database",
+      "typescript"
+    ],
+    "readme_absorbed": "avm-sistemas/my-mcp-server-storage"
   }
 ]

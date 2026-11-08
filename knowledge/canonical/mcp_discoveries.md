@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1027 total, 289 validados free, 738 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1031 total, 291 validados free, 740 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1027
-createdAt: 2026-11-07
-updatedAt: 2026-11-07
+version: 1031
+createdAt: 2026-11-08
+updatedAt: 2026-11-08
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-07T17:18:32.969Z
-> Total descoberto: 1027 | Validados (HTTP 200 + free): 289 | Pulados (licença paga/enterprise): 738
+> Última execução: 2026-11-08T03:58:35.859Z
+> Total descoberto: 1031 | Validados (HTTP 200 + free): 291 | Pulados (licença paga/enterprise): 740
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -310,6 +310,8 @@ updatedAt: 2026-11-07
 | phanthanhdieulinh/study-atlas | Python | 0 | MIT | claude-code, claude-skill, exam-prep | [repo](https://github.com/phanthanhdieulinh/study-atlas) |
 | lfoletti/newskit | Python | 0 | MIT | ai-agents, anthropic, claude | [repo](https://github.com/lfoletti/newskit) |
 | szmlb/ros2-topic-peek | Python | 0 | Apache-2.0 |  | [repo](https://github.com/szmlb/ros2-topic-peek) |
+| ghanendrasahu/production-engineering | Python | 0 | MIT | ai-agents, backend, devops | [repo](https://github.com/ghanendrasahu/production-engineering) |
+| avm-sistemas/my-mcp-server-storage | TypeScript | 0 | GPL-3.0 | docker, mcp-server, sqlite3-database | [repo](https://github.com/avm-sistemas/my-mcp-server-storage) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1051,6 +1053,8 @@ updatedAt: 2026-11-07
 - contentincubator2-ops/SoWork-Brainstorm-Kit — licença: NOASSERTION
 - Dhanush-Pb/HandGestureAI-ML — licença: unknown
 - parths301/topic-radar — licença: NOASSERTION
+- Ranjesh-random/lesson-content-generator — licença: unknown
+- lilyd1879-svg/factcheck-topicmesh — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
