@@ -302,6 +302,16 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-08T17:30:07.761Z | Hakian14/llm-response-evaluation-toolkit | 0 | MIT | 200 |
+
+| 2026-11-08T17:30:08.755Z | Hakian14/crm-erp-etl-pipeline | 0 | MIT | 200 |
+
+| 2026-11-08T17:30:09.598Z | Hakian14/omnichannel-retail-powerbi | 0 | MIT | 200 |
+
+| 2026-11-08T17:30:10.444Z | kiamesdavies/earshot | 0 | MIT | 200 |
+
+| 2026-11-08T17:30:12.325Z | sakib142/tasawwur | 0 | MIT | 200 |
+
 | 2026-11-08T03:58:34.249Z | ghanendrasahu/production-engineering | 0 | MIT | 200 |
 
 | 2026-11-08T03:58:35.857Z | avm-sistemas/my-mcp-server-storage | 0 | GPL-3.0 | 200 |

@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1031 total, 291 validados free, 740 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1039 total, 296 validados free, 743 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1031
+version: 1039
 createdAt: 2026-11-08
 updatedAt: 2026-11-08
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-08T03:58:35.859Z
-> Total descoberto: 1031 | Validados (HTTP 200 + free): 291 | Pulados (licença paga/enterprise): 740
+> Última execução: 2026-11-08T17:30:14.186Z
+> Total descoberto: 1039 | Validados (HTTP 200 + free): 296 | Pulados (licença paga/enterprise): 743
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -312,6 +312,11 @@ updatedAt: 2026-11-08
 | szmlb/ros2-topic-peek | Python | 0 | Apache-2.0 |  | [repo](https://github.com/szmlb/ros2-topic-peek) |
 | ghanendrasahu/production-engineering | Python | 0 | MIT | ai-agents, backend, devops | [repo](https://github.com/ghanendrasahu/production-engineering) |
 | avm-sistemas/my-mcp-server-storage | TypeScript | 0 | GPL-3.0 | docker, mcp-server, sqlite3-database | [repo](https://github.com/avm-sistemas/my-mcp-server-storage) |
+| Hakian14/llm-response-evaluation-toolkit | Python | 0 | MIT | annotation, cohens-kappa, data-quality | [repo](https://github.com/Hakian14/llm-response-evaluation-toolkit) |
+| Hakian14/crm-erp-etl-pipeline | Python | 0 | MIT | customer-360, data-pineline, data-quality | [repo](https://github.com/Hakian14/crm-erp-etl-pipeline) |
+| Hakian14/omnichannel-retail-powerbi | Python | 0 | MIT | business-intelligence, data-modeling, dax | [repo](https://github.com/Hakian14/omnichannel-retail-powerbi) |
+| kiamesdavies/earshot | TypeScript | 0 | MIT | copilot, llm, macos | [repo](https://github.com/kiamesdavies/earshot) |
+| sakib142/tasawwur | TypeScript | 0 | MIT |  | [repo](https://github.com/sakib142/tasawwur) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1055,6 +1060,9 @@ updatedAt: 2026-11-08
 - parths301/topic-radar — licença: NOASSERTION
 - Ranjesh-random/lesson-content-generator — licença: unknown
 - lilyd1879-svg/factcheck-topicmesh — licença: unknown
+- kondlada/BinaryClassification — licença: unknown
+- TTN0623/pfp191-student-management-system — licença: unknown
+- Muneera-DSA/Curriculum-AI — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

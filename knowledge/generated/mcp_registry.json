@@ -14694,5 +14694,145 @@
       "typescript"
     ],
     "readme_absorbed": "avm-sistemas/my-mcp-server-storage"
+  },
+  {
+    "id": 1450398865,
+    "full_name": "Hakian14/llm-response-evaluation-toolkit",
+    "url": "https://github.com/Hakian14/llm-response-evaluation-toolkit",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:07.761Z",
+    "topics": [
+      "annotation",
+      "cohens-kappa",
+      "data-quality",
+      "inter-annotator-agreement",
+      "krippendorff-alpha",
+      "llm-evaluation",
+      "python",
+      "rlhf"
+    ],
+    "readme_absorbed": "Hakian14/llm-response-evaluation-toolkit"
+  },
+  {
+    "id": 1450398984,
+    "full_name": "Hakian14/crm-erp-etl-pipeline",
+    "url": "https://github.com/Hakian14/crm-erp-etl-pipeline",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:08.755Z",
+    "topics": [
+      "customer-360",
+      "data-pineline",
+      "data-quality",
+      "etl",
+      "identity-resolution",
+      "pentaho",
+      "python",
+      "sqlite"
+    ],
+    "readme_absorbed": "Hakian14/crm-erp-etl-pipeline"
+  },
+  {
+    "id": 1450398550,
+    "full_name": "Hakian14/omnichannel-retail-powerbi",
+    "url": "https://github.com/Hakian14/omnichannel-retail-powerbi",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:09.598Z",
+    "topics": [
+      "business-intelligence",
+      "data-modeling",
+      "dax",
+      "portfolio",
+      "power-bi",
+      "power-query",
+      "retail-analytics",
+      "star-schema"
+    ],
+    "readme_absorbed": "Hakian14/omnichannel-retail-powerbi"
+  },
+  {
+    "id": 1450464931,
+    "full_name": "kiamesdavies/earshot",
+    "url": "https://github.com/kiamesdavies/earshot",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:10.444Z",
+    "topics": [
+      "copilot",
+      "llm",
+      "macos",
+      "mcp",
+      "meetings",
+      "tauri",
+      "transcription",
+      "whisper"
+    ],
+    "readme_absorbed": "kiamesdavies/earshot"
+  },
+  {
+    "id": 1450284417,
+    "full_name": "kondlada/BinaryClassification",
+    "url": "https://github.com/kondlada/BinaryClassification",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:11.375Z",
+    "topics": [],
+    "readme_absorbed": "kondlada/BinaryClassification"
+  },
+  {
+    "id": 1450105785,
+    "full_name": "sakib142/tasawwur",
+    "url": "https://github.com/sakib142/tasawwur",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:12.325Z",
+    "topics": [],
+    "readme_absorbed": "sakib142/tasawwur"
+  },
+  {
+    "id": 1450475760,
+    "full_name": "TTN0623/pfp191-student-management-system",
+    "url": "https://github.com/TTN0623/pfp191-student-management-system",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:13.248Z",
+    "topics": [],
+    "readme_absorbed": "TTN0623/pfp191-student-management-system"
+  },
+  {
+    "id": 1450472891,
+    "full_name": "Muneera-DSA/Curriculum-AI",
+    "url": "https://github.com/Muneera-DSA/Curriculum-AI",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-08T17:30:14.183Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
