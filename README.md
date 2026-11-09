@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-09T21:51:31.435Z | Monkeydscraping/social-comments-sentiment | 0 | MIT | 200 |
+
+| 2026-11-09T21:51:33.677Z | shruthe-builds/spam-classifier | 0 | MIT | 200 |
+
+| 2026-11-09T21:51:34.854Z | Cooperyichen/private-topic-clipper | 0 | MIT | 200 |
+
 | 2026-11-09T04:14:41.672Z | nguyencaotai1969/telegram-bot-router | 0 | MIT | 200 |
 
 | 2026-11-09T04:14:42.731Z | LiangGou/simulation-explainer-video | 0 | MIT | 200 |

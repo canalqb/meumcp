@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1041 total, 298 validados free, 743 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1050 total, 301 validados free, 749 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1041
+version: 1050
 createdAt: 2026-11-09
 updatedAt: 2026-11-09
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-09T04:14:42.733Z
-> Total descoberto: 1041 | Validados (HTTP 200 + free): 298 | Pulados (licença paga/enterprise): 743
+> Última execução: 2026-11-09T21:51:36.014Z
+> Total descoberto: 1050 | Validados (HTTP 200 + free): 301 | Pulados (licença paga/enterprise): 749
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -319,6 +319,9 @@ updatedAt: 2026-11-09
 | sakib142/tasawwur | TypeScript | 0 | MIT |  | [repo](https://github.com/sakib142/tasawwur) |
 | nguyencaotai1969/telegram-bot-router | TypeScript | 0 | MIT | ai-agent, ai-coding, anthropic | [repo](https://github.com/nguyencaotai1969/telegram-bot-router) |
 | LiangGou/simulation-explainer-video | Python | 0 | MIT |  | [repo](https://github.com/LiangGou/simulation-explainer-video) |
+| Monkeydscraping/social-comments-sentiment | Python | 0 | MIT |  | [repo](https://github.com/Monkeydscraping/social-comments-sentiment) |
+| shruthe-builds/spam-classifier | Python | 0 | MIT |  | [repo](https://github.com/shruthe-builds/spam-classifier) |
+| Cooperyichen/private-topic-clipper | Python | 0 | MIT | fastapi, mineru, obsidian | [repo](https://github.com/Cooperyichen/private-topic-clipper) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1065,6 +1068,12 @@ updatedAt: 2026-11-09
 - kondlada/BinaryClassification — licença: unknown
 - TTN0623/pfp191-student-management-system — licença: unknown
 - Muneera-DSA/Curriculum-AI — licença: unknown
+- furinnaaaa0/Lab-1_Topic6-transport — licença: unknown
+- buycryptopressrelease/nft-collection-announcement-analyzer — licença: NOASSERTION
+- sprawl-Rob/opportunity-search-tool — licença: unknown
+- AIbrahimv2/AnkiStepwise — licença: AGPL-3.0
+- Xiaoxuan-Bai/paper-library — licença: unknown
+- fluyid/multi-domain-topic-classification — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
