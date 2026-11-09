@@ -14834,5 +14834,43 @@
     "validated_at": "2026-11-08T17:30:14.183Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1450910294,
+    "full_name": "nguyencaotai1969/telegram-bot-router",
+    "url": "https://github.com/nguyencaotai1969/telegram-bot-router",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-09T04:14:41.672Z",
+    "topics": [
+      "ai-agent",
+      "ai-coding",
+      "anthropic",
+      "bun",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "remote-control",
+      "telegram",
+      "telegram-bot",
+      "typescript"
+    ],
+    "readme_absorbed": "nguyencaotai1969/telegram-bot-router"
+  },
+  {
+    "id": 1450838197,
+    "full_name": "LiangGou/simulation-explainer-video",
+    "url": "https://github.com/LiangGou/simulation-explainer-video",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-09T04:14:42.731Z",
+    "topics": [],
+    "readme_absorbed": "LiangGou/simulation-explainer-video"
   }
 ]

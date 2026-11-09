@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-09T04:14:41.672Z | nguyencaotai1969/telegram-bot-router | 0 | MIT | 200 |
+
+| 2026-11-09T04:14:42.731Z | LiangGou/simulation-explainer-video | 0 | MIT | 200 |
+
 | 2026-11-08T17:30:07.761Z | Hakian14/llm-response-evaluation-toolkit | 0 | MIT | 200 |
 
 | 2026-11-08T17:30:08.755Z | Hakian14/crm-erp-etl-pipeline | 0 | MIT | 200 |

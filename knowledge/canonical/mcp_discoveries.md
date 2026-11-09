@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1039 total, 296 validados free, 743 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1041 total, 298 validados free, 743 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1039
-createdAt: 2026-11-08
-updatedAt: 2026-11-08
+version: 1041
+createdAt: 2026-11-09
+updatedAt: 2026-11-09
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-08T17:30:14.186Z
-> Total descoberto: 1039 | Validados (HTTP 200 + free): 296 | Pulados (licença paga/enterprise): 743
+> Última execução: 2026-11-09T04:14:42.733Z
+> Total descoberto: 1041 | Validados (HTTP 200 + free): 298 | Pulados (licença paga/enterprise): 743
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -317,6 +317,8 @@ updatedAt: 2026-11-08
 | Hakian14/omnichannel-retail-powerbi | Python | 0 | MIT | business-intelligence, data-modeling, dax | [repo](https://github.com/Hakian14/omnichannel-retail-powerbi) |
 | kiamesdavies/earshot | TypeScript | 0 | MIT | copilot, llm, macos | [repo](https://github.com/kiamesdavies/earshot) |
 | sakib142/tasawwur | TypeScript | 0 | MIT |  | [repo](https://github.com/sakib142/tasawwur) |
+| nguyencaotai1969/telegram-bot-router | TypeScript | 0 | MIT | ai-agent, ai-coding, anthropic | [repo](https://github.com/nguyencaotai1969/telegram-bot-router) |
+| LiangGou/simulation-explainer-video | Python | 0 | MIT |  | [repo](https://github.com/LiangGou/simulation-explainer-video) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
