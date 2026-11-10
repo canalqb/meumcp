@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1053 total, 303 validados free, 750 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1056 total, 304 validados free, 752 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1053
+version: 1056
 createdAt: 2026-11-10
 updatedAt: 2026-11-10
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-10T05:41:31.292Z
-> Total descoberto: 1053 | Validados (HTTP 200 + free): 303 | Pulados (licença paga/enterprise): 750
+> Última execução: 2026-11-10T19:13:49.966Z
+> Total descoberto: 1056 | Validados (HTTP 200 + free): 304 | Pulados (licença paga/enterprise): 752
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -324,6 +324,7 @@ updatedAt: 2026-11-10
 | Cooperyichen/private-topic-clipper | Python | 0 | MIT | fastapi, mineru, obsidian | [repo](https://github.com/Cooperyichen/private-topic-clipper) |
 | narayana006/kafka-config-diff | Python | 0 | MIT | apache-kafka, cli, configuration | [repo](https://github.com/narayana006/kafka-config-diff) |
 | narayana006/kafka-topic-auditor | Python | 0 | MIT | apache-kafka, audit, confluent | [repo](https://github.com/narayana006/kafka-topic-auditor) |
+| VedSoni-dev/deckhand | TypeScript | 0 | MIT | ai, gamma-alternative, pptx | [repo](https://github.com/VedSoni-dev/deckhand) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1077,6 +1078,8 @@ updatedAt: 2026-11-10
 - Xiaoxuan-Bai/paper-library — licença: unknown
 - fluyid/multi-domain-topic-classification — licença: unknown
 - raosanjit-oss/learnAdvancedMath — licença: unknown
+- hugy04/content-forge — licença: unknown
+- bharrdwajsaurabh-git/NITW-Topic6-EEG-Imagined-Words — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

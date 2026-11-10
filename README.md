@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-10T19:13:47.648Z | VedSoni-dev/deckhand | 0 | MIT | 200 |
+
 | 2026-11-10T05:41:29.463Z | narayana006/kafka-config-diff | 0 | MIT | 200 |
 
 | 2026-11-10T05:41:30.431Z | narayana006/kafka-topic-auditor | 0 | MIT | 200 |

@@ -15060,5 +15060,51 @@
     "validated_at": "2026-11-10T05:41:31.289Z",
     "topics": [],
     "readme_absorbed": "raosanjit-oss/learnAdvancedMath"
+  },
+  {
+    "id": 1452473208,
+    "full_name": "VedSoni-dev/deckhand",
+    "url": "https://github.com/VedSoni-dev/deckhand",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-10T19:13:47.648Z",
+    "topics": [
+      "ai",
+      "gamma-alternative",
+      "pptx",
+      "presentation",
+      "publik",
+      "slides"
+    ],
+    "readme_absorbed": "VedSoni-dev/deckhand"
+  },
+  {
+    "id": 1452296338,
+    "full_name": "hugy04/content-forge",
+    "url": "https://github.com/hugy04/content-forge",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-10T19:13:48.785Z",
+    "topics": [],
+    "readme_absorbed": "hugy04/content-forge"
+  },
+  {
+    "id": 1452940343,
+    "full_name": "bharrdwajsaurabh-git/NITW-Topic6-EEG-Imagined-Words",
+    "url": "https://github.com/bharrdwajsaurabh-git/NITW-Topic6-EEG-Imagined-Words",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-10T19:13:49.965Z",
+    "topics": [],
+    "readme_absorbed": "bharrdwajsaurabh-git/NITW-Topic6-EEG-Imagined-Words"
   }
 ]
