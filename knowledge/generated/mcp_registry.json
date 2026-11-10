@@ -15009,5 +15009,56 @@
     "validated_at": "2026-11-09T21:51:36.012Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1452243755,
+    "full_name": "narayana006/kafka-config-diff",
+    "url": "https://github.com/narayana006/kafka-config-diff",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-10T05:41:29.463Z",
+    "topics": [
+      "apache-kafka",
+      "cli",
+      "configuration",
+      "drift-detection",
+      "kafka"
+    ],
+    "readme_absorbed": "narayana006/kafka-config-diff"
+  },
+  {
+    "id": 1452243691,
+    "full_name": "narayana006/kafka-topic-auditor",
+    "url": "https://github.com/narayana006/kafka-topic-auditor",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-10T05:41:30.431Z",
+    "topics": [
+      "apache-kafka",
+      "audit",
+      "confluent",
+      "kafka",
+      "reliability"
+    ],
+    "readme_absorbed": "narayana006/kafka-topic-auditor"
+  },
+  {
+    "id": 1452010331,
+    "full_name": "raosanjit-oss/learnAdvancedMath",
+    "url": "https://github.com/raosanjit-oss/learnAdvancedMath",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-10T05:41:31.289Z",
+    "topics": [],
+    "readme_absorbed": "raosanjit-oss/learnAdvancedMath"
   }
 ]

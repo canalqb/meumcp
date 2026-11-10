@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-10T05:41:29.463Z | narayana006/kafka-config-diff | 0 | MIT | 200 |
+
+| 2026-11-10T05:41:30.431Z | narayana006/kafka-topic-auditor | 0 | MIT | 200 |
+
 | 2026-11-09T21:51:31.435Z | Monkeydscraping/social-comments-sentiment | 0 | MIT | 200 |
 
 | 2026-11-09T21:51:33.677Z | shruthe-builds/spam-classifier | 0 | MIT | 200 |

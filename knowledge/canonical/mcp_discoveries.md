@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1050 total, 301 validados free, 749 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1053 total, 303 validados free, 750 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1050
-createdAt: 2026-11-09
-updatedAt: 2026-11-09
+version: 1053
+createdAt: 2026-11-10
+updatedAt: 2026-11-10
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-09T21:51:36.014Z
-> Total descoberto: 1050 | Validados (HTTP 200 + free): 301 | Pulados (licença paga/enterprise): 749
+> Última execução: 2026-11-10T05:41:31.292Z
+> Total descoberto: 1053 | Validados (HTTP 200 + free): 303 | Pulados (licença paga/enterprise): 750
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -322,6 +322,8 @@ updatedAt: 2026-11-09
 | Monkeydscraping/social-comments-sentiment | Python | 0 | MIT |  | [repo](https://github.com/Monkeydscraping/social-comments-sentiment) |
 | shruthe-builds/spam-classifier | Python | 0 | MIT |  | [repo](https://github.com/shruthe-builds/spam-classifier) |
 | Cooperyichen/private-topic-clipper | Python | 0 | MIT | fastapi, mineru, obsidian | [repo](https://github.com/Cooperyichen/private-topic-clipper) |
+| narayana006/kafka-config-diff | Python | 0 | MIT | apache-kafka, cli, configuration | [repo](https://github.com/narayana006/kafka-config-diff) |
+| narayana006/kafka-topic-auditor | Python | 0 | MIT | apache-kafka, audit, confluent | [repo](https://github.com/narayana006/kafka-topic-auditor) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1074,6 +1076,7 @@ updatedAt: 2026-11-09
 - AIbrahimv2/AnkiStepwise — licença: AGPL-3.0
 - Xiaoxuan-Bai/paper-library — licença: unknown
 - fluyid/multi-domain-topic-classification — licença: unknown
+- raosanjit-oss/learnAdvancedMath — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
