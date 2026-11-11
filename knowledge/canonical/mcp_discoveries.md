@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1056 total, 304 validados free, 752 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1061 total, 307 validados free, 754 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1056
-createdAt: 2026-11-10
-updatedAt: 2026-11-10
+version: 1061
+createdAt: 2026-11-11
+updatedAt: 2026-11-11
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-10T19:13:49.966Z
-> Total descoberto: 1056 | Validados (HTTP 200 + free): 304 | Pulados (licença paga/enterprise): 752
+> Última execução: 2026-11-11T04:18:17.000Z
+> Total descoberto: 1061 | Validados (HTTP 200 + free): 307 | Pulados (licença paga/enterprise): 754
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -325,6 +325,9 @@ updatedAt: 2026-11-10
 | narayana006/kafka-config-diff | Python | 0 | MIT | apache-kafka, cli, configuration | [repo](https://github.com/narayana006/kafka-config-diff) |
 | narayana006/kafka-topic-auditor | Python | 0 | MIT | apache-kafka, audit, confluent | [repo](https://github.com/narayana006/kafka-topic-auditor) |
 | VedSoni-dev/deckhand | TypeScript | 0 | MIT | ai, gamma-alternative, pptx | [repo](https://github.com/VedSoni-dev/deckhand) |
+| BaintyKaur/LunarGrid_Explorer | Python | 0 | MIT |  | [repo](https://github.com/BaintyKaur/LunarGrid_Explorer) |
+| narayana006/kafka-partition-skew | Python | 0 | MIT | apache-kafka, capacity, kafka | [repo](https://github.com/narayana006/kafka-partition-skew) |
+| Kino-Studios/CINE-Interfaces | Python | 0 | GPL-3.0 | ros2 | [repo](https://github.com/Kino-Studios/CINE-Interfaces) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1080,6 +1083,8 @@ updatedAt: 2026-11-10
 - raosanjit-oss/learnAdvancedMath — licença: unknown
 - hugy04/content-forge — licença: unknown
 - bharrdwajsaurabh-git/NITW-Topic6-EEG-Imagined-Words — licença: unknown
+- phani4393/ai-video-pipeline — licença: unknown
+- chj862/topic — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

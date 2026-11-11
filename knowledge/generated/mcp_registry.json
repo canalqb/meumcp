@@ -15106,5 +15106,78 @@
     "validated_at": "2026-11-10T19:13:49.965Z",
     "topics": [],
     "readme_absorbed": "bharrdwajsaurabh-git/NITW-Topic6-EEG-Imagined-Words"
+  },
+  {
+    "id": 1453501439,
+    "full_name": "BaintyKaur/LunarGrid_Explorer",
+    "url": "https://github.com/BaintyKaur/LunarGrid_Explorer",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-11T04:18:12.824Z",
+    "topics": [],
+    "readme_absorbed": "BaintyKaur/LunarGrid_Explorer"
+  },
+  {
+    "id": 1453490084,
+    "full_name": "phani4393/ai-video-pipeline",
+    "url": "https://github.com/phani4393/ai-video-pipeline",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-11T04:18:14.082Z",
+    "topics": [],
+    "readme_absorbed": "phani4393/ai-video-pipeline"
+  },
+  {
+    "id": 1453458480,
+    "full_name": "narayana006/kafka-partition-skew",
+    "url": "https://github.com/narayana006/kafka-partition-skew",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-11T04:18:15.001Z",
+    "topics": [
+      "apache-kafka",
+      "capacity",
+      "kafka",
+      "partitions",
+      "sre"
+    ],
+    "readme_absorbed": "narayana006/kafka-partition-skew"
+  },
+  {
+    "id": 1453392129,
+    "full_name": "chj862/topic",
+    "url": "https://github.com/chj862/topic",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-11T04:18:15.968Z",
+    "topics": [],
+    "readme_absorbed": "chj862/topic"
+  },
+  {
+    "id": 1453439634,
+    "full_name": "Kino-Studios/CINE-Interfaces",
+    "url": "https://github.com/Kino-Studios/CINE-Interfaces",
+    "language": "Python",
+    "stars": 0,
+    "license": "GPL-3.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-11T04:18:16.998Z",
+    "topics": [
+      "ros2"
+    ],
+    "readme_absorbed": "Kino-Studios/CINE-Interfaces"
   }
 ]
