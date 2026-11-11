@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1061 total, 307 validados free, 754 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1066 total, 309 validados free, 757 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1061
+version: 1066
 createdAt: 2026-11-11
 updatedAt: 2026-11-11
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-11T04:18:17.000Z
-> Total descoberto: 1061 | Validados (HTTP 200 + free): 307 | Pulados (licença paga/enterprise): 754
+> Última execução: 2026-11-11T19:09:55.540Z
+> Total descoberto: 1066 | Validados (HTTP 200 + free): 309 | Pulados (licença paga/enterprise): 757
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -328,6 +328,8 @@ updatedAt: 2026-11-11
 | BaintyKaur/LunarGrid_Explorer | Python | 0 | MIT |  | [repo](https://github.com/BaintyKaur/LunarGrid_Explorer) |
 | narayana006/kafka-partition-skew | Python | 0 | MIT | apache-kafka, capacity, kafka | [repo](https://github.com/narayana006/kafka-partition-skew) |
 | Kino-Studios/CINE-Interfaces | Python | 0 | GPL-3.0 | ros2 | [repo](https://github.com/Kino-Studios/CINE-Interfaces) |
+| atharv01h/Stickman-Studio | Python | 1 | MIT | ai, automation, faceless | [repo](https://github.com/atharv01h/Stickman-Studio) |
+| danieltak/MQTT-Broker | Python | 0 | MIT |  | [repo](https://github.com/danieltak/MQTT-Broker) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1085,6 +1087,9 @@ updatedAt: 2026-11-11
 - bharrdwajsaurabh-git/NITW-Topic6-EEG-Imagined-Words — licença: unknown
 - phani4393/ai-video-pipeline — licença: unknown
 - chj862/topic — licença: unknown
+- Devashish2112/Vertex — licença: unknown
+- Areesh-arch/Machine-Learning — licença: unknown
+- SidzArt/CLPS-Lunar-Module — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

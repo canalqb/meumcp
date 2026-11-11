@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-11T19:09:52.611Z | atharv01h/Stickman-Studio | 1 | MIT | 200 |
+
+| 2026-11-11T19:09:55.533Z | danieltak/MQTT-Broker | 0 | MIT | 200 |
+
 | 2026-11-11T04:18:12.824Z | BaintyKaur/LunarGrid_Explorer | 0 | MIT | 200 |
 
 | 2026-11-11T04:18:15.001Z | narayana006/kafka-partition-skew | 0 | MIT | 200 |

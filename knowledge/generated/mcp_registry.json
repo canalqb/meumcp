@@ -15179,5 +15179,96 @@
       "ros2"
     ],
     "readme_absorbed": "Kino-Studios/CINE-Interfaces"
+  },
+  {
+    "id": 1454357180,
+    "full_name": "Devashish2112/Vertex",
+    "url": "https://github.com/Devashish2112/Vertex",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-11T19:09:51.693Z",
+    "topics": [
+      "nextjs",
+      "sanity",
+      "sanity-io",
+      "sanity-studio",
+      "tailwindcss"
+    ],
+    "readme_absorbed": "Devashish2112/Vertex"
+  },
+  {
+    "id": 1454019477,
+    "full_name": "atharv01h/Stickman-Studio",
+    "url": "https://github.com/atharv01h/Stickman-Studio",
+    "language": "Python",
+    "stars": 1,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-11T19:09:52.611Z",
+    "topics": [
+      "ai",
+      "automation",
+      "faceless",
+      "faceless-channel",
+      "faceless-channels",
+      "faceless-content",
+      "faceless-video",
+      "faceless-video-generator",
+      "faceless-videos",
+      "faceless-youtube",
+      "instagram",
+      "reel-generator",
+      "reels",
+      "stickman",
+      "stickman-animation",
+      "stickman-characters",
+      "stickman-studio",
+      "stickmanstudio",
+      "youtube-shorts"
+    ],
+    "readme_absorbed": "atharv01h/Stickman-Studio"
+  },
+  {
+    "id": 1454327617,
+    "full_name": "Areesh-arch/Machine-Learning",
+    "url": "https://github.com/Areesh-arch/Machine-Learning",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-11T19:09:53.536Z",
+    "topics": [],
+    "readme_absorbed": "Areesh-arch/Machine-Learning"
+  },
+  {
+    "id": 1454320943,
+    "full_name": "SidzArt/CLPS-Lunar-Module",
+    "url": "https://github.com/SidzArt/CLPS-Lunar-Module",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-11T19:09:54.564Z",
+    "topics": [],
+    "readme_absorbed": "SidzArt/CLPS-Lunar-Module"
+  },
+  {
+    "id": 1454287055,
+    "full_name": "danieltak/MQTT-Broker",
+    "url": "https://github.com/danieltak/MQTT-Broker",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-11T19:09:55.533Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
