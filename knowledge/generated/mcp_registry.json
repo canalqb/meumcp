@@ -15412,5 +15412,96 @@
     "validated_at": "2026-11-12T05:27:50.349Z",
     "topics": [],
     "readme_absorbed": "mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics"
+  },
+  {
+    "id": 1455714471,
+    "full_name": "habibeghdami/smart-team-task-manager",
+    "url": "https://github.com/habibeghdami/smart-team-task-manager",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T19:26:48.860Z",
+    "topics": [],
+    "readme_absorbed": "habibeghdami/smart-team-task-manager"
+  },
+  {
+    "id": 1455674308,
+    "full_name": "stardust111111/plugins-claude_sessionhistory",
+    "url": "https://github.com/stardust111111/plugins-claude_sessionhistory",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-12T19:26:50.127Z",
+    "topics": [],
+    "readme_absorbed": "stardust111111/plugins-claude_sessionhistory"
+  },
+  {
+    "id": 1455647515,
+    "full_name": "sloik/agent-file-board-integrations",
+    "url": "https://github.com/sloik/agent-file-board-integrations",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-12T19:26:51.238Z",
+    "topics": [
+      "agent-file-board",
+      "agents",
+      "claude-code",
+      "claude-code-plugin",
+      "multi-agent"
+    ],
+    "readme_absorbed": "sloik/agent-file-board-integrations"
+  },
+  {
+    "id": 1455680854,
+    "full_name": "HarryBurd33/organizer-agent",
+    "url": "https://github.com/HarryBurd33/organizer-agent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T19:26:52.547Z",
+    "topics": [],
+    "readme_absorbed": "HarryBurd33/organizer-agent"
+  },
+  {
+    "id": 1455435224,
+    "full_name": "Kasia420/lost_in_translation",
+    "url": "https://github.com/Kasia420/lost_in_translation",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-12T19:26:53.787Z",
+    "topics": [
+      "computational-linguistics",
+      "llm-evaluation",
+      "multilingual",
+      "nlp",
+      "polish",
+      "sentiment-analysis"
+    ],
+    "readme_absorbed": "Kasia420/lost_in_translation"
+  },
+  {
+    "id": 1455653298,
+    "full_name": "fernandopdc30/Topicos-IA-Avance-Evidencia-3",
+    "url": "https://github.com/fernandopdc30/Topicos-IA-Avance-Evidencia-3",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T19:26:54.968Z",
+    "topics": [],
+    "readme_absorbed": "fernandopdc30/Topicos-IA-Avance-Evidencia-3"
   }
 ]

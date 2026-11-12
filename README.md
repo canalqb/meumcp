@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-12T19:26:50.127Z | stardust111111/plugins-claude_sessionhistory | 0 | MIT | 200 |
+
+| 2026-11-12T19:26:51.238Z | sloik/agent-file-board-integrations | 0 | MIT | 200 |
+
+| 2026-11-12T19:26:53.787Z | Kasia420/lost_in_translation | 0 | MIT | 200 |
+
 | 2026-11-12T05:27:50.349Z | mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics | 0 | MIT | 200 |
 
 | 2026-11-11T19:09:52.611Z | atharv01h/Stickman-Studio | 1 | MIT | 200 |

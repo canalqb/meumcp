@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1075 total, 310 validados free, 765 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1081 total, 313 validados free, 768 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1075
+version: 1081
 createdAt: 2026-11-12
 updatedAt: 2026-11-12
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-12T05:27:50.351Z
-> Total descoberto: 1075 | Validados (HTTP 200 + free): 310 | Pulados (licença paga/enterprise): 765
+> Última execução: 2026-11-12T19:26:54.970Z
+> Total descoberto: 1081 | Validados (HTTP 200 + free): 313 | Pulados (licença paga/enterprise): 768
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -331,6 +331,9 @@ updatedAt: 2026-11-12
 | atharv01h/Stickman-Studio | Python | 1 | MIT | ai, automation, faceless | [repo](https://github.com/atharv01h/Stickman-Studio) |
 | danieltak/MQTT-Broker | Python | 0 | MIT |  | [repo](https://github.com/danieltak/MQTT-Broker) |
 | mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics | Python | 0 | MIT |  | [repo](https://github.com/mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics) |
+| stardust111111/plugins-claude_sessionhistory | TypeScript | 0 | MIT |  | [repo](https://github.com/stardust111111/plugins-claude_sessionhistory) |
+| sloik/agent-file-board-integrations | TypeScript | 0 | MIT | agent-file-board, agents, claude-code | [repo](https://github.com/sloik/agent-file-board-integrations) |
+| Kasia420/lost_in_translation | TypeScript | 0 | MIT | computational-linguistics, llm-evaluation, multilingual | [repo](https://github.com/Kasia420/lost_in_translation) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1099,6 +1102,9 @@ updatedAt: 2026-11-12
 - drarosk-pixel/Topic-to-Topic-Cloning — licença: unknown
 - shivam-cod2386/DSA-with-Python — licença: unknown
 - OliverBarbeau/midterm-messaging-2026-data — licença: NOASSERTION
+- habibeghdami/smart-team-task-manager — licença: unknown
+- HarryBurd33/organizer-agent — licença: unknown
+- fernandopdc30/Topicos-IA-Avance-Evidencia-3 — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
