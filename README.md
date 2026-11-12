@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-12T05:27:50.349Z | mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics | 0 | MIT | 200 |
+
 | 2026-11-11T19:09:52.611Z | atharv01h/Stickman-Studio | 1 | MIT | 200 |
 
 | 2026-11-11T19:09:55.533Z | danieltak/MQTT-Broker | 0 | MIT | 200 |

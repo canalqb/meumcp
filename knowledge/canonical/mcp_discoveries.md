@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1066 total, 309 validados free, 757 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1075 total, 310 validados free, 765 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1066
-createdAt: 2026-11-11
-updatedAt: 2026-11-11
+version: 1075
+createdAt: 2026-11-12
+updatedAt: 2026-11-12
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-11T19:09:55.540Z
-> Total descoberto: 1066 | Validados (HTTP 200 + free): 309 | Pulados (licença paga/enterprise): 757
+> Última execução: 2026-11-12T05:27:50.351Z
+> Total descoberto: 1075 | Validados (HTTP 200 + free): 310 | Pulados (licença paga/enterprise): 765
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -330,6 +330,7 @@ updatedAt: 2026-11-11
 | Kino-Studios/CINE-Interfaces | Python | 0 | GPL-3.0 | ros2 | [repo](https://github.com/Kino-Studios/CINE-Interfaces) |
 | atharv01h/Stickman-Studio | Python | 1 | MIT | ai, automation, faceless | [repo](https://github.com/atharv01h/Stickman-Studio) |
 | danieltak/MQTT-Broker | Python | 0 | MIT |  | [repo](https://github.com/danieltak/MQTT-Broker) |
+| mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics | Python | 0 | MIT |  | [repo](https://github.com/mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1090,6 +1091,14 @@ updatedAt: 2026-11-11
 - Devashish2112/Vertex — licença: unknown
 - Areesh-arch/Machine-Learning — licença: unknown
 - SidzArt/CLPS-Lunar-Module — licença: unknown
+- legendary-java-tutorial/course2026-gh15-topics-node-only — licença: unknown
+- legendary-java-tutorial/course2026-gh15-topics-no-node — licença: unknown
+- legendary-java-tutorial/course2026-gh15-topics-split — licença: unknown
+- legendary-java-tutorial/course2026-gh15-topics-nodejs-joined — licença: unknown
+- legendary-java-tutorial/course2026-gh15-topics-nodejs — licença: unknown
+- drarosk-pixel/Topic-to-Topic-Cloning — licença: unknown
+- shivam-cod2386/DSA-with-Python — licença: unknown
+- OliverBarbeau/midterm-messaging-2026-data — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 

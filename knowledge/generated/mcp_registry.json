@@ -15270,5 +15270,147 @@
     "validated_at": "2026-11-11T19:09:55.533Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1454865790,
+    "full_name": "legendary-java-tutorial/course2026-gh15-topics-node-only",
+    "url": "https://github.com/legendary-java-tutorial/course2026-gh15-topics-node-only",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:42.947Z",
+    "topics": [
+      "game",
+      "node",
+      "typescript"
+    ],
+    "readme_absorbed": "legendary-java-tutorial/course2026-gh15-topics-node-only"
+  },
+  {
+    "id": 1454865551,
+    "full_name": "legendary-java-tutorial/course2026-gh15-topics-no-node",
+    "url": "https://github.com/legendary-java-tutorial/course2026-gh15-topics-no-node",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:43.923Z",
+    "topics": [
+      "game",
+      "typescript"
+    ],
+    "readme_absorbed": "legendary-java-tutorial/course2026-gh15-topics-no-node"
+  },
+  {
+    "id": 1454865315,
+    "full_name": "legendary-java-tutorial/course2026-gh15-topics-split",
+    "url": "https://github.com/legendary-java-tutorial/course2026-gh15-topics-split",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:45.101Z",
+    "topics": [
+      "game",
+      "guess",
+      "js",
+      "node"
+    ],
+    "readme_absorbed": "legendary-java-tutorial/course2026-gh15-topics-split"
+  },
+  {
+    "id": 1454843471,
+    "full_name": "legendary-java-tutorial/course2026-gh15-topics-nodejs-joined",
+    "url": "https://github.com/legendary-java-tutorial/course2026-gh15-topics-nodejs-joined",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:46.195Z",
+    "topics": [
+      "game",
+      "nodejs"
+    ],
+    "readme_absorbed": "legendary-java-tutorial/course2026-gh15-topics-nodejs-joined"
+  },
+  {
+    "id": 1454843246,
+    "full_name": "legendary-java-tutorial/course2026-gh15-topics-nodejs",
+    "url": "https://github.com/legendary-java-tutorial/course2026-gh15-topics-nodejs",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:47.075Z",
+    "topics": [
+      "game",
+      "node-js",
+      "typescript"
+    ],
+    "readme_absorbed": "legendary-java-tutorial/course2026-gh15-topics-nodejs"
+  },
+  {
+    "id": 1454823114,
+    "full_name": "drarosk-pixel/Topic-to-Topic-Cloning",
+    "url": "https://github.com/drarosk-pixel/Topic-to-Topic-Cloning",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:47.871Z",
+    "topics": [],
+    "readme_absorbed": "drarosk-pixel/Topic-to-Topic-Cloning"
+  },
+  {
+    "id": 1454797926,
+    "full_name": "shivam-cod2386/DSA-with-Python",
+    "url": "https://github.com/shivam-cod2386/DSA-with-Python",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:48.685Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1454735410,
+    "full_name": "OliverBarbeau/midterm-messaging-2026-data",
+    "url": "https://github.com/OliverBarbeau/midterm-messaging-2026-data",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:49.517Z",
+    "topics": [
+      "dataset",
+      "elections",
+      "midterms-2026",
+      "political-communication",
+      "text-as-data"
+    ],
+    "readme_absorbed": "OliverBarbeau/midterm-messaging-2026-data"
+  },
+  {
+    "id": 1454785500,
+    "full_name": "mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics",
+    "url": "https://github.com/mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-12T05:27:50.349Z",
+    "topics": [],
+    "readme_absorbed": "mishraxharshit/AI-Student-Weakness-Detector-for-Maths-Physics"
   }
 ]
