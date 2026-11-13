@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1081 total, 313 validados free, 768 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1090 total, 320 validados free, 770 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1081
-createdAt: 2026-11-12
-updatedAt: 2026-11-12
+version: 1090
+createdAt: 2026-11-13
+updatedAt: 2026-11-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-12T19:26:54.970Z
-> Total descoberto: 1081 | Validados (HTTP 200 + free): 313 | Pulados (licença paga/enterprise): 768
+> Última execução: 2026-11-13T04:43:42.634Z
+> Total descoberto: 1090 | Validados (HTTP 200 + free): 320 | Pulados (licença paga/enterprise): 770
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -334,6 +334,13 @@ updatedAt: 2026-11-12
 | stardust111111/plugins-claude_sessionhistory | TypeScript | 0 | MIT |  | [repo](https://github.com/stardust111111/plugins-claude_sessionhistory) |
 | sloik/agent-file-board-integrations | TypeScript | 0 | MIT | agent-file-board, agents, claude-code | [repo](https://github.com/sloik/agent-file-board-integrations) |
 | Kasia420/lost_in_translation | TypeScript | 0 | MIT | computational-linguistics, llm-evaluation, multilingual | [repo](https://github.com/Kasia420/lost_in_translation) |
+| eli-ovops/media-topic-e4be03d327 | Python | 0 | MIT | content-creation, project-notes, python | [repo](https://github.com/eli-ovops/media-topic-e4be03d327) |
+| eli-ovops/media-topic-e41dcd76a5 | Python | 0 | MIT | content-creation, project-notes, python | [repo](https://github.com/eli-ovops/media-topic-e41dcd76a5) |
+| eli-ovops/media-topic-c5da57d69c | TypeScript | 0 | MIT | content-creation, project-notes, python | [repo](https://github.com/eli-ovops/media-topic-c5da57d69c) |
+| eli-ovops/media-sun-shao-interview | Python | 0 | MIT | content-creation, project-notes, python | [repo](https://github.com/eli-ovops/media-sun-shao-interview) |
+| SathveekaranK/audienceiq | Python | 0 | MIT | analytics, creator-tools, fastapi | [repo](https://github.com/SathveekaranK/audienceiq) |
+| infantileiron/interview-topics-3854 | Python | 0 | MIT |  | [repo](https://github.com/infantileiron/interview-topics-3854) |
+| LeSaRDe/zombie_game_simulation | Python | 0 | MIT |  | [repo](https://github.com/LeSaRDe/zombie_game_simulation) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1105,6 +1112,8 @@ updatedAt: 2026-11-12
 - habibeghdami/smart-team-task-manager — licença: unknown
 - HarryBurd33/organizer-agent — licença: unknown
 - fernandopdc30/Topicos-IA-Avance-Evidencia-3 — licença: unknown
+- wlsdn5968/reddit-topics — licença: unknown
+- Raje540/multi-rag-research-assistant — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -302,6 +302,20 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-13T04:43:34.958Z | eli-ovops/media-topic-e4be03d327 | 0 | MIT | 200 |
+
+| 2026-11-13T04:43:35.856Z | eli-ovops/media-topic-e41dcd76a5 | 0 | MIT | 200 |
+
+| 2026-11-13T04:43:36.856Z | eli-ovops/media-topic-c5da57d69c | 0 | MIT | 200 |
+
+| 2026-11-13T04:43:37.860Z | eli-ovops/media-sun-shao-interview | 0 | MIT | 200 |
+
+| 2026-11-13T04:43:39.806Z | SathveekaranK/audienceiq | 0 | MIT | 200 |
+
+| 2026-11-13T04:43:40.641Z | infantileiron/interview-topics-3854 | 0 | MIT | 200 |
+
+| 2026-11-13T04:43:41.551Z | LeSaRDe/zombie_game_simulation | 0 | MIT | 200 |
+
 | 2026-11-12T19:26:50.127Z | stardust111111/plugins-claude_sessionhistory | 0 | MIT | 200 |
 
 | 2026-11-12T19:26:51.238Z | sloik/agent-file-board-integrations | 0 | MIT | 200 |
