@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1090 total, 320 validados free, 770 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1099 total, 326 validados free, 773 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1090
+version: 1099
 createdAt: 2026-11-13
 updatedAt: 2026-11-13
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-13T04:43:42.634Z
-> Total descoberto: 1090 | Validados (HTTP 200 + free): 320 | Pulados (licença paga/enterprise): 770
+> Última execução: 2026-11-13T19:05:52.974Z
+> Total descoberto: 1099 | Validados (HTTP 200 + free): 326 | Pulados (licença paga/enterprise): 773
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -341,6 +341,12 @@ updatedAt: 2026-11-13
 | SathveekaranK/audienceiq | Python | 0 | MIT | analytics, creator-tools, fastapi | [repo](https://github.com/SathveekaranK/audienceiq) |
 | infantileiron/interview-topics-3854 | Python | 0 | MIT |  | [repo](https://github.com/infantileiron/interview-topics-3854) |
 | LeSaRDe/zombie_game_simulation | Python | 0 | MIT |  | [repo](https://github.com/LeSaRDe/zombie_game_simulation) |
+| scavio-ai/trendscout-radar | Python | 0 | MIT | alerts, discord-bot, exploding-topics | [repo](https://github.com/scavio-ai/trendscout-radar) |
+| knyghty/downloads-organiser | Python | 0 | MIT |  | [repo](https://github.com/knyghty/downloads-organiser) |
+| zch6a/iclr-scores | Python | 0 | MIT | iclr, openreview, peer-review | [repo](https://github.com/zch6a/iclr-scores) |
+| zch6a/venue-atlas | Python | 0 | MIT |  | [repo](https://github.com/zch6a/venue-atlas) |
+| infantileiron/interview-topics-2625 | Python | 0 | MIT |  | [repo](https://github.com/infantileiron/interview-topics-2625) |
+| kartik-joshi/local-model-behavior-audit | Python | 0 | MIT |  | [repo](https://github.com/kartik-joshi/local-model-behavior-audit) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1114,6 +1120,9 @@ updatedAt: 2026-11-13
 - fernandopdc30/Topicos-IA-Avance-Evidencia-3 — licença: unknown
 - wlsdn5968/reddit-topics — licença: unknown
 - Raje540/multi-rag-research-assistant — licença: unknown
+- wholetherapi/nw-artifacts-1079-topic-classifier — licença: unknown
+- mattleefrans72-collab/Rag-tutor — licença: unknown
+- wtxdew/cortico-world-ntfy — licença: AGPL-3.0
 
 ## MCPs inválidos (HTTP != 200)
 

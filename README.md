@@ -302,6 +302,18 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-13T19:05:44.528Z | scavio-ai/trendscout-radar | 0 | MIT | 200 |
+
+| 2026-11-13T19:05:45.431Z | knyghty/downloads-organiser | 0 | MIT | 200 |
+
+| 2026-11-13T19:05:46.513Z | zch6a/iclr-scores | 0 | MIT | 200 |
+
+| 2026-11-13T19:05:49.035Z | zch6a/venue-atlas | 0 | MIT | 200 |
+
+| 2026-11-13T19:05:50.865Z | infantileiron/interview-topics-2625 | 0 | MIT | 200 |
+
+| 2026-11-13T19:05:52.972Z | kartik-joshi/local-model-behavior-audit | 0 | MIT | 200 |
+
 | 2026-11-13T04:43:34.958Z | eli-ovops/media-topic-e4be03d327 | 0 | MIT | 200 |
 
 | 2026-11-13T04:43:35.856Z | eli-ovops/media-topic-e41dcd76a5 | 0 | MIT | 200 |
