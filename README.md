@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-14T04:38:28.055Z | infantileiron/interview-topics-8704 | 0 | MIT | 200 |
+
+| 2026-11-14T04:38:29.040Z | mickyyang-1407/daily-video | 0 | MIT | 200 |
+
+| 2026-11-14T04:38:30.840Z | samqin123/market-research-skills | 0 | MIT | 200 |
+
+| 2026-11-14T04:38:31.775Z | lNamelessl/deepseek-research-railway-template | 0 | MIT | 200 |
+
 | 2026-11-13T19:05:44.528Z | scavio-ai/trendscout-radar | 0 | MIT | 200 |
 
 | 2026-11-13T19:05:45.431Z | knyghty/downloads-organiser | 0 | MIT | 200 |

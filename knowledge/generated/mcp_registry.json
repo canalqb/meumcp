@@ -15792,5 +15792,90 @@
     "validated_at": "2026-11-13T19:05:52.972Z",
     "topics": [],
     "readme_absorbed": "kartik-joshi/local-model-behavior-audit"
+  },
+  {
+    "id": 1457295907,
+    "full_name": "natural-cupcake6472/n1-goi-flashcards",
+    "url": "https://github.com/natural-cupcake6472/n1-goi-flashcards",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-14T04:38:27.034Z",
+    "topics": [],
+    "readme_absorbed": "natural-cupcake6472/n1-goi-flashcards"
+  },
+  {
+    "id": 1457364461,
+    "full_name": "infantileiron/interview-topics-8704",
+    "url": "https://github.com/infantileiron/interview-topics-8704",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-14T04:38:28.055Z",
+    "topics": [],
+    "readme_absorbed": "infantileiron/interview-topics-8704"
+  },
+  {
+    "id": 1457322047,
+    "full_name": "mickyyang-1407/daily-video",
+    "url": "https://github.com/mickyyang-1407/daily-video",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-14T04:38:29.040Z",
+    "topics": [],
+    "readme_absorbed": "mickyyang-1407/daily-video"
+  },
+  {
+    "id": 1457315243,
+    "full_name": "BoxThatBeat/learnharness-learning-plan",
+    "url": "https://github.com/BoxThatBeat/learnharness-learning-plan",
+    "language": "TypeScript",
+    "stars": 1,
+    "license": "AGPL-3.0",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-14T04:38:29.935Z",
+    "topics": [
+      "curriculum",
+      "education",
+      "learnharness",
+      "learnharness-plugin",
+      "learning-plan",
+      "llm"
+    ],
+    "readme_absorbed": "BoxThatBeat/learnharness-learning-plan"
+  },
+  {
+    "id": 1457333405,
+    "full_name": "samqin123/market-research-skills",
+    "url": "https://github.com/samqin123/market-research-skills",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-14T04:38:30.840Z",
+    "topics": [],
+    "readme_absorbed": "samqin123/market-research-skills"
+  },
+  {
+    "id": 1457294373,
+    "full_name": "lNamelessl/deepseek-research-railway-template",
+    "url": "https://github.com/lNamelessl/deepseek-research-railway-template",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-14T04:38:31.775Z",
+    "topics": [],
+    "readme_absorbed": "lNamelessl/deepseek-research-railway-template"
   }
 ]

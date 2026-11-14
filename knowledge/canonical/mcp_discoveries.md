@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1099 total, 326 validados free, 773 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1105 total, 330 validados free, 775 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1099
-createdAt: 2026-11-13
-updatedAt: 2026-11-13
+version: 1105
+createdAt: 2026-11-14
+updatedAt: 2026-11-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-13T19:05:52.974Z
-> Total descoberto: 1099 | Validados (HTTP 200 + free): 326 | Pulados (licença paga/enterprise): 773
+> Última execução: 2026-11-14T04:38:31.778Z
+> Total descoberto: 1105 | Validados (HTTP 200 + free): 330 | Pulados (licença paga/enterprise): 775
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -347,6 +347,10 @@ updatedAt: 2026-11-13
 | zch6a/venue-atlas | Python | 0 | MIT |  | [repo](https://github.com/zch6a/venue-atlas) |
 | infantileiron/interview-topics-2625 | Python | 0 | MIT |  | [repo](https://github.com/infantileiron/interview-topics-2625) |
 | kartik-joshi/local-model-behavior-audit | Python | 0 | MIT |  | [repo](https://github.com/kartik-joshi/local-model-behavior-audit) |
+| infantileiron/interview-topics-8704 | Python | 0 | MIT |  | [repo](https://github.com/infantileiron/interview-topics-8704) |
+| mickyyang-1407/daily-video | Python | 0 | MIT |  | [repo](https://github.com/mickyyang-1407/daily-video) |
+| samqin123/market-research-skills | Python | 0 | MIT |  | [repo](https://github.com/samqin123/market-research-skills) |
+| lNamelessl/deepseek-research-railway-template | Python | 0 | MIT |  | [repo](https://github.com/lNamelessl/deepseek-research-railway-template) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1123,6 +1127,8 @@ updatedAt: 2026-11-13
 - wholetherapi/nw-artifacts-1079-topic-classifier — licença: unknown
 - mattleefrans72-collab/Rag-tutor — licença: unknown
 - wtxdew/cortico-world-ntfy — licença: AGPL-3.0
+- natural-cupcake6472/n1-goi-flashcards — licença: unknown
+- BoxThatBeat/learnharness-learning-plan — licença: AGPL-3.0
 
 ## MCPs inválidos (HTTP != 200)
 
