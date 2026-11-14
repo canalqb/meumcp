@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1105 total, 330 validados free, 775 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1113 total, 331 validados free, 782 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1105
+version: 1113
 createdAt: 2026-11-14
 updatedAt: 2026-11-14
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-14T04:38:31.778Z
-> Total descoberto: 1105 | Validados (HTTP 200 + free): 330 | Pulados (licença paga/enterprise): 775
+> Última execução: 2026-11-14T17:35:21.521Z
+> Total descoberto: 1113 | Validados (HTTP 200 + free): 331 | Pulados (licença paga/enterprise): 782
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -351,6 +351,7 @@ updatedAt: 2026-11-14
 | mickyyang-1407/daily-video | Python | 0 | MIT |  | [repo](https://github.com/mickyyang-1407/daily-video) |
 | samqin123/market-research-skills | Python | 0 | MIT |  | [repo](https://github.com/samqin123/market-research-skills) |
 | lNamelessl/deepseek-research-railway-template | Python | 0 | MIT |  | [repo](https://github.com/lNamelessl/deepseek-research-railway-template) |
+| tazbirs/talking-head-editor | Python | 1 | MIT | bangla, claude-code, claude-skill | [repo](https://github.com/tazbirs/talking-head-editor) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1129,6 +1130,13 @@ updatedAt: 2026-11-14
 - wtxdew/cortico-world-ntfy — licença: AGPL-3.0
 - natural-cupcake6472/n1-goi-flashcards — licença: unknown
 - BoxThatBeat/learnharness-learning-plan — licença: AGPL-3.0
+- kinggod899/r18g-topic-quiz — licença: unknown
+- dipanr705-12/youtube-ai-bot — licença: unknown
+- WaelHoury/reelmint — licença: NOASSERTION
+- SnehaBalodi/Studytwin — licença: unknown
+- ToPIC-pro/LAB6_GROUP — licença: unknown
+- asbarron/quizzes-and-flashcards — licença: NOASSERTION
+- Panha22ly/Inspacetigators-Nasa-Space-Apps-2026-Challenge — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
