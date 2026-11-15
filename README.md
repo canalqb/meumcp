@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-15T18:23:45.237Z | ScrapeUnblocker/google-news-brief | 0 | MIT | 200 |
+
 | 2026-11-15T04:28:37.721Z | infantileiron/interview-topics-7631 | 0 | MIT | 200 |
 
 | 2026-11-14T17:35:17.928Z | tazbirs/talking-head-editor | 1 | MIT | 200 |

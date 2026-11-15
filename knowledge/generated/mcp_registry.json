@@ -16068,5 +16068,92 @@
     "validated_at": "2026-11-15T04:28:38.566Z",
     "topics": [],
     "readme_absorbed": "aligholizadeh8413/Uni.RNA-seq.Project"
+  },
+  {
+    "id": 1458940777,
+    "full_name": "Chin786/campusprep",
+    "url": "https://github.com/Chin786/campusprep",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-15T18:23:44.086Z",
+    "topics": [],
+    "readme_absorbed": "Chin786/campusprep"
+  },
+  {
+    "id": 1459095328,
+    "full_name": "ScrapeUnblocker/google-news-brief",
+    "url": "https://github.com/ScrapeUnblocker/google-news-brief",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-15T18:23:45.237Z",
+    "topics": [
+      "automation",
+      "brand-monitoring",
+      "google-news",
+      "python",
+      "rss",
+      "scrapeunblocker",
+      "slack",
+      "web-scraping"
+    ],
+    "readme_absorbed": "ScrapeUnblocker/google-news-brief"
+  },
+  {
+    "id": 1459082728,
+    "full_name": "baboopsc/bakimpilot",
+    "url": "https://github.com/baboopsc/bakimpilot",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-15T18:23:46.119Z",
+    "topics": [],
+    "readme_absorbed": "baboopsc/bakimpilot"
+  },
+  {
+    "id": 1458849777,
+    "full_name": "zklaas/quizboard",
+    "url": "https://github.com/zklaas/quizboard",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-15T18:23:47.174Z",
+    "topics": [],
+    "readme_absorbed": "zklaas/quizboard"
+  },
+  {
+    "id": 1458941989,
+    "full_name": "hfm4050/youtube-topic",
+    "url": "https://github.com/hfm4050/youtube-topic",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-15T18:23:48.170Z",
+    "topics": [],
+    "readme_absorbed": "hfm4050/youtube-topic"
+  },
+  {
+    "id": 1458784709,
+    "full_name": "fyetmm29-ux/NTFY_TOPIC",
+    "url": "https://github.com/fyetmm29-ux/NTFY_TOPIC",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-15T18:23:49.141Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]

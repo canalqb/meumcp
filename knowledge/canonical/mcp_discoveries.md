@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1118 total, 332 validados free, 786 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1124 total, 333 validados free, 791 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1118
+version: 1124
 createdAt: 2026-11-15
 updatedAt: 2026-11-15
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-15T04:28:38.568Z
-> Total descoberto: 1118 | Validados (HTTP 200 + free): 332 | Pulados (licença paga/enterprise): 786
+> Última execução: 2026-11-15T18:23:49.143Z
+> Total descoberto: 1124 | Validados (HTTP 200 + free): 333 | Pulados (licença paga/enterprise): 791
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -353,6 +353,7 @@ updatedAt: 2026-11-15
 | lNamelessl/deepseek-research-railway-template | Python | 0 | MIT |  | [repo](https://github.com/lNamelessl/deepseek-research-railway-template) |
 | tazbirs/talking-head-editor | Python | 1 | MIT | bangla, claude-code, claude-skill | [repo](https://github.com/tazbirs/talking-head-editor) |
 | infantileiron/interview-topics-7631 | Python | 0 | MIT |  | [repo](https://github.com/infantileiron/interview-topics-7631) |
+| ScrapeUnblocker/google-news-brief | Python | 0 | MIT | automation, brand-monitoring, google-news | [repo](https://github.com/ScrapeUnblocker/google-news-brief) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1142,6 +1143,11 @@ updatedAt: 2026-11-15
 - ankitha2604/VISAULEARN- — licença: unknown
 - codewithpatrick0/backend-roadmap — licença: unknown
 - aligholizadeh8413/Uni.RNA-seq.Project — licença: unknown
+- Chin786/campusprep — licença: unknown
+- baboopsc/bakimpilot — licença: unknown
+- zklaas/quizboard — licença: NOASSERTION
+- hfm4050/youtube-topic — licença: unknown
+- fyetmm29-ux/NTFY_TOPIC — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
