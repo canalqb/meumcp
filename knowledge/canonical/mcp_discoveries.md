@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1113 total, 331 validados free, 782 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1118 total, 332 validados free, 786 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1113
-createdAt: 2026-11-14
-updatedAt: 2026-11-14
+version: 1118
+createdAt: 2026-11-15
+updatedAt: 2026-11-15
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-14T17:35:21.521Z
-> Total descoberto: 1113 | Validados (HTTP 200 + free): 331 | Pulados (licença paga/enterprise): 782
+> Última execução: 2026-11-15T04:28:38.568Z
+> Total descoberto: 1118 | Validados (HTTP 200 + free): 332 | Pulados (licença paga/enterprise): 786
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -352,6 +352,7 @@ updatedAt: 2026-11-14
 | samqin123/market-research-skills | Python | 0 | MIT |  | [repo](https://github.com/samqin123/market-research-skills) |
 | lNamelessl/deepseek-research-railway-template | Python | 0 | MIT |  | [repo](https://github.com/lNamelessl/deepseek-research-railway-template) |
 | tazbirs/talking-head-editor | Python | 1 | MIT | bangla, claude-code, claude-skill | [repo](https://github.com/tazbirs/talking-head-editor) |
+| infantileiron/interview-topics-7631 | Python | 0 | MIT |  | [repo](https://github.com/infantileiron/interview-topics-7631) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1137,6 +1138,10 @@ updatedAt: 2026-11-14
 - ToPIC-pro/LAB6_GROUP — licença: unknown
 - asbarron/quizzes-and-flashcards — licença: NOASSERTION
 - Panha22ly/Inspacetigators-Nasa-Space-Apps-2026-Challenge — licença: unknown
+- Cchubro/topic-agent-templates — licença: unknown
+- ankitha2604/VISAULEARN- — licença: unknown
+- codewithpatrick0/backend-roadmap — licença: unknown
+- aligholizadeh8413/Uni.RNA-seq.Project — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
