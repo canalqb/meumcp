@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-16T04:25:05.895Z | kingofmit/openlex | 0 | MIT | 200 |
+
+| 2026-11-16T04:25:07.068Z | tjmustard/redletter | 0 | MIT | 200 |
+
+| 2026-11-16T04:25:14.209Z | restrepo/citation-topics | 0 | MIT | 200 |
+
 | 2026-11-15T18:23:45.237Z | ScrapeUnblocker/google-news-brief | 0 | MIT | 200 |
 
 | 2026-11-15T04:28:37.721Z | infantileiron/interview-topics-7631 | 0 | MIT | 200 |
