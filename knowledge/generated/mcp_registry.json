@@ -16303,5 +16303,91 @@
     "validated_at": "2026-11-16T04:25:16.263Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1459876262,
+    "full_name": "Gmvasilev/Forum_Z",
+    "url": "https://github.com/Gmvasilev/Forum_Z",
+    "language": "Python",
+    "stars": 2,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-16T21:31:45.506Z",
+    "topics": [],
+    "readme_absorbed": "Gmvasilev/Forum_Z"
+  },
+  {
+    "id": 1460347076,
+    "full_name": "821abolfazl/godnews24-follow-bot",
+    "url": "https://github.com/821abolfazl/godnews24-follow-bot",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-16T21:31:46.982Z",
+    "topics": [],
+    "readme_absorbed": "821abolfazl/godnews24-follow-bot"
+  },
+  {
+    "id": 1460472507,
+    "full_name": "kug-dev/ai-chat-toolkit",
+    "url": "https://github.com/kug-dev/ai-chat-toolkit",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-16T21:31:48.125Z",
+    "topics": [
+      "chatgpt",
+      "claude",
+      "conversation-archive",
+      "gemini",
+      "local-first",
+      "python",
+      "tapermonkey",
+      "topic-analysis",
+      "userscript"
+    ],
+    "readme_absorbed": "kug-dev/ai-chat-toolkit"
+  },
+  {
+    "id": 1460463164,
+    "full_name": "DovahkiinYuzuko/briefing-board",
+    "url": "https://github.com/DovahkiinYuzuko/briefing-board",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-16T21:31:49.484Z",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "antigravity",
+      "briefing-board",
+      "dads",
+      "decision-making",
+      "design-review",
+      "local-web-ui",
+      "python",
+      "toml"
+    ],
+    "readme_absorbed": "DovahkiinYuzuko/briefing-board"
+  },
+  {
+    "id": 1460511606,
+    "full_name": "yasifteamx/youtube-research-skill",
+    "url": "https://github.com/yasifteamx/youtube-research-skill",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-16T21:31:50.797Z",
+    "topics": [],
+    "readme_absorbed": "yasifteamx/youtube-research-skill"
   }
 ]

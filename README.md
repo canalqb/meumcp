@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-16T21:31:48.125Z | kug-dev/ai-chat-toolkit | 0 | MIT | 200 |
+
+| 2026-11-16T21:31:49.484Z | DovahkiinYuzuko/briefing-board | 0 | MIT | 200 |
+
 | 2026-11-16T04:25:05.895Z | kingofmit/openlex | 0 | MIT | 200 |
 
 | 2026-11-16T04:25:07.068Z | tjmustard/redletter | 0 | MIT | 200 |

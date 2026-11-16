@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1135 total, 336 validados free, 799 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1140 total, 338 validados free, 802 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1135
+version: 1140
 createdAt: 2026-11-16
 updatedAt: 2026-11-16
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-16T04:25:16.265Z
-> Total descoberto: 1135 | Validados (HTTP 200 + free): 336 | Pulados (licença paga/enterprise): 799
+> Última execução: 2026-11-16T21:31:50.807Z
+> Total descoberto: 1140 | Validados (HTTP 200 + free): 338 | Pulados (licença paga/enterprise): 802
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -357,6 +357,8 @@ updatedAt: 2026-11-16
 | kingofmit/openlex | TypeScript | 0 | MIT |  | [repo](https://github.com/kingofmit/openlex) |
 | tjmustard/redletter | Python | 0 | MIT |  | [repo](https://github.com/tjmustard/redletter) |
 | restrepo/citation-topics | Python | 0 | MIT | bibliometrics, citation-network, leiden | [repo](https://github.com/restrepo/citation-topics) |
+| kug-dev/ai-chat-toolkit | Python | 0 | MIT | chatgpt, claude, conversation-archive | [repo](https://github.com/kug-dev/ai-chat-toolkit) |
+| DovahkiinYuzuko/briefing-board | Python | 0 | MIT | agent-skills, ai-agent, antigravity | [repo](https://github.com/DovahkiinYuzuko/briefing-board) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1159,6 +1161,9 @@ updatedAt: 2026-11-16
 - Fish-Tacos/living-taxonomy — licença: unknown
 - zshi453/Uncertainty-Quantification-Assignment — licença: unknown
 - zshi453/NLE_Lab — licença: unknown
+- Gmvasilev/Forum_Z — licença: unknown
+- 821abolfazl/godnews24-follow-bot — licença: unknown
+- yasifteamx/youtube-research-skill — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 
