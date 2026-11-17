@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1146 total, 339 validados free, 807 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1157 total, 344 validados free, 813 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1146
+version: 1157
 createdAt: 2026-11-17
 updatedAt: 2026-11-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-17T06:10:17.208Z
-> Total descoberto: 1146 | Validados (HTTP 200 + free): 339 | Pulados (licença paga/enterprise): 807
+> Última execução: 2026-11-17T20:22:30.135Z
+> Total descoberto: 1157 | Validados (HTTP 200 + free): 344 | Pulados (licença paga/enterprise): 813
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -360,6 +360,11 @@ updatedAt: 2026-11-17
 | kug-dev/ai-chat-toolkit | Python | 0 | MIT | chatgpt, claude, conversation-archive | [repo](https://github.com/kug-dev/ai-chat-toolkit) |
 | DovahkiinYuzuko/briefing-board | Python | 0 | MIT | agent-skills, ai-agent, antigravity | [repo](https://github.com/DovahkiinYuzuko/briefing-board) |
 | saojiashutosh/Intervio | TypeScript | 0 | MIT | database, django, django-rest-framework | [repo](https://github.com/saojiashutosh/Intervio) |
+| TeacherEvan/surgical-media | Python | 0 | MIT |  | [repo](https://github.com/TeacherEvan/surgical-media) |
+| kalgo4444/abugent | Python | 0 | MIT |  | [repo](https://github.com/kalgo4444/abugent) |
+| jonathanwa01/diameter-processor | Python | 0 | MIT |  | [repo](https://github.com/jonathanwa01/diameter-processor) |
+| star-anonymus/kahanio | TypeScript | 0 | GPL-3.0 |  | [repo](https://github.com/star-anonymus/kahanio) |
+| Benji7z/meimeibot | Python | 0 | MIT |  | [repo](https://github.com/Benji7z/meimeibot) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1170,6 +1175,12 @@ updatedAt: 2026-11-17
 - ChiggyJain/AgentWriterAI — licença: unknown
 - 0xrsp/topics-in-comp-sci-final-rep-code — licença: unknown
 - HemaS11/InsightEd_ConsoleBased — licença: unknown
+- Jina404/examnotes — licença: unknown
+- aryashahprog/papertube — licença: unknown
+- furinnaaaa0/Lab-2_Topic24-plate-numbers — licença: unknown
+- yevgeniyvaleyev/flash-master — licença: unknown
+- Anish-Singh-81/playwright-saucedemo-framework — licença: unknown
+- ifaezdl/discuss-app — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -302,6 +302,16 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-17T20:22:19.402Z | TeacherEvan/surgical-media | 0 | MIT | 200 |
+
+| 2026-11-17T20:22:22.482Z | kalgo4444/abugent | 0 | MIT | 200 |
+
+| 2026-11-17T20:22:27.845Z | jonathanwa01/diameter-processor | 0 | MIT | 200 |
+
+| 2026-11-17T20:22:28.957Z | star-anonymus/kahanio | 0 | GPL-3.0 | 200 |
+
+| 2026-11-17T20:22:30.132Z | Benji7z/meimeibot | 0 | MIT | 200 |
+
 | 2026-11-17T06:10:16.278Z | saojiashutosh/Intervio | 0 | MIT | 200 |
 
 | 2026-11-16T21:31:48.125Z | kug-dev/ai-chat-toolkit | 0 | MIT | 200 |
