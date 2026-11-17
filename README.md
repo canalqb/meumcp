@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-17T06:10:16.278Z | saojiashutosh/Intervio | 0 | MIT | 200 |
+
 | 2026-11-16T21:31:48.125Z | kug-dev/ai-chat-toolkit | 0 | MIT | 200 |
 
 | 2026-11-16T21:31:49.484Z | DovahkiinYuzuko/briefing-board | 0 | MIT | 200 |

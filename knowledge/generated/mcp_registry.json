@@ -16389,5 +16389,103 @@
     "validated_at": "2026-11-16T21:31:50.797Z",
     "topics": [],
     "readme_absorbed": "yasifteamx/youtube-research-skill"
+  },
+  {
+    "id": 1460984734,
+    "full_name": "pankajjain24/bengaluru-housing-mis",
+    "url": "https://github.com/pankajjain24/bengaluru-housing-mis",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-17T06:10:12.671Z",
+    "topics": [],
+    "readme_absorbed": "pankajjain24/bengaluru-housing-mis"
+  },
+  {
+    "id": 1460896599,
+    "full_name": "sleuth-in-the-system/AI-PDF-Analyzer",
+    "url": "https://github.com/sleuth-in-the-system/AI-PDF-Analyzer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-17T06:10:13.499Z",
+    "topics": [
+      "fiass",
+      "huggingface",
+      "langchain",
+      "python",
+      "rag"
+    ],
+    "readme_absorbed": "sleuth-in-the-system/AI-PDF-Analyzer"
+  },
+  {
+    "id": 1460971212,
+    "full_name": "ChiggyJain/AgentWriterAI",
+    "url": "https://github.com/ChiggyJain/AgentWriterAI",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-17T06:10:14.442Z",
+    "topics": [],
+    "readme_absorbed": "ChiggyJain/AgentWriterAI"
+  },
+  {
+    "id": 1460914062,
+    "full_name": "0xrsp/topics-in-comp-sci-final-rep-code",
+    "url": "https://github.com/0xrsp/topics-in-comp-sci-final-rep-code",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-17T06:10:15.263Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1460922271,
+    "full_name": "saojiashutosh/Intervio",
+    "url": "https://github.com/saojiashutosh/Intervio",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-17T06:10:16.278Z",
+    "topics": [
+      "database",
+      "django",
+      "django-rest-framework",
+      "framer-motion",
+      "interview-preparation",
+      "learning-platform",
+      "postgresql",
+      "react",
+      "spaced-repetition",
+      "sql",
+      "system-design",
+      "typescript",
+      "vite"
+    ],
+    "readme_absorbed": "saojiashutosh/Intervio"
+  },
+  {
+    "id": 1460893891,
+    "full_name": "HemaS11/InsightEd_ConsoleBased",
+    "url": "https://github.com/HemaS11/InsightEd_ConsoleBased",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-17T06:10:17.205Z",
+    "topics": [],
+    "readme_absorbed": "HemaS11/InsightEd_ConsoleBased"
   }
 ]

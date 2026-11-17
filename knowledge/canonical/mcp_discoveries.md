@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1140 total, 338 validados free, 802 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1146 total, 339 validados free, 807 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1140
-createdAt: 2026-11-16
-updatedAt: 2026-11-16
+version: 1146
+createdAt: 2026-11-17
+updatedAt: 2026-11-17
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-16T21:31:50.807Z
-> Total descoberto: 1140 | Validados (HTTP 200 + free): 338 | Pulados (licença paga/enterprise): 802
+> Última execução: 2026-11-17T06:10:17.208Z
+> Total descoberto: 1146 | Validados (HTTP 200 + free): 339 | Pulados (licença paga/enterprise): 807
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -359,6 +359,7 @@ updatedAt: 2026-11-16
 | restrepo/citation-topics | Python | 0 | MIT | bibliometrics, citation-network, leiden | [repo](https://github.com/restrepo/citation-topics) |
 | kug-dev/ai-chat-toolkit | Python | 0 | MIT | chatgpt, claude, conversation-archive | [repo](https://github.com/kug-dev/ai-chat-toolkit) |
 | DovahkiinYuzuko/briefing-board | Python | 0 | MIT | agent-skills, ai-agent, antigravity | [repo](https://github.com/DovahkiinYuzuko/briefing-board) |
+| saojiashutosh/Intervio | TypeScript | 0 | MIT | database, django, django-rest-framework | [repo](https://github.com/saojiashutosh/Intervio) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1164,6 +1165,11 @@ updatedAt: 2026-11-16
 - Gmvasilev/Forum_Z — licença: unknown
 - 821abolfazl/godnews24-follow-bot — licença: unknown
 - yasifteamx/youtube-research-skill — licença: NOASSERTION
+- pankajjain24/bengaluru-housing-mis — licença: unknown
+- sleuth-in-the-system/AI-PDF-Analyzer — licença: unknown
+- ChiggyJain/AgentWriterAI — licença: unknown
+- 0xrsp/topics-in-comp-sci-final-rep-code — licença: unknown
+- HemaS11/InsightEd_ConsoleBased — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
