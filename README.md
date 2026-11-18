@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-18T05:38:29.105Z | ogmanojdev/cfa-edurev-analysis | 0 | MIT | 200 |
+
 | 2026-11-17T20:22:19.402Z | TeacherEvan/surgical-media | 0 | MIT | 200 |
 
 | 2026-11-17T20:22:22.482Z | kalgo4444/abugent | 0 | MIT | 200 |

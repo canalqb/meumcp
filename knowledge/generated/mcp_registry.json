@@ -16630,5 +16630,70 @@
     "validated_at": "2026-11-17T20:22:30.132Z",
     "topics": [],
     "readme_absorbed": "Benji7z/meimeibot"
+  },
+  {
+    "id": 1462323991,
+    "full_name": "Kevin999-sudo/paperscope-cs5481",
+    "url": "https://github.com/Kevin999-sudo/paperscope-cs5481",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-18T05:38:27.854Z",
+    "topics": [],
+    "readme_absorbed": "Kevin999-sudo/paperscope-cs5481"
+  },
+  {
+    "id": 1462333906,
+    "full_name": "ogmanojdev/cfa-edurev-analysis",
+    "url": "https://github.com/ogmanojdev/cfa-edurev-analysis",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-18T05:38:29.105Z",
+    "topics": [],
+    "readme_absorbed": "ogmanojdev/cfa-edurev-analysis"
+  },
+  {
+    "id": 1462317400,
+    "full_name": "Shawydu/dh-tutor",
+    "url": "https://github.com/Shawydu/dh-tutor",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-18T05:38:30.386Z",
+    "topics": [],
+    "readme_absorbed": "Shawydu/dh-tutor"
+  },
+  {
+    "id": 1462284219,
+    "full_name": "shengdynasty/project-reelix",
+    "url": "https://github.com/shengdynasty/project-reelix",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-18T05:38:31.479Z",
+    "topics": [],
+    "readme_absorbed": "shengdynasty/project-reelix"
+  },
+  {
+    "id": 1462280177,
+    "full_name": "Nhatthang75/bertopic-customer-topic-discovery",
+    "url": "https://github.com/Nhatthang75/bertopic-customer-topic-discovery",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-18T05:38:32.725Z",
+    "topics": [],
+    "readme_absorbed": "Nhatthang75/bertopic-customer-topic-discovery"
   }
 ]

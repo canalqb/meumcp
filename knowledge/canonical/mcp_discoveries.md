@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1157 total, 344 validados free, 813 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1162 total, 345 validados free, 817 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1157
-createdAt: 2026-11-17
-updatedAt: 2026-11-17
+version: 1162
+createdAt: 2026-11-18
+updatedAt: 2026-11-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-17T20:22:30.135Z
-> Total descoberto: 1157 | Validados (HTTP 200 + free): 344 | Pulados (licença paga/enterprise): 813
+> Última execução: 2026-11-18T05:38:32.727Z
+> Total descoberto: 1162 | Validados (HTTP 200 + free): 345 | Pulados (licença paga/enterprise): 817
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -365,6 +365,7 @@ updatedAt: 2026-11-17
 | jonathanwa01/diameter-processor | Python | 0 | MIT |  | [repo](https://github.com/jonathanwa01/diameter-processor) |
 | star-anonymus/kahanio | TypeScript | 0 | GPL-3.0 |  | [repo](https://github.com/star-anonymus/kahanio) |
 | Benji7z/meimeibot | Python | 0 | MIT |  | [repo](https://github.com/Benji7z/meimeibot) |
+| ogmanojdev/cfa-edurev-analysis | Python | 0 | MIT |  | [repo](https://github.com/ogmanojdev/cfa-edurev-analysis) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1181,6 +1182,10 @@ updatedAt: 2026-11-17
 - yevgeniyvaleyev/flash-master — licença: unknown
 - Anish-Singh-81/playwright-saucedemo-framework — licença: unknown
 - ifaezdl/discuss-app — licença: unknown
+- Kevin999-sudo/paperscope-cs5481 — licença: unknown
+- Shawydu/dh-tutor — licença: unknown
+- shengdynasty/project-reelix — licença: unknown
+- Nhatthang75/bertopic-customer-topic-discovery — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
