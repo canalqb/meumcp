@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1162 total, 345 validados free, 817 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1169 total, 345 validados free, 824 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1162
+version: 1169
 createdAt: 2026-11-18
 updatedAt: 2026-11-18
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-18T05:38:32.727Z
-> Total descoberto: 1162 | Validados (HTTP 200 + free): 345 | Pulados (licença paga/enterprise): 817
+> Última execução: 2026-11-18T19:52:34.493Z
+> Total descoberto: 1169 | Validados (HTTP 200 + free): 345 | Pulados (licença paga/enterprise): 824
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -1186,6 +1186,13 @@ updatedAt: 2026-11-18
 - Shawydu/dh-tutor — licença: unknown
 - shengdynasty/project-reelix — licença: unknown
 - Nhatthang75/bertopic-customer-topic-discovery — licença: unknown
+- nonqr/exit-interview-topics — licença: unknown
+- bpettis/microblog-trend-analysis — licença: unknown
+- akshitverma-dev/CP-Solutions — licença: unknown
+- Wasif-Ali5/AI_Research_Assistant — licença: unknown
+- hyper-code-harness/zulip — licença: unknown
+- ajgeiger/headline-radar — licença: unknown
+- IgorShkabar/hybrid_assistant_for_noc_dev_ops — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
