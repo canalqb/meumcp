@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-19T19:52:26.698Z | Pratix005/Securegent | 0 | Apache-2.0 | 200 |
+
+| 2026-11-19T19:52:27.894Z | rocky2397/disclosure-diff | 0 | MIT | 200 |
+
 | 2026-11-19T05:36:59.819Z | m-shahmeer-kz/viral-trend-predictor | 0 | MIT | 200 |
 
 | 2026-11-18T05:38:29.105Z | ogmanojdev/cfa-edurev-analysis | 0 | MIT | 200 |

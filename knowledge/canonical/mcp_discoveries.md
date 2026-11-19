@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1173 total, 346 validados free, 827 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1183 total, 348 validados free, 835 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1173
+version: 1183
 createdAt: 2026-11-19
 updatedAt: 2026-11-19
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-19T05:37:03.031Z
-> Total descoberto: 1173 | Validados (HTTP 200 + free): 346 | Pulados (licença paga/enterprise): 827
+> Última execução: 2026-11-19T19:52:33.720Z
+> Total descoberto: 1183 | Validados (HTTP 200 + free): 348 | Pulados (licença paga/enterprise): 835
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -367,6 +367,8 @@ updatedAt: 2026-11-19
 | Benji7z/meimeibot | Python | 0 | MIT |  | [repo](https://github.com/Benji7z/meimeibot) |
 | ogmanojdev/cfa-edurev-analysis | Python | 0 | MIT |  | [repo](https://github.com/ogmanojdev/cfa-edurev-analysis) |
 | m-shahmeer-kz/viral-trend-predictor | Python | 0 | MIT | data-science, fastapi, machine-learning | [repo](https://github.com/m-shahmeer-kz/viral-trend-predictor) |
+| Pratix005/Securegent | Python | 0 | Apache-2.0 |  | [repo](https://github.com/Pratix005/Securegent) |
+| rocky2397/disclosure-diff | Python | 0 | MIT |  | [repo](https://github.com/rocky2397/disclosure-diff) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1197,6 +1199,14 @@ updatedAt: 2026-11-19
 - tiennam-nguyen/topic-2-indexing — licença: unknown
 - git-oags/topicos-ia — licença: unknown
 - komal74784391-netizen/nw-artifacts-1079-topic-classifier — licença: unknown
+- Rohan-droid7341/feedpulse-ai — licença: unknown
+- sneha0984321-code/restapi-blog — licença: unknown
+- Mhmd7-7/topic-deep-dive-skill — licença: unknown
+- Omar136796/CSE440-QA-Text-Classification — licença: unknown
+- datasteg/open-research — licença: unknown
+- zenishrana00/MangoFruitDiseaseDetection — licença: unknown
+- gurayerus/study_topics — licença: unknown
+- meir47/FAI-Final_Qairu — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
