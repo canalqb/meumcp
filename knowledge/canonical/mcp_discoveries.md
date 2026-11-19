@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1169 total, 345 validados free, 824 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1173 total, 346 validados free, 827 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1169
-createdAt: 2026-11-18
-updatedAt: 2026-11-18
+version: 1173
+createdAt: 2026-11-19
+updatedAt: 2026-11-19
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-18T19:52:34.493Z
-> Total descoberto: 1169 | Validados (HTTP 200 + free): 345 | Pulados (licença paga/enterprise): 824
+> Última execução: 2026-11-19T05:37:03.031Z
+> Total descoberto: 1173 | Validados (HTTP 200 + free): 346 | Pulados (licença paga/enterprise): 827
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -366,6 +366,7 @@ updatedAt: 2026-11-18
 | star-anonymus/kahanio | TypeScript | 0 | GPL-3.0 |  | [repo](https://github.com/star-anonymus/kahanio) |
 | Benji7z/meimeibot | Python | 0 | MIT |  | [repo](https://github.com/Benji7z/meimeibot) |
 | ogmanojdev/cfa-edurev-analysis | Python | 0 | MIT |  | [repo](https://github.com/ogmanojdev/cfa-edurev-analysis) |
+| m-shahmeer-kz/viral-trend-predictor | Python | 0 | MIT | data-science, fastapi, machine-learning | [repo](https://github.com/m-shahmeer-kz/viral-trend-predictor) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1193,6 +1194,9 @@ updatedAt: 2026-11-18
 - hyper-code-harness/zulip — licença: unknown
 - ajgeiger/headline-radar — licença: unknown
 - IgorShkabar/hybrid_assistant_for_noc_dev_ops — licença: unknown
+- tiennam-nguyen/topic-2-indexing — licença: unknown
+- git-oags/topicos-ia — licença: unknown
+- komal74784391-netizen/nw-artifacts-1079-topic-classifier — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
