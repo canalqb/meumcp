@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1183 total, 348 validados free, 835 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1188 total, 348 validados free, 840 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1183
-createdAt: 2026-11-19
-updatedAt: 2026-11-19
+version: 1188
+createdAt: 2026-11-20
+updatedAt: 2026-11-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-19T19:52:33.720Z
-> Total descoberto: 1183 | Validados (HTTP 200 + free): 348 | Pulados (licença paga/enterprise): 835
+> Última execução: 2026-11-20T05:25:09.534Z
+> Total descoberto: 1188 | Validados (HTTP 200 + free): 348 | Pulados (licença paga/enterprise): 840
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -1207,6 +1207,11 @@ updatedAt: 2026-11-19
 - zenishrana00/MangoFruitDiseaseDetection — licença: unknown
 - gurayerus/study_topics — licença: unknown
 - meir47/FAI-Final_Qairu — licença: unknown
+- Riyaa2025/Topic_modelling — licença: unknown
+- rotatinghomew/research-112003-intake-topics — licença: unknown
+- nguyenlionelv/topic-5-concurrency — licença: unknown
+- mixinran/ARIN5201-AIGI-Detection-merged — licença: unknown
+- juanga870611-pixel/English-app-4th-grade — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

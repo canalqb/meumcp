@@ -17001,5 +17001,70 @@
     "validated_at": "2026-11-19T19:52:33.717Z",
     "topics": [],
     "readme_absorbed": "meir47/FAI-Final_Qairu"
+  },
+  {
+    "id": 1465012519,
+    "full_name": "Riyaa2025/Topic_modelling",
+    "url": "https://github.com/Riyaa2025/Topic_modelling",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-20T05:25:04.364Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1465012959,
+    "full_name": "rotatinghomew/research-112003-intake-topics",
+    "url": "https://github.com/rotatinghomew/research-112003-intake-topics",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-20T05:25:05.516Z",
+    "topics": [],
+    "readme_absorbed": "rotatinghomew/research-112003-intake-topics"
+  },
+  {
+    "id": 1464978748,
+    "full_name": "nguyenlionelv/topic-5-concurrency",
+    "url": "https://github.com/nguyenlionelv/topic-5-concurrency",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-20T05:25:06.485Z",
+    "topics": [],
+    "readme_absorbed": "nguyenlionelv/topic-5-concurrency"
+  },
+  {
+    "id": 1464965658,
+    "full_name": "mixinran/ARIN5201-AIGI-Detection-merged",
+    "url": "https://github.com/mixinran/ARIN5201-AIGI-Detection-merged",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-20T05:25:08.187Z",
+    "topics": [],
+    "readme_absorbed": "mixinran/ARIN5201-AIGI-Detection-merged"
+  },
+  {
+    "id": 1464959409,
+    "full_name": "juanga870611-pixel/English-app-4th-grade",
+    "url": "https://github.com/juanga870611-pixel/English-app-4th-grade",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-20T05:25:09.532Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
