@@ -17066,5 +17066,92 @@
     "validated_at": "2026-11-20T05:25:09.532Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1465699359,
+    "full_name": "osnjunior91/ai-review-manager",
+    "url": "https://github.com/osnjunior91/ai-review-manager",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-20T19:31:45.227Z",
+    "topics": [],
+    "readme_absorbed": "osnjunior91/ai-review-manager"
+  },
+  {
+    "id": 1465366711,
+    "full_name": "nyagayamonica/Skysolve",
+    "url": "https://github.com/nyagayamonica/Skysolve",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-20T19:31:46.363Z",
+    "topics": [],
+    "readme_absorbed": "nyagayamonica/Skysolve"
+  },
+  {
+    "id": 1465763205,
+    "full_name": "0xAkashic/documentary-video-skill",
+    "url": "https://github.com/0xAkashic/documentary-video-skill",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-20T19:31:47.545Z",
+    "topics": [],
+    "readme_absorbed": "0xAkashic/documentary-video-skill"
+  },
+  {
+    "id": 1465472102,
+    "full_name": "Wellesley-CS315/week12-fri",
+    "url": "https://github.com/Wellesley-CS315/week12-fri",
+    "language": "Python",
+    "stars": 0,
+    "license": "CC0-1.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-20T19:31:48.676Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1465747038,
+    "full_name": "Joweb1/SOTAL-Study",
+    "url": "https://github.com/Joweb1/SOTAL-Study",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-20T19:31:49.760Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1465739312,
+    "full_name": "Rahilyw/foundry-iq-agentic-retrieval",
+    "url": "https://github.com/Rahilyw/foundry-iq-agentic-retrieval",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-20T19:31:50.827Z",
+    "topics": [
+      "agentic-retrieval",
+      "azure-ai-search",
+      "foundry-iq",
+      "gql",
+      "knowledge-graph",
+      "microsoft-ignite",
+      "python",
+      "rag"
+    ],
+    "readme_absorbed": "Rahilyw/foundry-iq-agentic-retrieval"
   }
 ]

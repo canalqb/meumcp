@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-20T19:31:45.227Z | osnjunior91/ai-review-manager | 0 | MIT | 200 |
+
+| 2026-11-20T19:31:47.545Z | 0xAkashic/documentary-video-skill | 0 | MIT | 200 |
+
+| 2026-11-20T19:31:48.676Z | Wellesley-CS315/week12-fri | 0 | CC0-1.0 | 200 |
+
+| 2026-11-20T19:31:50.827Z | Rahilyw/foundry-iq-agentic-retrieval | 0 | MIT | 200 |
+
 | 2026-11-19T19:52:26.698Z | Pratix005/Securegent | 0 | Apache-2.0 | 200 |
 
 | 2026-11-19T19:52:27.894Z | rocky2397/disclosure-diff | 0 | MIT | 200 |

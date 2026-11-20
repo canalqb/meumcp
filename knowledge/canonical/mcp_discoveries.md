@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1188 total, 348 validados free, 840 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1194 total, 352 validados free, 842 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1188
+version: 1194
 createdAt: 2026-11-20
 updatedAt: 2026-11-20
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-20T05:25:09.534Z
-> Total descoberto: 1188 | Validados (HTTP 200 + free): 348 | Pulados (licença paga/enterprise): 840
+> Última execução: 2026-11-20T19:31:50.830Z
+> Total descoberto: 1194 | Validados (HTTP 200 + free): 352 | Pulados (licença paga/enterprise): 842
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -369,6 +369,10 @@ updatedAt: 2026-11-20
 | m-shahmeer-kz/viral-trend-predictor | Python | 0 | MIT | data-science, fastapi, machine-learning | [repo](https://github.com/m-shahmeer-kz/viral-trend-predictor) |
 | Pratix005/Securegent | Python | 0 | Apache-2.0 |  | [repo](https://github.com/Pratix005/Securegent) |
 | rocky2397/disclosure-diff | Python | 0 | MIT |  | [repo](https://github.com/rocky2397/disclosure-diff) |
+| osnjunior91/ai-review-manager | Python | 0 | MIT |  | [repo](https://github.com/osnjunior91/ai-review-manager) |
+| 0xAkashic/documentary-video-skill | Python | 0 | MIT |  | [repo](https://github.com/0xAkashic/documentary-video-skill) |
+| Wellesley-CS315/week12-fri | Python | 0 | CC0-1.0 |  | [repo](https://github.com/Wellesley-CS315/week12-fri) |
+| Rahilyw/foundry-iq-agentic-retrieval | Python | 0 | MIT | agentic-retrieval, azure-ai-search, foundry-iq | [repo](https://github.com/Rahilyw/foundry-iq-agentic-retrieval) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1212,6 +1216,8 @@ updatedAt: 2026-11-20
 - nguyenlionelv/topic-5-concurrency — licença: unknown
 - mixinran/ARIN5201-AIGI-Detection-merged — licença: unknown
 - juanga870611-pixel/English-app-4th-grade — licença: unknown
+- nyagayamonica/Skysolve — licença: unknown
+- Joweb1/SOTAL-Study — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
