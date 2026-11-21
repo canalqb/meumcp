@@ -17210,5 +17210,39 @@
     "validated_at": "2026-11-21T05:17:00.705Z",
     "topics": [],
     "readme_absorbed": null
+  },
+  {
+    "id": 1466570597,
+    "full_name": "Kevin29Johnson/PaperGraph",
+    "url": "https://github.com/Kevin29Johnson/PaperGraph",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-21T18:36:15.078Z",
+    "topics": [
+      "citation-graph",
+      "knowledge-graph",
+      "mcp",
+      "neo4j",
+      "relate",
+      "relate-hackathon",
+      "relate-neo4j-hackathon"
+    ],
+    "readme_absorbed": "Kevin29Johnson/PaperGraph"
+  },
+  {
+    "id": 1466745341,
+    "full_name": "manojrevenkar12-web/resolution-lift-lab",
+    "url": "https://github.com/manojrevenkar12-web/resolution-lift-lab",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-21T18:36:16.058Z",
+    "topics": [],
+    "readme_absorbed": "manojrevenkar12-web/resolution-lift-lab"
   }
 ]
