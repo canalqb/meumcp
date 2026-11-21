@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-21T05:16:57.481Z | jdubb118/study-loop | 0 | MIT | 200 |
+
 | 2026-11-20T19:31:45.227Z | osnjunior91/ai-review-manager | 0 | MIT | 200 |
 
 | 2026-11-20T19:31:47.545Z | 0xAkashic/documentary-video-skill | 0 | MIT | 200 |

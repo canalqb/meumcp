@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1194 total, 352 validados free, 842 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1198 total, 353 validados free, 845 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1194
-createdAt: 2026-11-20
-updatedAt: 2026-11-20
+version: 1198
+createdAt: 2026-11-21
+updatedAt: 2026-11-21
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-20T19:31:50.830Z
-> Total descoberto: 1194 | Validados (HTTP 200 + free): 352 | Pulados (licença paga/enterprise): 842
+> Última execução: 2026-11-21T05:17:00.708Z
+> Total descoberto: 1198 | Validados (HTTP 200 + free): 353 | Pulados (licença paga/enterprise): 845
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -373,6 +373,7 @@ updatedAt: 2026-11-20
 | 0xAkashic/documentary-video-skill | Python | 0 | MIT |  | [repo](https://github.com/0xAkashic/documentary-video-skill) |
 | Wellesley-CS315/week12-fri | Python | 0 | CC0-1.0 |  | [repo](https://github.com/Wellesley-CS315/week12-fri) |
 | Rahilyw/foundry-iq-agentic-retrieval | Python | 0 | MIT | agentic-retrieval, azure-ai-search, foundry-iq | [repo](https://github.com/Rahilyw/foundry-iq-agentic-retrieval) |
+| jdubb118/study-loop | Python | 0 | MIT |  | [repo](https://github.com/jdubb118/study-loop) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1218,6 +1219,9 @@ updatedAt: 2026-11-20
 - juanga870611-pixel/English-app-4th-grade — licença: unknown
 - nyagayamonica/Skysolve — licença: unknown
 - Joweb1/SOTAL-Study — licença: unknown
+- hoanhophuoc/bookmark-restructuring — licença: unknown
+- parvashah29/Nexus-Agents — licença: unknown
+- OnetrueMaple/flashcard-viewer — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

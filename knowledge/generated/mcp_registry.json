@@ -17153,5 +17153,62 @@
       "rag"
     ],
     "readme_absorbed": "Rahilyw/foundry-iq-agentic-retrieval"
+  },
+  {
+    "id": 1466197539,
+    "full_name": "jdubb118/study-loop",
+    "url": "https://github.com/jdubb118/study-loop",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-21T05:16:57.481Z",
+    "topics": [],
+    "readme_absorbed": "jdubb118/study-loop"
+  },
+  {
+    "id": 1466160008,
+    "full_name": "hoanhophuoc/bookmark-restructuring",
+    "url": "https://github.com/hoanhophuoc/bookmark-restructuring",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-21T05:16:58.645Z",
+    "topics": [],
+    "readme_absorbed": "hoanhophuoc/bookmark-restructuring"
+  },
+  {
+    "id": 1465947610,
+    "full_name": "parvashah29/Nexus-Agents",
+    "url": "https://github.com/parvashah29/Nexus-Agents",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-21T05:16:59.717Z",
+    "topics": [
+      "gemini",
+      "multi-agent",
+      "react",
+      "typescript"
+    ],
+    "readme_absorbed": "parvashah29/Nexus-Agents"
+  },
+  {
+    "id": 1466136761,
+    "full_name": "OnetrueMaple/flashcard-viewer",
+    "url": "https://github.com/OnetrueMaple/flashcard-viewer",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-21T05:17:00.705Z",
+    "topics": [],
+    "readme_absorbed": null
   }
 ]
