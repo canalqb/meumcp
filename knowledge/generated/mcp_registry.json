@@ -17305,5 +17305,126 @@
     "validated_at": "2026-11-22T04:43:22.963Z",
     "topics": [],
     "readme_absorbed": "bryansullins/odd-news"
+  },
+  {
+    "id": 1467603314,
+    "full_name": "ahmedkam997/scimed-srma-scout-cloud",
+    "url": "https://github.com/ahmedkam997/scimed-srma-scout-cloud",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-22T18:57:02.641Z",
+    "topics": [],
+    "readme_absorbed": "ahmedkam997/scimed-srma-scout-cloud"
+  },
+  {
+    "id": 1467815612,
+    "full_name": "Koalalive/neurodaily-topic-profile",
+    "url": "https://github.com/Koalalive/neurodaily-topic-profile",
+    "language": "Python",
+    "stars": 1,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-22T18:57:03.553Z",
+    "topics": [
+      "academic-research",
+      "agent-skill",
+      "claude-skill",
+      "literature-search",
+      "neurodaily",
+      "research-profile",
+      "topic-modeling"
+    ],
+    "readme_absorbed": "Koalalive/neurodaily-topic-profile"
+  },
+  {
+    "id": 1467391147,
+    "full_name": "theguysaccount/audiosage-podcaster-dashboards",
+    "url": "https://github.com/theguysaccount/audiosage-podcaster-dashboards",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-22T18:57:04.382Z",
+    "topics": [
+      "data-visualization",
+      "github-pages",
+      "nlp",
+      "podcast",
+      "podcast-analytics",
+      "podcasts",
+      "transcripts"
+    ],
+    "readme_absorbed": "theguysaccount/audiosage-podcaster-dashboards"
+  },
+  {
+    "id": 1467836094,
+    "full_name": "balazsarany9619/brain-starter-kit",
+    "url": "https://github.com/balazsarany9619/brain-starter-kit",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-22T18:57:05.216Z",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "claude-md"
+    ],
+    "readme_absorbed": "balazsarany9619/brain-starter-kit"
+  },
+  {
+    "id": 1467780907,
+    "full_name": "zerobun0/sift",
+    "url": "https://github.com/zerobun0/sift",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-22T18:57:06.024Z",
+    "topics": [],
+    "readme_absorbed": "zerobun0/sift"
+  },
+  {
+    "id": 1467331478,
+    "full_name": "Karvy-Singh/Reddit-Sentiment",
+    "url": "https://github.com/Karvy-Singh/Reddit-Sentiment",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-22T18:57:06.852Z",
+    "topics": [],
+    "readme_absorbed": "Karvy-Singh/Reddit-Sentiment"
+  },
+  {
+    "id": 1467807802,
+    "full_name": "kevinscooke/the-ledger",
+    "url": "https://github.com/kevinscooke/the-ledger",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-22T18:57:07.773Z",
+    "topics": [
+      "anthropic",
+      "claude",
+      "docker",
+      "homelab",
+      "llm",
+      "news",
+      "python",
+      "rss",
+      "self-hosted"
+    ],
+    "readme_absorbed": "kevinscooke/the-ledger"
   }
 ]

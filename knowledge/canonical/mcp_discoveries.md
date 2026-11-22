@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1204 total, 356 validados free, 848 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1211 total, 360 validados free, 851 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1204
+version: 1211
 createdAt: 2026-11-22
 updatedAt: 2026-11-22
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-22T04:43:22.965Z
-> Total descoberto: 1204 | Validados (HTTP 200 + free): 356 | Pulados (licença paga/enterprise): 848
+> Última execução: 2026-11-22T18:57:07.775Z
+> Total descoberto: 1211 | Validados (HTTP 200 + free): 360 | Pulados (licença paga/enterprise): 851
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -377,6 +377,10 @@ updatedAt: 2026-11-22
 | Kevin29Johnson/PaperGraph | Python | 0 | MIT | citation-graph, knowledge-graph, mcp | [repo](https://github.com/Kevin29Johnson/PaperGraph) |
 | Dami2ky/atrail | Python | 0 | MIT |  | [repo](https://github.com/Dami2ky/atrail) |
 | nobrerafael521-svg/insightlens | Python | 0 | MIT | data-analysis, nlp, pandas | [repo](https://github.com/nobrerafael521-svg/insightlens) |
+| Koalalive/neurodaily-topic-profile | Python | 1 | Apache-2.0 | academic-research, agent-skill, claude-skill | [repo](https://github.com/Koalalive/neurodaily-topic-profile) |
+| balazsarany9619/brain-starter-kit | Python | 0 | MIT | ai-agents, claude-code, claude-md | [repo](https://github.com/balazsarany9619/brain-starter-kit) |
+| Karvy-Singh/Reddit-Sentiment | Python | 0 | MIT |  | [repo](https://github.com/Karvy-Singh/Reddit-Sentiment) |
+| kevinscooke/the-ledger | Python | 0 | MIT | anthropic, claude, docker | [repo](https://github.com/kevinscooke/the-ledger) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1228,6 +1232,9 @@ updatedAt: 2026-11-22
 - manojrevenkar12-web/resolution-lift-lab — licença: unknown
 - tridibn1o/olist-ecommerce-sales-analysis — licença: unknown
 - bryansullins/odd-news — licença: unknown
+- ahmedkam997/scimed-srma-scout-cloud — licença: unknown
+- theguysaccount/audiosage-podcaster-dashboards — licença: NOASSERTION
+- zerobun0/sift — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 

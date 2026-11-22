@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-22T18:57:03.553Z | Koalalive/neurodaily-topic-profile | 1 | Apache-2.0 | 200 |
+
+| 2026-11-22T18:57:05.216Z | balazsarany9619/brain-starter-kit | 0 | MIT | 200 |
+
+| 2026-11-22T18:57:06.852Z | Karvy-Singh/Reddit-Sentiment | 0 | MIT | 200 |
+
+| 2026-11-22T18:57:07.773Z | kevinscooke/the-ledger | 0 | MIT | 200 |
+
 | 2026-11-22T04:43:20.516Z | Dami2ky/atrail | 0 | MIT | 200 |
 
 | 2026-11-22T04:43:22.228Z | nobrerafael521-svg/insightlens | 0 | MIT | 200 |
