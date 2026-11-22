@@ -17244,5 +17244,66 @@
     "validated_at": "2026-11-21T18:36:16.058Z",
     "topics": [],
     "readme_absorbed": "manojrevenkar12-web/resolution-lift-lab"
+  },
+  {
+    "id": 1467190432,
+    "full_name": "Dami2ky/atrail",
+    "url": "https://github.com/Dami2ky/atrail",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-22T04:43:20.516Z",
+    "topics": [],
+    "readme_absorbed": "Dami2ky/atrail"
+  },
+  {
+    "id": 1467141534,
+    "full_name": "tridibn1o/olist-ecommerce-sales-analysis",
+    "url": "https://github.com/tridibn1o/olist-ecommerce-sales-analysis",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-22T04:43:21.348Z",
+    "topics": [],
+    "readme_absorbed": "tridibn1o/olist-ecommerce-sales-analysis"
+  },
+  {
+    "id": 1467171587,
+    "full_name": "nobrerafael521-svg/insightlens",
+    "url": "https://github.com/nobrerafael521-svg/insightlens",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-22T04:43:22.228Z",
+    "topics": [
+      "data-analysis",
+      "nlp",
+      "pandas",
+      "python",
+      "sentiment-analysis",
+      "spacy",
+      "streamlit",
+      "topic-modeling"
+    ],
+    "readme_absorbed": "nobrerafael521-svg/insightlens"
+  },
+  {
+    "id": 1467163453,
+    "full_name": "bryansullins/odd-news",
+    "url": "https://github.com/bryansullins/odd-news",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-22T04:43:22.963Z",
+    "topics": [],
+    "readme_absorbed": "bryansullins/odd-news"
   }
 ]

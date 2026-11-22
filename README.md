@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-22T04:43:20.516Z | Dami2ky/atrail | 0 | MIT | 200 |
+
+| 2026-11-22T04:43:22.228Z | nobrerafael521-svg/insightlens | 0 | MIT | 200 |
+
 | 2026-11-21T18:36:15.078Z | Kevin29Johnson/PaperGraph | 0 | MIT | 200 |
 
 | 2026-11-21T05:16:57.481Z | jdubb118/study-loop | 0 | MIT | 200 |

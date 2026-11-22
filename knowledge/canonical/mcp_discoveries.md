@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1200 total, 354 validados free, 846 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1204 total, 356 validados free, 848 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1200
-createdAt: 2026-11-21
-updatedAt: 2026-11-21
+version: 1204
+createdAt: 2026-11-22
+updatedAt: 2026-11-22
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-21T18:36:16.060Z
-> Total descoberto: 1200 | Validados (HTTP 200 + free): 354 | Pulados (licença paga/enterprise): 846
+> Última execução: 2026-11-22T04:43:22.965Z
+> Total descoberto: 1204 | Validados (HTTP 200 + free): 356 | Pulados (licença paga/enterprise): 848
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -375,6 +375,8 @@ updatedAt: 2026-11-21
 | Rahilyw/foundry-iq-agentic-retrieval | Python | 0 | MIT | agentic-retrieval, azure-ai-search, foundry-iq | [repo](https://github.com/Rahilyw/foundry-iq-agentic-retrieval) |
 | jdubb118/study-loop | Python | 0 | MIT |  | [repo](https://github.com/jdubb118/study-loop) |
 | Kevin29Johnson/PaperGraph | Python | 0 | MIT | citation-graph, knowledge-graph, mcp | [repo](https://github.com/Kevin29Johnson/PaperGraph) |
+| Dami2ky/atrail | Python | 0 | MIT |  | [repo](https://github.com/Dami2ky/atrail) |
+| nobrerafael521-svg/insightlens | Python | 0 | MIT | data-analysis, nlp, pandas | [repo](https://github.com/nobrerafael521-svg/insightlens) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1224,6 +1226,8 @@ updatedAt: 2026-11-21
 - parvashah29/Nexus-Agents — licença: unknown
 - OnetrueMaple/flashcard-viewer — licença: unknown
 - manojrevenkar12-web/resolution-lift-lab — licença: unknown
+- tridibn1o/olist-ecommerce-sales-analysis — licença: unknown
+- bryansullins/odd-news — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
