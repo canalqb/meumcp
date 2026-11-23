@@ -17490,5 +17490,267 @@
       "relate"
     ],
     "readme_absorbed": "barahona06/contexto-geek"
+  },
+  {
+    "id": 1469393105,
+    "full_name": "victorfurtaddo/topicos-especiais",
+    "url": "https://github.com/victorfurtaddo/topicos-especiais",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:48.973Z",
+    "topics": [],
+    "readme_absorbed": "victorfurtaddo/topicos-especiais"
+  },
+  {
+    "id": 1469263436,
+    "full_name": "jarcokpahang5-ai/solmara-first-thought",
+    "url": "https://github.com/jarcokpahang5-ai/solmara-first-thought",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:50.293Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "jarcokpahang5-ai/solmara-first-thought"
+  },
+  {
+    "id": 1469384564,
+    "full_name": "kd0171/310_AdvancedAndHotTopics_Thesis",
+    "url": "https://github.com/kd0171/310_AdvancedAndHotTopics_Thesis",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:51.598Z",
+    "topics": [],
+    "readme_absorbed": "kd0171/310_AdvancedAndHotTopics_Thesis"
+  },
+  {
+    "id": 1469389535,
+    "full_name": "lolipo8988-bot/one-line-laugh",
+    "url": "https://github.com/lolipo8988-bot/one-line-laugh",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:53.055Z",
+    "topics": [
+      "makefun"
+    ],
+    "readme_absorbed": "lolipo8988-bot/one-line-laugh"
+  },
+  {
+    "id": 1469010836,
+    "full_name": "janschachtschabel/topic-page-reranking",
+    "url": "https://github.com/janschachtschabel/topic-page-reranking",
+    "language": "Python",
+    "stars": 0,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:54.431Z",
+    "topics": [],
+    "readme_absorbed": "janschachtschabel/topic-page-reranking"
+  },
+  {
+    "id": 1469287642,
+    "full_name": "intemu2/one-line-laugh",
+    "url": "https://github.com/intemu2/one-line-laugh",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:55.666Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "intemu2/one-line-laugh"
+  },
+  {
+    "id": 1469365010,
+    "full_name": "feymarl2/one-line-laugh-20261124",
+    "url": "https://github.com/feymarl2/one-line-laugh-20261124",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:56.760Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "feymarl2/one-line-laugh-20261124"
+  },
+  {
+    "id": 1469366377,
+    "full_name": "AndryXSad/one-line-laugh-20261124",
+    "url": "https://github.com/AndryXSad/one-line-laugh-20261124",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:57.766Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "AndryXSad/one-line-laugh-20261124"
+  },
+  {
+    "id": 1469337266,
+    "full_name": "adzinsyariif/one-line-laugh",
+    "url": "https://github.com/adzinsyariif/one-line-laugh",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:15:58.954Z",
+    "topics": [
+      "makefun"
+    ],
+    "readme_absorbed": "adzinsyariif/one-line-laugh"
+  },
+  {
+    "id": 1469333652,
+    "full_name": "Rezzrizz25/one-line-laugh",
+    "url": "https://github.com/Rezzrizz25/one-line-laugh",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:00.210Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "Rezzrizz25/one-line-laugh"
+  },
+  {
+    "id": 1469337410,
+    "full_name": "DiamonDinoia/skill-learn-anything",
+    "url": "https://github.com/DiamonDinoia/skill-learn-anything",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:01.623Z",
+    "topics": [],
+    "readme_absorbed": "DiamonDinoia/skill-learn-anything"
+  },
+  {
+    "id": 1469274758,
+    "full_name": "shadmaniahrar/medical-encyclopedia-rag-chatbot",
+    "url": "https://github.com/shadmaniahrar/medical-encyclopedia-rag-chatbot",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:03.076Z",
+    "topics": [],
+    "readme_absorbed": "shadmaniahrar/medical-encyclopedia-rag-chatbot"
+  },
+  {
+    "id": 1469332281,
+    "full_name": "subastian1998/u-ronigrv-the-one-line-laugh-7ccca46f",
+    "url": "https://github.com/subastian1998/u-ronigrv-the-one-line-laugh-7ccca46f",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:04.235Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "subastian1998/u-ronigrv-the-one-line-laugh-7ccca46f"
+  },
+  {
+    "id": 1469274712,
+    "full_name": "axlisaak/Actvidad-3-y-4-topicos-finnorte",
+    "url": "https://github.com/axlisaak/Actvidad-3-y-4-topicos-finnorte",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:05.404Z",
+    "topics": [],
+    "readme_absorbed": "axlisaak/Actvidad-3-y-4-topicos-finnorte"
+  },
+  {
+    "id": 1469329529,
+    "full_name": "jadmir/sistema_topico_utp_back_2026",
+    "url": "https://github.com/jadmir/sistema_topico_utp_back_2026",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:06.436Z",
+    "topics": [],
+    "readme_absorbed": "jadmir/sistema_topico_utp_back_2026"
+  },
+  {
+    "id": 1469330913,
+    "full_name": "Joshuaosunlakin3433/brainspark",
+    "url": "https://github.com/Joshuaosunlakin3433/brainspark",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:07.362Z",
+    "topics": [
+      "lucide-icons",
+      "nextjs",
+      "sanity",
+      "sanity-io",
+      "sanity-studio",
+      "tailwindcss"
+    ],
+    "readme_absorbed": "Joshuaosunlakin3433/brainspark"
+  },
+  {
+    "id": 1469117368,
+    "full_name": "Parad0x-Labs/vool-browser",
+    "url": "https://github.com/Parad0x-Labs/vool-browser",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-23T23:16:08.541Z",
+    "topics": [],
+    "readme_absorbed": "Parad0x-Labs/vool-browser"
   }
 ]

@@ -302,6 +302,18 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-23T23:15:50.293Z | jarcokpahang5-ai/solmara-first-thought | 0 | MIT | 200 |
+
+| 2026-11-23T23:15:54.431Z | janschachtschabel/topic-page-reranking | 0 | Apache-2.0 | 200 |
+
+| 2026-11-23T23:15:55.666Z | intemu2/one-line-laugh | 0 | MIT | 200 |
+
+| 2026-11-23T23:15:56.760Z | feymarl2/one-line-laugh-20261124 | 0 | MIT | 200 |
+
+| 2026-11-23T23:16:01.623Z | DiamonDinoia/skill-learn-anything | 0 | MIT | 200 |
+
+| 2026-11-23T23:16:08.541Z | Parad0x-Labs/vool-browser | 0 | MIT | 200 |
+
 | 2026-11-23T05:21:25.383Z | oscarpoudel/mujoco-learning | 0 | MIT | 200 |
 
 | 2026-11-23T05:21:27.246Z | barahona06/contexto-geek | 0 | Apache-2.0 | 200 |

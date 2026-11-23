@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1215 total, 362 validados free, 853 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1232 total, 368 validados free, 864 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1215
+version: 1232
 createdAt: 2026-11-23
 updatedAt: 2026-11-23
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-23T05:21:27.248Z
-> Total descoberto: 1215 | Validados (HTTP 200 + free): 362 | Pulados (licença paga/enterprise): 853
+> Última execução: 2026-11-23T23:16:08.543Z
+> Total descoberto: 1232 | Validados (HTTP 200 + free): 368 | Pulados (licença paga/enterprise): 864
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -383,6 +383,12 @@ updatedAt: 2026-11-23
 | kevinscooke/the-ledger | Python | 0 | MIT | anthropic, claude, docker | [repo](https://github.com/kevinscooke/the-ledger) |
 | oscarpoudel/mujoco-learning | Python | 0 | MIT | computer-vision, jax, mujoco | [repo](https://github.com/oscarpoudel/mujoco-learning) |
 | barahona06/contexto-geek | Python | 0 | Apache-2.0 | knowledge-graph, neo4j, python | [repo](https://github.com/barahona06/contexto-geek) |
+| jarcokpahang5-ai/solmara-first-thought | Python | 0 | MIT | ai-agents, bounties, growth | [repo](https://github.com/jarcokpahang5-ai/solmara-first-thought) |
+| janschachtschabel/topic-page-reranking | Python | 0 | Apache-2.0 |  | [repo](https://github.com/janschachtschabel/topic-page-reranking) |
+| intemu2/one-line-laugh | Python | 0 | MIT | ai-agents, bounties, growth | [repo](https://github.com/intemu2/one-line-laugh) |
+| feymarl2/one-line-laugh-20261124 | Python | 0 | MIT | ai-agents, bounties, growth | [repo](https://github.com/feymarl2/one-line-laugh-20261124) |
+| DiamonDinoia/skill-learn-anything | Python | 0 | MIT |  | [repo](https://github.com/DiamonDinoia/skill-learn-anything) |
+| Parad0x-Labs/vool-browser | Python | 0 | MIT |  | [repo](https://github.com/Parad0x-Labs/vool-browser) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1239,6 +1245,17 @@ updatedAt: 2026-11-23
 - zerobun0/sift — licença: NOASSERTION
 - kunal7123/Lecture-Lens — licença: unknown
 - AryanBV877/LANGGRAPH-WORKFLOW-BASED-AGENTIC-AI-BLOG-WRITING-AGENT- — licença: unknown
+- victorfurtaddo/topicos-especiais — licença: unknown
+- kd0171/310_AdvancedAndHotTopics_Thesis — licença: unknown
+- lolipo8988-bot/one-line-laugh — licença: NOASSERTION
+- AndryXSad/one-line-laugh-20261124 — licença: NOASSERTION
+- adzinsyariif/one-line-laugh — licença: NOASSERTION
+- Rezzrizz25/one-line-laugh — licença: NOASSERTION
+- shadmaniahrar/medical-encyclopedia-rag-chatbot — licença: unknown
+- subastian1998/u-ronigrv-the-one-line-laugh-7ccca46f — licença: NOASSERTION
+- axlisaak/Actvidad-3-y-4-topicos-finnorte — licença: unknown
+- jadmir/sistema_topico_utp_back_2026 — licença: unknown
+- Joshuaosunlakin3433/brainspark — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
