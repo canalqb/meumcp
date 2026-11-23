@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-23T05:21:25.383Z | oscarpoudel/mujoco-learning | 0 | MIT | 200 |
+
+| 2026-11-23T05:21:27.246Z | barahona06/contexto-geek | 0 | Apache-2.0 | 200 |
+
 | 2026-11-22T18:57:03.553Z | Koalalive/neurodaily-topic-profile | 1 | Apache-2.0 | 200 |
 
 | 2026-11-22T18:57:05.216Z | balazsarany9619/brain-starter-kit | 0 | MIT | 200 |
