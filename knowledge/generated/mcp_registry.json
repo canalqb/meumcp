@@ -17905,5 +17905,120 @@
     "validated_at": "2026-11-24T08:00:42.652Z",
     "topics": [],
     "readme_absorbed": "rgeorge-gt/dsan6000-final-project"
+  },
+  {
+    "id": 1470866089,
+    "full_name": "mohamed-soubhi/QuranTopicsGDB",
+    "url": "https://github.com/mohamed-soubhi/QuranTopicsGDB",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:22.122Z",
+    "topics": [],
+    "readme_absorbed": "mohamed-soubhi/QuranTopicsGDB"
+  },
+  {
+    "id": 1470484397,
+    "full_name": "etehofk1-ops/desktop-session-namer",
+    "url": "https://github.com/etehofk1-ops/desktop-session-namer",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:23.384Z",
+    "topics": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-desktop"
+    ],
+    "readme_absorbed": "etehofk1-ops/desktop-session-namer"
+  },
+  {
+    "id": 1470850765,
+    "full_name": "yer-r/cs4250-projectgroup3",
+    "url": "https://github.com/yer-r/cs4250-projectgroup3",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:24.520Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1470792867,
+    "full_name": "tanyoganand-ops/edexcel-gcse-maths-1ma1-question-bank-index",
+    "url": "https://github.com/tanyoganand-ops/edexcel-gcse-maths-1ma1-question-bank-index",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:25.456Z",
+    "topics": [],
+    "readme_absorbed": "tanyoganand-ops/edexcel-gcse-maths-1ma1-question-bank-index"
+  },
+  {
+    "id": 1470691451,
+    "full_name": "rachelhong-marketing/b2b-content-strategy-assistant",
+    "url": "https://github.com/rachelhong-marketing/b2b-content-strategy-assistant",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:26.460Z",
+    "topics": [],
+    "readme_absorbed": "rachelhong-marketing/b2b-content-strategy-assistant"
+  },
+  {
+    "id": 1470719775,
+    "full_name": "liviuxyz-ctrl/chaptermind",
+    "url": "https://github.com/liviuxyz-ctrl/chaptermind",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:27.737Z",
+    "topics": [
+      "ai",
+      "chrome-extension",
+      "knowledge-base",
+      "sponsorblock",
+      "typescript",
+      "youtube"
+    ],
+    "readme_absorbed": "liviuxyz-ctrl/chaptermind"
+  },
+  {
+    "id": 1470772618,
+    "full_name": "bkalbaraq/arabic-translationese-detector",
+    "url": "https://github.com/bkalbaraq/arabic-translationese-detector",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:28.697Z",
+    "topics": [],
+    "readme_absorbed": "bkalbaraq/arabic-translationese-detector"
+  },
+  {
+    "id": 1470043974,
+    "full_name": "VaggOpy/stock-strategy-tools",
+    "url": "https://github.com/VaggOpy/stock-strategy-tools",
+    "language": "Python",
+    "stars": 1,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T21:51:29.674Z",
+    "topics": [],
+    "readme_absorbed": "VaggOpy/stock-strategy-tools"
   }
 ]

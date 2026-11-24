@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1241 total, 372 validados free, 869 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1249 total, 376 validados free, 873 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1241
+version: 1249
 createdAt: 2026-11-24
 updatedAt: 2026-11-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-24T08:00:42.654Z
-> Total descoberto: 1241 | Validados (HTTP 200 + free): 372 | Pulados (licença paga/enterprise): 869
+> Última execução: 2026-11-24T21:51:29.676Z
+> Total descoberto: 1249 | Validados (HTTP 200 + free): 376 | Pulados (licença paga/enterprise): 873
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -393,6 +393,10 @@ updatedAt: 2026-11-24
 | Michaelis105/navi-whisper | Python | 0 | MIT |  | [repo](https://github.com/Michaelis105/navi-whisper) |
 | deeppatel99/shortpilot | Python | 0 | MIT | agent-skills, ai-video, claude-code | [repo](https://github.com/deeppatel99/shortpilot) |
 | red-xz/shorts-factory | Python | 0 | MIT | captions, faceless-youtube, ffmpeg | [repo](https://github.com/red-xz/shorts-factory) |
+| etehofk1-ops/desktop-session-namer | TypeScript | 0 | MIT | claude-code, claude-code-plugin, claude-desktop | [repo](https://github.com/etehofk1-ops/desktop-session-namer) |
+| rachelhong-marketing/b2b-content-strategy-assistant | Python | 0 | MIT |  | [repo](https://github.com/rachelhong-marketing/b2b-content-strategy-assistant) |
+| liviuxyz-ctrl/chaptermind | TypeScript | 0 | MIT | ai, chrome-extension, knowledge-base | [repo](https://github.com/liviuxyz-ctrl/chaptermind) |
+| bkalbaraq/arabic-translationese-detector | Python | 0 | MIT |  | [repo](https://github.com/bkalbaraq/arabic-translationese-detector) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1265,6 +1269,10 @@ updatedAt: 2026-11-24
 - fmfalgun/gate-library — licença: unknown
 - leekun-poko/one-line-laugh — licença: NOASSERTION
 - rgeorge-gt/dsan6000-final-project — licença: unknown
+- mohamed-soubhi/QuranTopicsGDB — licença: unknown
+- yer-r/cs4250-projectgroup3 — licença: unknown
+- tanyoganand-ops/edexcel-gcse-maths-1ma1-question-bank-index — licença: unknown
+- VaggOpy/stock-strategy-tools — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

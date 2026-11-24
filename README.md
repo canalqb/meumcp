@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-24T21:51:23.384Z | etehofk1-ops/desktop-session-namer | 0 | MIT | 200 |
+
+| 2026-11-24T21:51:26.460Z | rachelhong-marketing/b2b-content-strategy-assistant | 0 | MIT | 200 |
+
+| 2026-11-24T21:51:27.737Z | liviuxyz-ctrl/chaptermind | 0 | MIT | 200 |
+
+| 2026-11-24T21:51:28.697Z | bkalbaraq/arabic-translationese-detector | 0 | MIT | 200 |
+
 | 2026-11-24T08:00:36.604Z | VishalSanu/multi-agent-deep-researcher | 0 | MIT | 200 |
 
 | 2026-11-24T08:00:39.764Z | Michaelis105/navi-whisper | 0 | MIT | 200 |
