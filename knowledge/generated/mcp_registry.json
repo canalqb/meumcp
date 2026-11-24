@@ -17752,5 +17752,158 @@
     "validated_at": "2026-11-23T23:16:08.541Z",
     "topics": [],
     "readme_absorbed": "Parad0x-Labs/vool-browser"
+  },
+  {
+    "id": 1469817669,
+    "full_name": "taniarestu/one-line-laugh",
+    "url": "https://github.com/taniarestu/one-line-laugh",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:34.453Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "taniarestu/one-line-laugh"
+  },
+  {
+    "id": 1469788463,
+    "full_name": "gargarnav2004-hash/app-review-analyser",
+    "url": "https://github.com/gargarnav2004-hash/app-review-analyser",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:35.664Z",
+    "topics": [],
+    "readme_absorbed": "gargarnav2004-hash/app-review-analyser"
+  },
+  {
+    "id": 1469642023,
+    "full_name": "VishalSanu/multi-agent-deep-researcher",
+    "url": "https://github.com/VishalSanu/multi-agent-deep-researcher",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:36.604Z",
+    "topics": [],
+    "readme_absorbed": "VishalSanu/multi-agent-deep-researcher"
+  },
+  {
+    "id": 1469778063,
+    "full_name": "fmfalgun/gate-library",
+    "url": "https://github.com/fmfalgun/gate-library",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:37.574Z",
+    "topics": [
+      "gate",
+      "github-pages",
+      "json-api",
+      "study-notes"
+    ],
+    "readme_absorbed": "fmfalgun/gate-library"
+  },
+  {
+    "id": 1469767983,
+    "full_name": "leekun-poko/one-line-laugh",
+    "url": "https://github.com/leekun-poko/one-line-laugh",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:38.623Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "leekun-poko/one-line-laugh"
+  },
+  {
+    "id": 1469641462,
+    "full_name": "Michaelis105/navi-whisper",
+    "url": "https://github.com/Michaelis105/navi-whisper",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:39.764Z",
+    "topics": [],
+    "readme_absorbed": "Michaelis105/navi-whisper"
+  },
+  {
+    "id": 1469699483,
+    "full_name": "deeppatel99/shortpilot",
+    "url": "https://github.com/deeppatel99/shortpilot",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:40.673Z",
+    "topics": [
+      "agent-skills",
+      "ai-video",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "content-creation",
+      "faceless",
+      "instagram-reels",
+      "python",
+      "telegram-bot",
+      "text-to-speech",
+      "video-automation",
+      "youtube-shorts"
+    ],
+    "readme_absorbed": "deeppatel99/shortpilot"
+  },
+  {
+    "id": 1469750151,
+    "full_name": "red-xz/shorts-factory",
+    "url": "https://github.com/red-xz/shorts-factory",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:41.598Z",
+    "topics": [
+      "captions",
+      "faceless-youtube",
+      "ffmpeg",
+      "tts",
+      "video-automation",
+      "youtube-shorts"
+    ],
+    "readme_absorbed": "red-xz/shorts-factory"
+  },
+  {
+    "id": 1469559135,
+    "full_name": "rgeorge-gt/dsan6000-final-project",
+    "url": "https://github.com/rgeorge-gt/dsan6000-final-project",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-24T08:00:42.652Z",
+    "topics": [],
+    "readme_absorbed": "rgeorge-gt/dsan6000-final-project"
   }
 ]

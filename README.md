@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-24T08:00:36.604Z | VishalSanu/multi-agent-deep-researcher | 0 | MIT | 200 |
+
+| 2026-11-24T08:00:39.764Z | Michaelis105/navi-whisper | 0 | MIT | 200 |
+
+| 2026-11-24T08:00:40.673Z | deeppatel99/shortpilot | 0 | MIT | 200 |
+
+| 2026-11-24T08:00:41.598Z | red-xz/shorts-factory | 0 | MIT | 200 |
+
 | 2026-11-23T23:15:50.293Z | jarcokpahang5-ai/solmara-first-thought | 0 | MIT | 200 |
 
 | 2026-11-23T23:15:54.431Z | janschachtschabel/topic-page-reranking | 0 | Apache-2.0 | 200 |

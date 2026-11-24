@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1232 total, 368 validados free, 864 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1241 total, 372 validados free, 869 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1232
-createdAt: 2026-11-23
-updatedAt: 2026-11-23
+version: 1241
+createdAt: 2026-11-24
+updatedAt: 2026-11-24
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-23T23:16:08.543Z
-> Total descoberto: 1232 | Validados (HTTP 200 + free): 368 | Pulados (licença paga/enterprise): 864
+> Última execução: 2026-11-24T08:00:42.654Z
+> Total descoberto: 1241 | Validados (HTTP 200 + free): 372 | Pulados (licença paga/enterprise): 869
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -389,6 +389,10 @@ updatedAt: 2026-11-23
 | feymarl2/one-line-laugh-20261124 | Python | 0 | MIT | ai-agents, bounties, growth | [repo](https://github.com/feymarl2/one-line-laugh-20261124) |
 | DiamonDinoia/skill-learn-anything | Python | 0 | MIT |  | [repo](https://github.com/DiamonDinoia/skill-learn-anything) |
 | Parad0x-Labs/vool-browser | Python | 0 | MIT |  | [repo](https://github.com/Parad0x-Labs/vool-browser) |
+| VishalSanu/multi-agent-deep-researcher | Python | 0 | MIT |  | [repo](https://github.com/VishalSanu/multi-agent-deep-researcher) |
+| Michaelis105/navi-whisper | Python | 0 | MIT |  | [repo](https://github.com/Michaelis105/navi-whisper) |
+| deeppatel99/shortpilot | Python | 0 | MIT | agent-skills, ai-video, claude-code | [repo](https://github.com/deeppatel99/shortpilot) |
+| red-xz/shorts-factory | Python | 0 | MIT | captions, faceless-youtube, ffmpeg | [repo](https://github.com/red-xz/shorts-factory) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1256,6 +1260,11 @@ updatedAt: 2026-11-23
 - axlisaak/Actvidad-3-y-4-topicos-finnorte — licença: unknown
 - jadmir/sistema_topico_utp_back_2026 — licença: unknown
 - Joshuaosunlakin3433/brainspark — licença: unknown
+- taniarestu/one-line-laugh — licença: NOASSERTION
+- gargarnav2004-hash/app-review-analyser — licença: unknown
+- fmfalgun/gate-library — licença: unknown
+- leekun-poko/one-line-laugh — licença: NOASSERTION
+- rgeorge-gt/dsan6000-final-project — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
