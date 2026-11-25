@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1249 total, 376 validados free, 873 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1254 total, 377 validados free, 877 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1249
-createdAt: 2026-11-24
-updatedAt: 2026-11-24
+version: 1254
+createdAt: 2026-11-25
+updatedAt: 2026-11-25
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-24T21:51:29.676Z
-> Total descoberto: 1249 | Validados (HTTP 200 + free): 376 | Pulados (licença paga/enterprise): 873
+> Última execução: 2026-11-25T06:39:10.348Z
+> Total descoberto: 1254 | Validados (HTTP 200 + free): 377 | Pulados (licença paga/enterprise): 877
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -397,6 +397,7 @@ updatedAt: 2026-11-24
 | rachelhong-marketing/b2b-content-strategy-assistant | Python | 0 | MIT |  | [repo](https://github.com/rachelhong-marketing/b2b-content-strategy-assistant) |
 | liviuxyz-ctrl/chaptermind | TypeScript | 0 | MIT | ai, chrome-extension, knowledge-base | [repo](https://github.com/liviuxyz-ctrl/chaptermind) |
 | bkalbaraq/arabic-translationese-detector | Python | 0 | MIT |  | [repo](https://github.com/bkalbaraq/arabic-translationese-detector) |
+| rp4ri/open-hanademi | TypeScript | 0 | MIT |  | [repo](https://github.com/rp4ri/open-hanademi) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1273,6 +1274,10 @@ updatedAt: 2026-11-24
 - yer-r/cs4250-projectgroup3 — licença: unknown
 - tanyoganand-ops/edexcel-gcse-maths-1ma1-question-bank-index — licença: unknown
 - VaggOpy/stock-strategy-tools — licença: unknown
+- JiguDev/wal-ai-evaluation — licença: unknown
+- Anandhuvimalan/data-collection-skill — licença: unknown
+- JEFF206FFF/Proyecto_senales — licença: unknown
+- pg2342-hub/service-desk-gap-finder — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

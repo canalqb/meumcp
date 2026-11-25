@@ -302,6 +302,8 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-25T06:39:06.374Z | rp4ri/open-hanademi | 0 | MIT | 200 |
+
 | 2026-11-24T21:51:23.384Z | etehofk1-ops/desktop-session-namer | 0 | MIT | 200 |
 
 | 2026-11-24T21:51:26.460Z | rachelhong-marketing/b2b-content-strategy-assistant | 0 | MIT | 200 |
