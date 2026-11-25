@@ -302,6 +302,16 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-25T20:58:00.169Z | Really-y/verified-research | 0 | Apache-2.0 | 200 |
+
+| 2026-11-25T20:58:02.738Z | hardikgoel7/nse-backtest-risk-framework | 0 | MIT | 200 |
+
+| 2026-11-25T20:58:05.719Z | Attilio-Di-Vicino/organize-skill | 0 | MIT | 200 |
+
+| 2026-11-25T20:58:07.506Z | PaiSuryaDarshan/research-agent | 0 | MIT | 200 |
+
+| 2026-11-25T20:58:09.565Z | MrMixaDj32/llm-assistant-multilevel-guard | 0 | MIT | 200 |
+
 | 2026-11-25T06:39:06.374Z | rp4ri/open-hanademi | 0 | MIT | 200 |
 
 | 2026-11-24T21:51:23.384Z | etehofk1-ops/desktop-session-namer | 0 | MIT | 200 |

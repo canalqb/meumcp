@@ -18085,5 +18085,183 @@
     "validated_at": "2026-11-25T06:39:10.345Z",
     "topics": [],
     "readme_absorbed": "pg2342-hub/service-desk-gap-finder"
+  },
+  {
+    "id": 1472330946,
+    "full_name": "Really-y/verified-research",
+    "url": "https://github.com/Really-y/verified-research",
+    "language": "Python",
+    "stars": 0,
+    "license": "Apache-2.0",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:00.169Z",
+    "topics": [
+      "claude-code",
+      "claude-code-plugin",
+      "fact-checking",
+      "market-research",
+      "research"
+    ],
+    "readme_absorbed": "Really-y/verified-research"
+  },
+  {
+    "id": 1472328860,
+    "full_name": "manmdom/gorge-free-research",
+    "url": "https://github.com/manmdom/gorge-free-research",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:01.096Z",
+    "topics": [],
+    "readme_absorbed": "manmdom/gorge-free-research"
+  },
+  {
+    "id": 1472319166,
+    "full_name": "glennm292/all-chat-is-context",
+    "url": "https://github.com/glennm292/all-chat-is-context",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:01.860Z",
+    "topics": [
+      "minds-template",
+      "skill"
+    ],
+    "readme_absorbed": "glennm292/all-chat-is-context"
+  },
+  {
+    "id": 1472302266,
+    "full_name": "hardikgoel7/nse-backtest-risk-framework",
+    "url": "https://github.com/hardikgoel7/nse-backtest-risk-framework",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:02.738Z",
+    "topics": [],
+    "readme_absorbed": "hardikgoel7/nse-backtest-risk-framework"
+  },
+  {
+    "id": 1472147534,
+    "full_name": "TGRGIT/us-legal-metadata",
+    "url": "https://github.com/TGRGIT/us-legal-metadata",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:03.667Z",
+    "topics": [],
+    "readme_absorbed": "TGRGIT/us-legal-metadata"
+  },
+  {
+    "id": 1472291021,
+    "full_name": "adityaks45/DBMS-project-crowdfunding-modal",
+    "url": "https://github.com/adityaks45/DBMS-project-crowdfunding-modal",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:04.645Z",
+    "topics": [],
+    "readme_absorbed": "adityaks45/DBMS-project-crowdfunding-modal"
+  },
+  {
+    "id": 1472289222,
+    "full_name": "Attilio-Di-Vicino/organize-skill",
+    "url": "https://github.com/Attilio-Di-Vicino/organize-skill",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:05.719Z",
+    "topics": [
+      "claude-code",
+      "claude-skill",
+      "cross-platform",
+      "file-organizer",
+      "productivity"
+    ],
+    "readme_absorbed": "Attilio-Di-Vicino/organize-skill"
+  },
+  {
+    "id": 1472287252,
+    "full_name": "n3yne/news-feeds",
+    "url": "https://github.com/n3yne/news-feeds",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:06.588Z",
+    "topics": [],
+    "readme_absorbed": "n3yne/news-feeds"
+  },
+  {
+    "id": 1471786417,
+    "full_name": "PaiSuryaDarshan/research-agent",
+    "url": "https://github.com/PaiSuryaDarshan/research-agent",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:07.506Z",
+    "topics": [],
+    "readme_absorbed": "PaiSuryaDarshan/research-agent"
+  },
+  {
+    "id": 1472045188,
+    "full_name": "andrewcpeltier/topic-tracker",
+    "url": "https://github.com/andrewcpeltier/topic-tracker",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:08.549Z",
+    "topics": [],
+    "readme_absorbed": "andrewcpeltier/topic-tracker"
+  },
+  {
+    "id": 1472250757,
+    "full_name": "MrMixaDj32/llm-assistant-multilevel-guard",
+    "url": "https://github.com/MrMixaDj32/llm-assistant-multilevel-guard",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:09.565Z",
+    "topics": [
+      "guardrails",
+      "jailbreak",
+      "llm-security",
+      "prompt-injection",
+      "russian",
+      "scikit-learn"
+    ],
+    "readme_absorbed": "MrMixaDj32/llm-assistant-multilevel-guard"
+  },
+  {
+    "id": 1472058662,
+    "full_name": "JeremyParker/topical-connections",
+    "url": "https://github.com/JeremyParker/topical-connections",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-25T20:58:10.699Z",
+    "topics": [],
+    "readme_absorbed": "JeremyParker/topical-connections"
   }
 ]

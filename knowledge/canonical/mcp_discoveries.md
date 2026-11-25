@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1254 total, 377 validados free, 877 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1266 total, 382 validados free, 884 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1254
+version: 1266
 createdAt: 2026-11-25
 updatedAt: 2026-11-25
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-25T06:39:10.348Z
-> Total descoberto: 1254 | Validados (HTTP 200 + free): 377 | Pulados (licença paga/enterprise): 877
+> Última execução: 2026-11-25T20:58:10.702Z
+> Total descoberto: 1266 | Validados (HTTP 200 + free): 382 | Pulados (licença paga/enterprise): 884
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -398,6 +398,11 @@ updatedAt: 2026-11-25
 | liviuxyz-ctrl/chaptermind | TypeScript | 0 | MIT | ai, chrome-extension, knowledge-base | [repo](https://github.com/liviuxyz-ctrl/chaptermind) |
 | bkalbaraq/arabic-translationese-detector | Python | 0 | MIT |  | [repo](https://github.com/bkalbaraq/arabic-translationese-detector) |
 | rp4ri/open-hanademi | TypeScript | 0 | MIT |  | [repo](https://github.com/rp4ri/open-hanademi) |
+| Really-y/verified-research | Python | 0 | Apache-2.0 | claude-code, claude-code-plugin, fact-checking | [repo](https://github.com/Really-y/verified-research) |
+| hardikgoel7/nse-backtest-risk-framework | Python | 0 | MIT |  | [repo](https://github.com/hardikgoel7/nse-backtest-risk-framework) |
+| Attilio-Di-Vicino/organize-skill | Python | 0 | MIT | claude-code, claude-skill, cross-platform | [repo](https://github.com/Attilio-Di-Vicino/organize-skill) |
+| PaiSuryaDarshan/research-agent | Python | 0 | MIT |  | [repo](https://github.com/PaiSuryaDarshan/research-agent) |
+| MrMixaDj32/llm-assistant-multilevel-guard | Python | 0 | MIT | guardrails, jailbreak, llm-security | [repo](https://github.com/MrMixaDj32/llm-assistant-multilevel-guard) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1278,6 +1283,13 @@ updatedAt: 2026-11-25
 - Anandhuvimalan/data-collection-skill — licença: unknown
 - JEFF206FFF/Proyecto_senales — licença: unknown
 - pg2342-hub/service-desk-gap-finder — licença: unknown
+- manmdom/gorge-free-research — licença: unknown
+- glennm292/all-chat-is-context — licença: unknown
+- TGRGIT/us-legal-metadata — licença: unknown
+- adityaks45/DBMS-project-crowdfunding-modal — licença: unknown
+- n3yne/news-feeds — licença: unknown
+- andrewcpeltier/topic-tracker — licença: unknown
+- JeremyParker/topical-connections — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
