@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1266 total, 382 validados free, 884 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1274 total, 382 validados free, 892 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1266
-createdAt: 2026-11-25
-updatedAt: 2026-11-25
+version: 1274
+createdAt: 2026-11-26
+updatedAt: 2026-11-26
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-25T20:58:10.702Z
-> Total descoberto: 1266 | Validados (HTTP 200 + free): 382 | Pulados (licença paga/enterprise): 884
+> Última execução: 2026-11-26T06:30:23.900Z
+> Total descoberto: 1274 | Validados (HTTP 200 + free): 382 | Pulados (licença paga/enterprise): 892
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -1290,6 +1290,14 @@ updatedAt: 2026-11-25
 - n3yne/news-feeds — licença: unknown
 - andrewcpeltier/topic-tracker — licença: unknown
 - JeremyParker/topical-connections — licença: unknown
+- Mostafa-Jakboub/complaint-topic-analysis — licença: unknown
+- Ngntier/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5 — licença: NOASSERTION
+- gursamar06/image-compression-using-svd — licença: unknown
+- zetinhere/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21 — licença: NOASSERTION
+- husitopyutopo-pixel/judge-laugh-one-line — licença: NOASSERTION
+- wninop-oss/topicos-vacantes-ds — licença: unknown
+- raz-indri/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21 — licença: NOASSERTION
+- jyong1101/grail — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

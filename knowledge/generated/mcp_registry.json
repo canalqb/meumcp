@@ -18263,5 +18263,129 @@
     "validated_at": "2026-11-25T20:58:10.699Z",
     "topics": [],
     "readme_absorbed": "JeremyParker/topical-connections"
+  },
+  {
+    "id": 1472752665,
+    "full_name": "Mostafa-Jakboub/complaint-topic-analysis",
+    "url": "https://github.com/Mostafa-Jakboub/complaint-topic-analysis",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:16.854Z",
+    "topics": [],
+    "readme_absorbed": "Mostafa-Jakboub/complaint-topic-analysis"
+  },
+  {
+    "id": 1472740025,
+    "full_name": "Ngntier/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5",
+    "url": "https://github.com/Ngntier/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:17.961Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "Ngntier/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5"
+  },
+  {
+    "id": 1472714838,
+    "full_name": "gursamar06/image-compression-using-svd",
+    "url": "https://github.com/gursamar06/image-compression-using-svd",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:18.838Z",
+    "topics": [],
+    "readme_absorbed": "gursamar06/image-compression-using-svd"
+  },
+  {
+    "id": 1472654687,
+    "full_name": "zetinhere/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21",
+    "url": "https://github.com/zetinhere/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:19.771Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "zetinhere/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21"
+  },
+  {
+    "id": 1472701847,
+    "full_name": "husitopyutopo-pixel/judge-laugh-one-line",
+    "url": "https://github.com/husitopyutopo-pixel/judge-laugh-one-line",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:20.796Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "husitopyutopo-pixel/judge-laugh-one-line"
+  },
+  {
+    "id": 1472664473,
+    "full_name": "wninop-oss/topicos-vacantes-ds",
+    "url": "https://github.com/wninop-oss/topicos-vacantes-ds",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:21.950Z",
+    "topics": [],
+    "readme_absorbed": "wninop-oss/topicos-vacantes-ds"
+  },
+  {
+    "id": 1472692105,
+    "full_name": "raz-indri/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21",
+    "url": "https://github.com/raz-indri/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:23.004Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "raz-indri/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21"
+  },
+  {
+    "id": 1472642382,
+    "full_name": "jyong1101/grail",
+    "url": "https://github.com/jyong1101/grail",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T06:30:23.897Z",
+    "topics": [],
+    "readme_absorbed": "jyong1101/grail"
   }
 ]
