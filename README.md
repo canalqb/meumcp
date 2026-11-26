@@ -302,6 +302,12 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-26T20:50:38.709Z | zyecheng/agy-home-server | 0 | BSD-3-Clause | 200 |
+
+| 2026-11-26T20:50:43.212Z | MaxIIMS/Search-Info | 0 | MIT | 200 |
+
+| 2026-11-26T20:50:44.447Z | Tigapandax/judge-laugh-email-akun1 | 0 | MIT | 200 |
+
 | 2026-11-25T20:58:00.169Z | Really-y/verified-research | 0 | Apache-2.0 | 200 |
 
 | 2026-11-25T20:58:02.738Z | hardikgoel7/nse-backtest-risk-framework | 0 | MIT | 200 |

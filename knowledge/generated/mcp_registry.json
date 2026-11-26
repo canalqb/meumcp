@@ -18387,5 +18387,123 @@
     "validated_at": "2026-11-26T06:30:23.897Z",
     "topics": [],
     "readme_absorbed": "jyong1101/grail"
+  },
+  {
+    "id": 1472822382,
+    "full_name": "zyecheng/agy-home-server",
+    "url": "https://github.com/zyecheng/agy-home-server",
+    "language": "Python",
+    "stars": 0,
+    "license": "BSD-3-Clause",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:38.709Z",
+    "topics": [],
+    "readme_absorbed": "zyecheng/agy-home-server"
+  },
+  {
+    "id": 1473620893,
+    "full_name": "sheikhamir1/deep-research-agent",
+    "url": "https://github.com/sheikhamir1/deep-research-agent",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:39.897Z",
+    "topics": [],
+    "readme_absorbed": "sheikhamir1/deep-research-agent"
+  },
+  {
+    "id": 1473619920,
+    "full_name": "Nalapko67/Topic-14",
+    "url": "https://github.com/Nalapko67/Topic-14",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:41.019Z",
+    "topics": [],
+    "readme_absorbed": null
+  },
+  {
+    "id": 1473613671,
+    "full_name": "lightxa/makefun-u-email-baru-make-the-judge-laugh-in-one-line-791ccb21-varian2",
+    "url": "https://github.com/lightxa/makefun-u-email-baru-make-the-judge-laugh-in-one-line-791ccb21-varian2",
+    "language": "Python",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:42.038Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "lightxa/makefun-u-email-baru-make-the-judge-laugh-in-one-line-791ccb21-varian2"
+  },
+  {
+    "id": 1473573957,
+    "full_name": "MaxIIMS/Search-Info",
+    "url": "https://github.com/MaxIIMS/Search-Info",
+    "language": "Python",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:43.212Z",
+    "topics": [],
+    "readme_absorbed": "MaxIIMS/Search-Info"
+  },
+  {
+    "id": 1473592763,
+    "full_name": "Tigapandax/judge-laugh-email-akun1",
+    "url": "https://github.com/Tigapandax/judge-laugh-email-akun1",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "MIT",
+    "license_free": true,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:44.447Z",
+    "topics": [
+      "ai-agents",
+      "bounties",
+      "growth",
+      "makefun"
+    ],
+    "readme_absorbed": "Tigapandax/judge-laugh-email-akun1"
+  },
+  {
+    "id": 1473573880,
+    "full_name": "musikpagi2/u-coral-404-one-liner-laughs-aa872d41",
+    "url": "https://github.com/musikpagi2/u-coral-404-one-liner-laughs-aa872d41",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:45.639Z",
+    "topics": [
+      "makefun"
+    ],
+    "readme_absorbed": "musikpagi2/u-coral-404-one-liner-laughs-aa872d41"
+  },
+  {
+    "id": 1473571945,
+    "full_name": "musikpagi2/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21",
+    "url": "https://github.com/musikpagi2/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21",
+    "language": "TypeScript",
+    "stars": 0,
+    "license": "NOASSERTION",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-26T20:50:46.720Z",
+    "topics": [
+      "makefun"
+    ],
+    "readme_absorbed": "musikpagi2/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21"
   }
 ]

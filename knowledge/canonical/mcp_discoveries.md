@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1274 total, 382 validados free, 892 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1282 total, 385 validados free, 897 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1274
+version: 1282
 createdAt: 2026-11-26
 updatedAt: 2026-11-26
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-26T06:30:23.900Z
-> Total descoberto: 1274 | Validados (HTTP 200 + free): 382 | Pulados (licença paga/enterprise): 892
+> Última execução: 2026-11-26T20:50:46.723Z
+> Total descoberto: 1282 | Validados (HTTP 200 + free): 385 | Pulados (licença paga/enterprise): 897
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -403,6 +403,9 @@ updatedAt: 2026-11-26
 | Attilio-Di-Vicino/organize-skill | Python | 0 | MIT | claude-code, claude-skill, cross-platform | [repo](https://github.com/Attilio-Di-Vicino/organize-skill) |
 | PaiSuryaDarshan/research-agent | Python | 0 | MIT |  | [repo](https://github.com/PaiSuryaDarshan/research-agent) |
 | MrMixaDj32/llm-assistant-multilevel-guard | Python | 0 | MIT | guardrails, jailbreak, llm-security | [repo](https://github.com/MrMixaDj32/llm-assistant-multilevel-guard) |
+| zyecheng/agy-home-server | Python | 0 | BSD-3-Clause |  | [repo](https://github.com/zyecheng/agy-home-server) |
+| MaxIIMS/Search-Info | Python | 0 | MIT |  | [repo](https://github.com/MaxIIMS/Search-Info) |
+| Tigapandax/judge-laugh-email-akun1 | TypeScript | 0 | MIT | ai-agents, bounties, growth | [repo](https://github.com/Tigapandax/judge-laugh-email-akun1) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1298,6 +1301,11 @@ updatedAt: 2026-11-26
 - wninop-oss/topicos-vacantes-ds — licença: unknown
 - raz-indri/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21 — licença: NOASSERTION
 - jyong1101/grail — licença: unknown
+- sheikhamir1/deep-research-agent — licença: unknown
+- Nalapko67/Topic-14 — licença: unknown
+- lightxa/makefun-u-email-baru-make-the-judge-laugh-in-one-line-791ccb21-varian2 — licença: NOASSERTION
+- musikpagi2/u-coral-404-one-liner-laughs-aa872d41 — licença: NOASSERTION
+- musikpagi2/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21 — licença: NOASSERTION
 
 ## MCPs inválidos (HTTP != 200)
 
