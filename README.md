@@ -302,6 +302,14 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-27T20:35:36.788Z | msvdsudarsan/hb-yield-level-set | 0 | MIT | 200 |
+
+| 2026-11-27T20:35:37.648Z | abigailhaddad/data-stories | 0 | MIT | 200 |
+
+| 2026-11-27T20:35:41.797Z | KhaledDawod88/pmp-post-kit | 0 | MIT | 200 |
+
+| 2026-11-27T20:35:42.697Z | KhaledDawod88/study-sprint-planner | 0 | MIT | 200 |
+
 | 2026-11-27T06:20:25.052Z | SocQAPI/open-social-listening | 0 | MIT | 200 |
 
 | 2026-11-27T06:20:30.413Z | tuanduy35399/ml-research-agent | 0 | MIT | 200 |

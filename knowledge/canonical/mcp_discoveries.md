@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1289 total, 387 validados free, 902 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1300 total, 391 validados free, 909 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1289
+version: 1300
 createdAt: 2026-11-27
 updatedAt: 2026-11-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-27T06:20:30.416Z
-> Total descoberto: 1289 | Validados (HTTP 200 + free): 387 | Pulados (licença paga/enterprise): 902
+> Última execução: 2026-11-27T20:35:42.700Z
+> Total descoberto: 1300 | Validados (HTTP 200 + free): 391 | Pulados (licença paga/enterprise): 909
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -408,6 +408,10 @@ updatedAt: 2026-11-27
 | Tigapandax/judge-laugh-email-akun1 | TypeScript | 0 | MIT | ai-agents, bounties, growth | [repo](https://github.com/Tigapandax/judge-laugh-email-akun1) |
 | SocQAPI/open-social-listening | TypeScript | 0 | MIT | brand-monitoring, brand24-alternative, docker | [repo](https://github.com/SocQAPI/open-social-listening) |
 | tuanduy35399/ml-research-agent | Python | 0 | MIT |  | [repo](https://github.com/tuanduy35399/ml-research-agent) |
+| msvdsudarsan/hb-yield-level-set | Python | 0 | MIT |  | [repo](https://github.com/msvdsudarsan/hb-yield-level-set) |
+| abigailhaddad/data-stories | Python | 0 | MIT |  | [repo](https://github.com/abigailhaddad/data-stories) |
+| KhaledDawod88/pmp-post-kit | Python | 0 | MIT |  | [repo](https://github.com/KhaledDawod88/pmp-post-kit) |
+| KhaledDawod88/study-sprint-planner | Python | 0 | MIT |  | [repo](https://github.com/KhaledDawod88/study-sprint-planner) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1313,6 +1317,13 @@ updatedAt: 2026-11-27
 - stanleywongsk-svg/industry-topic-kit — licença: unknown
 - bishnu322/visualize_software_topics — licença: unknown
 - houssam-git/topic-trends — licença: unknown
+- khaled-alabsi/media-vibe-studio — licença: AGPL-3.0
+- abigailhaddad/usajobs-weekly — licença: unknown
+- ToPIC-pro/shopping-docker — licença: unknown
+- alawy99a/khaled-render — licença: unknown
+- hzahoor1018-dotcom/python_practice- — licença: unknown
+- dogukanveziroglu/sen421-vm-vs-container — licença: unknown
+- AlucardYagamiGame/TechRemind — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 
