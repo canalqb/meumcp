@@ -2,20 +2,20 @@
 id: mcp_discoveries
 title: Descobertas MCP - Keyhunter GitHub
 category: mcp-tools
-description: MCPs descobertos pelo keyhunter (1282 total, 385 validados free, 897 pulados/pago)
+description: MCPs descobertos pelo keyhunter (1289 total, 387 validados free, 902 pulados/pago)
 priority: 85
 scope: global
 tags: [mcp, discovery, github, automated, free, open-source]
 author: meumcp-keyhunter
-version: 1282
-createdAt: 2026-11-26
-updatedAt: 2026-11-26
+version: 1289
+createdAt: 2026-11-27
+updatedAt: 2026-11-27
 ---
 
 # Descobertas MCP — Keyhunter GitHub (12h cycle)
 
-> Última execução: 2026-11-26T20:50:46.723Z
-> Total descoberto: 1282 | Validados (HTTP 200 + free): 385 | Pulados (licença paga/enterprise): 897
+> Última execução: 2026-11-27T06:20:30.416Z
+> Total descoberto: 1289 | Validados (HTTP 200 + free): 387 | Pulados (licença paga/enterprise): 902
 
 ## MCPs descobertos (gratuitos + validados HTTP 200)
 
@@ -406,6 +406,8 @@ updatedAt: 2026-11-26
 | zyecheng/agy-home-server | Python | 0 | BSD-3-Clause |  | [repo](https://github.com/zyecheng/agy-home-server) |
 | MaxIIMS/Search-Info | Python | 0 | MIT |  | [repo](https://github.com/MaxIIMS/Search-Info) |
 | Tigapandax/judge-laugh-email-akun1 | TypeScript | 0 | MIT | ai-agents, bounties, growth | [repo](https://github.com/Tigapandax/judge-laugh-email-akun1) |
+| SocQAPI/open-social-listening | TypeScript | 0 | MIT | brand-monitoring, brand24-alternative, docker | [repo](https://github.com/SocQAPI/open-social-listening) |
+| tuanduy35399/ml-research-agent | Python | 0 | MIT |  | [repo](https://github.com/tuanduy35399/ml-research-agent) |
 
 ## Projetos pulados (licenças não-free / enterprise)
 
@@ -1306,6 +1308,11 @@ updatedAt: 2026-11-26
 - lightxa/makefun-u-email-baru-make-the-judge-laugh-in-one-line-791ccb21-varian2 — licença: NOASSERTION
 - musikpagi2/u-coral-404-one-liner-laughs-aa872d41 — licença: NOASSERTION
 - musikpagi2/u-email-baru-make-the-judge-laugh-in-one-line-791ccb21 — licença: NOASSERTION
+- Atharva5484/Smarthire_agent — licença: unknown
+- Six-Planets/bcs-bank-by-okz — licença: unknown
+- stanleywongsk-svg/industry-topic-kit — licença: unknown
+- bishnu322/visualize_software_topics — licença: unknown
+- houssam-git/topic-trends — licença: unknown
 
 ## MCPs inválidos (HTTP != 200)
 

@@ -302,6 +302,10 @@ Changelog automático (gerado pelas ações do GitHub):
 
 ## MCPs Descoveltos pelo Keyhunter
 
+| 2026-11-27T06:20:25.052Z | SocQAPI/open-social-listening | 0 | MIT | 200 |
+
+| 2026-11-27T06:20:30.413Z | tuanduy35399/ml-research-agent | 0 | MIT | 200 |
+
 | 2026-11-26T20:50:38.709Z | zyecheng/agy-home-server | 0 | BSD-3-Clause | 200 |
 
 | 2026-11-26T20:50:43.212Z | MaxIIMS/Search-Info | 0 | MIT | 200 |
