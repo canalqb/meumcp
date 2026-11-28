@@ -18754,5 +18754,18 @@
     "validated_at": "2026-11-27T20:35:42.697Z",
     "topics": [],
     "readme_absorbed": "KhaledDawod88/study-sprint-planner"
+  },
+  {
+    "id": 1475053746,
+    "full_name": "RimgO/jp-government-topics",
+    "url": "https://github.com/RimgO/jp-government-topics",
+    "language": "Python",
+    "stars": 0,
+    "license": "unknown",
+    "license_free": false,
+    "http_status": 200,
+    "validated_at": "2026-11-28T05:57:58.440Z",
+    "topics": [],
+    "readme_absorbed": "RimgO/jp-government-topics"
   }
 ]
